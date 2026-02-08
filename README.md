@@ -13,9 +13,10 @@ This repository accompanies the [mphinance Substack](https://mphinance.substack.
 The flagship script in this repo is `alpha_scout.py`. It’s designed to give you a quick "Scouting Report" on any ticker.
 
 ### What it does:
-1.  **Check the Formation:** Pulls 1-year of price data and calculates the SMA 50/200.
-2.  **Analyzes the Field:** Determines if the stock is "Bullish Stacked" or "Bearish Stacked."
-3.  **Reads the Snap:** Scrapes the latest headlines directly from the wire.
+1.  **Technical Stack:** Calculates the SMA 50/200, the **21-day EMA**, and the **ATR** (Average True Range).
+2.  **Analyzes the Formation:** Determines if the stock is "Bullish Stacked" or "Bearish Stacked."
+3.  **The Buy Zone:** Signals if the price is within **1 ATR of the 21 EMA** (the MPH Special).
+4.  **Scout Report:** Scrapes the latest headlines directly from the wire.
 
 ### How to Run:
 1.  **Install Requirements:**
