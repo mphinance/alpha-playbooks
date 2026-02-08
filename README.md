@@ -33,7 +33,7 @@ The flagship script in this repo is `alpha_scout.py`. It’s designed to give yo
 
 If you want the full deep-dive on UAMY, we’ve built an interactive **Research Vault** using Google NotebookLM. 
 
-![NotebookLM Guide](assets/notebook_ui_guide.png)
+![NotebookLM Guide](https://raw.githubusercontent.com/mphinance/alpha-playbooks/main/assets/notebook_ui_guide.png)
 
 **[Access the UAMY Deep Research Vault ->](https://notebooklm.google.com/notebook/db4ee70e-63f0-4234-909e-cd9558c36fab)**
 
