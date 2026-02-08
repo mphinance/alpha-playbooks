@@ -1,0 +1,448 @@
+:root {
+    --bg: #0a0b0d;
+    --panel: rgba(13, 15, 20, 0.9);
+    --border: #3a3f4b;
+    --primary: #c0c0c0;
+    /* Antimony Silver */
+    --accent: #ff3e3e;
+    /* Tactical Red */
+    --success: #00ff41;
+    /* CRT Green */
+    --warning: #ffaa00;
+    --text: #e0e0e0;
+    --text-muted: #808080;
+    --glow: rgba(192, 192, 192, 0.2);
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('https://cdn.jsdelivr.net/npm/geist-font@1.1.0/fonts/geist-mono/GeistMono-Bold.woff2') format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: crosshair;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Geist Mono', monospace;
+    overflow: hidden;
+    background-image:
+        linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+        linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 4px, 3px 100%;
+}
+
+/* Scanline Effect */
+body::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%),
+        linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+    gap: 10px;
+    position: relative;
+    z-index: 5;
+}
+
+/* Industrial Sidebar */
+.sidebar {
+    width: 280px;
+    background: var(--panel);
+    border: 2px solid var(--border);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 90% 100%, 0% 100%);
+}
+
+.logo {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.alpha-text {
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+
+nav li.active a,
+nav a:hover {
+    color: var(--accent);
+    background: rgba(255, 62, 62, 0.1);
+    border: 1px solid var(--accent);
+}
+
+.cta-link {
+    margin-top: auto;
+    background: var(--accent) !important;
+    color: white !important;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 70%, 90% 100%, 0% 100%, 0% 30%);
+}
+
+/* Main Command Center */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-bar {
+    background: var(--panel);
+    border: 2px solid var(--border);
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: var(--primary);
+    text-shadow: 0 0 10px var(--glow);
+}
+
+.sub-text {
+    font-size: 10px;
+    color: var(--accent);
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.market-stats {
+    display: flex;
+    gap: 40px;
+}
+
+.stat-item .label {
+    font-size: 10px;
+    color: var(--text-muted);
+    display: block;
+}
+
+.stat-item .value {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.stat-item.highlight .value {
+    color: var(--success);
+}
+
+/* Tactical Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-rows: 1.2fr 0.8fr;
+    gap: 10px;
+    flex: 1;
+}
+
+.card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid var(--accent);
+    border-right: 3px solid var(--accent);
+}
+
+.card-header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.card-header h3 {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.tag {
+    font-size: 9px;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 2px 6px;
+}
+
+/* Grid Layout Expansion */
+.multi-column {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+
+.buy-zone-hero {
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buy-zone-hero .value {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--success);
+}
+
+.levels-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.table-mini h4 {
+    font-size: 10px;
+    color: var(--accent);
+    margin-bottom: 8px;
+    font-weight: 900;
+}
+
+.data-list {
+    list-style: none;
+    font-size: 11px;
+}
+
+.data-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid var(--border);
+}
+
+.data-list li:nth-child(even) {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+/* Timeline HUD */
+.geo-hero {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.score-box {
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--accent);
+    background: rgba(255, 62, 62, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.site-meta h4 {
+    font-size: 14px;
+    color: var(--primary);
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tm-item {
+    padding-left: 15px;
+    border-left: 2px solid var(--accent);
+}
+
+.tm-date {
+    font-size: 10px;
+    color: var(--accent);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.tm-detail {
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+/* Insider/SEC */
+.dual-pane {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+
+.insider-pane {
+    flex: 0.5;
+}
+
+.sec-pane {
+    flex: 0.5;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border: 1px solid var(--border);
+    overflow-y: auto;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+}
+
+.styled-table th {
+    text-align: left;
+    padding: 8px;
+    color: var(--text-muted);
+    font-size: 9px;
+}
+
+.styled-table td {
+    padding: 8px;
+    border-bottom: 1px solid var(--border);
+}
+
+.insight-text {
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: var(--text);
+    border-left: 2px solid var(--primary);
+    padding-left: 10px;
+}
+
+/* Supply/News */
+.supply-stats {
+    flex: 0.4;
+}
+
+.benchmark-hero {
+    margin-bottom: 25px;
+}
+
+.benchmark-hero .value {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--primary);
+}
+
+.badge {
+    border: 1px solid var(--success);
+    color: var(--success);
+    font-size: 10px;
+    padding: 6px;
+    margin-bottom: 5px;
+    background: rgba(0, 255, 65, 0.05);
+}
+
+.news-ticker {
+    flex: 0.6;
+    overflow-y: auto;
+}
+
+.news-item {
+    border-bottom: 1px solid var(--border);
+    padding: 10px 0;
+}
+
+.news-item h5 {
+    font-size: 11px;
+    color: var(--primary);
+}
+
+.news-item p {
+    font-size: 9px;
+    color: var(--text-muted);
+}
+
+/* HUD Decorations */
+.status-indicator {
+    margin-top: auto;
+    padding: 10px;
+    background: var(--border);
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.pulse {
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    display: inline-block;
+    margin-right: 10px;
+    animation: flicker 0.15s infinite alternate;
+}
+
+@keyframes flicker {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.4;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}

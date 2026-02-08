@@ -36,6 +36,14 @@ The flagship script in this repo is `alpha_scout.py`. It’s designed to give yo
 
 ---
 
+## 🏛 The Alpha Intelligence Dashboard (Live)
+
+The interactive **Alpha Intelligence Dashboard** is now hosted via GitHub Pages. It provides a real-time tactical overview of technical levels, geospatial ground truth, and institutional order flow.
+
+**[Launch Live Dashboard ->](https://mphinance.github.io/alpha-playbooks/)**
+
+---
+
 ## 🏛 The Research Vault (NotebookLM)
 
 If you want the full deep-dive on UAMY, we’ve built an interactive **Research Vault** using Google NotebookLM. 
