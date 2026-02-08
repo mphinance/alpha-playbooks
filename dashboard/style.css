@@ -30,7 +30,7 @@ body {
     width: 120%;
     height: 120%;
     background: radial-gradient(circle at 80% 20%, rgba(0, 242, 254, 0.15), transparent 40%),
-                radial-gradient(circle at 20% 80%, rgba(255, 0, 255, 0.1), transparent 40%);
+        radial-gradient(circle at 20% 80%, rgba(255, 0, 255, 0.1), transparent 40%);
     z-index: -1;
 }
 
@@ -64,6 +64,7 @@ body {
     letter-spacing: 2px;
     background: linear-gradient(90deg, var(--primary), var(--secondary));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -81,7 +82,11 @@ nav ul {
 }
 
 nav li {
-    padding: 15px 0;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
     font-size: 16px;
     color: var(--text-muted);
     cursor: pointer;
@@ -91,9 +96,25 @@ nav li {
     gap: 15px;
 }
 
-nav li.active, nav li:hover {
+nav li.active a,
+nav a:hover {
     color: var(--text);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.cta-link {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    border-radius: 12px;
+    color: var(--bg) !important;
+    font-weight: 700;
+    text-shadow: none !important;
+}
+
+.cta-link:hover {
+    box-shadow: 0 0 20px rgba(0, 242, 254, 0.4);
+    transform: scale(1.02);
 }
 
 .status-indicator {
@@ -115,9 +136,20 @@ nav li.active, nav li:hover {
 }
 
 @keyframes pulse {
-    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.7); }
-    70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(0, 255, 136, 0); }
-    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 255, 136, 0); }
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 255, 136, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 255, 136, 0);
+    }
 }
 
 /* Content Styling */
@@ -238,7 +270,9 @@ header h1 {
     display: block;
 }
 
-.success { color: var(--success); }
+.success {
+    color: var(--success);
+}
 
 .tech-levels {
     display: flex;
@@ -337,7 +371,17 @@ td {
 
 /* Responsive */
 @media (max-width: 1024px) {
-    .dashboard { flex-direction: column; height: auto; }
-    .sidebar { width: 100%; height: auto; }
-    .grid-container { grid-template-columns: 1fr; }
+    .dashboard {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }

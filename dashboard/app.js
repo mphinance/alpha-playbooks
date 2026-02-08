@@ -1,11 +1,9 @@
-document.addEventListener('DOMContentLoaded', async () => {
-    try {
-        const response = await fetch('data.json');
-        const data = await response.json();
-
-        injectData(data);
-    } catch (err) {
-        console.error('Error loading dashboard data:', err);
+document.addEventListener('DOMContentLoaded', () => {
+    // Check if data is loaded from script
+    if (typeof DASHBOARD_DATA !== 'undefined') {
+        injectData(DASHBOARD_DATA);
+    } else {
+        console.error('DASHBOARD_DATA not found. Make sure data.js is included.');
     }
 });
 
