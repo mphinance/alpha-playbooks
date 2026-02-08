@@ -44,7 +44,7 @@
 
 ## 4. Interactive Intelligence Links
 - **Public Repository**: [Alpha-Playbooks GitHub](https://github.com/mphinance/alpha-playbooks)
-- **Combat HUD Dashboard**: [Interface v3.0](https://github.com/mphinance/alpha-playbooks/tree/main/dashboard)
+- **Combat HUD Dashboard**: [Live Interface v2.5](https://mphinance.github.io/alpha-playbooks/)
 - **Research Vault**: [NotebookLM Grounded Intel](https://notebooklm.google.com/notebook/db4ee70e-63f0-4234-909e-cd9558c36fab)
 - **Technical Memory**: [Handoff.txt (Raw Directive)](https://github.com/mphinance/alpha-playbooks/blob/main/handoff.txt)
 
