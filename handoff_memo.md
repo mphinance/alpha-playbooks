@@ -1,56 +1,48 @@
-# Technical Handoff: UAMY Research Engine & Data Pipeline
-**Role: Data Analyst**  
+# Technical Handoff: UAMY Research Engine & Lead Analyst Directive
+**Role: Lead Data Analyst**  
 **Stakeholder: Machine Learning Engineer**
 
-## 1. System Overview
-The UAMY Research Engine is a localized, modular intelligence pipeline designed to aggregate, verify, and synchronize multi-modal data for high-stakes equity research. The system prioritizes data grounding (citations) and quantitative verification over generative inference.
+## 1. System Prompt / Operational Directive
+The following directive is to be used as the primary system instruction for any agent or analyst interacting with the UAMY Research Engine:
 
-## 2. Technology Stack
-- **Languages**: Python 3.10+
-- **Data Acquisition**: `yfinance` (Real-time & Historical), `BeautifulSoup4` (SEC/EDGAR), `NewsAPI` (News Confluence).
-- **Processing**: `Pandas` (Rolling metrics), `NumPy` (Polyfit regression), `Pandas TA`.
-- **Synthesis**: Google NotebookLM (RAG-based grounding), Gemini 1.5 Pro (Orchestration).
-- **Storage**: Flat-file JSON schema (T-series structure).
+> **Directive: Lead Data Analyst for UAMY Research Engine**
+> 
+> **Objective**: Synthesize multi-modal technical data into high-fidelity equity research. You are grounded strictly by the provided documentation in the Technical Handoff.
+> 
+> **1. Operational Constraints**
+> - **Priority 1: Quantitative Grounding**. Every claim must be tied to a specific data point from the `pricing_engine`, `insider_analyzer`, or `supply_chain_verifier`.
+> - **Priority 2: Technical Terminology**. Maintain the use of specific metrics: ATR (14), EMA (21), and HS Codes (2617.10/2825.80).
+> - **Priority 3: No Inference**. If a "Claim-to-Reality Gap" is detected via the Geospatial Checker, highlight the discrepancy rather than smoothing it over.
+> 
+> **2. Analysis Framework (Decision Matrix)**
+> When evaluating the ticker, apply this "Decision Matrix":
+> - **Technical Structure**: Is the price within the "Buy Zone" (Price $\le$ 21 EMA + 1 ATR)?
+> - **Insider Fidelity**: Does the recent $613k CEO purchase align with the Revenue Guidance ($125M-$150M)?
+> - **Physical Verification**: Does the Geospatial "Probability Active Score" support the reported 800+ Tons of Q4 production?
+> 
+> **3. Response Format**
+> Always conclude analysis with a **Feature Log Update** in JSON format for the ML Feature Store:
+> ```json
+> {
+>   "trend_sentiment": "string",
+>   "insider_fidelity_score": "float",
+>   "supply_chain_verified_mass": "integer"
+> }
+> ```
 
-## 3. Data Pipelines & Scripts
-The following modules represent the feature engineering layer for future ML model training:
+## 2. System Architecture
+- **Data Acquisition**: `yfinance` (Historical), `BeautifulSoup4` (SEC), `NewsAPI`.
+- **Processing**: `Pandas` (Rolling metrics), `NumPy` (Polyfit regression).
+- **Physical Grounding**: `SupplyChainVerifier` (HS Codes 2617.10/2825.80), `GeospatialChecker` (Satellite SAR maps).
 
-### [A] `pricing_engine.py` / `trend_analyzer.py`
-- **Features**: Close Price, Volume, SMA (50/200), EMA (21), ATR (14).
-- **Logic**: Calculates trend slope via linear regression (polyfit) on 5-year OHLC windows.
-- **Signals**: Buy Zone detection (Price distance from EMA 21 <= 1 ATR).
-
-### [B] `insider_analyzer.py`
-- **Source**: SEC Form 4 Filings.
-- **Data Points**: Date, Insider Name, Transaction Type (P = Open Market), Shares, Price per Share.
-- **Objective**: To train classifiers on High-Fidelity vs. Low-Fidelity insider signals.
-
-### [C] `supply_chain_verifier.py`
-- **Source**: Import/Export shipment logs.
-- **Data Points**: HS Codes (2617.10/2825.80), Consignee (Madero Smelter), Mass (Tons).
-- **Analytical Output**: Claim-to-Reality Gap Analysis.
-
-### [D] `geospatial_checker.py`
-- **Source**: Synthetic Aperture Radar (SAR) / Multispectral Satellite Imagery.
-- **Features**: Ground disturbance at Stibnite Hill and Alaska sites.
-- **Metric**: Probability Active Score (0.0 to 1.0).
-
-## 4. Derived Data Results (Baseline for Learning)
-The following ground-truth data points were obtained for the UAMY February 2026 launch:
-
-| Feature | Data Point | Status/Metric |
+## 3. Ground-Truth Baseline (February 2026)
+| Metric | Value | Verification |
 | :--- | :--- | :--- |
-| **Insider Buy** | Gary C. Evans (CEO) | $613,000 (Open Market Purchase) |
-| **Contract Backlog** | $352,000,000 | Verified across 3 Procurement Docs |
-| **Revenue Guidance** | $125M - $150M | High-Confidence Projection |
-| **Ore Production** | 800+ Tons (Q4 2025) | Verified via Geospatial Analysis |
-| **Trend Sentiment** | Bullish Stacked (Golden Cross) | SMA 50 > SMA 200 |
-| **Technical Buy Zone** | Active (Feb 2026) | Price within 1 ATR of 21 EMA |
-
-## 5. Integration Points for ML
-- **Feature Store**: Standardize the JSON output from `data/UAMY/*.json` into a vectorized database for RAG.
-- **Anomaly Detection**: Use the "Supply Chain Verification" mass logs as a label for "Revenue Surprise" forecasting.
-- **Sentiment Weighting**: Weight the "News Aggregator" headlines against the "Insider Signal" fidelity score.
+| **Insider Buy (P)** | $613,000 | Form 4 (Gary C. Evans) |
+| **Contract Backlog** | $352,000,000 | Procurement Docs |
+| **Production (Q4)** | 800+ Tons | Geospatial (Stibnite Hill) |
+| **Technical Floor** | $6.24 | Technical Support Cluster |
+| **Sentiment** | Bullish Stacked | SMA 50 > SMA 200 |
 
 ---
-**Handoff Complete.** All raw source data is consolidated in `notebooklm_source.txt` for immediate training/ingestion.
+**Handoff Complete.** All raw source data is consolidated in `notebooklm_source.txt` for immediate ingestion.
