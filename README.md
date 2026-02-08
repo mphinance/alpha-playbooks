@@ -35,7 +35,7 @@ If you want the full deep-dive on UAMY, we’ve built an interactive **Research 
 
 ![NotebookLM Guide](assets/notebook_ui_guide.png)
 
-**[Access the UAMY Deep Research Vault ->](https://notebooklm.google.com/notebook/db4ee70e-63f0-4234-909e-cd9558c32493)**
+**[Access the UAMY Deep Research Vault ->](https://notebooklm.google.com/notebook/db4ee70e-63f0-4234-909e-cd9558c36fab)**
 
 ---
 
