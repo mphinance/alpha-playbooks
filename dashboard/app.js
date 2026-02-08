@@ -46,7 +46,7 @@ function injectData(data) {
     const insiderTable = document.getElementById('insider-table');
     data.insider_trades.forEach(trade => {
         const row = document.createElement('tr');
-        row.innerHTML = `<td>${trade.date}</td><td>$${(trade.value / 1000).toFixed(0)}K</td><td>${trade.type}</td>`;
+        row.innerHTML = `<td>${trade.date}</td><td>$${(trade.value / 1000).toFixed(0)}K</td><td>${trade.shares.toLocaleString()}</td>`;
         insiderTable.appendChild(row);
     });
 
