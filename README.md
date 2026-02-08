@@ -8,6 +8,12 @@ This repository accompanies the [mphinance Substack](https://mphinance.substack.
 
 ---
 
+## 📊 The Data: [Master Research Dossier](RESEARCH_DOSSIER.md)
+
+This repository includes the **Lead Analyst Directive** and the **Institutional Benchmarks** used for UAMY research. It consolidates technical benchmarks, supply chain data, and regulatory filing references into one source of truth.
+
+---
+
 ## 📋 The Offensive Play Card: `alpha_scout.py`
 
 The flagship script in this repo is `alpha_scout.py`. It’s designed to give you a quick "Scouting Report" on any ticker.
