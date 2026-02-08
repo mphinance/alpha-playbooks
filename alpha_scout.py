@@ -33,19 +33,39 @@ def run_scout(ticker="UAMY"):
     latest_price = df['Close'].iloc[-1]
     sma_50 = df['Close'].rolling(window=50).mean().iloc[-1]
     sma_200 = df['Close'].rolling(window=200).mean().iloc[-1]
-    
+    ema_21 = df['Close'].ewm(span=21, adjust=False).mean().iloc[-1]
+
+    # Calculate ATR (Average True Range)
+    high_low = df['High'] - df['Low']
+    high_close = (df['High'] - df['Close'].shift()).abs()
+    low_close = (df['Low'] - df['Close'].shift()).abs()
+    ranges = pd.concat([high_low, high_close, low_close], axis=1)
+    true_range = ranges.max(axis=1)
+    atr = true_range.rolling(window=14).mean().iloc[-1]
+
     # 3. The Scout Report (Trend Analysis)
     sentiment = "NEUTRAL"
     if latest_price > sma_50 > sma_200:
         sentiment = "BULLISH STACKED (Sailing with the wind)"
     elif latest_price < sma_50 < sma_200:
         sentiment = "BEARISH STACKED (Heading into a storm)"
-        
-    print(f"LATEST PRICE: ${latest_price:.2f}")
-    print(f"50-DAY SMA:   ${sma_50:.2f}")
-    print(f"200-DAY SMA:  ${sma_200:.2f}")
-    print(f"SENTIMENT:    {sentiment}")
+
+    # MPH SPECIAL: The Buy Zone (Within 1 ATR of 21 EMA)
+    distance_to_21 = abs(latest_price - ema_21)
+    in_buy_zone = distance_to_21 <= atr
+
+    print(f"LATEST PRICE:  ${latest_price:.2f}")
+    print(f"21-DAY EMA:    ${ema_21:.2f}")
+    print(f"50-DAY SMA:    ${sma_50:.2f}")
+    print(f"200-DAY SMA:   ${sma_200:.2f}")
+    print(f"VOLATILITY (ATR): ${atr:.2f}")
+    print(f"SENTIMENT:     {sentiment}")
     
+    if in_buy_zone:
+        print(f"📢 BUY ZONE:   YES (Price is within 1 ATR of the 21 EMA)")
+    else:
+        print(f"📢 BUY ZONE:   NO (Wait for a pullback to the 21 EMA)")
+
     # 4. Recent Headlines (The Snap)
     print("\n--- 📰 RECENT HEADLINES ---")
     news = stock.news
