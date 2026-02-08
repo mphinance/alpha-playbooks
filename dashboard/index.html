@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALPHA DASHBOARD | UAMY Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <main class="dashboard">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="alpha-text">ALPHA</span>
+                <span class="version">v2.0</span>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><span class="icon">📊</span> Overview</li>
+                    <li><span class="icon">📈</span> Technicals</li>
+                    <li><span class="icon">📡</span> Physical</li>
+                    <li><span class="icon">💼</span> Insider</li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="pulse"></span> LIVE INTELLIGENCE
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <section class="content">
+            <header class="top-bar">
+                <div class="ticker-info">
+                    <h1>UAMY <span class="sub-text">UNITED STATES ANTIMONY</span></h1>
+                </div>
+                <div class="market-stats">
+                    <div class="stat-item">
+                        <span class="label">PRICE</span>
+                        <span class="value" id="price-val">$8.61</span>
+                    </div>
+                    <div class="stat-item highlight">
+                        <span class="label">SENTIMENT</span>
+                        <span class="value" id="sentiment-val">STRONG BULLISH</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="grid-container">
+                <!-- Row 1: The Technical Stack -->
+                <div class="card glass technical">
+                    <div class="card-header">
+                        <h3>THE FORMATION</h3>
+                        <span class="tag">ACTIVE SCOUT</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="main-metric">
+                            <span class="label">BUY ZONE</span>
+                            <span class="value success" id="buy-zone-val">YES</span>
+                        </div>
+                        <div class="tech-levels">
+                            <div class="level-item"><span>EMA 21</span><strong id="ema-val">$8.12</strong></div>
+                            <div class="level-item"><span>SMA 50</span><strong id="sma50-val">$7.01</strong></div>
+                            <div class="level-item"><span>SMA 200</span><strong id="sma200-val">$5.58</strong></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 1: Physical Ground Truth -->
+                <div class="card glass physical">
+                    <div class="card-header">
+                        <h3>PHYSICAL VERIFICATION</h3>
+                        <span class="tag">SAR SATELLITE</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="geo-status">
+                            <div class="score-circle" id="geo-score">85%</div>
+                            <div class="site-info">
+                                <strong>Stibnite Hill, MT</strong>
+                                <span>Status: <em id="geo-status-val">ACTIVE</em></span>
+                            </div>
+                        </div>
+                        <div class="verification-list">
+                            <div class="v-item checked">330T Feedstock Verified</div>
+                            <div class="v-item checked">Bolivian Ore Probable</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Insider Momentum -->
+                <div class="card glass insider">
+                    <div class="card-header">
+                        <h3>INSIDER FIDELITY</h3>
+                        <span class="tag">SEC FORM 4</span>
+                    </div>
+                    <div class="card-body table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>DATE</th>
+                                    <th>INSIDER</th>
+                                    <th>TYPE</th>
+                                    <th>VALUE</th>
+                                </tr>
+                            </thead>
+                            <tbody id="insider-table">
+                                <!-- Data injected via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Row 2: Supply Chain Benchmark -->
+                <div class="card glass supply">
+                    <div class="card-header">
+                        <h3>WAR METAL BENCHMARK</h3>
+                        <span class="tag">ANTIMONY (Sb)</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="commodity-price">
+                            <span class="price" id="benchmark-val">$46.70</span>
+                            <span class="unit">USD / KG</span>
+                        </div>
+                        <div class="supply-note">
+                            <p>Smelter utilization reached 85% in Q4. Tighter bottleneck at re-burn stage detected in Jan 2026 logs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
