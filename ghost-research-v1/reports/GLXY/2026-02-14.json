@@ -1,0 +1,356 @@
+{
+  "ticker": "GLXY",
+  "logo_url": "https://logo.clearbit.com/www.galaxy.com",
+  "generated_at": "2026-02-14 19:01:04 UTC",
+  "market_snapshot": {
+    "price": 21.66,
+    "market_cap": "$8.47B",
+    "beta": 3.76,
+    "range_52w": "16.67 - 45.92",
+    "analyst_target": 43.18
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 3,
+      "SELL": 13,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 1,
+      "SELL": 1,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 2,
+      "SELL": 12,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "BUY",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "SELL",
+        "SMA200": "SELL",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": -0.09,
+      "Recommend.All": -0.38,
+      "Recommend.MA": -0.67,
+      "RSI": 42.15,
+      "RSI[1]": 37.64,
+      "Stoch.K": 23.88,
+      "Stoch.D": 23.92,
+      "Stoch.K[1]": 34.83,
+      "Stoch.D[1]": 31.56,
+      "CCI20": -65.71,
+      "CCI20[1]": -84.35,
+      "ADX": 29.51,
+      "ADX+DI": 16.54,
+      "ADX-DI": 32.55,
+      "ADX+DI[1]": 15.24,
+      "ADX-DI[1]": 34.26,
+      "AO": -5.31,
+      "AO[1]": -5.69,
+      "Mom": -6.6,
+      "Mom[1]": -9.81,
+      "MACD.macd": -2.06,
+      "MACD.signal": -1.38,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 32.45,
+      "Rec.WR": 0,
+      "W.R": -70.7,
+      "Rec.BBPower": 0,
+      "BBPower": -3.62,
+      "Rec.UO": 0,
+      "UO": 49.09,
+      "close": 21.66,
+      "EMA5": 21.0,
+      "SMA5": 20.91,
+      "EMA10": 22.07,
+      "SMA10": 20.97,
+      "EMA20": 23.98,
+      "SMA20": 26.3,
+      "EMA30": 24.94,
+      "SMA30": 26.39,
+      "EMA50": 26.04,
+      "SMA50": 25.94,
+      "EMA100": 26.99,
+      "SMA100": 29.73,
+      "EMA200": 25.64,
+      "SMA200": 26.72,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 25.7,
+      "Rec.VWMA": -1,
+      "VWMA": 25.39,
+      "Rec.HullMA9": 1,
+      "HullMA9": 21.0,
+      "Pivot.M.Classic.S3": 3.83,
+      "Pivot.M.Classic.S2": 16.15,
+      "Pivot.M.Classic.S1": 22.2,
+      "Pivot.M.Classic.Middle": 28.47,
+      "Pivot.M.Classic.R1": 34.52,
+      "Pivot.M.Classic.R2": 40.79,
+      "Pivot.M.Classic.R3": 53.11,
+      "Pivot.M.Fibonacci.S3": 16.15,
+      "Pivot.M.Fibonacci.S2": 20.85,
+      "Pivot.M.Fibonacci.S1": 23.76,
+      "Pivot.M.Fibonacci.Middle": 28.47,
+      "Pivot.M.Fibonacci.R1": 33.17,
+      "Pivot.M.Fibonacci.R2": 36.08,
+      "Pivot.M.Fibonacci.R3": 40.79,
+      "Pivot.M.Camarilla.S3": 24.87,
+      "Pivot.M.Camarilla.S2": 26.0,
+      "Pivot.M.Camarilla.S1": 27.13,
+      "Pivot.M.Camarilla.Middle": 28.47,
+      "Pivot.M.Camarilla.R1": 29.39,
+      "Pivot.M.Camarilla.R2": 30.52,
+      "Pivot.M.Camarilla.R3": 31.65,
+      "Pivot.M.Woodie.S3": 8.43,
+      "Pivot.M.Woodie.S2": 15.42,
+      "Pivot.M.Woodie.S1": 20.75,
+      "Pivot.M.Woodie.Middle": 27.74,
+      "Pivot.M.Woodie.R1": 33.07,
+      "Pivot.M.Woodie.R2": 40.06,
+      "Pivot.M.Woodie.R3": 45.39,
+      "Pivot.M.Demark.S1": 25.34,
+      "Pivot.M.Demark.Middle": 30.03,
+      "Pivot.M.Demark.R1": 37.66,
+      "open": 20.51,
+      "P.SAR": 23.56,
+      "BB.lower": 14.95,
+      "BB.upper": 37.65,
+      "AO[2]": -6.25,
+      "volume": 6672469,
+      "change": 7.49,
+      "low": 20.24,
+      "high": 21.72
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 25.94,
+      "sma_200": null,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 21.56,
+      "21": 24.11,
+      "34": 25.21,
+      "55": 26.24,
+      "89": 27.05
+    },
+    "volume": {
+      "current": "6,659,700",
+      "avg_20d": "8,852,365",
+      "rel_vol": 0.75,
+      "rel_vol_pct": 37
+    },
+    "pivots": {
+      "R2": 42.41,
+      "R1": 32.04,
+      "PP": 24.35,
+      "S1": 13.98,
+      "S2": 6.29
+    },
+    "fibonacci": {
+      "100": 45.92,
+      "61.8": 34.75,
+      "50": 31.29,
+      "38.2": 27.84,
+      "0": 16.67
+    },
+    "oscillators": {
+      "rsi_14": 30.87,
+      "adx_14": 30.87,
+      "macd_hist": -0.67
+    }
+  },
+  "volatility": {
+    "hv_30d": 124.19,
+    "iv_current": 100.05
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-04",
+      "insider": "DEASON DOUGLAS R",
+      "type": "",
+      "value": "$519,950"
+    },
+    {
+      "date": "2026-02-03",
+      "insider": "FERRARO CHRISTOPHER CHARLES",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-03",
+      "insider": "PAQUETTE ANTHONY",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-03",
+      "insider": "RICO ROBERT DANIEL",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-03",
+      "insider": "NOVOGRATZ MICHAEL E",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Galaxy Digital Gets TSX Approval of Normal Course Issuer Bid for Class A Shares",
+      "link": "https://finance.yahoo.com/news/galaxy-digital-gets-tsx-approval-215445351.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Galaxy Digital (GLXY) said late Monday the Toronto Stock Exchange has accepted its notice of intenti..."
+    },
+    {
+      "title": "Mike Novogratz Says Crypto\u2019s \u2018Age of Speculation\u2019 May Be Over \u2014 Real-World Assets Next",
+      "link": "https://www.ccn.com/news/crypto/novogratz-crypto-age-of-speculation-ending-rwas-tokenized-stocks/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Mike Novogratz said crypto\u2019s \u201cage of speculation\u201d may be ending as institutions reshape risk appetite. He expects tokenized real-world assets and toke..."
+    },
+    {
+      "title": "Regulation, derivatives helping drive TradFi institutions into crypto, panellists say",
+      "link": "https://www.coindesk.com/policy/2026/02/11/regulation-derivatives-helping-drive-tradfi-institutions-into-crypto-panellists-say?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Non-participation in decentralized finance is becoming a career risk for traditional finance professionals, panellists said...."
+    },
+    {
+      "title": "Levl raises $7m to grow B2B cross-border transfers and payouts",
+      "link": "https://www.electronicpaymentsinternational.com/news/levl-raises-7m/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Levl platform allows businesses to collect, store, convert and move funds across borders...."
+    },
+    {
+      "title": "Galaxy CEO Mike Novogratz Says Crypto's 'Age of Speculation' Is Ending, Sees Shift From Hype To Real-World Assets",
+      "link": "https://finance.yahoo.com/news/galaxy-ceo-mike-novogratz-says-023105668.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Galaxy Digital Inc. (NASDAQ: GLXY) CEO Mike Novogratz has forecasted a major transformation in the cryptocurrency sector, moving away from speculation..."
+    },
+    {
+      "title": "Zelenskiy Open to Elections if Ceasefire Is Reached",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video",
+      "source": "BLOOMBERG",
+      "summary": "Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: ..."
+    },
+    {
+      "title": "ECB Revamps Euro Liquidity Offer to Boost Currency\u2019s Appeal",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
+      "source": "BLOOMBERG",
+      "summary": "The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/galaxy-digital-gets-tsx-approval-215445351.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Galaxy Digital Gets TSX Approval of Normal Course Issuer Bid for Class A Shares</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Galaxy Digital (GLXY) said late Monday the Toronto Stock Exchange has accepted its notice of intenti..."
+      },
+      {
+        "claim": "<a href='https://www.ccn.com/news/crypto/novogratz-crypto-age-of-speculation-ending-rwas-tokenized-stocks/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Mike Novogratz Says Crypto\u2019s \u2018Age of Speculation\u2019 May Be Over \u2014 Real-World Assets Next</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Mike Novogratz said crypto\u2019s \u201cage of speculation\u201d may be ending as institutions reshape risk appetite. He expects tokenized real-world assets and toke..."
+      },
+      {
+        "claim": "<a href='https://www.coindesk.com/policy/2026/02/11/regulation-derivatives-helping-drive-tradfi-institutions-into-crypto-panellists-say?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Regulation, derivatives helping drive TradFi institutions into crypto, panellists say</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Non-participation in decentralized finance is becoming a career risk for traditional finance professionals, panellists said...."
+      },
+      {
+        "claim": "<a href='https://www.electronicpaymentsinternational.com/news/levl-raises-7m/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Levl raises $7m to grow B2B cross-border transfers and payouts</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Levl platform allows businesses to collect, store, convert and move funds across borders...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/galaxy-ceo-mike-novogratz-says-023105668.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Galaxy CEO Mike Novogratz Says Crypto's 'Age of Speculation' Is Ending, Sees Shift From Hype To Real-World Assets</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Galaxy Digital Inc. (NASDAQ: GLXY) CEO Mike Novogratz has forecasted a major transformation in the cryptocurrency sector, moving away from speculation..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video' target='_blank' class='hover:text-neon-blue transition-colors'>Zelenskiy Open to Elections if Ceasefire Is Reached</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal' target='_blank' class='hover:text-neon-blue transition-colors'>ECB Revamps Euro Liquidity Offer to Boost Currency\u2019s Appeal</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Galaxy Digital // Financial Services [Capital Markets]. Mkt Cap: $8.47B. Rev Growth: 0.0%. PM: -0.4%.",
+    "forward_looking": "Beta: 3.756. Range(52W): 16.67 - 45.92. Analyst Tgt: 43.18182."
+  },
+  "geospatial": {
+    "site": "New York, United States",
+    "coords": "https://www.galaxy.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 20,
+    "fundamental": 60,
+    "grade": "D"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 99.4,
+    "target_price": 43.18,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 99.4%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 99.4%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}

@@ -57,7 +57,7 @@ def calculate_adx(high, low, close, window=14):
 def clean_dict(d):
     """Recursively remove NaNs and non-serializable objects from a dictionary."""
     if isinstance(d, dict):
-        return {k: clean_dict(v) for k, v in d.items() if not (isinstance(v, float) and np.isnan(v))}
+        return {k: clean_dict(v) for k, v in d.items()}
     elif isinstance(d, list):
         return [clean_dict(v) for v in d]
     elif isinstance(d, float):
@@ -221,8 +221,15 @@ def fetch_ticker_data(ticker):
     df['EMA_89'] = calculate_ema(df['Close'], 89)
     
     # Trend
-    sma_50 = calculate_sma(df['Close'], 50).iloc[-1]
-    sma_200 = calculate_sma(df['Close'], 200).iloc[-1]
+    sma_50_series = calculate_sma(df['Close'], 50)
+    sma_200_series = calculate_sma(df['Close'], 200)
+    
+    sma_50 = sma_50_series.iloc[-1] if not sma_50_series.empty else np.nan
+    sma_200 = sma_200_series.iloc[-1] if not sma_200_series.empty else np.nan
+    
+    # Optional: If SMA 200 is missing, fallback to SMA 50 or Price for trend posture
+    sma_200_val = sma_200 if not np.isnan(sma_200) else sma_50 if not np.isnan(sma_50) else df['Close'].iloc[-1]
+    sma_50_val = sma_50 if not np.isnan(sma_50) else df['Close'].iloc[-1]
     
     # Oscillators
     macd_line, signal_line, macd_hist = calculate_macd(df['Close'])
@@ -544,10 +551,10 @@ def fetch_ticker_data(ticker):
         "tradingview": tv_analysis,
         "technical_analysis": {
             "trend": {
-                "outlook": "Bullish" if sma_50 > sma_200 else "Bearish",
-                "sma_50": round(float(sma_50), 2),
-                "sma_200": round(float(sma_200), 2),
-                "crossover": "Golden Cross" if sma_50 > sma_200 else "Death Cross"
+                "outlook": "Bullish" if sma_50_val > sma_200_val else "Bearish",
+                "sma_50": round(float(sma_50), 2) if not np.isnan(sma_50) else None,
+                "sma_200": round(float(sma_200), 2) if not np.isnan(sma_200) else None,
+                "crossover": "Golden Cross" if sma_50_val > sma_200_val else "Death Cross"
             },
             "ema": {
                 "8": round(float(latest['EMA_8']), 2),

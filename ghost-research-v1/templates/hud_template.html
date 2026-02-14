@@ -353,14 +353,14 @@
                             <div class="flex justify-between text-xs">
                                 <span class="text-gray-500">SMA 50 (Inst)</span>
                                 <span
-                                    class="font-mono {% if market_snapshot.price|float > technical_analysis.trend.sma_50|float %}text-neon-green{% else %}text-neon-red{% endif %} font-bold">${{
-                                    technical_analysis.trend.sma_50 }}</span>
+                                    class="font-mono {% if technical_analysis.trend.sma_50 and market_snapshot.price|float > technical_analysis.trend.sma_50|float %}text-neon-green{% elif technical_analysis.trend.sma_50 %}text-neon-red{% else %}text-gray-500{% endif %} font-bold">${{
+                                    technical_analysis.trend.sma_50|default('N/A') }}</span>
                             </div>
                             <div class="flex justify-between text-xs">
                                 <span class="text-gray-500">SMA 200 (Trend)</span>
                                 <span
-                                    class="font-mono {% if market_snapshot.price|float > technical_analysis.trend.sma_200|float %}text-neon-green{% else %}text-neon-red{% endif %} font-bold">${{
-                                    technical_analysis.trend.sma_200 }}</span>
+                                    class="font-mono {% if technical_analysis.trend.sma_200 and market_snapshot.price|float > technical_analysis.trend.sma_200|float %}text-neon-green{% elif technical_analysis.trend.sma_200 %}text-neon-red{% else %}text-gray-500{% endif %} font-bold">${{
+                                    technical_analysis.trend.sma_200|default('N/A') }}</span>
                             </div>
                         </div>
                     </div>
