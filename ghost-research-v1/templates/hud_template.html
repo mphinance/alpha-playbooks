@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ ticker }} | ALPHA-PLAYBOOK | HUD-V2</title>
+    <!-- Google Fonts for Terminal Aesthetic -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'mono': ['"JetBrains Mono"', 'monospace'],
+                        'tech': ['"Share Tech Mono"', 'monospace'],
+                    },
+                    colors: {
+                        'neon-green': '#00ff41',
+                        'neon-red': '#ff3e3e',
+                        'neon-blue': '#00f3ff',
+                        'neon-amber': '#ffb000',
+                        'hud-black': '#0a0a0a',
+                        'hud-panel': '#111111',
+                        'hud-border': '#333333',
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'blink': 'blink 1s step-end infinite',
+                    },
+                    keyframes: {
+                        blink: {
+                            '0%, 100%': { opacity: '1' },
+                            '50%': { opacity: '0' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #050505;
+            color: #e0e0e0;
+            font-family: 'JetBrains Mono', monospace;
+            background-image:
+                linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+                linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 2px, 3px 100%;
+        }
+
+        .scanline::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            z-index: 2;
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+        }
+
+        .hud-panel {
+            background: rgba(10, 10, 10, 0.8);
+            border: 1px solid #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+        }
+
+        .hud-header {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hud-title {
+            font-family: 'Share Tech Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #888;
+            font-size: 0.75rem;
+        }
+
+        .text-glow-green {
+            text-shadow: 0 0 5px rgba(0, 255, 65, 0.5);
+        }
+
+        .text-glow-red {
+            text-shadow: 0 0 5px rgba(255, 62, 62, 0.5);
+        }
+
+        .text-glow-blue {
+            text-shadow: 0 0 5px rgba(0, 243, 255, 0.5);
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #111;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        /* Grid lines */
+        .grid-bg {
+            background-size: 40px 40px;
+            background-image:
+                linear-gradient(to right, rgba(50, 50, 50, 0.1) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(50, 50, 50, 0.1) 1px, transparent 1px);
+        }
+    </style>
+</head>
+
+<body class="min-h-screen p-4 grid-bg selection:bg-neon-green selection:text-black">
+
+    <!-- TOP CONTROL BAR -->
+    <div
+        class="fixed top-0 left-0 w-full bg-hud-black/90 border-b border-hud-border z-50 px-4 py-2 flex justify-between items-center backdrop-blur-md">
+        <div class="flex items-center space-x-4">
+            <span class="font-tech text-neon-green text-xl tracking-widest font-bold">ALPHA://HUD</span>
+            <span class="text-xs text-gray-500 font-mono border-l border-gray-700 pl-4">SYS.STATUS: ONLINE</span>
+            <!-- Logo / Fallback Badge -->
+            <div id="logo-container"
+                class="w-8 h-8 ml-4 rounded bg-gray-800 border border-gray-700 flex items-center justify-center overflow-hidden relative group">
+                <img src="{{ logo_url }}" class="w-full h-full object-contain p-1 bg-white" alt="{{ ticker }}"
+                    onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='flex';">
+                <div id="logo-fallback" class="absolute inset-0 flex items-center justify-center bg-gray-800 hidden">
+                    <span class="text-[10px] font-bold text-gray-400">{{ ticker_first }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center space-x-6">
+            <div class="text-right">
+                <div class="text-[10px] text-gray-500 uppercase">Target Asset</div>
+                <div class="text-2xl font-bold font-tech tracking-wider text-white">
+                    <a href="https://www.tradingview.com/chart/?symbol={{ ticker }}" target="_blank"
+                        class="hover:text-neon-blue transition-colors">{{ ticker }}</a>
+                </div>
+            </div>
+            <div class="text-right border-l border-gray-700 pl-4">
+                <div class="text-[10px] text-gray-500 uppercase">Last Price</div>
+                <div class="text-2xl font-bold font-mono tracking-tight text-white">${{ market_snapshot.price }}</div>
+            </div>
+            <div class="text-right border-l border-gray-700 pl-4 pr-2">
+                <div class="text-[10px] text-gray-500 uppercase">Generated At</div>
+                <div class="text-xs font-mono text-neon-amber">{{ generated_at }}</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN GRID CONTAINER -->
+    <div class="grid grid-cols-12 gap-4 mt-20 max-w-[1920px] mx-auto pb-8">
+
+        <!-- COLUMN 1: LEFT SIDEBAR (Fundamentals & Profile) -->
+        <div class="col-span-12 lg:col-span-3 space-y-4">
+
+            <!-- CORE PROFILE -->
+            <div class="hud-panel p-4 rounded-sm border-l-4 border-neon-blue">
+                <div class="hud-header">
+                    <span class="hud-title text-neon-blue">ASSET.PROFILE</span>
+                    <span class="text-[10px] bg-neon-blue/10 text-neon-blue px-1">SEC.01</span>
+                </div>
+                <div class="space-y-3">
+                    <div class="text-xs text-gray-300 leading-relaxed font-mono">
+                        {{ sec_ops }}
+                    </div>
+                    <div class="h-px bg-gray-800 w-full"></div>
+                    <div class="grid grid-cols-2 gap-2 text-xs">
+                        <div>
+                            <span class="text-gray-500 block text-[9px]">MARKET CAP</span>
+                            <span class="text-white font-bold">{{ market_snapshot.market_cap }}</span>
+                            <!-- Need to ensure this variable is passed or calculate it -->
+                        </div>
+                        <div>
+                            <span class="text-gray-500 block text-[9px]">SECTOR</span>
+                            <span class="text-white">Technology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI ANALYSIS & SCORING -->
+            <div class="hud-panel p-4 rounded-sm border-l-4 border-neon-amber">
+                <div class="hud-header">
+                    <span class="hud-title text-neon-amber">AI.SYNTHESIS <span class="animate-blink">_</span></span>
+                    <span class="text-[10px] bg-neon-amber/10 text-neon-amber px-1">GRADE: {{ scores.grade }}</span>
+                </div>
+
+                <!-- Scores -->
+                <div class="grid grid-cols-2 gap-2 mb-3">
+                    <div class="bg-gray-900/50 p-2 rounded border border-gray-800 text-center">
+                        <div class="text-[9px] text-gray-500 uppercase">TECH.SCORE</div>
+                        <div
+                            class="text-xl font-bold font-mono {% if scores.technical > 60 %}text-neon-green{% else %}text-neon-red{% endif %}">
+                            {{ scores.technical }}</div>
+                    </div>
+                    <div class="bg-gray-900/50 p-2 rounded border border-gray-800 text-center">
+                        <div class="text-[9px] text-gray-500 uppercase">FUND.SCORE</div>
+                        <div
+                            class="text-xl font-bold font-mono {% if scores.fundamental > 60 %}text-neon-green{% else %}text-neon-red{% endif %}">
+                            {{ scores.fundamental }}</div>
+                    </div>
+                </div>
+
+                <div
+                    class="text-xs text-gray-300 font-mono leading-relaxed p-2 bg-black/40 border border-gray-800 rounded h-40 overflow-y-auto">
+                    {{ ai_analysis|safe }}
+                </div>
+            </div>
+
+            <!-- SUPPLY CHAIN / NEWS -->
+            <div class="hud-panel p-4 rounded-sm border-t-2 border-gray-700">
+                <div class="hud-header">
+                    <span class="hud-title">INTEL.FEED</span>
+                    <span class="text-[10px] text-gray-500">RSS.LIVE</span>
+                </div>
+                <div class="space-y-2 h-64 overflow-y-auto pr-1">
+                    {% for item in intel_feed %}
+                    <div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'>
+                        <div class='flex justify-between items-start mb-1'>
+                            <a href="{{ item.link }}" target="_blank"
+                                class='text-[10px] font-bold text-white uppercase leading-tight hover:text-neon-blue transition-colors'>{{
+                                item.title }}</a>
+                        </div>
+                        <p class='text-[9px] text-gray-500 leading-snug'>
+                            <span class='text-neon-blue'>[{{ item.source.upper() }}]</span>
+                            {{ item.summary[:160] }}{% if item.summary|length > 160 %}...{% endif %}
+                        </p>
+                    </div>
+                    {% else %}
+                    <div class='text-gray-600 text-[10px] italic p-4'>// NO RELEVANT INTEL DETECTED</div>
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+
+        <!-- COLUMN 2: CENTER STAGE (Technicals & Charts area) -->
+        <div class="col-span-12 lg:col-span-6 space-y-4">
+
+            <!-- MAIN SIGNAL BOX -->
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Trend -->
+                <div class="hud-panel p-4 text-center rounded-sm relative overflow-hidden group">
+                    <div
+                        class="absolute top-0 left-0 w-1 h-full {% if 'Bullish' in technical_analysis.trend.outlook %}bg-neon-green{% else %}bg-neon-red{% endif %}">
+                    </div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-1">Make / Break</div>
+                    <div
+                        class="text-2xl font-black font-tech {% if 'Bullish' in technical_analysis.trend.outlook %}text-neon-green text-glow-green{% else %}text-neon-red text-glow-red{% endif %}">
+                        {{ technical_analysis.trend.outlook }}
+                    </div>
+                    <div class="text-[9px] mt-2 text-gray-400 font-mono">{{ technical_analysis.trend.crossover }}</div>
+                </div>
+
+                <!-- RSI -->
+                <div class="hud-panel p-4 text-center rounded-sm">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-1">RSI (14)</div>
+                    <div class="text-3xl font-bold font-mono text-white">{{ technical_analysis.oscillators.rsi_14 }}
+                    </div>
+                    <div class="w-full bg-gray-800 h-1 mt-2 rounded-full overflow-hidden">
+                        {% set rsi = technical_analysis.oscillators.rsi_14|float %}
+                        <div class="h-full {% if rsi > 70 %}bg-neon-red{% elif rsi < 30 %}bg-neon-green{% else %}bg-gray-500{% endif %}"
+                            style="width: {{ rsi }}%"></div>
+                    </div>
+                </div>
+
+                <!-- Volatility -->
+                <div class="hud-panel p-4 text-center rounded-sm">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-1">IV (Implied)</div>
+                    <div class="text-3xl font-bold font-mono text-neon-blue">{{ volatility.iv_current }}%</div>
+                    <div class="text-[9px] mt-2 text-gray-400">HV (30D): {{ volatility.hv_30d }}%</div>
+                </div>
+            </div>
+
+            <!-- CHART PANEL -->
+            <div class="hud-panel p-2 rounded-sm border-b-2 border-neon-blue mb-4 relative group">
+                <div
+                    class="absolute top-2 left-2 z-10 text-[10px] bg-black/50 px-1 text-gray-500 font-mono border border-gray-800 flex items-center space-x-2">
+                    <span>INTERACTIVE.CHART // OHLC + FIB.EMAs</span>
+                    <button onclick="resetChart()"
+                        class="text-neon-blue hover:text-white transition-colors border-l border-gray-800 pl-2">RESET.VIEW</button>
+                </div>
+                <div id="plotly-chart" class="w-full h-[350px]"></div>
+            </div>
+
+            <!-- VALUATION MODEL (Replaces TV Signal) -->
+            <div class='hud-panel p-4 text-center rounded-sm border-t-2 border-gray-700 mt-4'>
+                {% set val_color = 'text-neon-green' if 'UNDER' in valuation.status else 'text-neon-red' if 'OVER' in
+                valuation.status else 'text-white' %}
+                <div class='text-[10px] text-gray-500 uppercase tracking-widest mb-1'>VALUATION ({{ valuation.method }})
+                </div>
+                <div class='text-xl font-black font-tech {{ val_color }} tracking-widest'>{{ valuation.status }}</div>
+                <div class='grid grid-cols-2 gap-1 mt-2 text-[9px] font-mono'>
+                    <div class='text-gray-400'>TARGET: <span class='text-gray-200'>${{ valuation.target_price }}</span>
+                    </div>
+                    <div class='{{ val_color }}'>GAP: {{ "%+.1f"|format(valuation.gap_pct) }}%</div>
+                </div>
+            </div>
+
+            <!-- TECHNICALS GRID -->
+            <div class="hud-panel p-0 rounded-sm overflow-hidden">
+                <div class="bg-gray-900 border-b border-gray-800 p-2 px-4 flex justify-between items-center">
+                    <span class="text-xs font-bold text-gray-400">TECHNICAL.MATRIX</span>
+                    <span class="text-[10px] font-mono text-gray-600">AUTO-CALC</span>
+                </div>
+                <div class="grid grid-cols-2 divide-x divide-gray-800 border-b border-gray-800">
+                    <!-- Moving Averages -->
+                    <div class="p-4">
+                        <h4 class="text-[10px] text-neon-blue mb-3 uppercase tracking-wider font-bold">Moving Averages
+                        </h4>
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">EMA 8</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.ema['8'] }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">EMA 21</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.ema['21'] }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">EMA 34</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.ema['34'] }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">EMA 55</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.ema['55'] }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">EMA 89</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.ema['89'] }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">SMA 50 (Inst)</span>
+                                <span
+                                    class="font-mono {% if market_snapshot.price|float > technical_analysis.trend.sma_50|float %}text-neon-green{% else %}text-neon-red{% endif %} font-bold">${{
+                                    technical_analysis.trend.sma_50 }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">SMA 200 (Trend)</span>
+                                <span
+                                    class="font-mono {% if market_snapshot.price|float > technical_analysis.trend.sma_200|float %}text-neon-green{% else %}text-neon-red{% endif %} font-bold">${{
+                                    technical_analysis.trend.sma_200 }}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pivots -->
+                    <div class="p-4">
+                        <h4 class="text-[10px] text-neon-amber mb-3 uppercase tracking-wider font-bold">Pivot Points
+                        </h4>
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-xs border-l-2 border-neon-red/50 pl-2">
+                                <span class="text-gray-500">RES 2</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.pivots.R2 }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs border-l-2 border-neon-red/30 pl-2">
+                                <span class="text-gray-500">RES 1</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.pivots.R1 }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs border-l-2 border-white/20 pl-2 bg-white/5 py-1">
+                                <span class="text-gray-300 font-bold">PIVOT</span>
+                                <span class="font-mono text-white font-bold">${{ technical_analysis.pivots.PP }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs border-l-2 border-neon-green/30 pl-2">
+                                <span class="text-gray-500">SUP 1</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.pivots.S1 }}</span>
+                            </div>
+                            <div class="flex justify-between text-xs border-l-2 border-neon-green/50 pl-2">
+                                <span class="text-gray-500">SUP 2</span>
+                                <span class="font-mono text-gray-300">${{ technical_analysis.pivots.S2 }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fibs & Volume -->
+                <div class="grid grid-cols-2 divide-x divide-gray-800">
+                    <div class="p-4">
+                        <h4 class="text-[10px] text-purple-400 mb-3 uppercase tracking-wider font-bold">Fibonacci (1Y)
+                        </h4>
+                        <div class="space-y-1">
+                            <div class="flex justify-between text-[10px]"><span class="text-gray-600">0.618</span> <span
+                                    class="font-mono text-gray-400">${{ technical_analysis.fibonacci['61.8'] }}</span>
+                            </div>
+                            <div class="flex justify-between text-[10px]"><span class="text-gray-600">0.500</span> <span
+                                    class="font-mono text-gray-400">${{ technical_analysis.fibonacci['50'] }}</span>
+                            </div>
+                            <div class="flex justify-between text-[10px]"><span class="text-gray-600">0.382</span> <span
+                                    class="font-mono text-gray-400">${{ technical_analysis.fibonacci['38.2'] }}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-[10px] text-cyan-400 mb-3 uppercase tracking-wider font-bold">Volume Profile
+                        </h4>
+                        <div class="space-y-2">
+                            <div class="text-xs">
+                                <div class="flex justify-between mb-1"><span class="text-gray-500">Relative Vol</span>
+                                    <span class="text-white">{{ technical_analysis.volume.rel_vol }}x</span>
+                                </div>
+                                <div class="w-full bg-gray-800 h-1.5 rounded-full">
+                                    <div class="h-full bg-cyan-500"
+                                        style="width: {{ technical_analysis.volume.rel_vol_pct }}%"></div>
+                                </div>
+                            </div>
+                            <div class="flex justify-between text-[10px] mt-2">
+                                <span class="text-gray-600">AVG (20D)</span>
+                                <span class="font-mono text-gray-400">{{ technical_analysis.volume.avg_20d }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shipping / Logs -->
+            <div class="hud-panel p-4 rounded-sm border border-gray-800 opacity-70">
+                <div class="hud-header">
+                    <span class="hud-title text-gray-600">LOGISTICS.TRACKER</span>
+                </div>
+                <!-- Mock Map Visualization -->
+                <div
+                    class="relative h-24 bg-black/50 border border-gray-800 rounded mb-2 overflow-hidden flex items-center justify-center">
+                    <div class="absolute inset-0 grid grid-cols-6 grid-rows-4 gap-px opacity-20">
+                        <!-- Grid lines for map feel -->
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div>
+                    </div>
+                    <div class="z-10 text-xs font-mono text-gray-500 text-center">
+                        <span class="text-neon-red animate-pulse">●</span> {{ geospatial.site }} <br>
+                        <a href="{{ geospatial.coords }}" target="_blank"
+                            class="text-[9px] hover:text-neon-blue transition-colors">{{ geospatial.coords }}</a>
+                    </div>
+                </div>
+                <div class="text-[10px] text-gray-400 font-mono">
+                    <div class='text-gray-600 text-[10px] italic p-2'>// NO LOGISTICS DATA AVAILABLE FROM PUBLIC SOURCES
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- COLUMN 3: RIGHT SIDEBAR (Data & Insiders) -->
+        <div class="col-span-12 lg:col-span-3 space-y-4">
+
+            <!-- INSIDERS -->
+            <div class="hud-panel p-0 rounded-sm border-r-4 border-neon-red">
+                <div class="p-3 border-b border-gray-800 bg-gray-900/50">
+                    <span class="hud-title text-neon-red">INSIDER.ACTIVITY</span>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-[10px]">
+                        <thead>
+                            <tr class="text-gray-500 border-b border-gray-800 font-mono">
+                                <th class="p-2 font-normal">DATE</th>
+                                <th class="p-2 font-normal">WHO</th>
+                                <th class="p-2 font-normal text-right">VAL</th>
+                            </tr>
+                        </thead>
+                        <tbody class="font-mono text-gray-300 divide-y divide-gray-800/50">
+                            {% for ins in insider_transactions %}
+                            <tr class='hover:bg-gray-800/50 transition-colors'>
+                                <td class='p-2 border-b border-gray-800/50'>{{ ins.date }}</td>
+                                <td class='p-2 border-b border-gray-800/50 truncate max-w-[100px]'>{{ ins.insider }}
+                                </td>
+                                <td class='p-2 border-b border-gray-800/50 text-right font-bold text-neon-green'>
+                                    {% if ins.value is number %}
+                                    ${{ "{:,.0f}".format(ins.value) }}
+                                    {% else %}
+                                    {{ ins.value }}
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% else %}
+                            <tr>
+                                <td colspan='3' class='p-4 text-center text-gray-600 italic'>NO RECENT TRANSACTIONS</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="p-2 text-[9px] text-gray-600 text-center uppercase tracking-wider">
+                    SEC Form 4 Filings
+                </div>
+            </div>
+
+            <!-- SEC ANALYTICS -->
+            <div class="hud-panel p-4 rounded-sm">
+                <div class="hud-header">
+                    <span class="hud-title text-gray-400">RISK.METRICS</span>
+                </div>
+                <div class="text-xs font-mono text-gray-400 space-y-2">
+                    Beta: {{ market_snapshot.beta }}. Range(52W): {{ market_snapshot.range_52w }}. Analyst Tgt: {{
+                    market_snapshot.analyst_target }}.
+                </div>
+            </div>
+
+            <!-- SYSTEM FOOTER -->
+            <div class="text-[9px] text-gray-600 font-mono text-center mt-8 oppacity-50">
+                generated by Sam the Ghost Quant // {{ generated_at }} <br>
+                SECURE CONNECTION ESTABLISHED
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JSON EXPORT MODAL -->
+    <div id="jsonModal" class="fixed inset-0 bg-black/90 z-[100] hidden flex items-center justify-center p-8">
+        <div
+            class="bg-gray-900 border border-neon-blue w-full max-w-4xl h-full max-h-[80vh] flex flex-col rounded shadow-[0_0_30px_rgba(0,243,255,0.2)]">
+            <div class="flex justify-between items-center p-4 border-b border-gray-800 bg-gray-900/50">
+                <span class="text-neon-blue font-tech text-lg">SOURCE.JSON // EXPORT</span>
+                <div class="flex space-x-4">
+                    <button onclick="copyToClipboard()"
+                        class="px-4 py-1 bg-neon-blue/20 text-neon-blue border border-neon-blue/50 hover:bg-neon-blue/40 text-xs font-mono uppercase transition-colors">>>
+                        COPY TO CLIPBOARD</button>
+                    <button onclick="closeModal()" class="text-gray-500 hover:text-white">X</button>
+                </div>
+            </div>
+            <div class="flex-1 overflow-auto p-4 bg-black/50">
+                <pre class="text-[10px] text-gray-400 font-mono whitespace-pre-wrap select-all" id="jsonContent"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Raw JSON Data injected by Python
+        const rawJson = {{ raw_json_data| safe }};
+
+        try {
+            const chartData = {{ chart_data_json| safe
+        }};
+        const emaData = {{ ema_data_json| safe }};
+
+        if (chartData && chartData.length > 0) {
+            const dates = chartData.map(d => d.time);
+            const open = chartData.map(d => d.open);
+            const high = chartData.map(d => d.high);
+            const low = chartData.map(d => d.low);
+            const close = chartData.map(d => d.close);
+
+            const candlestick = {
+                x: dates,
+                open: open,
+                high: high,
+                low: low,
+                close: close,
+                type: 'candlestick',
+                name: 'OHLC',
+                increasing: { line: { color: '#22c55e' }, fillcolor: '#22c55e' },
+                decreasing: { line: { color: '#ef4444' }, fillcolor: '#ef4444' }
+            };
+
+            const plotData = [candlestick];
+
+            const emaConfigs = [
+                { span: "8", color: "#22d3ee", width: 2 },
+                { span: "21", color: "#4ade80", width: 2 },
+                { span: "34", color: "#facc15", width: 1.5 },
+                { span: "55", color: "#fb923c", width: 1.5 },
+                { span: "89", color: "#f87171", width: 1.5 }
+            ];
+
+            emaConfigs.forEach(config => {
+                if (emaData[config.span]) {
+                    plotData.push({
+                        x: emaData[config.span].map(d => d.time),
+                        y: emaData[config.span].map(d => d.value),
+                        type: 'scatter',
+                        mode: 'lines',
+                        name: `EMA ${config.span}`,
+                        line: { color: config.color, width: config.width, shape: 'spline' },
+                        opacity: 0.8
+                    });
+                }
+            });
+
+            const layout = {
+                dragmode: 'zoom',
+                showlegend: false,
+                margin: { r: 10, t: 10, b: 30, l: 40 },
+                xaxis: {
+                    rangeslider: { visible: false },
+                    gridcolor: '#1e293b',
+                    zeroline: false,
+                    tickfont: { color: '#94a3b8', size: 10, family: 'JetBrains Mono' },
+                    type: 'date'
+                },
+                yaxis: {
+                    gridcolor: '#1e293b',
+                    zeroline: false,
+                    autorange: true,
+                    tickfont: { color: '#94a3b8', size: 10, family: 'JetBrains Mono' },
+                    side: 'right'
+                },
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                hovermode: 'x unified',
+                hoverlabel: {
+                    bgcolor: '#0a0a0a',
+                    bordercolor: '#333',
+                    font: { color: '#fff', size: 10, family: 'JetBrains Mono' }
+                }
+            };
+
+            Plotly.newPlot('plotly-chart', plotData, layout, {
+                responsive: true,
+                displayModeBar: true,
+                modeBarButtonsToRemove: ['select2d', 'lasso2d', 'autoScale2d'],
+                displaylogo: false,
+                scrollZoom: true
+            });
+
+            window.resetChart = () => {
+                Plotly.relayout('plotly-chart', {
+                    'xaxis.autorange': true,
+                    'yaxis.autorange': true
+                });
+            };
+        }
+        } catch (e) {
+            console.error("CRITICAL :: Chart Initialization Failed ::", e);
+        }
+
+        document.getElementById('jsonContent').textContent = JSON.stringify(rawJson, null, 2);
+
+        function openModal() {
+            document.getElementById('jsonModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('jsonModal').classList.add('hidden');
+        }
+
+        function copyToClipboard() {
+            const content = JSON.stringify(rawJson, null, 2);
+            navigator.clipboard.writeText(content).then(() => {
+                alert('JSON Copied to Clipboard!');
+            });
+        }
+
+        // Add trigger to header
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.querySelector('.bg-hud-black\\/90');
+            if (header) {
+                const btn = document.createElement('button');
+                btn.className = "ml-4 px-2 py-1 bg-gray-800 text-[10px] text-gray-400 border border-gray-700 hover:text-white hover:border-gray-500 transition-colors uppercase font-mono";
+                btn.textContent = "SOURCE :: JSON";
+                btn.onclick = openModal;
+
+                // Insert before the last div in header
+                if (header.children[0]) {
+                    header.children[0].appendChild(btn);
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

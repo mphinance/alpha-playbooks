@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVGO | ALPHA-PLAYBOOK | HUD-V2</title>
+    <!-- Google Fonts for Terminal Aesthetic -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'mono': ['"JetBrains Mono"', 'monospace'],
+                        'tech': ['"Share Tech Mono"', 'monospace'],
+                    },
+                    colors: {
+                        'neon-green': '#00ff41',
+                        'neon-red': '#ff3e3e',
+                        'neon-blue': '#00f3ff',
+                        'neon-amber': '#ffb000',
+                        'hud-black': '#0a0a0a',
+                        'hud-panel': '#111111',
+                        'hud-border': '#333333',
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'blink': 'blink 1s step-end infinite',
+                    },
+                    keyframes: {
+                        blink: {
+                            '0%, 100%': { opacity: '1' },
+                            '50%': { opacity: '0' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #050505;
+            color: #e0e0e0;
+            font-family: 'JetBrains Mono', monospace;
+            background-image: 
+                linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+                linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            background-size: 100% 2px, 3px 100%;
+        }
+        .scanline::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            z-index: 2;
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+        }
+        .hud-panel {
+            background: rgba(10, 10, 10, 0.8);
+            border: 1px solid #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+        }
+        .hud-header {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hud-title {
+            font-family: 'Share Tech Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #888;
+            font-size: 0.75rem;
+        }
+        .text-glow-green { text-shadow: 0 0 5px rgba(0, 255, 65, 0.5); }
+        .text-glow-red { text-shadow: 0 0 5px rgba(255, 62, 62, 0.5); }
+        .text-glow-blue { text-shadow: 0 0 5px rgba(0, 243, 255, 0.5); }
+        
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #111; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+
+        /* Grid lines */
+        .grid-bg {
+            background-size: 40px 40px;
+            background-image:
+                linear-gradient(to right, rgba(50, 50, 50, 0.1) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(50, 50, 50, 0.1) 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 grid-bg selection:bg-neon-green selection:text-black">
+
+    <!-- TOP CONTROL BAR -->
+    <div class="fixed top-0 left-0 w-full bg-hud-black/90 border-b border-hud-border z-50 px-4 py-2 flex justify-between items-center backdrop-blur-md">
+        <div class="flex items-center space-x-4">
+            <span class="font-tech text-neon-green text-xl tracking-widest font-bold">ALPHA://HUD</span>
+            <span class="text-xs text-gray-500 font-mono border-l border-gray-700 pl-4">SYS.STATUS: ONLINE</span>
+            <span class="text-xs text-neon-blue font-mono animate-pulse-slow">● LIVE FEED</span>
+        </div>
+        <div class="flex items-center space-x-6">
+            <div class="text-right">
+                <div class="text-[10px] text-gray-500 uppercase">Target Asset</div>
+                <div class="text-2xl font-bold font-tech tracking-wider text-white">AVGO</div>
+            </div>
+            <div class="text-right border-l border-gray-700 pl-4">
+                <div class="text-[10px] text-gray-500 uppercase">Last Price</div>
+                <div class="text-2xl font-bold font-mono tracking-tight text-white">$325.17</div>
+            </div>
+            <div class="text-right border-l border-gray-700 pl-4 pr-2">
+                <div class="text-[10px] text-gray-500 uppercase">Generated At</div>
+                <div class="text-xs font-mono text-neon-amber">2026-02-14 16:42:30 UTC</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN GRID CONTAINER -->
+    <div class="grid grid-cols-12 gap-4 mt-20 max-w-[1920px] mx-auto pb-8">
+
+        <!-- COLUMN 1: LEFT SIDEBAR (Fundamentals & Profile) -->
+        <div class="col-span-12 lg:col-span-3 space-y-4">
+            
+            <!-- CORE PROFILE -->
+            <div class="hud-panel p-4 rounded-sm border-l-4 border-neon-blue">
+                <div class="hud-header">
+                    <span class="hud-title text-neon-blue">ASSET.PROFILE</span>
+                    <span class="text-[10px] bg-neon-blue/10 text-neon-blue px-1">SEC.01</span>
+                </div>
+                <div class="space-y-3">
+                    <div class="text-xs text-gray-300 leading-relaxed font-mono">
+                        Broadcom Inc. // Technology [Semiconductors]. Mkt Cap: $1541.72B. Rev Growth: 16.4%. PM: 36.2%.
+                    </div>
+                    <div class="h-px bg-gray-800 w-full"></div>
+                    <div class="grid grid-cols-2 gap-2 text-xs">
+                        <div>
+                            <span class="text-gray-500 block text-[9px]">MARKET CAP</span>
+                            <span class="text-white font-bold">$1541.72B</span> <!-- Need to ensure this variable is passed or calculate it -->
+                        </div>
+                        <div>
+                            <span class="text-gray-500 block text-[9px]">SECTOR</span>
+                            <span class="text-white">Technology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GHOST ANALYSIS (The Narrative) -->
+            <div class="hud-panel p-4 rounded-sm border-l-4 border-neon-amber">
+                <div class="hud-header">
+                    <span class="hud-title text-neon-amber">GHOST.ANALYSIS <span class="animate-blink">_</span></span>
+                    <span class="text-[10px] bg-neon-amber/10 text-neon-amber px-1">AI.SYNTH</span>
+                </div>
+                <div class="text-xs text-gray-300 font-mono leading-relaxed p-2 bg-black/40 border border-gray-800 rounded h-40 overflow-y-auto">
+                    <span class="text-neon-green">>></span> The asset is in a BULLISH posture relative to its major moving averages. RSI is neutral at 50.17, indicating no extreme conditions currently present. MACD histogram displays POSITIVE momentum divergence.
+                </div>
+            </div>
+
+            <!-- SUPPLY CHAIN / NEWS -->
+            <div class="hud-panel p-4 rounded-sm border-t-2 border-gray-700">
+                <div class="hud-header">
+                    <span class="hud-title">INTEL.FEED</span>
+                    <span class="text-[10px] text-gray-500">RSS.LIVE</span>
+                </div>
+                <div class="space-y-2 h-64 overflow-y-auto pr-1">
+                    <div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'><div class='flex justify-between items-start mb-1'><span class='text-[10px] font-bold text-white uppercase leading-tight'>What Is One of the Best Tech Stocks to Own for the Next 10 Years?</span></div><p class='text-[9px] text-gray-500 leading-snug'><span class='text-neon-blue'>[YF-RSS]</span> Broadcom will continue to deliver in the next decade as it converts its large backlog into substantial revenue....</p></div><div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'><div class='flex justify-between items-start mb-1'><span class='text-[10px] font-bold text-white uppercase leading-tight'>3 Stocks That Will Be Worth $3 Trillion or More in 3 Years</span></div><p class='text-[9px] text-gray-500 leading-snug'><span class='text-neon-blue'>[YF-RSS]</span> The $3 trillion club is going to get a lot bigger in the next few years....</p></div><div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'><div class='flex justify-between items-start mb-1'><span class='text-[10px] font-bold text-white uppercase leading-tight'>The 5 Best Artificial Intelligence (AI) Stocks to Buy for February</span></div><p class='text-[9px] text-gray-500 leading-snug'><span class='text-neon-blue'>[YF-RSS]</span> A recent sell-off has opened up some rare buying opportunites....</p></div><div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'><div class='flex justify-between items-start mb-1'><span class='text-[10px] font-bold text-white uppercase leading-tight'>Billionaire George Soros Just Made Big, Bold Bets on 2 AI Stocks</span></div><p class='text-[9px] text-gray-500 leading-snug'><span class='text-neon-blue'>[YF-RSS]</span> Billionaire George Soros has long been a controversial investor. In 1992, he shorted the British pound in a bet that earned him $1 billion and contrib...</p></div><div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'><div class='flex justify-between items-start mb-1'><span class='text-[10px] font-bold text-white uppercase leading-tight'>Wall Street’s AI Paradox: Why Has NVIDIA’s Stock Flatlined as Hyperscaler Spend Explodes?</span></div><p class='text-[9px] text-gray-500 leading-snug'><span class='text-neon-blue'>[YF-RSS]</span> Here’s the paradox keeping Wall Street analysts up at night: Tech giants are pouring $700 billion into AI infrastructure, yet Nvidia (NASDAQ:NVDA) sto...</p></div><div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'><div class='flex justify-between items-start mb-1'><span class='text-[10px] font-bold text-white uppercase leading-tight'>Starmer Speaks at MSC, on Independence From the US</span></div><p class='text-[9px] text-gray-500 leading-snug'><span class='text-neon-blue'>[BLOOMBERG]</span> UK PM Keir Starmer speaks alongside EU Commission President Ursula von der Leyen at the Munich Security Conference, 14 Feb 2026. (Source: Bloomberg)...</p></div><div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'><div class='flex justify-between items-start mb-1'><span class='text-[10px] font-bold text-white uppercase leading-tight'>Is Trump’s Manufacturing Comeback Real?</span></div><p class='text-[9px] text-gray-500 leading-snug'><span class='text-neon-blue'>[BLOOMBERG]</span> Steve Rattner of Willett Advisors examines whether tariffs and trade policy are actually changing the trajectory of US manufacturing. He discusses the...</p></div><div class='mb-3 pb-3 border-b border-gray-800/50 last:border-0'><div class='flex justify-between items-start mb-1'><span class='text-[10px] font-bold text-white uppercase leading-tight'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</span></div><p class='text-[9px] text-gray-500 leading-snug'><span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia...</p></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- COLUMN 2: CENTER STAGE (Technicals & Charts area) -->
+        <div class="col-span-12 lg:col-span-6 space-y-4">
+
+            <!-- MAIN SIGNAL BOX -->
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Trend -->
+                <div class="hud-panel p-4 text-center rounded-sm relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-1 h-full {{ 'bg-neon-green' if 'Bullish' in trend_outlook else 'bg-neon-red' }}"></div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-1">Make / Break</div>
+                    <div class="text-2xl font-black font-tech {{ 'text-neon-green text-glow-green' if 'Bullish' in trend_outlook else 'text-neon-red text-glow-red' }}">
+                        Bullish
+                    </div>
+                    <div class="text-[9px] mt-2 text-gray-400 font-mono">Golden Cross</div>
+                </div>
+
+                <!-- RSI -->
+                <div class="hud-panel p-4 text-center rounded-sm">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-1">RSI (14)</div>
+                    <div class="text-3xl font-bold font-mono text-white">50.17</div>
+                    <div class="w-full bg-gray-800 h-1 mt-2 rounded-full overflow-hidden">
+                        <div class="h-full {{ 'bg-neon-red' if rsi_14|float > 70 else 'bg-neon-green' if rsi_14|float < 30 else 'bg-gray-500' }}" style="width: 50.17%"></div>
+                    </div>
+                </div>
+
+                <!-- Volatility -->
+                <div class="hud-panel p-4 text-center rounded-sm">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-1">HV (30D)</div>
+                    <div class="text-3xl font-bold font-mono text-neon-blue">41.92%</div>
+                    <div class="text-[9px] mt-2 text-gray-400">IV: 49.01%</div>
+                </div>
+            </div>
+
+            <!-- TECHNICALS GRID -->
+            <div class="hud-panel p-0 rounded-sm overflow-hidden">
+                <div class="bg-gray-900 border-b border-gray-800 p-2 px-4 flex justify-between items-center">
+                    <span class="text-xs font-bold text-gray-400">TECHNICAL.MATRIX</span>
+                    <span class="text-[10px] font-mono text-gray-600">AUTO-CALC</span>
+                </div>
+                <div class="grid grid-cols-2 divide-x divide-gray-800 border-b border-gray-800">
+                     <!-- Moving Averages -->
+                    <div class="p-4">
+                        <h4 class="text-[10px] text-neon-blue mb-3 uppercase tracking-wider font-bold">Moving Averages</h4>
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">EMA 8</span>
+                                <span class="font-mono text-gray-300">$331.33</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">EMA 21</span>
+                                <span class="font-mono text-gray-300">$332.93</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">SMA 50 (Inst)</span>
+                                <span class="font-mono {{ 'text-neon-green' if price|float > sma_50|float else 'text-neon-red' }} font-bold">$345.77</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-500">SMA 200 (Trend)</span>
+                                <span class="font-mono {{ 'text-neon-green' if price|float > sma_200|float else 'text-neon-red' }} font-bold">$311.98</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pivots -->
+                    <div class="p-4">
+                        <h4 class="text-[10px] text-neon-amber mb-3 uppercase tracking-wider font-bold">Pivot Points</h4>
+                        <div class="space-y-2">
+                            <div class="flex justify-between text-xs border-l-2 border-neon-red/50 pl-2">
+                                <span class="text-gray-500">RES 2</span>
+                                <span class="font-mono text-gray-300">$384.2</span>
+                            </div>
+                            <div class="flex justify-between text-xs border-l-2 border-neon-red/30 pl-2">
+                                <span class="text-gray-500">RES 1</span>
+                                <span class="font-mono text-gray-300">$354.69</span>
+                            </div>
+                            <div class="flex justify-between text-xs border-l-2 border-white/20 pl-2 bg-white/5 py-1">
+                                <span class="text-gray-300 font-bold">PIVOT</span>
+                                <span class="font-mono text-white font-bold">$324.99</span>
+                            </div>
+                            <div class="flex justify-between text-xs border-l-2 border-neon-green/30 pl-2">
+                                <span class="text-gray-500">SUP 1</span>
+                                <span class="font-mono text-gray-300">$295.48</span>
+                            </div>
+                             <div class="flex justify-between text-xs border-l-2 border-neon-green/50 pl-2">
+                                <span class="text-gray-500">SUP 2</span>
+                                <span class="font-mono text-gray-300">$265.78</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Fibs & Volume -->
+                <div class="grid grid-cols-2 divide-x divide-gray-800">
+                    <div class="p-4">
+                        <h4 class="text-[10px] text-purple-400 mb-3 uppercase tracking-wider font-bold">Fibonacci (1Y)</h4>
+                         <div class="space-y-1">
+                             <div class="flex justify-between text-[10px]"><span class="text-gray-600">0.618</span> <span class="font-mono text-gray-400">$308.18</span></div>
+                             <div class="flex justify-between text-[10px]"><span class="text-gray-600">0.500</span> <span class="font-mono text-gray-400">$275.55</span></div>
+                             <div class="flex justify-between text-[10px]"><span class="text-gray-600">0.382</span> <span class="font-mono text-gray-400">$242.92</span></div>
+                         </div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-[10px] text-cyan-400 mb-3 uppercase tracking-wider font-bold">Volume Profile</h4>
+                         <div class="space-y-2">
+                             <div class="text-xs">
+                                 <div class="flex justify-between mb-1"><span class="text-gray-500">Relative Vol</span> <span class="text-white">0.67x</span></div>
+                                 <div class="w-full bg-gray-800 h-1.5 rounded-full">
+                                     <div class="h-full bg-cyan-500" style="width: 33%"></div>
+                                 </div>
+                             </div>
+                             <div class="flex justify-between text-[10px] mt-2">
+                                 <span class="text-gray-600">AVG (20D)</span>
+                                 <span class="font-mono text-gray-400">27,638,025</span>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shipping / Logs -->
+             <div class="hud-panel p-4 rounded-sm border border-gray-800 opacity-70">
+                <div class="hud-header">
+                    <span class="hud-title text-gray-600">LOGISTICS.TRACKER</span>
+                </div>
+                <!-- Mock Map Visualization -->
+                <div class="relative h-24 bg-black/50 border border-gray-800 rounded mb-2 overflow-hidden flex items-center justify-center">
+                    <div class="absolute inset-0 grid grid-cols-6 grid-rows-4 gap-px opacity-20">
+                        <!-- Grid lines for map feel -->
+                        <div class="bg-gray-800"></div><div class="bg-gray-800"></div><div class="bg-gray-800"></div><div class="bg-gray-800"></div><div class="bg-gray-800"></div><div class="bg-gray-800"></div>
+                        <div class="bg-gray-800"></div><div class="bg-gray-800"></div><div class="bg-gray-800"></div><div class="bg-gray-800"></div><div class="bg-gray-800"></div><div class="bg-gray-800"></div>
+                    </div>
+                    <div class="z-10 text-xs font-mono text-gray-500 text-center">
+                        <span class="text-neon-red animate-pulse">●</span> Palo Alto, United States <br>
+                        <span class="text-[9px]">https://www.broadcom.com</span>
+                    </div>
+                </div>
+                 <div class="text-[10px] text-gray-400 font-mono">
+                     <div class='text-gray-600 text-[10px] italic p-2'>// NO LOGISTICS DATA AVAILABLE FROM PUBLIC SOURCES</div>
+                 </div>
+            </div>
+
+        </div>
+
+        <!-- COLUMN 3: RIGHT SIDEBAR (Data & Insiders) -->
+        <div class="col-span-12 lg:col-span-3 space-y-4">
+             
+            <!-- INSIDERS -->
+            <div class="hud-panel p-0 rounded-sm border-r-4 border-neon-red">
+                <div class="p-3 border-b border-gray-800 bg-gray-900/50">
+                     <span class="hud-title text-neon-red">INSIDER.ACTIVITY</span>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-[10px]">
+                        <thead>
+                            <tr class="text-gray-500 border-b border-gray-800 font-mono">
+                                <th class="p-2 font-normal">DATE</th>
+                                <th class="p-2 font-normal">WHO</th>
+                                <th class="p-2 font-normal text-right">VAL</th>
+                            </tr>
+                        </thead>
+                        <tbody class="font-mono text-gray-300 divide-y divide-gray-800/50">
+                            <tr class='hover:bg-gray-800/50 transition-colors'><td class='p-2 border-b border-gray-800/50'>2026-01-06</td><td class='p-2 border-b border-gray-800/50 truncate max-w-[100px]'>BRAZEAL MARK DAVID</td><td class='p-2 border-b border-gray-800/50 text-right font-bold text-neon-green'>$10.41M</td></tr><tr class='hover:bg-gray-800/50 transition-colors'><td class='p-2 border-b border-gray-800/50'>2026-01-06</td><td class='p-2 border-b border-gray-800/50 truncate max-w-[100px]'>TAN HOCK E</td><td class='p-2 border-b border-gray-800/50 text-right font-bold text-neon-green'>$24.31M</td></tr><tr class='hover:bg-gray-800/50 transition-colors'><td class='p-2 border-b border-gray-800/50'>2025-12-31</td><td class='p-2 border-b border-gray-800/50 truncate max-w-[100px]'>SPEARS KIRSTEN MARGRETA</td><td class='p-2 border-b border-gray-800/50 text-right font-bold text-neon-green'>$10.43M</td></tr><tr class='hover:bg-gray-800/50 transition-colors'><td class='p-2 border-b border-gray-800/50'>2025-12-26</td><td class='p-2 border-b border-gray-800/50 truncate max-w-[100px]'>BRAZEAL MARK DAVID</td><td class='p-2 border-b border-gray-800/50 text-right font-bold text-neon-green'>$9.13M</td></tr><tr class='hover:bg-gray-800/50 transition-colors'><td class='p-2 border-b border-gray-800/50'>2025-12-23</td><td class='p-2 border-b border-gray-800/50 truncate max-w-[100px]'>TAN HOCK E</td><td class='p-2 border-b border-gray-800/50 text-right font-bold text-neon-green'>$34.56M</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="p-2 text-[9px] text-gray-600 text-center uppercase tracking-wider">
+                    SEC Form 4 Filings
+                </div>
+            </div>
+
+            <!-- SEC ANALYTICS -->
+            <div class="hud-panel p-4 rounded-sm">
+                <div class="hud-header">
+                     <span class="hud-title text-gray-400">RISK.METRICS</span>
+                </div>
+                <div class="text-xs font-mono text-gray-400 space-y-2">
+                    Beta: 1.221. Range(52W): 138.1 - 414.61. Analyst Tgt: 456.5886.
+                </div>
+            </div>
+
+             <!-- SYSTEM FOOTER -->
+            <div class="text-[9px] text-gray-600 font-mono text-center mt-8 oppacity-50">
+                generated by ANTIGRAVITY v2.1 // 2026-02-14 16:42:30 UTC <br>
+                SECURE CONNECTION ESTABLISHED
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

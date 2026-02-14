@@ -1,0 +1,145 @@
+{
+  "ticker": "AVGO",
+  "generated_at": "2026-02-14 16:42:30 UTC",
+  "market_snapshot": {
+    "price": 325.17,
+    "market_cap": "$1541.72B"
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 345.77,
+      "sma_200": 311.98,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 331.33,
+      "21": 332.93,
+      "34": 336.68,
+      "55": 340.28,
+      "89": 338.51
+    },
+    "volume": {
+      "current": "18,379,500",
+      "avg_20d": "27,638,025",
+      "rel_vol": 0.67,
+      "rel_vol_pct": 33
+    },
+    "pivots": {
+      "R2": 384.2,
+      "R1": 354.69,
+      "PP": 324.99,
+      "S1": 295.48,
+      "S2": 265.78
+    },
+    "fibonacci": {
+      "100": 413.82,
+      "61.8": 308.18,
+      "50": 275.55,
+      "38.2": 242.92,
+      "0": 137.28
+    },
+    "oscillators": {
+      "rsi_14": 50.17,
+      "adx_14": 14.95,
+      "macd_hist": 1.54
+    }
+  },
+  "volatility": {
+    "hv_30d": 41.92,
+    "iv_current": 49.01
+  },
+  "insiders": [
+    {
+      "date": "2026-01-06",
+      "insider": "BRAZEAL MARK DAVID",
+      "type": "",
+      "value": "$10.41M"
+    },
+    {
+      "date": "2026-01-06",
+      "insider": "TAN HOCK E",
+      "type": "",
+      "value": "$24.31M"
+    },
+    {
+      "date": "2025-12-31",
+      "insider": "SPEARS KIRSTEN MARGRETA",
+      "type": "",
+      "value": "$10.43M"
+    },
+    {
+      "date": "2025-12-26",
+      "insider": "BRAZEAL MARK DAVID",
+      "type": "",
+      "value": "$9.13M"
+    },
+    {
+      "date": "2025-12-23",
+      "insider": "TAN HOCK E",
+      "type": "",
+      "value": "$34.56M"
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "What Is One of the Best Tech Stocks to Own for the Next 10 Years?",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Broadcom will continue to deliver in the next decade as it converts its large backlog into substantial revenue...."
+      },
+      {
+        "claim": "3 Stocks That Will Be Worth $3 Trillion or More in 3 Years",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The $3 trillion club is going to get a lot bigger in the next few years...."
+      },
+      {
+        "claim": "The 5 Best Artificial Intelligence (AI) Stocks to Buy for February",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> A recent sell-off has opened up some rare buying opportunites...."
+      },
+      {
+        "claim": "Billionaire George Soros Just Made Big, Bold Bets on 2 AI Stocks",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Billionaire George Soros has long been a controversial investor. In 1992, he shorted the British pound in a bet that earned him $1 billion and contrib..."
+      },
+      {
+        "claim": "Wall Street\u2019s AI Paradox: Why Has NVIDIA\u2019s Stock Flatlined as Hyperscaler Spend Explodes?",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Here\u2019s the paradox keeping Wall Street analysts up at night: Tech giants are pouring $700 billion into AI infrastructure, yet Nvidia (NASDAQ:NVDA) sto..."
+      },
+      {
+        "claim": "Starmer Speaks at MSC, on Independence From the US",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> UK PM Keir Starmer speaks alongside EU Commission President Ursula von der Leyen at the Munich Security Conference, 14 Feb 2026. (Source: Bloomberg)..."
+      },
+      {
+        "claim": "Is Trump\u2019s Manufacturing Comeback Real?",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Steve Rattner of Willett Advisors examines whether tariffs and trade policy are actually changing the trajectory of US manufacturing. He discusses the..."
+      },
+      {
+        "claim": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Broadcom Inc. // Technology [Semiconductors]. Mkt Cap: $1541.72B. Rev Growth: 16.4%. PM: 36.2%.",
+    "forward_looking": "Beta: 1.221. Range(52W): 138.1 - 414.61. Analyst Tgt: 456.5886."
+  },
+  "geospatial": {
+    "site": "Palo Alto, United States",
+    "coords": "https://www.broadcom.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "ghost_analysis": "The asset is in a BULLISH posture relative to its major moving averages. RSI is neutral at 50.17, indicating no extreme conditions currently present. MACD histogram displays POSITIVE momentum divergence."
+}
