@@ -833,7 +833,7 @@ def main():
             print(f"HTML Report saved to: {html_path}")
             
         update_index() # Update local reports index
-        update_index(target_dest="../../index.html") # Update repository root portal
+        update_index(target_dest="../index.html") # Update repository root portal
 
 if __name__ == "__main__":
     main()
