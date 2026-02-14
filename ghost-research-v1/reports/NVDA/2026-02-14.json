@@ -1,0 +1,356 @@
+{
+  "ticker": "NVDA",
+  "logo_url": "https://logo.clearbit.com/www.nvidia.com",
+  "generated_at": "2026-02-14 19:58:00 UTC",
+  "market_snapshot": {
+    "price": 182.81,
+    "market_cap": "$4450.88B",
+    "beta": 2.31,
+    "range_52w": "86.62 - 212.19",
+    "analyst_target": 253.88
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 4,
+      "SELL": 13,
+      "NEUTRAL": 9
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 1,
+      "SELL": 2,
+      "NEUTRAL": 8,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "SELL",
+        "MACD": "BUY",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "SELL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 3,
+      "SELL": 11,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "BUY",
+        "SMA100": "SELL",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": -0.09,
+      "Recommend.All": -0.31,
+      "Recommend.MA": -0.53,
+      "RSI": 47.33,
+      "RSI[1]": 51.64,
+      "Stoch.K": 66.37,
+      "Stoch.D": 73.26,
+      "Stoch.K[1]": 76.33,
+      "Stoch.D[1]": 76.19,
+      "CCI20": -25.96,
+      "CCI20[1]": 50.67,
+      "ADX": 11.72,
+      "ADX+DI": 23.31,
+      "ADX-DI": 27.21,
+      "ADX+DI[1]": 24.96,
+      "ADX-DI[1]": 23.26,
+      "AO": 2.42,
+      "AO[1]": 1.58,
+      "Mom": -8.32,
+      "Mom[1]": -5.57,
+      "MACD.macd": 0.11,
+      "MACD.signal": 0.03,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 67.07,
+      "Rec.WR": 0,
+      "W.R": -49.79,
+      "Rec.BBPower": -1,
+      "BBPower": -1.65,
+      "Rec.UO": 0,
+      "UO": 45.33,
+      "close": 182.81,
+      "EMA5": 185.59,
+      "SMA5": 187.68,
+      "EMA10": 185.41,
+      "SMA10": 183.58,
+      "EMA20": 185.32,
+      "SMA20": 185.3,
+      "EMA30": 185.24,
+      "SMA30": 185.68,
+      "EMA50": 184.97,
+      "SMA50": 184.41,
+      "EMA100": 182.02,
+      "SMA100": 185.63,
+      "EMA200": 171.08,
+      "SMA200": 171.68,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 182.76,
+      "Rec.VWMA": -1,
+      "VWMA": 184.79,
+      "Rec.HullMA9": -1,
+      "HullMA9": 189.49,
+      "Pivot.M.Classic.S3": 153.98,
+      "Pivot.M.Classic.S2": 170.86,
+      "Pivot.M.Classic.S1": 181.0,
+      "Pivot.M.Classic.Middle": 187.74,
+      "Pivot.M.Classic.R1": 197.88,
+      "Pivot.M.Classic.R2": 204.62,
+      "Pivot.M.Classic.R3": 221.5,
+      "Pivot.M.Fibonacci.S3": 170.86,
+      "Pivot.M.Fibonacci.S2": 177.31,
+      "Pivot.M.Fibonacci.S1": 181.3,
+      "Pivot.M.Fibonacci.Middle": 187.74,
+      "Pivot.M.Fibonacci.R1": 194.19,
+      "Pivot.M.Fibonacci.R2": 198.18,
+      "Pivot.M.Fibonacci.R3": 204.62,
+      "Pivot.M.Camarilla.S3": 186.49,
+      "Pivot.M.Camarilla.S2": 188.04,
+      "Pivot.M.Camarilla.S1": 189.58,
+      "Pivot.M.Camarilla.Middle": 187.74,
+      "Pivot.M.Camarilla.R1": 192.68,
+      "Pivot.M.Camarilla.R2": 194.22,
+      "Pivot.M.Camarilla.R3": 195.77,
+      "Pivot.M.Woodie.S3": 161.88,
+      "Pivot.M.Woodie.S2": 169.75,
+      "Pivot.M.Woodie.S1": 178.76,
+      "Pivot.M.Woodie.Middle": 186.62,
+      "Pivot.M.Woodie.R1": 195.64,
+      "Pivot.M.Woodie.R2": 203.5,
+      "Pivot.M.Woodie.R3": 212.52,
+      "Pivot.M.Demark.S1": 184.37,
+      "Pivot.M.Demark.Middle": 189.43,
+      "Pivot.M.Demark.R1": 201.25,
+      "open": 187.47,
+      "P.SAR": 172.79,
+      "BB.lower": 174.42,
+      "BB.upper": 196.19,
+      "AO[2]": -1.54,
+      "volume": 161886229,
+      "change": -2.21,
+      "low": 181.59,
+      "high": 187.5
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 184.41,
+      "sma_200": 171.66,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 185.47,
+      "21": 185.31,
+      "34": 185.2,
+      "55": 184.84,
+      "89": 182.95
+    },
+    "volume": {
+      "current": "161,647,400",
+      "avg_20d": "175,290,385",
+      "rel_vol": 0.92,
+      "rel_vol_pct": 46
+    },
+    "pivots": {
+      "R2": 206.24,
+      "R1": 194.52,
+      "PP": 182.78,
+      "S1": 171.06,
+      "S2": 159.32
+    },
+    "fibonacci": {
+      "100": 212.18,
+      "61.8": 164.21,
+      "50": 149.39,
+      "38.2": 134.57,
+      "0": 86.6
+    },
+    "oscillators": {
+      "rsi_14": 46.68,
+      "adx_14": 12.51,
+      "macd_hist": 0.08
+    }
+  },
+  "volatility": {
+    "hv_30d": 36.59,
+    "iv_current": 40.04
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-04",
+      "insider": "KRESS COLETTE M.",
+      "type": "",
+      "value": "$8.37M"
+    },
+    {
+      "date": "2026-01-21",
+      "insider": "PURI AJAY K",
+      "type": "",
+      "value": "$36.01M"
+    },
+    {
+      "date": "2026-01-13",
+      "insider": "KRESS COLETTE M.",
+      "type": "",
+      "value": "$8.81M"
+    },
+    {
+      "date": "2026-01-07",
+      "insider": "PURI AJAY K",
+      "type": "",
+      "value": "$37.56M"
+    },
+    {
+      "date": "2026-01-02",
+      "insider": "ROBERTSON DONALD F JR",
+      "type": "",
+      "value": "$15.19M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Has This Back-From-the-Dead Semiconductor Stock Really Gotten Its Mojo Back?",
+      "link": "https://www.fool.com/investing/2026/02/14/has-this-back-from-the-dead-semiconductor-stock-re/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Bulls are more optimistic than ever, but there's a lot of skepticism...."
+    },
+    {
+      "title": "The World's Top Electric Vehicle Stock Might Be Your Last Guess",
+      "link": "https://www.fool.com/investing/2026/02/14/the-worlds-top-electric-vehicle-stock-might-be-you/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Here is a rare investor chance to scoop up shares of arguably the best auto stock at a discount. Here's why you don't want to miss out...."
+    },
+    {
+      "title": "What Is One of the Best Retail Stocks to Own for the Next 10 Years?",
+      "link": "https://www.fool.com/investing/2026/02/14/what-is-one-of-the-best-retail-stocks-to-own-for-t/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Investors may be overlooking the retail giant's transformation...."
+    },
+    {
+      "title": "Prediction: Buying This Vanguard ETF Today Could Set You Up for Life",
+      "link": "https://www.fool.com/investing/2026/02/14/prediction-buying-this-vanguard-etf-today-set-up/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "This ETF could turn $200 per month into more than $1 million...."
+    },
+    {
+      "title": "Down 87%, Should You Buy the Dip on Dogecoin or Avoid the Meme Token?",
+      "link": "https://www.fool.com/investing/2026/02/14/down-87-buy-the-dip-dogecoin-avoid-meme-token/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Dogecoin has struggled mightily to post durable gains in recent years...."
+    },
+    {
+      "title": "Zelenskiy Open to Elections if Ceasefire Is Reached",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video",
+      "source": "BLOOMBERG",
+      "summary": "Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: ..."
+    },
+    {
+      "title": "ECB Revamps Euro Liquidity Offer to Boost Currency\u2019s Appeal",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
+      "source": "BLOOMBERG",
+      "summary": "The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/has-this-back-from-the-dead-semiconductor-stock-re/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Has This Back-From-the-Dead Semiconductor Stock Really Gotten Its Mojo Back?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Bulls are more optimistic than ever, but there's a lot of skepticism...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/the-worlds-top-electric-vehicle-stock-might-be-you/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>The World's Top Electric Vehicle Stock Might Be Your Last Guess</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Here is a rare investor chance to scoop up shares of arguably the best auto stock at a discount. Here's why you don't want to miss out...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/what-is-one-of-the-best-retail-stocks-to-own-for-t/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>What Is One of the Best Retail Stocks to Own for the Next 10 Years?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Investors may be overlooking the retail giant's transformation...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/prediction-buying-this-vanguard-etf-today-set-up/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Prediction: Buying This Vanguard ETF Today Could Set You Up for Life</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> This ETF could turn $200 per month into more than $1 million...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/down-87-buy-the-dip-dogecoin-avoid-meme-token/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Down 87%, Should You Buy the Dip on Dogecoin or Avoid the Meme Token?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Dogecoin has struggled mightily to post durable gains in recent years...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video' target='_blank' class='hover:text-neon-blue transition-colors'>Zelenskiy Open to Elections if Ceasefire Is Reached</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal' target='_blank' class='hover:text-neon-blue transition-colors'>ECB Revamps Euro Liquidity Offer to Boost Currency\u2019s Appeal</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "NVIDIA Corporation // Technology [Semiconductors]. Mkt Cap: $4450.88B. Rev Growth: 62.5%. PM: 53.0%.",
+    "forward_looking": "Beta: 2.314. Range(52W): 86.62 - 212.19. Analyst Tgt: 253.88464."
+  },
+  "geospatial": {
+    "site": "Santa Clara, United States",
+    "coords": "https://www.nvidia.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 75,
+    "fundamental": 80,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": -3.8,
+    "target_price": 175.82,
+    "graham_num": 21.09,
+    "lynch_value": 252.5,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}
