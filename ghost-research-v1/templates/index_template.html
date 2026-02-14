@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha-Playbook // ARCHIVE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #050505;
+            color: #d1d5db;
+            font-family: 'JetBrains Mono', monospace;
+            background-image: radial-gradient(circle at 50% 50%, #111 0%, #050505 100%);
+        }
+
+        .hud-border {
+            border: 1px solid #1e293b;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .neon-blue {
+            color: #22d3ee;
+            text-shadow: 0 0 5px rgba(34, 211, 238, 0.5);
+        }
+
+        .neon-amber {
+            color: #fb923c;
+            text-shadow: 0 0 5px rgba(251, 146, 60, 0.5);
+        }
+    </style>
+</head>
+
+<body class="p-8">
+    <div class="max-w-4xl mx-auto hud-border bg-black/40 p-6 rounded-sm">
+        <div class="flex justify-between items-center border-b border-gray-800 pb-4 mb-6">
+            <div>
+                <h1 class="text-2xl font-black tracking-tighter text-white font-tech uppercase">Report.Archive <span
+                        class="animate-pulse neon-blue">●</span></h1>
+                <p class="text-[10px] text-gray-500 uppercase tracking-widest">Mission Control Center // Public Ledger
+                </p>
+            </div>
+            <div class="text-right">
+                <div class="text-[10px] text-gray-600 uppercase">Status</div>
+                <div class="text-xs neon-amber">SECURE.ARCHIVE.CLEARED</div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {% for ticker, reports in archive.items() %}
+            <div
+                class="bg-black/60 border border-gray-800/50 p-4 rounded-sm hover:border-neon-blue transition-all group">
+                <div class="flex items-center space-x-3 mb-3">
+                    <div
+                        class="w-8 h-8 bg-neon-blue/10 flex items-center justify-center text-neon-blue font-bold text-lg border border-neon-blue/30">
+                        {{ ticker[0] }}
+                    </div>
+                    <div>
+                        <h2 class="text-white font-bold tracking-tight text-sm uppercase">{{ ticker }}</h2>
+                        <p class="text-[9px] text-gray-500">{{ reports|length }} REPORTS GENERATED</p>
+                    </div>
+                </div>
+                <div class="space-y-1">
+                    {% for report in reports %}
+                    <a href="{{ ticker }}/{{ report.filename }}"
+                        class="flex justify-between items-center text-[10px] p-1.5 hover:bg-neon-blue/5 rounded transition-colors group">
+                        <span class="text-gray-400 group-hover:text-white">{{ report.date }}</span>
+                        <span class="text-neon-blue opacity-0 group-hover:opacity-100 transition-opacity">ACCESS //
+                            LINK</span>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% else %}
+            <div class="col-span-2 text-center py-12 text-gray-600 italic text-sm">
+                // ARCHIVE EMPTY. NO REPORTS DETECTED.
+            </div>
+            {% endfor %}
+        </div>
+
+        <div
+            class="mt-12 pt-4 border-t border-gray-900 text-[9px] text-gray-700 font-mono text-center uppercase tracking-widest">
+            Sam the Ghost Quant // Intelligence Protocol v1.2
+        </div>
+    </div>
+</body>
+
+</html>

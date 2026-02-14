@@ -1,0 +1,356 @@
+{
+  "ticker": "DDD",
+  "logo_url": "https://logo.clearbit.com/www.3dsystems.com",
+  "generated_at": "2026-02-14 18:19:01 UTC",
+  "market_snapshot": {
+    "price": 2.08,
+    "market_cap": "$303.80M",
+    "beta": 2.38,
+    "range_52w": "1.32 - 4.84",
+    "analyst_target": 3.62
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 1,
+      "SELL": 16,
+      "NEUTRAL": 9
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 1,
+      "SELL": 2,
+      "NEUTRAL": 8,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "SELL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 0,
+      "SELL": 14,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "SELL",
+        "SMA200": "SELL",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": -0.09,
+      "Recommend.All": -0.51,
+      "Recommend.MA": -0.93,
+      "RSI": 43.86,
+      "RSI[1]": 42.6,
+      "Stoch.K": 19.76,
+      "Stoch.D": 23.64,
+      "Stoch.K[1]": 48.99,
+      "Stoch.D[1]": 61.23,
+      "CCI20": -90.74,
+      "CCI20[1]": -97.66,
+      "ADX": 17.83,
+      "ADX+DI": 20.23,
+      "ADX-DI": 23.68,
+      "ADX+DI[1]": 21.07,
+      "ADX-DI[1]": 24.67,
+      "AO": -0.08,
+      "AO[1]": -0.06,
+      "Mom": -0.16,
+      "Mom[1]": -0.26,
+      "MACD.macd": -0.04,
+      "MACD.signal": -0.0,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 32.08,
+      "Rec.WR": 0,
+      "W.R": -77.08,
+      "Rec.BBPower": 0,
+      "BBPower": -0.23,
+      "Rec.UO": 0,
+      "UO": 45.34,
+      "close": 2.08,
+      "EMA5": 2.13,
+      "SMA5": 2.17,
+      "EMA10": 2.18,
+      "SMA10": 2.16,
+      "EMA20": 2.23,
+      "SMA20": 2.34,
+      "EMA30": 2.24,
+      "SMA30": 2.33,
+      "EMA50": 2.25,
+      "SMA50": 2.16,
+      "EMA100": 2.27,
+      "SMA100": 2.43,
+      "EMA200": 2.37,
+      "SMA200": 2.15,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 2.43,
+      "Rec.VWMA": -1,
+      "VWMA": 2.42,
+      "Rec.HullMA9": -1,
+      "HullMA9": 2.12,
+      "Pivot.M.Classic.S3": 0.11,
+      "Pivot.M.Classic.S2": 1.21,
+      "Pivot.M.Classic.S1": 1.72,
+      "Pivot.M.Classic.Middle": 2.31,
+      "Pivot.M.Classic.R1": 2.82,
+      "Pivot.M.Classic.R2": 3.41,
+      "Pivot.M.Classic.R3": 4.51,
+      "Pivot.M.Fibonacci.S3": 1.21,
+      "Pivot.M.Fibonacci.S2": 1.63,
+      "Pivot.M.Fibonacci.S1": 1.89,
+      "Pivot.M.Fibonacci.Middle": 2.31,
+      "Pivot.M.Fibonacci.R1": 2.73,
+      "Pivot.M.Fibonacci.R2": 2.99,
+      "Pivot.M.Fibonacci.R3": 3.41,
+      "Pivot.M.Camarilla.S3": 1.94,
+      "Pivot.M.Camarilla.S2": 2.04,
+      "Pivot.M.Camarilla.S1": 2.14,
+      "Pivot.M.Camarilla.Middle": 2.31,
+      "Pivot.M.Camarilla.R1": 2.34,
+      "Pivot.M.Camarilla.R2": 2.44,
+      "Pivot.M.Camarilla.R3": 2.54,
+      "Pivot.M.Woodie.S3": 0.53,
+      "Pivot.M.Woodie.S2": 1.16,
+      "Pivot.M.Woodie.S1": 1.63,
+      "Pivot.M.Woodie.Middle": 2.26,
+      "Pivot.M.Woodie.R1": 2.73,
+      "Pivot.M.Woodie.R2": 3.36,
+      "Pivot.M.Woodie.R3": 3.83,
+      "Pivot.M.Demark.S1": 2.02,
+      "Pivot.M.Demark.Middle": 2.45,
+      "Pivot.M.Demark.R1": 3.12,
+      "open": 2.04,
+      "P.SAR": 1.99,
+      "BB.lower": 1.88,
+      "BB.upper": 2.8,
+      "AO[2]": -0.06,
+      "volume": 1347149,
+      "change": 1.46,
+      "low": 2.04,
+      "high": 2.14
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 2.16,
+      "sma_200": 2.15,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 2.16,
+      "21": 2.23,
+      "34": 2.24,
+      "55": 2.25,
+      "89": 2.27
+    },
+    "volume": {
+      "current": "1,347,000",
+      "avg_20d": "3,296,740",
+      "rel_vol": 0.41,
+      "rel_vol_pct": 20
+    },
+    "pivots": {
+      "R2": 3.23,
+      "R1": 2.66,
+      "PP": 2.31,
+      "S1": 1.74,
+      "S2": 1.39
+    },
+    "fibonacci": {
+      "100": 4.85,
+      "61.8": 3.5,
+      "50": 3.08,
+      "38.2": 2.67,
+      "0": 1.32
+    },
+    "oscillators": {
+      "rsi_14": 33.64,
+      "adx_14": 8.05,
+      "macd_hist": -0.04
+    }
+  },
+  "volatility": {
+    "hv_30d": 101.14,
+    "iv_current": 185.16
+  },
+  "insider_transactions": [
+    {
+      "date": "2025-09-16",
+      "insider": "DRAYTON CLAUDIA",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-09-05",
+      "insider": "NORDSTROM PHYLLIS B",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-06-11",
+      "insider": "PADMANABHAN VASANT",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-06-11",
+      "insider": "CLINTON MALISSIA",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-06-11",
+      "insider": "TRACY JOHN J",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "3 Volatile Stocks with Warning Signs",
+      "link": "https://finance.yahoo.com/news/3-volatile-stocks-warning-signs-043249406.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "A highly volatile stock can deliver big gains - or just as easily wipe out a portfolio if things go south. While some investors embrace risk, mistakes..."
+    },
+    {
+      "title": "3 Industrials Stocks with Open Questions",
+      "link": "https://finance.yahoo.com/news/3-industrials-stocks-open-questions-043459976.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Even if they go mostly unnoticed, industrial businesses are the backbone of our country. Their momentum is also rising as lower interest rates have in..."
+    },
+    {
+      "title": "Plug Power, AeroVironment, Proto Labs, FuelCell Energy, and 3D Systems Shares Are Soaring, What You Need To Know",
+      "link": "https://finance.yahoo.com/news/plug-power-aerovironment-proto-labs-211544282.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "A number of stocks jumped in the afternoon session after the broader market rebounded from a tech-driven sell-off, with investors taking the opportuni..."
+    },
+    {
+      "title": "3D Systems Corporation (DDD) Strengthens Growth Outlook With Expanded Production Capabilities",
+      "link": "https://finance.yahoo.com/news/3d-systems-corporation-ddd-strengthens-141149639.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "3D Systems Corp (NYSE:DDD) is one of the best NYSE penny stocks to buy now. On January 5, 3D Systems Corp (NYSE:DDD) reiterated its aerospace and defe..."
+    },
+    {
+      "title": "3 Reasons DDD is Risky and 1 Stock to Buy Instead",
+      "link": "https://finance.yahoo.com/news/3-reasons-ddd-risky-1-040347562.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "3D Systems\u2019s 29.8% return over the past six months has outpaced the S&amp;P 500 by 21.2%, and its stock price has climbed to $2.29 per share. This per..."
+    },
+    {
+      "title": "Zelenskiy Open to Elections if Ceasefire Is Reached",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video",
+      "source": "BLOOMBERG",
+      "summary": "Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: ..."
+    },
+    {
+      "title": "ECB Revamps Euro Liquidity Offer to Boost Currency\u2019s Appeal",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
+      "source": "BLOOMBERG",
+      "summary": "The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/3-volatile-stocks-warning-signs-043249406.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Volatile Stocks with Warning Signs</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> A highly volatile stock can deliver big gains - or just as easily wipe out a portfolio if things go south. While some investors embrace risk, mistakes..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/3-industrials-stocks-open-questions-043459976.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Industrials Stocks with Open Questions</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Even if they go mostly unnoticed, industrial businesses are the backbone of our country. Their momentum is also rising as lower interest rates have in..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/plug-power-aerovironment-proto-labs-211544282.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Plug Power, AeroVironment, Proto Labs, FuelCell Energy, and 3D Systems Shares Are Soaring, What You Need To Know</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> A number of stocks jumped in the afternoon session after the broader market rebounded from a tech-driven sell-off, with investors taking the opportuni..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/3d-systems-corporation-ddd-strengthens-141149639.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3D Systems Corporation (DDD) Strengthens Growth Outlook With Expanded Production Capabilities</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> 3D Systems Corp (NYSE:DDD) is one of the best NYSE penny stocks to buy now. On January 5, 3D Systems Corp (NYSE:DDD) reiterated its aerospace and defe..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/3-reasons-ddd-risky-1-040347562.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Reasons DDD is Risky and 1 Stock to Buy Instead</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> 3D Systems\u2019s 29.8% return over the past six months has outpaced the S&amp;P 500 by 21.2%, and its stock price has climbed to $2.29 per share. This per..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video' target='_blank' class='hover:text-neon-blue transition-colors'>Zelenskiy Open to Elections if Ceasefire Is Reached</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal' target='_blank' class='hover:text-neon-blue transition-colors'>ECB Revamps Euro Liquidity Offer to Boost Currency\u2019s Appeal</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "3D Systems Corporation // Technology [Computer Hardware]. Mkt Cap: $303.80M. Rev Growth: -19.2%. PM: 4.0%.",
+    "forward_looking": "Beta: 2.381. Range(52W): 1.32 - 4.84. Analyst Tgt: 3.625."
+  },
+  "geospatial": {
+    "site": "Rock Hill, United States",
+    "coords": "https://www.3dsystems.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 60,
+    "fundamental": 60,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": 17.1,
+    "target_price": 2.44,
+    "graham_num": 1.25,
+    "lynch_value": 0,
+    "method": "BLENDED (Graham+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 60/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 60/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

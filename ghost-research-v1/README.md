@@ -22,6 +22,15 @@ The HUD's visual layer is powered by **Jinja2**, enabling a "Logic-in-Template" 
 - **Safe JSON Injection**: Critical for charting, Jinja2's `|safe` filter is used to bridge Python dictionaries directly into the browser's JavaScript memory without double-escaping issues.
 - **JS Equivalency (Nunjucks)**: For teams working in Node.js, the template syntax is nearly 1:1 compatible with **Nunjucks**, making the transition from Python reports to JS-based web apps seamless.
 
+### Publishing via GitHub Pages
+The system is optimized for "Public but Hidden" hosting via GitHub Pages:
+- **Automatic Indexing**: After every run, the script updates `reports/index.html`, providing a clean navigation layer for all generated reports.
+- **Deployment**:
+    1. Enable GitHub Pages in your repo settings (**Settings** > **Pages**).
+    2. Set **Source** to `Deploy from a branch`.
+    3. Set **Branch** to `main` and folder to `/(root)`.
+- **Access**: Your reports will be live at: `https://<username>.github.io/alpha-playbooks/ghost-research-v1/reports/`
+
 ## Future Roadmap: Data as an Endpoint
 The project is evolving toward a **Commercial API Endpoint**. The standardized JSON structure (minus the HTML wrapper) provides:
 1. **Developer Friendly**: The JSON is completely decoupled from the UI. A React or Vue developer can consume the "Signals" and "AI Narratives" without needing to understnd the underlying Python logic.

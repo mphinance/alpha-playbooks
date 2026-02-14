@@ -758,6 +758,47 @@ def save_series_json(ticker, chart_data, ema_data):
     print(f"Series Data saved to: {out_json}")
     return out_json
 
+def update_index():
+    """Scan reports directory and generate an index.html archive page."""
+    print("Updating reports index...")
+    try:
+        env = Environment(
+            loader=FileSystemLoader('templates'),
+            autoescape=select_autoescape(['html', 'xml'])
+        )
+        template = env.get_template('index_template.html')
+        
+        archive = {}
+        reports_dir = 'reports'
+        if not os.path.exists(reports_dir):
+            return
+            
+        # Scan folders (tickers)
+        for ticker in sorted(os.listdir(reports_dir)):
+            ticker_path = os.path.join(reports_dir, ticker)
+            if os.path.isdir(ticker_path):
+                # Scan HTML files in ticker folder
+                ticker_reports = []
+                for f in sorted(os.listdir(ticker_path), reverse=True):
+                    if f.endswith('.html') and f != 'index.html':
+                        # Use filename as date proxy if it matches YYYY-MM-DD
+                        date_str = f.replace('.html', '')
+                        ticker_reports.append({
+                            "filename": f,
+                            "date": date_str
+                        })
+                if ticker_reports:
+                    archive[ticker] = ticker_reports
+        
+        html = template.render(archive=archive)
+        
+        out_index = os.path.join(reports_dir, 'index.html')
+        with open(out_index, 'w') as f:
+            f.write(html)
+        print(f"Archive Index updated: {out_index}")
+    except Exception as e:
+        print(f"Error updating index: {e}")
+
 def main():
     parser = argparse.ArgumentParser(description="Generate Stock Playbook")
     parser.add_argument('--ticker', type=str, required=True, help='Stock Ticker Symbol')
@@ -773,6 +814,8 @@ def main():
         html_path = generate_html(data)
         if html_path:
             print(f"HTML Report saved to: {html_path}")
+            
+        update_index()
 
 if __name__ == "__main__":
     main()
