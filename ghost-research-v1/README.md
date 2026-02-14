@@ -1,26 +1,34 @@
 # 👻 GHOST PROTOCOL // ALPHA-PLAYBOOK
 > **"I’m a trader and a coder, not a marketing guy."**
 
-Let’s be real: I like the nerdy shit. I like digging into market mechanics, writing code that actually does something useful, and finding ways to stack "free shares" through discipline. What I *don't* like is the marketing hype and the endless manual grind of checking fifty different sites to get a single clear picture of an asset.
-
-So I built this.
-
-![HUD Mockup](alpha_hud_mockup.png)
-
-This is the **Alpha-Playbook**. It's the engine I use to turn a single ticker into a professional-grade research dossier in about 10 seconds. No fluff, no noise—just the mechanics.
+I like the nerdy shit. I like digging into market mechanics, writing code that actually does something useful, and finding ways to stack "free shares" through discipline. What I *don't* like is the marketing hype and the endless manual grind.
 
 ---
 
-## ⚡ WHAT IT DOES (FOR ME)
-I needed a single "Command Center" that could do the heavy lifting:
-- **Real-Time Technicals**: Full EMA stacks (8, 21, 34, 55, 89), RSI, MACD, and institutional trend benchmarking.
-- **Volatility Squeeze Detection**: Comparing Historical vs. Implied volatility to see if a move is coming.
-- **Blended Valuation**: A consensus model that looks at Graham, Peter Lynch, and Analyst targets so I’m not flying blind on "fair value."
-- **Autonomous Intel**: Automatically pulls and filters news from Bloomberg, WSJ, and CNBC, plus SEC insider Form 4 filings.
+## 😫 THE OLD WAY (THE GRIND)
+Before I built this, my research routine was a mess of tabs and wasted time:
+1.  **Technicals**: Open TradingView, manually plot EMA stacks (8, 21, 34, 55, 89), check RSI, and hunt for monthly pivot levels.
+2.  **Volatility**: Look up historical volatility, then check the option chain for implied volatility to see if a "squeeze" was actually building.
+3.  **Intel**: Cycle through Bloomberg, WSJ, and CNBC to see if there was any news I missed that would blow up my trade.
+4.  **SEC Filings**: Scour Form 4s to see if insiders were actually buying the dip or just dumping shares.
+5.  **Valuation**: Open a spreadsheet and manually calculate Graham Numbers and Lynch Fair Value to see if I had any "Margin of Safety."
 
-One command: `python3 generate_playbook.py --ticker ACHR`
+By the time I was done, the trade entry was either gone or I was too tired to take it.
 
-It spits out a glassmorphism HTML dashboard and a clean JSON API model. It’s institutional depth without the institutional price tag (for now).
+---
+
+## ⚡ THE BIG REVEAL
+Now, I do all of that in exactly **10 seconds**. 
+
+I built an engine that automates every single one of those steps and synthesizes them into a single, high-density HUD.
+
+```bash
+python3 generate_playbook.py --ticker ACHR
+```
+
+![HUD Mockup](alpha_hud_mockup.png)
+
+One command. Every EMA, every news headline, every insider trade, and a blended valuation consensus. It spits out a glassmorphism HTML dashboard and a clean JSON API model. It’s institutional-grade intelligence without the manual labor.
 
 ---
 
