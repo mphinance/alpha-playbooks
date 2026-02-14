@@ -3,6 +3,8 @@
 
 I like the nerdy shit. I like digging into market mechanics, writing code that actually does something useful, and finding ways to stack "free shares" through discipline. What I *don't* like is the marketing hype and the endless manual grind.
 
+A few people have asked for the source. For now, I'm keeping the engine under wraps. I’ve put a massive amount of time into refining these mechanics, and I believe the output has institutional-grade value—and I think that value is worth something. But while I can solve for price and volume all day, I’m still figuring out the "sales and marketing" side of this. I’m taking a beat to find the right way to release this that makes sense for everyone.
+
 ---
 
 ## 😫 THE OLD WAY (THE GRIND)
