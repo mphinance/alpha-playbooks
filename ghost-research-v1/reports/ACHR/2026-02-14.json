@@ -1,0 +1,356 @@
+{
+  "ticker": "ACHR",
+  "logo_url": "https://logo.clearbit.com/www.archer.com",
+  "generated_at": "2026-02-14 19:06:24 UTC",
+  "market_snapshot": {
+    "price": 6.77,
+    "market_cap": "$4.97B",
+    "beta": 3.1,
+    "range_52w": "5.48 - 14.62",
+    "analyst_target": 11.61
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 1,
+      "SELL": 15,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 1,
+      "SELL": 1,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 0,
+      "SELL": 14,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "SELL",
+        "SMA200": "SELL",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": -0.09,
+      "Recommend.All": -0.51,
+      "Recommend.MA": -0.93,
+      "RSI": 37.78,
+      "RSI[1]": 37.61,
+      "Stoch.K": 20.72,
+      "Stoch.D": 24.31,
+      "Stoch.K[1]": 50.28,
+      "Stoch.D[1]": 59.06,
+      "CCI20": -80.02,
+      "CCI20[1]": -89.06,
+      "ADX": 25.21,
+      "ADX+DI": 15.8,
+      "ADX-DI": 29.97,
+      "ADX+DI[1]": 16.26,
+      "ADX-DI[1]": 31.43,
+      "AO": -0.89,
+      "AO[1]": -0.9,
+      "Mom": -0.42,
+      "Mom[1]": -0.67,
+      "MACD.macd": -0.4,
+      "MACD.signal": -0.33,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 49.07,
+      "Rec.WR": 0,
+      "W.R": -77.84,
+      "Rec.BBPower": 0,
+      "BBPower": -0.75,
+      "Rec.UO": 0,
+      "UO": 46.81,
+      "close": 6.77,
+      "EMA5": 6.92,
+      "SMA5": 7.01,
+      "EMA10": 7.1,
+      "SMA10": 7.0,
+      "EMA20": 7.43,
+      "SMA20": 7.61,
+      "EMA30": 7.65,
+      "SMA30": 7.96,
+      "EMA50": 7.97,
+      "SMA50": 8.03,
+      "EMA100": 8.51,
+      "SMA100": 8.98,
+      "EMA200": 8.7,
+      "SMA200": 9.53,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 7.82,
+      "Rec.VWMA": -1,
+      "VWMA": 7.66,
+      "Rec.HullMA9": -1,
+      "HullMA9": 6.87,
+      "Pivot.M.Classic.S3": 3.5,
+      "Pivot.M.Classic.S2": 5.68,
+      "Pivot.M.Classic.S1": 6.44,
+      "Pivot.M.Classic.Middle": 7.86,
+      "Pivot.M.Classic.R1": 8.62,
+      "Pivot.M.Classic.R2": 10.04,
+      "Pivot.M.Classic.R3": 12.22,
+      "Pivot.M.Fibonacci.S3": 5.68,
+      "Pivot.M.Fibonacci.S2": 6.52,
+      "Pivot.M.Fibonacci.S1": 7.03,
+      "Pivot.M.Fibonacci.Middle": 7.86,
+      "Pivot.M.Fibonacci.R1": 8.7,
+      "Pivot.M.Fibonacci.R2": 9.21,
+      "Pivot.M.Fibonacci.R3": 10.04,
+      "Pivot.M.Camarilla.S3": 6.59,
+      "Pivot.M.Camarilla.S2": 6.79,
+      "Pivot.M.Camarilla.S1": 6.99,
+      "Pivot.M.Camarilla.Middle": 7.86,
+      "Pivot.M.Camarilla.R1": 7.39,
+      "Pivot.M.Camarilla.R2": 7.59,
+      "Pivot.M.Camarilla.R3": 7.79,
+      "Pivot.M.Woodie.S3": 3.93,
+      "Pivot.M.Woodie.S2": 5.52,
+      "Pivot.M.Woodie.S1": 6.11,
+      "Pivot.M.Woodie.Middle": 7.7,
+      "Pivot.M.Woodie.R1": 8.29,
+      "Pivot.M.Woodie.R2": 9.88,
+      "Pivot.M.Woodie.R3": 10.47,
+      "Pivot.M.Demark.S1": 6.06,
+      "Pivot.M.Demark.Middle": 7.67,
+      "Pivot.M.Demark.R1": 8.24,
+      "open": 6.83,
+      "P.SAR": 6.52,
+      "BB.lower": 6.1,
+      "BB.upper": 9.11,
+      "AO[2]": -0.98,
+      "volume": 25226974,
+      "change": 0.15,
+      "low": 6.68,
+      "high": 6.99
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 8.03,
+      "sma_200": 9.53,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 7.02,
+      "21": 7.45,
+      "34": 7.72,
+      "55": 8.04,
+      "89": 8.42
+    },
+    "volume": {
+      "current": "25,192,900",
+      "avg_20d": "36,837,780",
+      "rel_vol": 0.68,
+      "rel_vol_pct": 34
+    },
+    "pivots": {
+      "R2": 10.4,
+      "R1": 8.59,
+      "PP": 7.47,
+      "S1": 5.66,
+      "S2": 4.54
+    },
+    "fibonacci": {
+      "100": 14.62,
+      "61.8": 11.13,
+      "50": 10.05,
+      "38.2": 8.97,
+      "0": 5.48
+    },
+    "oscillators": {
+      "rsi_14": 31.79,
+      "adx_14": 32.04,
+      "macd_hist": -0.06
+    }
+  },
+  "volatility": {
+    "hv_30d": 70.42,
+    "iv_current": 97.66
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-02",
+      "insider": "MUNIZ THOMAS PAUL",
+      "type": "",
+      "value": "$1.00M"
+    },
+    {
+      "date": "2025-11-17",
+      "insider": "PERKINS TOSHA",
+      "type": "",
+      "value": "$337,401"
+    },
+    {
+      "date": "2025-11-17",
+      "insider": "MUNIZ THOMAS PAUL",
+      "type": "",
+      "value": "$679,389"
+    },
+    {
+      "date": "2025-11-17",
+      "insider": "LENTELL ERIC",
+      "type": "",
+      "value": "$310,959"
+    },
+    {
+      "date": "2025-11-17",
+      "insider": "GUPTA PRIYA",
+      "type": "",
+      "value": "$41,064"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Bold Prediction: Joby Aviation Is About to Soar. Here's Why.",
+      "link": "https://www.fool.com/investing/2026/02/12/bold-prediction-joby-is-about-to-soar-heres/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "This next-gen aircraft maker has plenty of irons in the fire...."
+    },
+    {
+      "title": "Archer To Report Fourth Quarter and Full Year 2025 Operating Update and Financial Results on March 2, 2026",
+      "link": "https://finance.yahoo.com/news/archer-report-fourth-quarter-full-223000708.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "SANTA CLARA, Calif., February 12, 2026--Archer Aviation Inc. (NYSE: ACHR) will report its fourth quarter and full year 2025 operating update and finan..."
+    },
+    {
+      "title": "Should You Buy Archer Aviation While It's Below $10?",
+      "link": "https://www.fool.com/investing/2026/02/13/should-you-buy-archer-aviation-while-its-below-10/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Archer Aviation is considered a leader in the disruptive eVTOL market...."
+    },
+    {
+      "title": "Why BlackRock Just Took an 8.1% Stake in Archer Aviation Stock",
+      "link": "https://www.fool.com/investing/2026/02/13/why-blackrock-just-took-an-x-stake-in-archer-aviat/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Is this eVTOL maker about to take off?..."
+    },
+    {
+      "title": "Is Nvidia Set to Help Joby Aviation Become the Tesla of the Skies?",
+      "link": "https://www.fool.com/investing/2026/02/14/is-nvidia-set-to-help-joby-aviation-become-the-tes/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The eVTOL company is preparing for certification in 2026 and also playing the long game in developing autonomous eVTOL, with the help of Nvidia...."
+    },
+    {
+      "title": "Zelenskiy Open to Elections if Ceasefire Is Reached",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video",
+      "source": "BLOOMBERG",
+      "summary": "Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: ..."
+    },
+    {
+      "title": "ECB Revamps Euro Liquidity Offer to Boost Currency\u2019s Appeal",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal",
+      "source": "BLOOMBERG",
+      "summary": "The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/12/bold-prediction-joby-is-about-to-soar-heres/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Bold Prediction: Joby Aviation Is About to Soar. Here's Why.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> This next-gen aircraft maker has plenty of irons in the fire...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/archer-report-fourth-quarter-full-223000708.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Archer To Report Fourth Quarter and Full Year 2025 Operating Update and Financial Results on March 2, 2026</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> SANTA CLARA, Calif., February 12, 2026--Archer Aviation Inc. (NYSE: ACHR) will report its fourth quarter and full year 2025 operating update and finan..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/13/should-you-buy-archer-aviation-while-its-below-10/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Should You Buy Archer Aviation While It's Below $10?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Archer Aviation is considered a leader in the disruptive eVTOL market...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/13/why-blackrock-just-took-an-x-stake-in-archer-aviat/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Why BlackRock Just Took an 8.1% Stake in Archer Aviation Stock</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Is this eVTOL maker about to take off?..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/is-nvidia-set-to-help-joby-aviation-become-the-tes/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Is Nvidia Set to Help Joby Aviation Become the Tesla of the Skies?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The eVTOL company is preparing for certification in 2026 and also playing the long game in developing autonomous eVTOL, with the help of Nvidia...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-14/zelenskiy-open-to-elections-if-ceasefire-is-reached-video' target='_blank' class='hover:text-neon-blue transition-colors'>Zelenskiy Open to Elections if Ceasefire Is Reached</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Ukrainian President Volodymyr Zelenskiy spoke at the 2026 Munich Security Conference, saying he's open to elections if ceasefire is reached. (Source: ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-14/ecb-revamps-euro-liquidity-offer-to-boost-currency-s-appeal' target='_blank' class='hover:text-neon-blue transition-colors'>ECB Revamps Euro Liquidity Offer to Boost Currency\u2019s Appeal</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> The European Central Bank is prepared to offer euro liquidity to monetary authorities from around the world, an effort to prevent market tensions and ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Archer Aviation Inc. // Industrials [Aerospace & Defense]. Mkt Cap: $4.97B. Rev Growth: 0.0%. PM: 0.0%.",
+    "forward_looking": "Beta: 3.105. Range(52W): 5.48 - 14.62. Analyst Tgt: 11.61111."
+  },
+  "geospatial": {
+    "site": "San Jose, United States",
+    "coords": "https://www.archer.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 20,
+    "fundamental": 60,
+    "grade": "D"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 71.5,
+    "target_price": 11.61,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 71.5%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 71.5%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}
