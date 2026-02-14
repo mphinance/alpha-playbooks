@@ -1,41 +1,70 @@
-# Alpha-Playbook Generator
+# 👻 GHOST PROTOCOL // ALPHA-PLAYBOOK GENERATOR
+> **Institutional-Grade Intelligence. Single Command Execution.**
 
-A high-performance stock analysis and intelligence report generator. This system fetches real-time market data, technical indicators, and news feeds to produce professional "Mission Control" HUD reports and standardized JSON data models.
+This isn't just a stock scraper. It's a **headless quant workstation** that synthesizes real-time market data, technical stacks, SEC filings, and global news into a high-density, "Cyber-Bloomberg" HUD.
 
-## Core Features
-- **Parallel Data Fetching**: Concurrent retrieval of price action, insider trades, and RSS news feeds.
-- **Advanced Technical Analysis**: Full EMA stacks (8, 21, 34, 55, 89) and volatility modeling.
-- **Interactive Visualization**: Robust charting using Plotly.js with zoom/pan and reset capabilities.
-- **Intelligent Narrative**: AI-synthesized analysis and verdicts based on technical and fundamental scores.
+---
 
-## Technical Architecture
+## ⚡ THE ONE-COMMAND WORKFLOW
+Generate a full research dossier, update the global index, and prepare for deployment with a single line:
 
-### Data Isolation & UI/UX Integration
-The system is designed with a strict separation between analysis and presentation:
-- **`[DATE].json`**: A minimized, focused JSON model containing scores, signals, and narratives. Ideal for external frontend developers or lightweight API integrations.
-- **`[DATE]_series.json`**: The heavy time-series sidecar containing OHLC and technical study data.
-- **Jinja2 Rendering**: The `generate_playbook.py` script serves as a controller that binds these JSON models into a final interactive HTML document.
+```bash
+python3 generate_playbook.py --ticker ACHR
+```
 
-### Specialized: Jinja2 Templating
-The HUD's visual layer is powered by **Jinja2**, enabling a "Logic-in-Template" approach that keeps the Python backend clean:
-- **Unified Context**: The template receives the full `data` object, allowing for dynamic iteration over news feeds, insider tables, and financial ratios.
-- **Safe JSON Injection**: Critical for charting, Jinja2's `|safe` filter is used to bridge Python dictionaries directly into the browser's JavaScript memory without double-escaping issues.
-- **JS Equivalency (Nunjucks)**: For teams working in Node.js, the template syntax is nearly 1:1 compatible with **Nunjucks**, making the transition from Python reports to JS-based web apps seamless.
+```mermaid
+graph LR
+    A[Ticker Input] --> B{Data Acquisition}
+    B --> C[yFinance: Price/SEC]
+    B --> D[RSS: Global News]
+    B --> E[TV: Tech Analysis]
+    C & D & E --> F[Ghost Synthesis Engine]
+    F --> G[HTML HUD v2]
+    F --> H[Signals JSON]
+    F --> I[Series JSON]
+    G & H & I --> J[Global Index Update]
+```
 
-### Publishing via GitHub Pages
-The system is optimized for "Public but Hidden" hosting via GitHub Pages:
-- **Automatic Indexing**: After every run, the script updates `reports/index.html`, providing a clean navigation layer for all generated reports.
-- **Deployment**:
-    1. Enable GitHub Pages in your repo settings (**Settings** > **Pages**).
-    2. Set **Source** to `Deploy from a branch`.
-    3. Set **Branch** to `main` and folder to `/(root)`.
-- **Access**: Your reports will be live at: `https://<username>.github.io/alpha-playbooks/ghost-research-v1/reports/`
+---
 
-## Future Roadmap: Data as an Endpoint
-The project is evolving toward a **Commercial API Endpoint**. The standardized JSON structure (minus the HTML wrapper) provides:
-1. **Developer Friendly**: The JSON is completely decoupled from the UI. A React or Vue developer can consume the "Signals" and "AI Narratives" without needing to understnd the underlying Python logic.
-2. **Scalability**: Decoupled backend architecture ready for transition to a REST API.
-3. **UI Agnostic**: Perfect for teams specializing in UIX who want to build custom interfaces on top of our institutional-grade analysis.
+## 🚀 CORE CAPABILITIES
+
+### 📊 ADVANCED TECHNICAL MATRIX
+We don't just look at price. We track the **Full Institutional Stack**:
+- **EMA Stacks**: 8, 21, 34, 55, 89 (The Harmonic Hierarchy).
+- **Price Benchmarking**: SMA 50 (Institutional Move) vs SMA 200 (The Line in the Sand).
+- **Momentum & Volatility**: Calculated RSI 14, MACD Histograms, and a custom **HV vs IV Analysis** to detect volatility compression.
+- **Fibonacci & Pivots**: Real-time calculated monthly pivots and 52-week Fibonacci retracements.
+
+### 📰 AUTONOMOUS INTEL FEED
+- **Multi-Source RSS Aggregation**: Bloomberg, WSJ, CNBC, FT, and SeekingAlpha.
+- **Ticker-Specific Deep Dives**: Real-time filtration of Yahoo Finance news specific to the target asset.
+- **Entity Linking**: News is linked and deduplicated directly into the HUD's Intel sidecar.
+
+### 🏛️ FUNDAMENTAL & SEC INSIGHTS
+- **SEC Filing Synthesis**: Automatically parses `yfinance` info into readable "Operations" and "Forward Looking" risk profiles.
+- **Insider Activity Tracker**: Real-time monitoring of Form 4 filings with automated buy/sell sentiment scoring.
+- **Valuation Consensus**: A blended model utilizing **Graham Number**, **Peter Lynch Fair Value**, and **Analyst Targets** to find the "Margin of Safety."
+
+### 🤖 AI-GRADED VERDICTS
+The "Ghost Quant" logic performs a final synthesis:
+- **Rule-Based Scoring**: Technical (Trend/Momentum) and Fundamental (Margins/Growth) scores out of 100.
+- **Execution Protocols**: Generates human-readable verdicts (e.g., *ACCUMULATE on Dips* or *DISTRIBUTE into Strength*) based on multi-factor analysis.
+
+---
+
+## 🛠️ ARCHITECTURE: DATA AS AN ENDPOINT
+The system is designed for **Front-End Agnosticism**. Every run generates three artifacts:
+1. **`HUD.html`**: The professional, glassmorphism "Command Center" UI.
+2. **`[DATE].json`**: Minimized signals and narratives ready for any React/Vue/Mobile frontend.
+3. **`[DATE]_series.json`**: Heavy time-series data for custom charting integrations (Plotly-ready).
+
+---
+
+## 📡 DEPLOYMENT
+Optimized for **Public-but-Hidden** research portals:
+- **Vultr / Web Server**: Automated `scp` syncing to live production directories.
+- **GitHub Pages**: Headless portal generation via `index.html` updates.
 
 ---
 *Generated by Sam the Ghost Quant*
