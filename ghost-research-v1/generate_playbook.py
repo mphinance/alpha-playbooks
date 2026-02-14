@@ -369,10 +369,20 @@ def fetch_ticker_data(ticker):
     tv_analysis = {}
     try:
         print(f"DEBUG: Fetching TradingView Analysis for {ticker}...", flush=True)
-        # Try finding the right exchange (defaulting to America/NASDAQ/NYSE logic)
-        exchange = "NASDAQ" 
+        # Auto-detect exchange from yfinance info
+        info = fundamentals.get('info', {})
+        exchange_map = {
+            'NMS': 'NASDAQ',
+            'NYQ': 'NYSE',
+            'NGM': 'NASDAQ',
+            'ASE': 'AMEX',
+            'PCX': 'ARCA'
+        }
+        raw_exchange = info.get('exchange', 'NMS')
+        exchange = exchange_map.get(raw_exchange, 'NASDAQ')
         screener = "america"
         
+        print(f"DEBUG: TradingView targeting {exchange} for {ticker}...", flush=True)
         handler = TA_Handler(
             symbol=ticker,
             screener=screener,
