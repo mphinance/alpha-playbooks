@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpha-Playbook // ARCHIVE</title>
+    <title>ALPHA.SYSTEM // COMMAND.CENTER</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=JetBrains+Mono:wght@400;700&display=swap"
@@ -14,12 +14,17 @@
             background-color: #050505;
             color: #d1d5db;
             font-family: 'JetBrains Mono', monospace;
-            background-image: radial-gradient(circle at 50% 50%, #111 0%, #050505 100%);
+            background-image:
+                linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+                linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)),
+                radial-gradient(circle at 50% 50%, #111 0%, #050505 100%);
+            background-size: 100% 2px, 3px 100%, 100% 100%;
         }
 
         .hud-border {
             border: 1px solid #1e293b;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.8);
         }
 
         .neon-blue {
@@ -31,59 +36,183 @@
             color: #fb923c;
             text-shadow: 0 0 5px rgba(251, 146, 60, 0.5);
         }
+
+        .neon-green {
+            color: #4ade80;
+            text-shadow: 0 0 5px rgba(74, 222, 128, 0.5);
+        }
+
+        .scanline {
+            width: 100%;
+            height: 100px;
+            z-index: 10;
+            background: linear-gradient(0deg, transparent, rgba(34, 211, 238, 0.05), transparent);
+            position: fixed;
+            top: 0;
+            animation: scan 8s linear infinite;
+        }
+
+        @keyframes scan {
+            0% {
+                top: -100px;
+            }
+
+            100% {
+                top: 100%;
+            }
+        }
     </style>
 </head>
 
-<body class="p-8">
-    <div class="max-w-4xl mx-auto hud-border bg-black/40 p-6 rounded-sm">
-        <div class="flex justify-between items-center border-b border-gray-800 pb-4 mb-6">
-            <div>
-                <h1 class="text-2xl font-black tracking-tighter text-white font-tech uppercase">Report.Archive <span
-                        class="animate-pulse neon-blue">●</span></h1>
-                <p class="text-[10px] text-gray-500 uppercase tracking-widest">Mission Control Center // Public Ledger
-                </p>
+<body class="p-4 md:p-12">
+    <div class="scanline"></div>
+
+    <div class="max-w-6xl mx-auto space-y-6 relative">
+        <!-- GLOBAL HEADER -->
+        <div
+            class="hud-border p-6 rounded-sm flex flex-col md:flex-row justify-between items-center border-l-4 border-neon-blue">
+            <div class="space-y-1">
+                <div class="flex items-center space-x-3">
+                    <h1 class="text-3xl font-black tracking-tighter text-white font-tech uppercase italic">
+                        ALPHA.SYSTEM <span class="neon-blue">●</span>
+                    </h1>
+                    <span
+                        class="text-[10px] bg-neon-blue/10 text-neon-blue px-2 py-0.5 border border-neon-blue/30 rounded-full animate-pulse">LIVE.DATA</span>
+                </div>
+                <p class="text-[10px] text-gray-500 uppercase tracking-[0.3em]">Institutional Research // Ghost Protocol
+                    v1.2</p>
             </div>
-            <div class="text-right">
-                <div class="text-[10px] text-gray-600 uppercase">Status</div>
-                <div class="text-xs neon-amber">SECURE.ARCHIVE.CLEARED</div>
+
+            <div class="flex space-x-8 mt-4 md:mt-0">
+                <div class="text-right">
+                    <div class="text-[10px] text-gray-600 uppercase">System Status</div>
+                    <div class="text-xs neon-green font-bold">OPERATIONAL</div>
+                </div>
+                <div class="text-right">
+                    <div class="text-[10px] text-gray-600 uppercase">Auth Level</div>
+                    <div class="text-xs text-white">QUANT.ACCESS</div>
+                </div>
+                <div class="text-right border-l border-gray-800 pl-4">
+                    <div class="text-[10px] text-gray-600 uppercase">Uptime</div>
+                    <div class="text-xs text-neon-amber">99.98%</div>
+                </div>
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {% for ticker, reports in archive.items() %}
-            <div
-                class="bg-black/60 border border-gray-800/50 p-4 rounded-sm hover:border-neon-blue transition-all group">
-                <div class="flex items-center space-x-3 mb-3">
-                    <div
-                        class="w-8 h-8 bg-neon-blue/10 flex items-center justify-center text-neon-blue font-bold text-lg border border-neon-blue/30">
-                        {{ ticker[0] }}
-                    </div>
-                    <div>
-                        <h2 class="text-white font-bold tracking-tight text-sm uppercase">{{ ticker }}</h2>
-                        <p class="text-[9px] text-gray-500">{{ reports|length }} REPORTS GENERATED</p>
+        <!-- MAIN GRID -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+            <!-- SIDEBAR: SYSTEM STATS & NODES -->
+            <div class="lg:col-span-1 space-y-6">
+                <!-- NODE SELECTOR / PORTALS -->
+                <div class="hud-border p-4 rounded-sm bg-black/40">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-4 border-b border-gray-800 pb-2">
+                        Central Node Gateways</div>
+                    <div class="space-y-3">
+                        <a href="{{ portal_path }}"
+                            class="block p-3 border border-gray-800 hover:border-neon-blue transition-colors group bg-black/20">
+                            <div
+                                class="text-[10px] text-neon-blue group-hover:text-white transition-colors uppercase font-bold">
+                                Legacy.Dashboard</div>
+                            <div class="text-[9px] text-gray-600 mt-1 uppercase italic leading-tight">Visual
+                                Quantitative v1.0 Gateway</div>
+                        </a>
+                        <div class="block p-3 border border-neon-amber/50 bg-neon-amber/5">
+                            <div class="text-[10px] text-neon-amber font-bold uppercase">Ghost.Research (Current)</div>
+                            <div class="text-[9px] text-gray-600 mt-1 uppercase italic leading-tight">Deep Intel &
+                                Playbook Archive</div>
+                        </div>
                     </div>
                 </div>
-                <div class="space-y-1">
-                    {% for report in reports %}
-                    <a href="{{ ticker }}/{{ report.filename }}"
-                        class="flex justify-between items-center text-[10px] p-1.5 hover:bg-neon-blue/5 rounded transition-colors group">
-                        <span class="text-gray-400 group-hover:text-white">{{ report.date }}</span>
-                        <span class="text-neon-blue opacity-0 group-hover:opacity-100 transition-opacity">ACCESS //
-                            LINK</span>
-                    </a>
+
+                <!-- ANALYTICS MINI -->
+                <div class="hud-border p-4 rounded-sm bg-black/40">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-4 border-b border-gray-800 pb-2">
+                        Global Metadata</div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <div class="text-[9px] text-gray-600 uppercase">Total Reports</div>
+                            <div class="text-xl font-bold text-white">{{ total_reports }}</div>
+                        </div>
+                        <div>
+                            <div class="text-[9px] text-gray-600 uppercase">Unique Assets</div>
+                            <div class="text-xl font-bold text-white">{{ total_tickers }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTENT: REPORT GRID -->
+            <div class="lg:col-span-3 space-y-4">
+                <div class="flex justify-between items-center px-2">
+                    <h2 class="text-xs font-bold text-gray-400 uppercase tracking-widest italic">Intelligence.Archive
+                        <span class="neon-blue">/</span> Ledger</h2>
+                    <div class="text-[10px] text-gray-600 uppercase">Updated: <span class="text-gray-400">{{
+                            last_updated }}</span></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {% for ticker, reports in archive.items() %}
+                    <div
+                        class="hud-border bg-black/60 p-5 rounded-sm hover:border-neon-blue transition-all group relative overflow-hidden">
+                        <!-- DECORATIVE BG Ticker -->
+                        <div
+                            class="absolute -bottom-4 -right-2 text-6xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            {{ ticker }}
+                        </div>
+
+                        <div class="flex items-start justify-between mb-4 relative z-10">
+                            <div class="flex items-center space-x-4">
+                                <div
+                                    class="w-12 h-12 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-2xl tracking-tighter italic">
+                                    {{ ticker[0] }}
+                                </div>
+                                <div>
+                                    <h3
+                                        class="text-lg font-black text-white tracking-tight uppercase group-hover:neon-blue transition-colors">
+                                        {{ ticker }}</h3>
+                                    <p class="text-[10px] text-gray-500 uppercase font-mono tracking-widest">{{
+                                        reports|length }} Playbooks Found</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-1.5 relative z-10">
+                            {% for report in reports[:3] %}
+                            <a href="{{ reports_root }}{{ ticker }}/{{ report.filename }}"
+                                class="flex justify-between items-center text-[10px] p-2 bg-black/30 border border-gray-800/40 hover:border-neon-blue/50 hover:bg-neon-blue/5 transition-all group/item">
+                                <span class="text-gray-500 group-hover/item:text-white font-mono">{{ report.date
+                                    }}</span>
+                                <span
+                                    class="text-neon-blue opacity-0 group-hover/item:opacity-100 transition-all font-bold tracking-tighter">RETRIEVE</span>
+                            </a>
+                            {% endfor %}
+                            {% if reports|length > 3 %}
+                            <div class="text-[9px] text-gray-700 text-center py-1 uppercase italic">+ {{ reports|length
+                                - 3 }} additional historical logs</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <div
+                        class="col-span-2 hud-border border-dashed border-gray-800 p-12 text-center text-gray-600 italic uppercase">
+                        // ARCHIVE_EMPTY: NO QUANT_PLAYBOOKS DETECTED IN STORAGE_GRID
+                    </div>
                     {% endfor %}
                 </div>
             </div>
-            {% else %}
-            <div class="col-span-2 text-center py-12 text-gray-600 italic text-sm">
-                // ARCHIVE EMPTY. NO REPORTS DETECTED.
-            </div>
-            {% endfor %}
         </div>
 
-        <div
-            class="mt-12 pt-4 border-t border-gray-900 text-[9px] text-gray-700 font-mono text-center uppercase tracking-widest">
-            Sam the Ghost Quant // Intelligence Protocol v1.2
+        <!-- FOOTER -->
+        <div class="text-center pt-10 pb-6 border-t border-gray-900 mt-12">
+            <div class="flex justify-center space-x-6 mb-4">
+                <span class="text-[9px] text-gray-700 uppercase tracking-[0.2em]">Hardware: Vultr.Compute</span>
+                <span class="text-[9px] text-gray-700 uppercase tracking-[0.2em]">Backend: Python.Ghost</span>
+                <span class="text-[9px] text-gray-700 uppercase tracking-[0.2em]">Frontend: Hud.Jinja2</span>
+            </div>
+            <p class="text-[10px] text-neon-blue font-tech uppercase tracking-[0.4em] opacity-40">
+                Sam the Ghost Quant // Intelligence Protocol // Distributed Research Network
+            </p>
         </div>
     </div>
 </body>

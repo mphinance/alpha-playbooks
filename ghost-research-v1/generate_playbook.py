@@ -758,9 +758,9 @@ def save_series_json(ticker, chart_data, ema_data):
     print(f"Series Data saved to: {out_json}")
     return out_json
 
-def update_index():
+def update_index(target_dest=None):
     """Scan reports directory and generate an index.html archive page."""
-    print("Updating reports index...")
+    print(f"Updating reports index at {target_dest or 'default'}...")
     try:
         env = Environment(
             loader=FileSystemLoader('templates'),
@@ -773,6 +773,8 @@ def update_index():
         if not os.path.exists(reports_dir):
             return
             
+        total_reports = 0
+        
         # Scan folders (tickers)
         for ticker in sorted(os.listdir(reports_dir)):
             ticker_path = os.path.join(reports_dir, ticker)
@@ -781,21 +783,36 @@ def update_index():
                 ticker_reports = []
                 for f in sorted(os.listdir(ticker_path), reverse=True):
                     if f.endswith('.html') and f != 'index.html':
-                        # Use filename as date proxy if it matches YYYY-MM-DD
                         date_str = f.replace('.html', '')
                         ticker_reports.append({
                             "filename": f,
                             "date": date_str
                         })
+                        total_reports += 1
                 if ticker_reports:
                     archive[ticker] = ticker_reports
         
-        html = template.render(archive=archive)
+        # Determine relative paths based on destination
+        # If target_dest is None, it goes to reports/index.html (old behavior)
+        # If target_dest is '../../index.html', it goes to repo root.
         
-        out_index = os.path.join(reports_dir, 'index.html')
-        with open(out_index, 'w') as f:
+        is_root = target_dest and 'reports' not in target_dest
+        reports_root = "" if not is_root else "ghost-research-v1/reports/"
+        portal_path = "../docs/index.html" if not is_root else "docs/index.html"
+
+        html = template.render(
+            archive=archive,
+            total_reports=total_reports,
+            total_tickers=len(archive),
+            last_updated=datetime.now().strftime("%Y-%m-%d %H:%M"),
+            reports_root=reports_root,
+            portal_path=portal_path
+        )
+        
+        out_path = target_dest if target_dest else os.path.join(reports_dir, 'index.html')
+        with open(out_path, 'w') as f:
             f.write(html)
-        print(f"Archive Index updated: {out_index}")
+        print(f"Archive Index updated: {out_path}")
     except Exception as e:
         print(f"Error updating index: {e}")
 
@@ -815,7 +832,8 @@ def main():
         if html_path:
             print(f"HTML Report saved to: {html_path}")
             
-        update_index()
+        update_index() # Update local reports index
+        update_index(target_dest="../../index.html") # Update repository root portal
 
 if __name__ == "__main__":
     main()
