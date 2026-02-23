@@ -1,0 +1,218 @@
+{
+  "ticker": "AMT",
+  "logo_url": "https://logo.clearbit.com/www.americantower.com",
+  "generated_at": "2026-02-21 08:21:30 UTC",
+  "market_snapshot": {
+    "price": 187.31,
+    "market_cap": "$87.71B",
+    "beta": 0.94,
+    "range_52w": "166.88 - 234.33",
+    "analyst_target": 217.5
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 177.49,
+      "sma_200": 193.37,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 185.43,
+      "21": 181.62,
+      "34": 180.1,
+      "55": 179.76,
+      "89": 181.49
+    },
+    "volume": {
+      "current": "2,484,100",
+      "avg_20d": "3,254,835",
+      "rel_vol": 0.76,
+      "rel_vol_pct": 38
+    },
+    "pivots": {
+      "R2": 208.14,
+      "R1": 197.73,
+      "PP": 183.2,
+      "S1": 172.79,
+      "S2": 158.26
+    },
+    "fibonacci": {
+      "100": 230.04,
+      "61.8": 205.92,
+      "50": 198.46,
+      "38.2": 191.01,
+      "0": 166.88
+    },
+    "oscillators": {
+      "rsi_14": 58.45,
+      "adx_14": 19.07,
+      "macd_hist": 1.08
+    }
+  },
+  "volatility": {
+    "hv_30d": 29.94,
+    "iv_current": 30.18
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-17",
+      "insider": "SMITH RODNEY M",
+      "type": "",
+      "value": "$6.60M"
+    },
+    {
+      "date": "2026-02-17",
+      "insider": "SMITH RODNEY M",
+      "type": "",
+      "value": "$3.25M"
+    },
+    {
+      "date": "2025-10-31",
+      "insider": "REILLY EUGENE F",
+      "type": "",
+      "value": "$994,110"
+    },
+    {
+      "date": "2025-07-31",
+      "insider": "FONT JUAN HERNANDEZ",
+      "type": "",
+      "value": "$149,998"
+    },
+    {
+      "date": "2025-03-17",
+      "insider": "GOEL SANJAY",
+      "type": "",
+      "value": "$863,680"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "American Tower (AMT) Stock Drops Despite Market Gains: Important Facts to Note",
+      "link": "https://finance.yahoo.com/news/american-tower-amt-stock-drops-231504970.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "American Tower (AMT) reached $186.62 at the closing of the latest trading day, reflecting a -3.35% change compared to its last close...."
+    },
+    {
+      "title": "Retirees Are Eyeing VNQ for Quarterly Income While Growth Investors Look Away",
+      "link": "https://247wallst.com/investing/2026/02/19/retirees-are-eyeing-vnq-for-quarterly-income-while-growth-investors-look-away/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Real estate investment trusts offer one of the simplest ways to add property exposure to a portfolio without managing buildings or dealing with tenant..."
+    },
+    {
+      "title": "Ahead of American Tower (AMT) Q4 Earnings: Get Ready With Wall Street Estimates for Key Metrics",
+      "link": "https://finance.yahoo.com/news/ahead-american-tower-amt-q4-141507060.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Get a deeper insight into the potential performance of American Tower (AMT) for the quarter ended December 2025 by going beyond Wall Street's top-and-..."
+    },
+    {
+      "title": "5 Infrastructure REITs Quietly Powering AI While Getting No Credit for It",
+      "link": "https://247wallst.com/investing/2026/02/19/5-infrastructure-reits-quietly-powering-ai-while-getting-no-credit-for-it/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "While Nvidia (NASDAQ: NVDA) stock surged 34.9% over the past year and the S&amp;P 500 gained 12.2%, the infrastructure REITs powering AI\u2019s physical ba..."
+    },
+    {
+      "title": "CTO Realty (CTO) Q4 FFO and Revenues Surpass Estimates",
+      "link": "https://finance.yahoo.com/news/cto-realty-cto-q4-ffo-223502477.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "CTO Realty (CTO) delivered FFO and revenue surprises of +2.00% and +0.34%, respectively, for the quarter ended December 2025. Do the numbers hold clue..."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/american-tower-amt-stock-drops-231504970.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>American Tower (AMT) Stock Drops Despite Market Gains: Important Facts to Note</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> American Tower (AMT) reached $186.62 at the closing of the latest trading day, reflecting a -3.35% change compared to its last close...."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/19/retirees-are-eyeing-vnq-for-quarterly-income-while-growth-investors-look-away/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Retirees Are Eyeing VNQ for Quarterly Income While Growth Investors Look Away</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Real estate investment trusts offer one of the simplest ways to add property exposure to a portfolio without managing buildings or dealing with tenant..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/ahead-american-tower-amt-q4-141507060.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Ahead of American Tower (AMT) Q4 Earnings: Get Ready With Wall Street Estimates for Key Metrics</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Get a deeper insight into the potential performance of American Tower (AMT) for the quarter ended December 2025 by going beyond Wall Street's top-and-..."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/19/5-infrastructure-reits-quietly-powering-ai-while-getting-no-credit-for-it/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>5 Infrastructure REITs Quietly Powering AI While Getting No Credit for It</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> While Nvidia (NASDAQ: NVDA) stock surged 34.9% over the past year and the S&amp;P 500 gained 12.2%, the infrastructure REITs powering AI\u2019s physical ba..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/cto-realty-cto-q4-ffo-223502477.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>CTO Realty (CTO) Q4 FFO and Revenues Surpass Estimates</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> CTO Realty (CTO) delivered FFO and revenue surprises of +2.00% and +0.34%, respectively, for the quarter ended December 2025. Do the numbers hold clue..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "American Tower Corporation // Real Estate [REIT - Specialty]. Mkt Cap: $87.71B. Rev Growth: 7.7%. PM: 28.1%.",
+    "forward_looking": "Beta: 0.944. Range(52W): 166.88 - 234.33. Analyst Tgt: 217.5."
+  },
+  "geospatial": {
+    "site": "Boston, United States",
+    "coords": "https://www.americantower.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 35,
+    "fundamental": 80,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -46.6,
+    "target_price": 100.1,
+    "graham_num": 34.51,
+    "lynch_value": 48.28,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 35/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-46.6%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 35/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-46.6%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}

@@ -1,0 +1,218 @@
+{
+  "ticker": "KTOS",
+  "logo_url": "https://logo.clearbit.com/www.kratosdefense.com",
+  "generated_at": "2026-02-21 08:21:15 UTC",
+  "market_snapshot": {
+    "price": 96.08,
+    "market_cap": "$16.37B",
+    "beta": 1.09,
+    "range_52w": "23.9 - 134.0",
+    "analyst_target": 115.7
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 95.05,
+      "sma_200": 71.67,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 96.12,
+      "21": 97.85,
+      "34": 97.38,
+      "55": 94.67,
+      "89": 89.68
+    },
+    "volume": {
+      "current": "4,623,100",
+      "avg_20d": "3,412,535",
+      "rel_vol": 1.35,
+      "rel_vol_pct": 67
+    },
+    "pivots": {
+      "R2": 137.43,
+      "R1": 116.75,
+      "PP": 100.63,
+      "S1": 79.95,
+      "S2": 63.83
+    },
+    "fibonacci": {
+      "100": 134.0,
+      "61.8": 91.94,
+      "50": 78.95,
+      "38.2": 65.96,
+      "0": 23.9
+    },
+    "oscillators": {
+      "rsi_14": 45.96,
+      "adx_14": 13.14,
+      "macd_hist": -0.27
+    }
+  },
+  "volatility": {
+    "hv_30d": 101.23,
+    "iv_current": 101.54
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-17",
+      "insider": "MENDOZA MARIE C",
+      "type": "",
+      "value": "$132,120"
+    },
+    {
+      "date": "2026-02-17",
+      "insider": "CARRAI PHILLIP D",
+      "type": "",
+      "value": "$590,913"
+    },
+    {
+      "date": "2026-02-12",
+      "insider": "JARVIS SCOT B",
+      "type": "",
+      "value": "$442,000"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "CARTER DAVID M",
+      "type": "",
+      "value": "$349,593"
+    },
+    {
+      "date": "2026-02-02",
+      "insider": "LUND DEANNA HOM",
+      "type": "",
+      "value": "$484,363"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Kratos Expands Role In Hypersonics Satellites And Autonomy Programs",
+      "link": "https://finance.yahoo.com/news/kratos-expands-role-hypersonics-satellites-082020905.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Kratos Defense & Security Solutions (NasdaqGS:KTOS) has been awarded major contracts for hypersonic vehicle systems by the Department of War\u2019s Joint H..."
+    },
+    {
+      "title": "Is Kratos (KTOS) Turning Hypersonics And Software-Defined Satellites Into A Durable Competitive Edge?",
+      "link": "https://finance.yahoo.com/news/kratos-ktos-turning-hypersonics-software-161004640.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "In recent days, Kratos Defense & Security Solutions announced multi-million dollar contracts to provide the ground segment for Airbus\u2019s OmanSat-1 soft..."
+    },
+    {
+      "title": "Investment Manager Bets on Proto Labs Stock, According to Recent SEC Filing",
+      "link": "https://www.fool.com/coverage/filings/2026/02/19/investment-manager-bets-on-proto-labs-stock-according-to-recent-sec-filing/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Proto Labs provides rapid digital manufacturing for engineers and product developers, using an e-commerce-driven, technology-enabled model...."
+    },
+    {
+      "title": "Prometheus Energetics Breaks Ground on New Solid Rocket Motor Manufacturing Campus in Indiana",
+      "link": "https://finance.yahoo.com/news/prometheus-energetics-breaks-ground-solid-125900384.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Prometheus Energetics, LLC, a U.S.-based merchant supplier of solid rocket motors (SRMs) and energetics and a joint venture between Kratos Defense & S..."
+    },
+    {
+      "title": "What Should Be Your Stance on ATRO Stock Ahead of Q4 Earnings?",
+      "link": "https://finance.yahoo.com/news/stance-atro-stock-ahead-q4-181300336.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "ATRO heads into Q4 earnings with estimates pointing to 25% EPS growth, rising backlog and margin gains amid strong aerospace demand...."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/kratos-expands-role-hypersonics-satellites-082020905.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Kratos Expands Role In Hypersonics Satellites And Autonomy Programs</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Kratos Defense & Security Solutions (NasdaqGS:KTOS) has been awarded major contracts for hypersonic vehicle systems by the Department of War\u2019s Joint H..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/kratos-ktos-turning-hypersonics-software-161004640.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Is Kratos (KTOS) Turning Hypersonics And Software-Defined Satellites Into A Durable Competitive Edge?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> In recent days, Kratos Defense & Security Solutions announced multi-million dollar contracts to provide the ground segment for Airbus\u2019s OmanSat-1 soft..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/coverage/filings/2026/02/19/investment-manager-bets-on-proto-labs-stock-according-to-recent-sec-filing/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Investment Manager Bets on Proto Labs Stock, According to Recent SEC Filing</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Proto Labs provides rapid digital manufacturing for engineers and product developers, using an e-commerce-driven, technology-enabled model...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/prometheus-energetics-breaks-ground-solid-125900384.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Prometheus Energetics Breaks Ground on New Solid Rocket Motor Manufacturing Campus in Indiana</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Prometheus Energetics, LLC, a U.S.-based merchant supplier of solid rocket motors (SRMs) and energetics and a joint venture between Kratos Defense & S..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/stance-atro-stock-ahead-q4-181300336.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>What Should Be Your Stance on ATRO Stock Ahead of Q4 Earnings?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> ATRO heads into Q4 earnings with estimates pointing to 25% EPS growth, rising backlog and margin gains amid strong aerospace demand...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Kratos Defense & Security Solutions, Inc. // Industrials [Aerospace & Defense]. Mkt Cap: $16.37B. Rev Growth: 26.0%. PM: 1.6%.",
+    "forward_looking": "Beta: 1.094. Range(52W): 23.9 - 134.0. Analyst Tgt: 115.7."
+  },
+  "geospatial": {
+    "site": "San Diego, United States",
+    "coords": "https://www.kratosdefense.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 95,
+    "fundamental": 70,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -56.7,
+    "target_price": 41.65,
+    "graham_num": 5.86,
+    "lynch_value": 3.38,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-56.7%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-56.7%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

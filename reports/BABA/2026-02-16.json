@@ -1,0 +1,325 @@
+{
+  "ticker": "BABA",
+  "logo_url": "https://logo.clearbit.com/www.alibabagroup.com",
+  "generated_at": "2026-02-16 21:26:39 UTC",
+  "market_snapshot": {
+    "price": 155.73,
+    "market_cap": "$371.78B",
+    "beta": 0.39,
+    "range_52w": "95.73 - 192.67",
+    "analyst_target": 198.33
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 4,
+      "SELL": 14,
+      "NEUTRAL": 8
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 2,
+      "SELL": 2,
+      "NEUTRAL": 7,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "SELL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "BUY",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 2,
+      "SELL": 12,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0,
+      "Recommend.All": -0.33,
+      "Recommend.MA": -0.67,
+      "RSI": 41.71,
+      "RSI[1]": 44.52,
+      "Stoch.K": 16.79,
+      "Stoch.D": 25.36,
+      "Stoch.K[1]": 44.47,
+      "Stoch.D[1]": 42.49,
+      "CCI20": -137.81,
+      "CCI20[1]": -103.43,
+      "ADX": 16.32,
+      "ADX+DI": 23.06,
+      "ADX-DI": 30.54,
+      "ADX+DI[1]": 24.83,
+      "ADX-DI[1]": 27.51,
+      "AO": -0.74,
+      "AO[1]": 0.55,
+      "Mom": -13.83,
+      "Mom[1]": -15.52,
+      "MACD.macd": -0.36,
+      "MACD.signal": 1.24,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 14.79,
+      "Rec.WR": 1,
+      "W.R": -89.69,
+      "Rec.BBPower": 0,
+      "BBPower": -14.89,
+      "Rec.UO": 0,
+      "UO": 48.46,
+      "close": 155.73,
+      "EMA5": 160.13,
+      "SMA5": 161.66,
+      "EMA10": 162.26,
+      "SMA10": 161.97,
+      "EMA20": 163.32,
+      "SMA20": 166.51,
+      "EMA30": 162.88,
+      "SMA30": 163.98,
+      "EMA50": 161.73,
+      "SMA50": 159.38,
+      "EMA100": 157.48,
+      "SMA100": 163.88,
+      "EMA200": 146.28,
+      "SMA200": 143.87,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 163.19,
+      "Rec.VWMA": -1,
+      "VWMA": 167.16,
+      "Rec.HullMA9": -1,
+      "HullMA9": 160.75,
+      "Pivot.M.Classic.S3": 93.65,
+      "Pivot.M.Classic.S2": 129.48,
+      "Pivot.M.Classic.S1": 149.52,
+      "Pivot.M.Classic.Middle": 165.31,
+      "Pivot.M.Classic.R1": 185.35,
+      "Pivot.M.Classic.R2": 201.14,
+      "Pivot.M.Classic.R3": 236.97,
+      "Pivot.M.Fibonacci.S3": 129.48,
+      "Pivot.M.Fibonacci.S2": 143.17,
+      "Pivot.M.Fibonacci.S1": 151.62,
+      "Pivot.M.Fibonacci.Middle": 165.31,
+      "Pivot.M.Fibonacci.R1": 179.0,
+      "Pivot.M.Fibonacci.R2": 187.45,
+      "Pivot.M.Fibonacci.R3": 201.14,
+      "Pivot.M.Camarilla.S3": 159.71,
+      "Pivot.M.Camarilla.S2": 162.99,
+      "Pivot.M.Camarilla.S1": 166.28,
+      "Pivot.M.Camarilla.Middle": 165.31,
+      "Pivot.M.Camarilla.R1": 172.84,
+      "Pivot.M.Camarilla.R2": 176.13,
+      "Pivot.M.Camarilla.R3": 179.41,
+      "Pivot.M.Woodie.S3": 114.23,
+      "Pivot.M.Woodie.S2": 129.75,
+      "Pivot.M.Woodie.S1": 150.06,
+      "Pivot.M.Woodie.Middle": 165.58,
+      "Pivot.M.Woodie.R1": 185.89,
+      "Pivot.M.Woodie.R2": 201.41,
+      "Pivot.M.Woodie.R3": 221.72,
+      "Pivot.M.Demark.S1": 157.41,
+      "Pivot.M.Demark.Middle": 169.26,
+      "Pivot.M.Demark.R1": 193.24,
+      "open": 152.85,
+      "P.SAR": 170.0,
+      "BB.lower": 154.27,
+      "BB.upper": 178.75,
+      "AO[2]": 0.62,
+      "volume": 16045448,
+      "change": -1.89,
+      "low": 152.85,
+      "high": 158.11
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 159.38,
+      "sma_200": 143.57,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 161.58,
+      "21": 163.31,
+      "34": 162.65,
+      "55": 161.42,
+      "89": 158.56
+    },
+    "volume": {
+      "current": "16,029,700",
+      "avg_20d": "12,058,660",
+      "rel_vol": 1.33,
+      "rel_vol_pct": 66
+    },
+    "pivots": {
+      "R2": 191.47,
+      "R1": 173.6,
+      "PP": 163.23,
+      "S1": 145.36,
+      "S2": 134.98
+    },
+    "fibonacci": {
+      "100": 192.67,
+      "61.8": 155.03,
+      "50": 143.4,
+      "38.2": 131.78,
+      "0": 94.14
+    },
+    "oscillators": {
+      "rsi_14": 31.26,
+      "adx_14": 13.34,
+      "macd_hist": -1.6
+    }
+  },
+  "volatility": {
+    "hv_30d": 51.32,
+    "iv_current": 53.62
+  },
+  "insider_transactions": [],
+  "intel_feed": [
+    {
+      "title": "Alibaba Group Holding Ltd Unveils Qwen3.5 AI Model",
+      "link": "https://finance.yahoo.com/news/alibaba-group-holding-ltd-unveils-122925075.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "New release targets agentic AI with lower costs and improved performance...."
+    },
+    {
+      "title": "Morgan Stanley and Jefferies Stay Positive on Alibaba (BABA)",
+      "link": "https://finance.yahoo.com/news/morgan-stanley-jefferies-stay-positive-124201612.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the 15 AI Stocks That Are Skyrocketing. On January 15, Morgan Stanley reiterated its Overweight ra..."
+    },
+    {
+      "title": "Brokers Suggest Investing in Alibaba (BABA): Read This Before Placing a Bet",
+      "link": "https://finance.yahoo.com/news/brokers-suggest-investing-alibaba-baba-143003750.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The average brokerage recommendation (ABR) for Alibaba (BABA) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts ma..."
+    },
+    {
+      "title": "Meta Is the Winner in Smart Glasses. How Big the Business Can Get.",
+      "link": "https://finance.yahoo.com/m/8a716a7c-55e8-3ddc-8685-1154a9247e31/meta-is-the-winner-in-smart.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Meta Platforms and its manufacturing partner sold more seven million pairs of smart glasses in 2025. Here's how the growth could affect the stock...."
+    },
+    {
+      "title": "Alibaba\u2019s New AI Model Runs 8x Faster While Sentiment Hits 60.6",
+      "link": "https://247wallst.com/investing/2026/02/16/alibabas-new-ai-model-runs-8x-faster-while-sentiment-hits-60-6/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Over the past week, shares of Alibaba (NYSE:BABA) fell 4.46%, coinciding with a shift in retail investor sentiment. Discussion around the stock remain..."
+    },
+    {
+      "title": "Palantir Alumni Launch Europe-Focused Defense Startup",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-13/palantir-alumni-launch-thiel-backed-european-defense-startup",
+      "source": "BLOOMBERG",
+      "summary": "Defense startup Onodrim is emerging from stealth with an audacious pitch: it wants to build Europe\u2019s next industrial powerhouse for war...."
+    },
+    {
+      "title": "Stocks, Bonds Fluctuate in Holiday-Thinned Trade: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks and bonds posted small moves amid muted holiday trading after Friday\u2019s benign US inflation data reinforced expectations that the Federal Reserv..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/alibaba-group-holding-ltd-unveils-122925075.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Alibaba Group Holding Ltd Unveils Qwen3.5 AI Model</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> New release targets agentic AI with lower costs and improved performance...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/morgan-stanley-jefferies-stay-positive-124201612.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Morgan Stanley and Jefferies Stay Positive on Alibaba (BABA)</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Alibaba Group Holding Limited (NYSE:BABA) is one of the 15 AI Stocks That Are Skyrocketing. On January 15, Morgan Stanley reiterated its Overweight ra..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/brokers-suggest-investing-alibaba-baba-143003750.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Brokers Suggest Investing in Alibaba (BABA): Read This Before Placing a Bet</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The average brokerage recommendation (ABR) for Alibaba (BABA) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts ma..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/8a716a7c-55e8-3ddc-8685-1154a9247e31/meta-is-the-winner-in-smart.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Meta Is the Winner in Smart Glasses. How Big the Business Can Get.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Meta Platforms and its manufacturing partner sold more seven million pairs of smart glasses in 2025. Here's how the growth could affect the stock...."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/16/alibabas-new-ai-model-runs-8x-faster-while-sentiment-hits-60-6/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Alibaba\u2019s New AI Model Runs 8x Faster While Sentiment Hits 60.6</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Over the past week, shares of Alibaba (NYSE:BABA) fell 4.46%, coinciding with a shift in retail investor sentiment. Discussion around the stock remain..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-13/palantir-alumni-launch-thiel-backed-european-defense-startup' target='_blank' class='hover:text-neon-blue transition-colors'>Palantir Alumni Launch Europe-Focused Defense Startup</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Defense startup Onodrim is emerging from stealth with an audacious pitch: it wants to build Europe\u2019s next industrial powerhouse for war...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks, Bonds Fluctuate in Holiday-Thinned Trade: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks and bonds posted small moves amid muted holiday trading after Friday\u2019s benign US inflation data reinforced expectations that the Federal Reserv..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Alibaba Group Holding Limited // Consumer Cyclical [Internet Retail]. Mkt Cap: $371.78B. Rev Growth: 4.8%. PM: 12.2%.",
+    "forward_looking": "Beta: 0.39. Range(52W): 95.73 - 192.67. Analyst Tgt: 198.3279."
+  },
+  "geospatial": {
+    "site": "Causeway Bay, Hong Kong",
+    "coords": "https://www.alibabagroup.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 80,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -27.3,
+    "target_price": 113.18,
+    "graham_num": 104.83,
+    "lynch_value": 36.38,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-27.3%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-27.3%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

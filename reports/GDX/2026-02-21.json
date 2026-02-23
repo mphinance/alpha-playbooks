@@ -1,0 +1,187 @@
+{
+  "ticker": "GDX",
+  "logo_url": "",
+  "generated_at": "2026-02-21 08:15:59 UTC",
+  "market_snapshot": {
+    "price": 106.26,
+    "market_cap": "N/A",
+    "beta": "N/A",
+    "range_52w": "38.58 - 113.5",
+    "analyst_target": "N/A"
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 95.22,
+      "sma_200": 70.74,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 103.02,
+      "21": 101.01,
+      "34": 98.56,
+      "55": 94.46,
+      "89": 88.57
+    },
+    "volume": {
+      "current": "23,431,400",
+      "avg_20d": "34,614,320",
+      "rel_vol": 0.68,
+      "rel_vol_pct": 33
+    },
+    "pivots": {
+      "R2": 125.42,
+      "R1": 115.84,
+      "PP": 103.92,
+      "S1": 94.34,
+      "S2": 82.42
+    },
+    "fibonacci": {
+      "100": 113.5,
+      "61.8": 84.77,
+      "50": 75.9,
+      "38.2": 67.03,
+      "0": 38.3
+    },
+    "oscillators": {
+      "rsi_14": 62.73,
+      "adx_14": 6.73,
+      "macd_hist": -0.04
+    }
+  },
+  "volatility": {
+    "hv_30d": 66.25,
+    "iv_current": 52.33
+  },
+  "insider_transactions": [],
+  "intel_feed": [
+    {
+      "title": "3 Contrarian \"Buy the Dip\" Picks\u2014and One Area to Avoid",
+      "link": "https://www.marketbeat.com/stock-ideas/3-contrarian-buy-the-dip-picks-and-one-area-to-avoid/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Jeff Clark of TradeSmith discusses contrarian setups in oversold software, discounted Bitcoin, and Albertsons as rotation hits former leaders\u2014plus why..."
+    },
+    {
+      "title": "SLV vs. GDX: Investing in The Top Precious Metals",
+      "link": "https://www.fool.com/coverage/etfs/2026/02/07/slv-vs-gdx-investing-in-the-top-precious-metals/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Precious metals can be a hedge against the U.S. dollar, and these two ETFs offer exposure to two of the top precious metals on the market...."
+    },
+    {
+      "title": "3 Leveraged Gold Picks That Can Turn Small Moves Into Big Ones",
+      "link": "https://www.marketbeat.com/stock-ideas/3-leveraged-gold-picks-that-can-turn-small-moves-into-big-ones/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "With the gold rally perhaps reigniting after a late-January reversal, investors looking for amplified gains might consider leveraged funds, but risk r..."
+    },
+    {
+      "title": "VanEck Renames Green Metals ETF to Reflect Copper\u2019s Role in Global Electrification and AI-Driven Infrastructure",
+      "link": "https://finance.yahoo.com/news/vaneck-renames-green-metals-etf-130000833.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "NEW YORK, February 13, 2026--VanEck announces name and ticker change for its VanEck Green Metals ETF (GMET) which is now the VanEck Copper and Green M..."
+    },
+    {
+      "title": "GDX vs. SIL: The Pros and Cons of Gold and Silver Miner ETFs",
+      "link": "https://www.fool.com/coverage/etfs/2026/02/14/gdx-vs-sil-the-pros-and-cons-of-gold-and-silver-miner-etfs/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Expense ratios, diversification, and risk profiles set these mining ETFs apart\u2014see how these factors shape their roles in a portfolio...."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Mexico, Canada Get Exemption to 10% US Levy But USMCA Risk Looms",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/mexico-canada-get-exemption-to-10-us-levy-but-usmca-risk-looms",
+      "source": "BLOOMBERG",
+      "summary": "The US Supreme Court\u2019s decision to strike down many of Donald Trump\u2019s tariffs offers some relief to Mexico and Canada, but a much bigger set of risks ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.marketbeat.com/stock-ideas/3-contrarian-buy-the-dip-picks-and-one-area-to-avoid/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Contrarian \"Buy the Dip\" Picks\u2014and One Area to Avoid</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Jeff Clark of TradeSmith discusses contrarian setups in oversold software, discounted Bitcoin, and Albertsons as rotation hits former leaders\u2014plus why..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/coverage/etfs/2026/02/07/slv-vs-gdx-investing-in-the-top-precious-metals/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>SLV vs. GDX: Investing in The Top Precious Metals</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Precious metals can be a hedge against the U.S. dollar, and these two ETFs offer exposure to two of the top precious metals on the market...."
+      },
+      {
+        "claim": "<a href='https://www.marketbeat.com/stock-ideas/3-leveraged-gold-picks-that-can-turn-small-moves-into-big-ones/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Leveraged Gold Picks That Can Turn Small Moves Into Big Ones</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> With the gold rally perhaps reigniting after a late-January reversal, investors looking for amplified gains might consider leveraged funds, but risk r..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/vaneck-renames-green-metals-etf-130000833.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>VanEck Renames Green Metals ETF to Reflect Copper\u2019s Role in Global Electrification and AI-Driven Infrastructure</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> NEW YORK, February 13, 2026--VanEck announces name and ticker change for its VanEck Green Metals ETF (GMET) which is now the VanEck Copper and Green M..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/coverage/etfs/2026/02/14/gdx-vs-sil-the-pros-and-cons-of-gold-and-silver-miner-etfs/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>GDX vs. SIL: The Pros and Cons of Gold and Silver Miner ETFs</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Expense ratios, diversification, and risk profiles set these mining ETFs apart\u2014see how these factors shape their roles in a portfolio...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/mexico-canada-get-exemption-to-10-us-levy-but-usmca-risk-looms' target='_blank' class='hover:text-neon-blue transition-colors'>Mexico, Canada Get Exemption to 10% US Levy But USMCA Risk Looms</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> The US Supreme Court\u2019s decision to strike down many of Donald Trump\u2019s tariffs offers some relief to Mexico and Canada, but a much bigger set of risks ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "VanEck Gold Miners ETF // N/A [N/A]. Mkt Cap: N/A. Rev Growth: 0.0%. PM: 0.0%.",
+    "forward_looking": "Beta: N/A. Range(52W): 38.58 - 113.5. Analyst Tgt: N/A."
+  },
+  "geospatial": {
+    "site": "Unknown, Unknown",
+    "coords": "N/A",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 100,
+    "fundamental": 50,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "UNKNOWN",
+    "gap_pct": 0,
+    "target_price": 0,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "UNKNOWN"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 100/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 100/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

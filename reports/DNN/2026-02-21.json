@@ -1,0 +1,218 @@
+{
+  "ticker": "DNN",
+  "logo_url": "https://logo.clearbit.com/denisonmines.com",
+  "generated_at": "2026-02-21 08:20:44 UTC",
+  "market_snapshot": {
+    "price": 4.06,
+    "market_cap": "$3.64B",
+    "beta": 1.64,
+    "range_52w": "1.08 - 4.43",
+    "analyst_target": 5.0
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 3.38,
+      "sma_200": 2.52,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 3.94,
+      "21": 3.82,
+      "34": 3.67,
+      "55": 3.45,
+      "89": 3.2
+    },
+    "volume": {
+      "current": "44,625,100",
+      "avg_20d": "50,614,035",
+      "rel_vol": 0.88,
+      "rel_vol_pct": 44
+    },
+    "pivots": {
+      "R2": 4.97,
+      "R1": 4.52,
+      "PP": 3.97,
+      "S1": 3.52,
+      "S2": 2.97
+    },
+    "fibonacci": {
+      "100": 4.43,
+      "61.8": 3.15,
+      "50": 2.75,
+      "38.2": 2.36,
+      "0": 1.08
+    },
+    "oscillators": {
+      "rsi_14": 52.17,
+      "adx_14": 18.23,
+      "macd_hist": -0.02
+    }
+  },
+  "volatility": {
+    "hv_30d": 73.53,
+    "iv_current": 76.56
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-30",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$230,040"
+    },
+    {
+      "date": "2026-01-30",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$262,800"
+    },
+    {
+      "date": "2026-01-29",
+      "insider": "Smith, Mary Joanne",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-01-29",
+      "insider": "Smith, Mary Joanne",
+      "type": "",
+      "value": "$43,470"
+    },
+    {
+      "date": "2026-01-28",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$1.55M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Where is Denison Mines Corp. (DNN) Headed According to the Street?",
+      "link": "https://finance.yahoo.com/news/where-denison-mines-corp-dnn-164444402.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Denison Mines Corp. (NYSE:DNN) is one of the best strong buy penny stocks to invest in. On February 4, CIBC reiterated a Buy rating on Denison Mines C..."
+    },
+    {
+      "title": "Denison Announces Award of Construction Management Contract to Wood Canada for the Phoenix Uranium Mine",
+      "link": "https://finance.yahoo.com/news/denison-announces-award-construction-management-113000402.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Denison Mines Corp. (\"Denison\" or the \"Company\") (TSX: DML; NYSE American: DNN) is pleased to announce that, following a competitive tender process, i..."
+    },
+    {
+      "title": "Greenridge Exploration Announces Commencement of Winter 2026 Drilling Program with Denison Mines at the Hook-Carter Uranium Project in the Athabasca Basin, Saskatchewan",
+      "link": "https://finance.yahoo.com/news/greenridge-exploration-announces-commencement-winter-130000584.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "VANCOUVER, British Columbia, Feb. 18, 2026 (GLOBE NEWSWIRE) -- Greenridge Exploration Inc. (\u201cGreenridge\u201d or the \u201cCompany\u201d) (CSE: GXP | FRA: HW3 | OTCQ..."
+    },
+    {
+      "title": "Denison Receives Final Regulatory Approval to Construct the Phoenix ISR Uranium Mine",
+      "link": "https://finance.yahoo.com/news/denison-receives-final-regulatory-approval-153100609.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Denison Mines Corp. (\"Denison\" or the \"Company\") (TSX: DML) (NYSE American: DNN) is pleased to announce that the Canadian Nuclear Safety Commission (\"..."
+    },
+    {
+      "title": "Foremost Clean Energy and Avalon Advanced Materials Interviews to Air on the RedChip Small Stocks, Big Money(TM) Show on Bloomberg TV",
+      "link": "https://finance.yahoo.com/news/foremost-clean-energy-avalon-advanced-191500403.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "ORLANDO, FL / ACCESS Newswire / February 20, 2026 / RedChip Companies will air interviews with Foremost Clean Energy Ltd. (NASDAQ:FMST)(CSE:FAT) and A..."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/where-denison-mines-corp-dnn-164444402.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Where is Denison Mines Corp. (DNN) Headed According to the Street?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Denison Mines Corp. (NYSE:DNN) is one of the best strong buy penny stocks to invest in. On February 4, CIBC reiterated a Buy rating on Denison Mines C..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/denison-announces-award-construction-management-113000402.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Denison Announces Award of Construction Management Contract to Wood Canada for the Phoenix Uranium Mine</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Denison Mines Corp. (\"Denison\" or the \"Company\") (TSX: DML; NYSE American: DNN) is pleased to announce that, following a competitive tender process, i..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/greenridge-exploration-announces-commencement-winter-130000584.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Greenridge Exploration Announces Commencement of Winter 2026 Drilling Program with Denison Mines at the Hook-Carter Uranium Project in the Athabasca Basin, Saskatchewan</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> VANCOUVER, British Columbia, Feb. 18, 2026 (GLOBE NEWSWIRE) -- Greenridge Exploration Inc. (\u201cGreenridge\u201d or the \u201cCompany\u201d) (CSE: GXP | FRA: HW3 | OTCQ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/denison-receives-final-regulatory-approval-153100609.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Denison Receives Final Regulatory Approval to Construct the Phoenix ISR Uranium Mine</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Denison Mines Corp. (\"Denison\" or the \"Company\") (TSX: DML) (NYSE American: DNN) is pleased to announce that the Canadian Nuclear Safety Commission (\"..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/foremost-clean-energy-avalon-advanced-191500403.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Foremost Clean Energy and Avalon Advanced Materials Interviews to Air on the RedChip Small Stocks, Big Money(TM) Show on Bloomberg TV</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> ORLANDO, FL / ACCESS Newswire / February 20, 2026 / RedChip Companies will air interviews with Foremost Clean Energy Ltd. (NASDAQ:FMST)(CSE:FAT) and A..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Denison Mines Corp. // Energy [Uranium]. Mkt Cap: $3.64B. Rev Growth: 50.4%. PM: 0.0%.",
+    "forward_looking": "Beta: 1.642. Range(52W): 1.08 - 4.43. Analyst Tgt: 4.9989033."
+  },
+  "geospatial": {
+    "site": "Toronto, Canada",
+    "coords": "https://denisonmines.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 95,
+    "fundamental": 70,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 23.1,
+    "target_price": 5.0,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 23.1%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 23.1%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

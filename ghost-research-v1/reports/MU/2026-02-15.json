@@ -1,0 +1,356 @@
+{
+  "ticker": "MU",
+  "logo_url": "https://logo.clearbit.com/www.micron.com",
+  "generated_at": "2026-02-15 08:47:53 UTC",
+  "market_snapshot": {
+    "price": 411.66,
+    "market_cap": "$463.33B",
+    "beta": 1.5,
+    "range_52w": "61.54 - 455.5",
+    "analyst_target": 389.1
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 15,
+      "SELL": 1,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 1,
+      "SELL": 1,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_BUY",
+      "BUY": 14,
+      "SELL": 0,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "BUY",
+        "SMA10": "BUY",
+        "EMA20": "BUY",
+        "SMA20": "BUY",
+        "EMA30": "BUY",
+        "SMA30": "BUY",
+        "EMA50": "BUY",
+        "SMA50": "BUY",
+        "EMA100": "BUY",
+        "SMA100": "BUY",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "BUY",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0,
+      "Recommend.All": 0.47,
+      "Recommend.MA": 0.93,
+      "RSI": 59.58,
+      "RSI[1]": 60.32,
+      "Stoch.K": 52.5,
+      "Stoch.D": 39.49,
+      "Stoch.K[1]": 44.4,
+      "Stoch.D[1]": 32.13,
+      "CCI20": 31.36,
+      "CCI20[1]": 79.26,
+      "ADX": 37.52,
+      "ADX+DI": 30.28,
+      "ADX-DI": 16.9,
+      "ADX+DI[1]": 32.78,
+      "ADX-DI[1]": 12.88,
+      "AO": 30.94,
+      "AO[1]": 30.17,
+      "Mom": -3.22,
+      "Mom[1]": -21.82,
+      "MACD.macd": 19.76,
+      "MACD.signal": 24.18,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 30.1,
+      "Rec.WR": 0,
+      "W.R": -47.86,
+      "Rec.BBPower": 0,
+      "BBPower": 16.57,
+      "Rec.UO": 0,
+      "UO": 60.15,
+      "close": 411.66,
+      "EMA5": 404.52,
+      "SMA5": 398.54,
+      "EMA10": 401.05,
+      "SMA10": 400.69,
+      "EMA20": 389.33,
+      "SMA20": 400.32,
+      "EMA30": 373.1,
+      "SMA30": 378.1,
+      "EMA50": 342.29,
+      "SMA50": 330.21,
+      "EMA100": 286.22,
+      "SMA100": 270.01,
+      "EMA200": 224.91,
+      "SMA200": 192.69,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 388.43,
+      "Rec.VWMA": 1,
+      "VWMA": 399.84,
+      "Rec.HullMA9": 1,
+      "HullMA9": 409.57,
+      "Pivot.M.Classic.S3": 67.13,
+      "Pivot.M.Classic.S2": 227.77,
+      "Pivot.M.Classic.S1": 321.33,
+      "Pivot.M.Classic.Middle": 388.41,
+      "Pivot.M.Classic.R1": 481.97,
+      "Pivot.M.Classic.R2": 549.05,
+      "Pivot.M.Classic.R3": 709.69,
+      "Pivot.M.Fibonacci.S3": 227.77,
+      "Pivot.M.Fibonacci.S2": 289.14,
+      "Pivot.M.Fibonacci.S1": 327.05,
+      "Pivot.M.Fibonacci.Middle": 388.41,
+      "Pivot.M.Fibonacci.R1": 449.78,
+      "Pivot.M.Fibonacci.R2": 487.69,
+      "Pivot.M.Fibonacci.R3": 549.05,
+      "Pivot.M.Camarilla.S3": 370.7,
+      "Pivot.M.Camarilla.S2": 385.43,
+      "Pivot.M.Camarilla.S1": 400.15,
+      "Pivot.M.Camarilla.Middle": 388.41,
+      "Pivot.M.Camarilla.R1": 429.61,
+      "Pivot.M.Camarilla.R2": 444.33,
+      "Pivot.M.Camarilla.R3": 459.06,
+      "Pivot.M.Woodie.S3": 171.22,
+      "Pivot.M.Woodie.S2": 233.04,
+      "Pivot.M.Woodie.S1": 331.86,
+      "Pivot.M.Woodie.Middle": 393.68,
+      "Pivot.M.Woodie.R1": 492.5,
+      "Pivot.M.Woodie.R2": 554.32,
+      "Pivot.M.Woodie.R3": 653.14,
+      "Pivot.M.Demark.S1": 354.87,
+      "Pivot.M.Demark.Middle": 405.19,
+      "Pivot.M.Demark.R1": 515.51,
+      "open": 405.19,
+      "P.SAR": 443.42,
+      "BB.lower": 356.31,
+      "BB.upper": 444.32,
+      "AO[2]": 25.22,
+      "volume": 33807483,
+      "change": -0.56,
+      "low": 392.71,
+      "high": 420.88
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 330.17,
+      "sma_200": 192.57,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 402.27,
+      "21": 387.78,
+      "34": 366.54,
+      "55": 335.39,
+      "89": 296.4
+    },
+    "volume": {
+      "current": "33,722,400",
+      "avg_20d": "42,009,325",
+      "rel_vol": 0.8,
+      "rel_vol_pct": 40
+    },
+    "pivots": {
+      "R2": 520.37,
+      "R1": 466.02,
+      "PP": 401.14,
+      "S1": 346.79,
+      "S2": 281.91
+    },
+    "fibonacci": {
+      "100": 455.5,
+      "61.8": 304.96,
+      "50": 258.46,
+      "38.2": 211.96,
+      "0": 61.42
+    },
+    "oscillators": {
+      "rsi_14": 54.93,
+      "adx_14": 37.38,
+      "macd_hist": -4.42
+    }
+  },
+  "volatility": {
+    "hv_30d": 75.79,
+    "iv_current": 73.49
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-02",
+      "insider": "SADANA SUMIT",
+      "type": "",
+      "value": "$10.75M"
+    },
+    {
+      "date": "2026-01-27",
+      "insider": "RAY MICHAEL CHARLES",
+      "type": "",
+      "value": "$5.03M"
+    },
+    {
+      "date": "2026-01-22",
+      "insider": "BHATIA MANISH H",
+      "type": "",
+      "value": "$10.41M"
+    },
+    {
+      "date": "2026-01-16",
+      "insider": "ALLEN SCOTT R",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-01-14",
+      "insider": "LIU TEYIN MARK",
+      "type": "",
+      "value": "$7.82M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "The Surge in Micron Technology Stock Looks Poised to Continue",
+      "link": "https://finance.yahoo.com/news/surge-micron-technology-stock-looks-010200212.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Driven by the global memory chip shortage, Micron Technology has enjoyed exceptional pricing power, an advantage that strongly supports the continued ..."
+    },
+    {
+      "title": "Micron\u2019s Early HBM4 Ramp Tests Durability Of AI Memory Boom",
+      "link": "https://finance.yahoo.com/news/micron-early-hbm4-ramp-tests-071005340.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Micron Technology, ticker NasdaqGS:MU, has begun high volume production and ahead of schedule shipments of its HBM4 memory chips. The company reports ..."
+    },
+    {
+      "title": "Micron Technology Says AI Memory Demand Still Outstrips Supply Through 2026, HBM4 Shipping Early",
+      "link": "https://www.marketbeat.com/instant-alerts/micron-technology-says-ai-memory-demand-still-outstrips-supply-through-2026-hbm4-shipping-early-2026-02-14/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Micron Technology (NASDAQ:MU) executives told investors at Wolfe\u2019s Auto, Auto Tech, and Semiconductor Conference that business conditions have strengt..."
+    },
+    {
+      "title": "Should You Forget Micron Technology and Buy This Artificial Intelligence (AI) Stock Instead?",
+      "link": "https://www.fool.com/investing/2026/02/14/forget-micron-technology-buy-ai-stock-sandisk/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Micron Technology stock has room to run higher, but there's another memory company that's leaving it in the dust...."
+    },
+    {
+      "title": "Why DRAM Shortages Are Pushing Micron (MU) Back Into the Spotlight",
+      "link": "https://finance.yahoo.com/news/why-dram-shortages-pushing-micron-142230987.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Micron Technology, Inc. (NASDAQ:MU) is one of the AI stocks currently on Wall Street\u2019s radar. Intensifying DRAM shortages and sharp DDR5 pricing momen..."
+    },
+    {
+      "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+      "source": "BLOOMBERG",
+      "summary": "Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+    },
+    {
+      "title": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+      "source": "BLOOMBERG",
+      "summary": "India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/surge-micron-technology-stock-looks-010200212.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>The Surge in Micron Technology Stock Looks Poised to Continue</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Driven by the global memory chip shortage, Micron Technology has enjoyed exceptional pricing power, an advantage that strongly supports the continued ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/micron-early-hbm4-ramp-tests-071005340.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Micron\u2019s Early HBM4 Ramp Tests Durability Of AI Memory Boom</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Micron Technology, ticker NasdaqGS:MU, has begun high volume production and ahead of schedule shipments of its HBM4 memory chips. The company reports ..."
+      },
+      {
+        "claim": "<a href='https://www.marketbeat.com/instant-alerts/micron-technology-says-ai-memory-demand-still-outstrips-supply-through-2026-hbm4-shipping-early-2026-02-14/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Micron Technology Says AI Memory Demand Still Outstrips Supply Through 2026, HBM4 Shipping Early</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Micron Technology (NASDAQ:MU) executives told investors at Wolfe\u2019s Auto, Auto Tech, and Semiconductor Conference that business conditions have strengt..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/forget-micron-technology-buy-ai-stock-sandisk/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Should You Forget Micron Technology and Buy This Artificial Intelligence (AI) Stock Instead?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Micron Technology stock has room to run higher, but there's another memory company that's leaving it in the dust...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/why-dram-shortages-pushing-micron-142230987.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Why DRAM Shortages Are Pushing Micron (MU) Back Into the Spotlight</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Micron Technology, Inc. (NASDAQ:MU) is one of the AI stocks currently on Wall Street\u2019s radar. Intensifying DRAM shortages and sharp DDR5 pricing momen..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus' target='_blank' class='hover:text-neon-blue transition-colors'>Goldman Upgrades Forecast for 2026 China Current-Account Surplus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes' target='_blank' class='hover:text-neon-blue transition-colors'>India Curbs Loans Extended to Brokers in Blow to Trading Volumes</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Micron Technology, Inc. // Technology [Semiconductors]. Mkt Cap: $463.33B. Rev Growth: 56.7%. PM: 28.1%.",
+    "forward_looking": "Beta: 1.505. Range(52W): 61.54 - 455.5. Analyst Tgt: 389.10257."
+  },
+  "geospatial": {
+    "site": "Boise, United States",
+    "coords": "https://www.micron.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 95,
+    "fundamental": 70,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": -11.1,
+    "target_price": 366.0,
+    "graham_num": 111.29,
+    "lynch_value": 597.62,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

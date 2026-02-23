@@ -1,0 +1,218 @@
+{
+  "ticker": "CLS",
+  "logo_url": "https://logo.clearbit.com/www.celestica.com",
+  "generated_at": "2026-02-21 08:19:28 UTC",
+  "market_snapshot": {
+    "price": 292.69,
+    "market_cap": "$33.76B",
+    "beta": 1.5,
+    "range_52w": "58.05 - 363.4",
+    "analyst_target": 383.89
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 303.03,
+      "sma_200": 235.31,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 291.25,
+      "21": 296.02,
+      "34": 298.86,
+      "55": 298.9,
+      "89": 290.07
+    },
+    "volume": {
+      "current": "1,827,000",
+      "avg_20d": "3,471,965",
+      "rel_vol": 0.53,
+      "rel_vol_pct": 26
+    },
+    "pivots": {
+      "R2": 389.5,
+      "R1": 341.09,
+      "PP": 303.8,
+      "S1": 255.39,
+      "S2": 218.1
+    },
+    "fibonacci": {
+      "100": 363.4,
+      "61.8": 246.76,
+      "50": 210.72,
+      "38.2": 174.69,
+      "0": 58.05
+    },
+    "oscillators": {
+      "rsi_14": 54.07,
+      "adx_14": 11.79,
+      "macd_hist": -0.46
+    }
+  },
+  "volatility": {
+    "hv_30d": 81.47,
+    "iv_current": 75.33
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-06",
+      "insider": "COOPER TODD CHRISTOPHER",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-06",
+      "insider": "PHILLIPS JASON",
+      "type": "",
+      "value": "$36.89M"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "TZEVELEKIS THEODOROS",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "MIONIS ROBERT ANDREW",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "COOPER TODD CHRISTOPHER",
+      "type": "",
+      "value": "$301,938"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Best Momentum Stocks to Buy for February 18th",
+      "link": "https://finance.yahoo.com/news/best-momentum-stocks-buy-february-150000270.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "CLS, RIO and BPOP made it to the Zacks Rank #1 (Strong Buy) momentum stocks list on February 18th, 2026...."
+    },
+    {
+      "title": "Traders Left With \u2018Unscratchable Itch\u2019 for Anthropic Exposure",
+      "link": "https://finance.yahoo.com/news/traders-left-unscratchable-itch-anthropic-111501092.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "For nearly a month investors have raced to dump shares of companies that could be disrupted by AI tools like Anthropic\u2019s Claude Cowork.  Sharp selling..."
+    },
+    {
+      "title": "OLED's Q4 Earnings Beat Estimates, Revenues Rise Y/Y",
+      "link": "https://finance.yahoo.com/news/oleds-q4-earnings-beat-estimates-132100836.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "OLED beats Q4 EPS estimates as revenues rise to $173M on strong material sales and royalties, guides 2026 revenues at $650M-$700M...."
+    },
+    {
+      "title": "Bandwidth Q4 Earnings Meet Estimates, Revenues Decline Y/Y",
+      "link": "https://finance.yahoo.com/news/bandwidth-q4-earnings-meet-estimates-133500763.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "BAND beats Q4 revenue estimates despite messaging and political campaign revenue dips, driven by cloud growth, AI solutions and stronger margins...."
+    },
+    {
+      "title": "Akamai Q4 Earnings Beat Estimates, Revenues Increase Y/Y",
+      "link": "https://finance.yahoo.com/news/akamai-q4-earnings-beat-estimates-140500142.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "AKAM tops Q4 estimates as Guardicore and API security fuel 7% revenue growth, while 2026 outlook signals steady margin and earnings expansion...."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/best-momentum-stocks-buy-february-150000270.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Best Momentum Stocks to Buy for February 18th</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> CLS, RIO and BPOP made it to the Zacks Rank #1 (Strong Buy) momentum stocks list on February 18th, 2026...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/traders-left-unscratchable-itch-anthropic-111501092.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Traders Left With \u2018Unscratchable Itch\u2019 for Anthropic Exposure</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> For nearly a month investors have raced to dump shares of companies that could be disrupted by AI tools like Anthropic\u2019s Claude Cowork.  Sharp selling..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/oleds-q4-earnings-beat-estimates-132100836.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>OLED's Q4 Earnings Beat Estimates, Revenues Rise Y/Y</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> OLED beats Q4 EPS estimates as revenues rise to $173M on strong material sales and royalties, guides 2026 revenues at $650M-$700M...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/bandwidth-q4-earnings-meet-estimates-133500763.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Bandwidth Q4 Earnings Meet Estimates, Revenues Decline Y/Y</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> BAND beats Q4 revenue estimates despite messaging and political campaign revenue dips, driven by cloud growth, AI solutions and stronger margins...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/akamai-q4-earnings-beat-estimates-140500142.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Akamai Q4 Earnings Beat Estimates, Revenues Increase Y/Y</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> AKAM tops Q4 estimates as Guardicore and API security fuel 7% revenue growth, while 2026 outlook signals steady margin and earnings expansion...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Celestica Inc. // Technology [Electronic Components]. Mkt Cap: $33.76B. Rev Growth: 43.6%. PM: 6.7%.",
+    "forward_looking": "Beta: 1.505. Range(52W): 58.05 - 363.4. Analyst Tgt: 383.89124."
+  },
+  "geospatial": {
+    "site": "Toronto, Canada",
+    "coords": "https://www.celestica.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 75,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": -14.3,
+    "target_price": 250.76,
+    "graham_num": 55.78,
+    "lynch_value": 312.61,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

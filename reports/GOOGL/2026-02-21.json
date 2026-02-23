@@ -1,0 +1,218 @@
+{
+  "ticker": "GOOGL",
+  "logo_url": "https://logo.clearbit.com/abc.xyz",
+  "generated_at": "2026-02-21 08:21:00 UTC",
+  "market_snapshot": {
+    "price": 314.98,
+    "market_cap": "$3810.31B",
+    "beta": 1.09,
+    "range_52w": "140.53 - 349.0",
+    "analyst_target": 375.65
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 320.24,
+      "sma_200": 245.53,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 310.86,
+      "21": 318.09,
+      "34": 318.76,
+      "55": 313.82,
+      "89": 300.65
+    },
+    "volume": {
+      "current": "53,180,700",
+      "avg_20d": "40,707,105",
+      "rel_vol": 1.31,
+      "rel_vol_pct": 65
+    },
+    "pivots": {
+      "R2": 372.83,
+      "R1": 343.9,
+      "PP": 320.08,
+      "S1": 291.15,
+      "S2": 267.33
+    },
+    "fibonacci": {
+      "100": 349.0,
+      "61.8": 269.22,
+      "50": 244.57,
+      "38.2": 219.93,
+      "0": 140.14
+    },
+    "oscillators": {
+      "rsi_14": 32.07,
+      "adx_14": 31.65,
+      "macd_hist": -2.74
+    }
+  },
+  "volatility": {
+    "hv_30d": 23.42,
+    "iv_current": 33.51
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-13",
+      "insider": "HENNESSY JOHN L",
+      "type": "",
+      "value": "$184,037"
+    },
+    {
+      "date": "2026-01-13",
+      "insider": "HENNESSY JOHN L",
+      "type": "",
+      "value": "$202,514"
+    },
+    {
+      "date": "2025-12-09",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-09-25",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-08-15",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$5.33M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Alphabet Stock Climbs as Friday's Trump Tariff Ruling Lifts Digital-Advertising Shares",
+      "link": "https://www.investopedia.com/alphabet-stock-climbs-as-friday-trump-tariff-ruling-lifts-digital-advertising-shares-googl-meta-11911100?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Companies that sell advertising were among Friday's gainers after the Supreme Court struck down most of President Donald Trump\u2019s tariffs...."
+    },
+    {
+      "title": "Why Alphabet Stock Topped the Market Today",
+      "link": "https://www.fool.com/investing/2026/02/20/why-alphabet-stock-topped-the-market-today/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Who says investors are wary of pricey AI investments these days?..."
+    },
+    {
+      "title": "Top Stocks to Double Up on Right Now",
+      "link": "https://www.fool.com/investing/2026/02/20/top-stocks-to-double-up-on-right-now/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The software bear market has bled into other pockets of the technology realm, and some stocks now trade at a rare discount...."
+    },
+    {
+      "title": "Nvidia Earnings Loom: A Closer Look at the Mag 7 Earnings Picture",
+      "link": "https://finance.yahoo.com/news/nvidia-earnings-loom-closer-look-004600895.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Impressively, Nvidia is on track to bring in almost four times as much in revenue in a single quarter as it did in all of 2021. But are things as good..."
+    },
+    {
+      "title": "Dow Jones Futures: Stock Market Rallies On Trump Tariff Decision; Iran, Nvidia In Focus",
+      "link": "https://finance.yahoo.com/m/3a31782f-5969-3157-9772-a6293c1ebb72/dow-jones-futures%3A-stock.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Dow Jones futures will open Sunday evening, along with S&amp;P 500 futures and Nasdaq futures. Nvidia earnings loom with investors also watching out f..."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.investopedia.com/alphabet-stock-climbs-as-friday-trump-tariff-ruling-lifts-digital-advertising-shares-googl-meta-11911100?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Alphabet Stock Climbs as Friday's Trump Tariff Ruling Lifts Digital-Advertising Shares</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Companies that sell advertising were among Friday's gainers after the Supreme Court struck down most of President Donald Trump\u2019s tariffs...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/20/why-alphabet-stock-topped-the-market-today/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Why Alphabet Stock Topped the Market Today</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Who says investors are wary of pricey AI investments these days?..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/20/top-stocks-to-double-up-on-right-now/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Top Stocks to Double Up on Right Now</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The software bear market has bled into other pockets of the technology realm, and some stocks now trade at a rare discount...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/nvidia-earnings-loom-closer-look-004600895.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Nvidia Earnings Loom: A Closer Look at the Mag 7 Earnings Picture</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Impressively, Nvidia is on track to bring in almost four times as much in revenue in a single quarter as it did in all of 2021. But are things as good..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/3a31782f-5969-3157-9772-a6293c1ebb72/dow-jones-futures%3A-stock.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Dow Jones Futures: Stock Market Rallies On Trump Tariff Decision; Iran, Nvidia In Focus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Dow Jones futures will open Sunday evening, along with S&amp;P 500 futures and Nasdaq futures. Nvidia earnings loom with investors also watching out f..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Alphabet Inc. // Communication Services [Internet Content & Information]. Mkt Cap: $3810.31B. Rev Growth: 18.0%. PM: 32.8%.",
+    "forward_looking": "Beta: 1.086. Range(52W): 140.53 - 349.0. Analyst Tgt: 375.64572."
+  },
+  "geospatial": {
+    "site": "Mountain View, United States",
+    "coords": "https://abc.xyz",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 80,
+    "fundamental": 80,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -30.0,
+    "target_price": 220.47,
+    "graham_num": 91.37,
+    "lynch_value": 194.4,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-30.0%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-30.0%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

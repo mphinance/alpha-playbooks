@@ -1,0 +1,218 @@
+{
+  "ticker": "DNN",
+  "logo_url": "https://logo.clearbit.com/denisonmines.com",
+  "generated_at": "2026-02-17 08:44:09 UTC",
+  "market_snapshot": {
+    "price": 3.78,
+    "market_cap": "$3.39B",
+    "beta": 1.64,
+    "range_52w": "1.08 - 4.43",
+    "analyst_target": 4.3
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 3.28,
+      "sma_200": 2.47,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 3.84,
+      "21": 3.74,
+      "34": 3.58,
+      "55": 3.37,
+      "89": 3.13
+    },
+    "volume": {
+      "current": "51,522,200",
+      "avg_20d": "55,402,925",
+      "rel_vol": 0.93,
+      "rel_vol_pct": 46
+    },
+    "pivots": {
+      "R2": 4.89,
+      "R1": 4.33,
+      "PP": 3.88,
+      "S1": 3.32,
+      "S2": 2.87
+    },
+    "fibonacci": {
+      "100": 4.43,
+      "61.8": 3.15,
+      "50": 2.75,
+      "38.2": 2.36,
+      "0": 1.08
+    },
+    "oscillators": {
+      "rsi_14": 51.37,
+      "adx_14": 31.93,
+      "macd_hist": -0.05
+    }
+  },
+  "volatility": {
+    "hv_30d": 82.28,
+    "iv_current": 0.0
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-30",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$230,040"
+    },
+    {
+      "date": "2026-01-30",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$262,800"
+    },
+    {
+      "date": "2026-01-29",
+      "insider": "Smith, Mary Joanne",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-01-29",
+      "insider": "Smith, Mary Joanne",
+      "type": "",
+      "value": "$43,470"
+    },
+    {
+      "date": "2026-01-28",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$1.55M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Materion (MTRN) Surges 4.6%: Is This an Indication of Further Gains?",
+      "link": "https://finance.yahoo.com/news/materion-mtrn-surges-4-6-122700199.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Materion (MTRN) witnessed a jump in share price last session on above-average trading volume. The latest trend in earnings estimate revisions for the ..."
+    },
+    {
+      "title": "Raymond James raised its price target on Denison Mines Corp. (DNN) to C$5.05",
+      "link": "https://finance.yahoo.com/news/raymond-james-raised-price-target-121712981.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Denison Mines Corp. (NYSE:DNN) is included among the 12 Best Nuclear Energy Stocks to Buy Now On January 15, 2026, Raymond James raised its price targ..."
+    },
+    {
+      "title": "Leverage Shares by Themes Expands 2X Single-Stock ETF Lineup with Targeted Exposure to Mineral and Uranium Mining",
+      "link": "https://finance.yahoo.com/news/leverage-shares-themes-expands-2x-140000893.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "GREENWICH, Conn., Feb. 10, 2026 (GLOBE NEWSWIRE) -- Leverage Shares by Themes is pleased to announce the launch of three new 2X single-stock leveraged..."
+    },
+    {
+      "title": "Is It Too Late To Consider Denison Mines (TSX:DML) After Its Recent Price Surge?",
+      "link": "https://finance.yahoo.com/news/too-consider-denison-mines-tsx-171346003.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "If you are wondering whether Denison Mines at around $5.26 is still offering value after its strong run, this article will walk through what the curre..."
+    },
+    {
+      "title": "Where is Denison Mines Corp. (DNN) Headed According to the Street?",
+      "link": "https://finance.yahoo.com/news/where-denison-mines-corp-dnn-164444402.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Denison Mines Corp. (NYSE:DNN) is one of the best strong buy penny stocks to invest in. On February 4, CIBC reiterated a Buy rating on Denison Mines C..."
+    },
+    {
+      "title": "Horizons Middle East & Africa 2/17/2026 (Video)",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-17/horizons-middle-east-africa-2-17-2026-video",
+      "source": "BLOOMBERG",
+      "summary": "No summary..."
+    },
+    {
+      "title": "US Trade Tariffs Punish South African Winemakers, UN Body Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/us-trade-tariffs-punish-south-african-winemakers-un-body-says",
+      "source": "BLOOMBERG",
+      "summary": "Tariffs imposed on South African agricultural products by the US are spiking the price of South African wine in the world\u2019s biggest market, making it ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/materion-mtrn-surges-4-6-122700199.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Materion (MTRN) Surges 4.6%: Is This an Indication of Further Gains?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Materion (MTRN) witnessed a jump in share price last session on above-average trading volume. The latest trend in earnings estimate revisions for the ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/raymond-james-raised-price-target-121712981.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Raymond James raised its price target on Denison Mines Corp. (DNN) to C$5.05</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Denison Mines Corp. (NYSE:DNN) is included among the 12 Best Nuclear Energy Stocks to Buy Now On January 15, 2026, Raymond James raised its price targ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/leverage-shares-themes-expands-2x-140000893.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Leverage Shares by Themes Expands 2X Single-Stock ETF Lineup with Targeted Exposure to Mineral and Uranium Mining</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> GREENWICH, Conn., Feb. 10, 2026 (GLOBE NEWSWIRE) -- Leverage Shares by Themes is pleased to announce the launch of three new 2X single-stock leveraged..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/too-consider-denison-mines-tsx-171346003.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Is It Too Late To Consider Denison Mines (TSX:DML) After Its Recent Price Surge?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> If you are wondering whether Denison Mines at around $5.26 is still offering value after its strong run, this article will walk through what the curre..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/where-denison-mines-corp-dnn-164444402.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Where is Denison Mines Corp. (DNN) Headed According to the Street?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Denison Mines Corp. (NYSE:DNN) is one of the best strong buy penny stocks to invest in. On February 4, CIBC reiterated a Buy rating on Denison Mines C..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-17/horizons-middle-east-africa-2-17-2026-video' target='_blank' class='hover:text-neon-blue transition-colors'>Horizons Middle East & Africa 2/17/2026 (Video)</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> No summary..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/us-trade-tariffs-punish-south-african-winemakers-un-body-says' target='_blank' class='hover:text-neon-blue transition-colors'>US Trade Tariffs Punish South African Winemakers, UN Body Says</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Tariffs imposed on South African agricultural products by the US are spiking the price of South African wine in the world\u2019s biggest market, making it ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Denison Mines Corp. // Energy [Uranium]. Mkt Cap: $3.39B. Rev Growth: 50.4%. PM: 0.0%.",
+    "forward_looking": "Beta: 1.642. Range(52W): 1.08 - 4.43. Analyst Tgt: 4.2966576."
+  },
+  "geospatial": {
+    "site": "Toronto, Canada",
+    "coords": "https://denisonmines.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 95,
+    "fundamental": 70,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": 13.7,
+    "target_price": 4.3,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

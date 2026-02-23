@@ -1,0 +1,255 @@
+{
+  "ticker": "GOOGL",
+  "companyName": "Alphabet Inc.",
+  "currentPrice": 312.56,
+  "priceChange": -2.42,
+  "priceChangePct": -0.77,
+  "timestamp": "02/23/26 13:39 ",
+  "postMarketStr": "Post-Market: $312.56 (0.00)",
+  "impliedVolatility": 39.23,
+  "historicVolatility": 23.25,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 39.23,
+  "iv1mAvg": 39.23,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bearish",
+  "trendShort": "Bear",
+  "trendMed": "Soft",
+  "trendLong": "Strong",
+  "movAvg20d": 322.75,
+  "movAvg50d": 320.15,
+  "movAvg100d": 298.73,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 40.04,
+  "trendSeekerSignal": "SELL",
+  "low52w": 140.14,
+  "low52wDate": "1Y Low",
+  "high52w": 349.0,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 16.98,
+      "expectedRange": "295.58 - 329.54",
+      "iv": 39.2
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 24.01,
+      "expectedRange": "288.55 - 336.57",
+      "iv": 39.2
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 35.15,
+      "expectedRange": "277.41 - 347.71",
+      "iv": 39.2
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 49.71,
+      "expectedRange": "262.85 - 362.27",
+      "iv": 39.2
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      324.32,
+      318.58,
+      310.96,
+      309.0,
+      305.72,
+      302.02,
+      303.33,
+      302.85,
+      314.98,
+      312.56
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "https://logo.clearbit.com/abc.xyz",
+  "generated_at": "2026-02-23 19:39:44 UTC",
+  "market_snapshot": {
+    "price": 312.56,
+    "market_cap": "$3781.04B",
+    "beta": 1.09,
+    "range_52w": "140.53 - 349.0",
+    "analyst_target": 376.86
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 320.15,
+      "sma_200": 246.28,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 311.24,
+      "21": 317.59,
+      "34": 318.4,
+      "55": 313.78,
+      "89": 300.91
+    },
+    "volume": {
+      "current": "19,887,766",
+      "avg_20d": "40,337,493",
+      "rel_vol": 0.49,
+      "rel_vol_pct": 24
+    },
+    "pivots": {
+      "R2": 372.02,
+      "R1": 342.29,
+      "PP": 319.27,
+      "S1": 289.54,
+      "S2": 266.52
+    },
+    "fibonacci": {
+      "100": 349.0,
+      "61.8": 269.22,
+      "50": 244.57,
+      "38.2": 219.93,
+      "0": 140.14
+    },
+    "oscillators": {
+      "rsi_14": 24.45,
+      "adx_14": 31.14,
+      "macd_hist": -1.99
+    }
+  },
+  "volatility": {
+    "hv_30d": 23.25,
+    "iv_current": 39.23
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-13",
+      "insider": "HENNESSY JOHN L",
+      "type": "",
+      "value": "$184,037"
+    },
+    {
+      "date": "2026-01-13",
+      "insider": "HENNESSY JOHN L",
+      "type": "",
+      "value": "$202,514"
+    },
+    {
+      "date": "2025-12-09",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-09-25",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-08-15",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$5.33M"
+    }
+  ],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Alphabet Inc. // Communication Services [Internet Content & Information]. Mkt Cap: $3781.04B. Rev Growth: 18.0%. PM: 32.8%.",
+    "forward_looking": "Beta: 1.086. Range(52W): 140.53 - 349.0. Analyst Tgt: 376.86."
+  },
+  "geospatial": {
+    "site": "Mountain View, United States",
+    "coords": "https://abc.xyz",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 65,
+    "fundamental": 80,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -29.3,
+    "target_price": 220.88,
+    "graham_num": 91.37,
+    "lynch_value": 194.4,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-29.3%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-29.3%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

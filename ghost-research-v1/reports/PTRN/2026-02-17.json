@@ -1,0 +1,212 @@
+{
+  "ticker": "PTRN",
+  "logo_url": "https://logo.clearbit.com/www.pattern.com",
+  "generated_at": "2026-02-17 08:43:42 UTC",
+  "market_snapshot": {
+    "price": 10.82,
+    "market_cap": "$2.14B",
+    "beta": "N/A",
+    "range_52w": "10.27 - 20.1",
+    "analyst_target": 21.67
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 12.97,
+      "sma_200": null,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 11.71,
+      "21": 12.7,
+      "34": 13.04,
+      "55": 13.4,
+      "89": 13.83
+    },
+    "volume": {
+      "current": "586,700",
+      "avg_20d": "1,124,075",
+      "rel_vol": 0.52,
+      "rel_vol_pct": 26
+    },
+    "pivots": {
+      "R2": 18.77,
+      "R1": 14.8,
+      "PP": 12.53,
+      "S1": 8.56,
+      "S2": 6.29
+    },
+    "fibonacci": {
+      "100": 20.1,
+      "61.8": 16.34,
+      "50": 15.19,
+      "38.2": 14.03,
+      "0": 10.27
+    },
+    "oscillators": {
+      "rsi_14": 20.02,
+      "adx_14": 26.62,
+      "macd_hist": -0.39
+    }
+  },
+  "volatility": {
+    "hv_30d": 99.96,
+    "iv_current": 0.0
+  },
+  "insider_transactions": [
+    {
+      "date": "2025-09-25",
+      "insider": "KL PATTERN HOLDINGS LP",
+      "type": "",
+      "value": "$3.86M"
+    },
+    {
+      "date": "2025-09-22",
+      "insider": "GAY DANIEL",
+      "type": "",
+      "value": "$16.93M"
+    },
+    {
+      "date": "2025-09-22",
+      "insider": "WRIGHT DAVID K",
+      "type": "",
+      "value": "$122.57M"
+    },
+    {
+      "date": "2025-09-12",
+      "insider": "WRIGHT DAVID K",
+      "type": "",
+      "value": "$612.02M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "3 Growth Companies With Insider Ownership Up To 38%",
+      "link": "https://finance.yahoo.com/news/3-growth-companies-insider-ownership-113610407.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "As the U.S. stock market navigates a period of stability with major indices showing little change following the Federal Reserve's decision to hold int..."
+    },
+    {
+      "title": "3 Stocks Estimated To Be Trading At Up To 46.4% Below Intrinsic Value",
+      "link": "https://finance.yahoo.com/news/3-stocks-estimated-trading-46-113830961.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "As the U.S. stock market navigates a period of stability following the Federal Reserve's decision to hold interest rates steady, investors are keenly ..."
+    },
+    {
+      "title": "3 Stocks Estimated To Be Trading 11.1% To 48.9% Below Their Intrinsic Values",
+      "link": "https://finance.yahoo.com/news/3-stocks-estimated-trading-11-173833897.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "As the United States stock market experiences fluctuations with major indices like the Dow Jones, S&amp;P 500, and Nasdaq showing mixed performance am..."
+    },
+    {
+      "title": "Vitalist Inc. Partners with Pattern to Accelerate Global E-Commerce Growth for Reebok Smartwatches",
+      "link": "https://finance.yahoo.com/news/vitalist-inc-partners-pattern-accelerate-120300787.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "CALGARY, Alberta, Feb. 04, 2026 (GLOBE NEWSWIRE) -- Vitalist Inc. (TSX-V: VITA.V; OTCQB: VTLSF) (\u201cVitalist\u201d, \u201cwe\u201d, \u201cour\u201d or the \u201cCompany\u201d), a dynamic ..."
+    },
+    {
+      "title": "Pattern to Report Fourth Quarter and Full Year 2025 Financial Results",
+      "link": "https://finance.yahoo.com/news/pattern-report-fourth-quarter-full-210500784.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "LEHI, Utah, February 05, 2026--Pattern Group Inc. (Nasdaq: PTRN) announced it will report fourth quarter and full year 2025 financial results on Thurs..."
+    },
+    {
+      "title": "Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years",
+      "source": "BLOOMBERG",
+      "summary": "Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+    },
+    {
+      "title": "Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/3-growth-companies-insider-ownership-113610407.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Growth Companies With Insider Ownership Up To 38%</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> As the U.S. stock market navigates a period of stability with major indices showing little change following the Federal Reserve's decision to hold int..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/3-stocks-estimated-trading-46-113830961.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Stocks Estimated To Be Trading At Up To 46.4% Below Intrinsic Value</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> As the U.S. stock market navigates a period of stability following the Federal Reserve's decision to hold interest rates steady, investors are keenly ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/3-stocks-estimated-trading-11-173833897.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Stocks Estimated To Be Trading 11.1% To 48.9% Below Their Intrinsic Values</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> As the United States stock market experiences fluctuations with major indices like the Dow Jones, S&amp;P 500, and Nasdaq showing mixed performance am..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/vitalist-inc-partners-pattern-accelerate-120300787.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Vitalist Inc. Partners with Pattern to Accelerate Global E-Commerce Growth for Reebok Smartwatches</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> CALGARY, Alberta, Feb. 04, 2026 (GLOBE NEWSWIRE) -- Vitalist Inc. (TSX-V: VITA.V; OTCQB: VTLSF) (\u201cVitalist\u201d, \u201cwe\u201d, \u201cour\u201d or the \u201cCompany\u201d), a dynamic ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/pattern-report-fourth-quarter-full-210500784.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Pattern to Report Fourth Quarter and Full Year 2025 Financial Results</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> LEHI, Utah, February 05, 2026--Pattern Group Inc. (Nasdaq: PTRN) announced it will report fourth quarter and full year 2025 financial results on Thurs..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years' target='_blank' class='hover:text-neon-blue transition-colors'>Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Pattern Group Inc. // Technology [Software - Application]. Mkt Cap: $2.14B. Rev Growth: 45.6%. PM: 0.2%.",
+    "forward_looking": "Beta: N/A. Range(52W): 10.27 - 20.1. Analyst Tgt: 21.66667."
+  },
+  "geospatial": {
+    "site": "Lehi, United States",
+    "coords": "https://www.pattern.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 5,
+    "fundamental": 70,
+    "grade": "D"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 100.2,
+    "target_price": 21.67,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 5/100) within a wider Bearish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 100.2%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 5/100) within a wider Bearish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 100.2%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}

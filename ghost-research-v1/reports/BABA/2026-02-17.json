@@ -1,0 +1,187 @@
+{
+  "ticker": "BABA",
+  "logo_url": "https://logo.clearbit.com/www.alibabagroup.com",
+  "generated_at": "2026-02-17 08:45:06 UTC",
+  "market_snapshot": {
+    "price": 155.73,
+    "market_cap": "$371.78B",
+    "beta": 0.39,
+    "range_52w": "95.73 - 192.67",
+    "analyst_target": 198.45
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 159.38,
+      "sma_200": 143.57,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 161.58,
+      "21": 163.31,
+      "34": 162.65,
+      "55": 161.42,
+      "89": 158.56
+    },
+    "volume": {
+      "current": "16,029,700",
+      "avg_20d": "12,058,660",
+      "rel_vol": 1.33,
+      "rel_vol_pct": 66
+    },
+    "pivots": {
+      "R2": 191.47,
+      "R1": 173.6,
+      "PP": 163.23,
+      "S1": 145.36,
+      "S2": 134.98
+    },
+    "fibonacci": {
+      "100": 192.67,
+      "61.8": 155.03,
+      "50": 143.4,
+      "38.2": 131.78,
+      "0": 94.14
+    },
+    "oscillators": {
+      "rsi_14": 31.26,
+      "adx_14": 13.34,
+      "macd_hist": -1.6
+    }
+  },
+  "volatility": {
+    "hv_30d": 51.32,
+    "iv_current": 1.37
+  },
+  "insider_transactions": [],
+  "intel_feed": [
+    {
+      "title": "Morgan Stanley and Jefferies Stay Positive on Alibaba (BABA)",
+      "link": "https://finance.yahoo.com/news/morgan-stanley-jefferies-stay-positive-124201612.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the 15 AI Stocks That Are Skyrocketing. On January 15, Morgan Stanley reiterated its Overweight ra..."
+    },
+    {
+      "title": "Brokers Suggest Investing in Alibaba (BABA): Read This Before Placing a Bet",
+      "link": "https://finance.yahoo.com/news/brokers-suggest-investing-alibaba-baba-143003750.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The average brokerage recommendation (ABR) for Alibaba (BABA) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts ma..."
+    },
+    {
+      "title": "Meta Is the Winner in Smart Glasses. How Big the Business Can Get.",
+      "link": "https://finance.yahoo.com/m/8a716a7c-55e8-3ddc-8685-1154a9247e31/meta-is-the-winner-in-smart.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Meta Platforms and its manufacturing partner sold more seven million pairs of smart glasses in 2025. Here's how the growth could affect the stock...."
+    },
+    {
+      "title": "Alibaba\u2019s New AI Model Runs 8x Faster While Sentiment Hits 60.6",
+      "link": "https://247wallst.com/investing/2026/02/16/alibabas-new-ai-model-runs-8x-faster-while-sentiment-hits-60-6/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Over the past week, shares of Alibaba (NYSE:BABA) fell 4.46%, coinciding with a shift in retail investor sentiment. Discussion around the stock remain..."
+    },
+    {
+      "title": "Move Over, Super Bowl: AI Giants Turn China\u2019s Lunar New Year Into a Giveaway Blitz",
+      "link": "https://finance.yahoo.com/m/ac29e563-c568-37e8-8c55-f10fdda57379/move-over%2C-super-bowl%3A-ai.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "AI developers in are offering free tea, free use of cars and even robots in promotions aimed at locking in users...."
+    },
+    {
+      "title": "Horizons Middle East & Africa 2/17/2026 (Video)",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-17/horizons-middle-east-africa-2-17-2026-video",
+      "source": "BLOOMBERG",
+      "summary": "No summary..."
+    },
+    {
+      "title": "US Trade Tariffs Punish South African Winemakers, UN Body Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/us-trade-tariffs-punish-south-african-winemakers-un-body-says",
+      "source": "BLOOMBERG",
+      "summary": "Tariffs imposed on South African agricultural products by the US are spiking the price of South African wine in the world\u2019s biggest market, making it ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/morgan-stanley-jefferies-stay-positive-124201612.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Morgan Stanley and Jefferies Stay Positive on Alibaba (BABA)</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Alibaba Group Holding Limited (NYSE:BABA) is one of the 15 AI Stocks That Are Skyrocketing. On January 15, Morgan Stanley reiterated its Overweight ra..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/brokers-suggest-investing-alibaba-baba-143003750.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Brokers Suggest Investing in Alibaba (BABA): Read This Before Placing a Bet</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The average brokerage recommendation (ABR) for Alibaba (BABA) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts ma..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/8a716a7c-55e8-3ddc-8685-1154a9247e31/meta-is-the-winner-in-smart.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Meta Is the Winner in Smart Glasses. How Big the Business Can Get.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Meta Platforms and its manufacturing partner sold more seven million pairs of smart glasses in 2025. Here's how the growth could affect the stock...."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/16/alibabas-new-ai-model-runs-8x-faster-while-sentiment-hits-60-6/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Alibaba\u2019s New AI Model Runs 8x Faster While Sentiment Hits 60.6</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Over the past week, shares of Alibaba (NYSE:BABA) fell 4.46%, coinciding with a shift in retail investor sentiment. Discussion around the stock remain..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/ac29e563-c568-37e8-8c55-f10fdda57379/move-over%2C-super-bowl%3A-ai.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Move Over, Super Bowl: AI Giants Turn China\u2019s Lunar New Year Into a Giveaway Blitz</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> AI developers in are offering free tea, free use of cars and even robots in promotions aimed at locking in users...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-17/horizons-middle-east-africa-2-17-2026-video' target='_blank' class='hover:text-neon-blue transition-colors'>Horizons Middle East & Africa 2/17/2026 (Video)</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> No summary..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/us-trade-tariffs-punish-south-african-winemakers-un-body-says' target='_blank' class='hover:text-neon-blue transition-colors'>US Trade Tariffs Punish South African Winemakers, UN Body Says</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Tariffs imposed on South African agricultural products by the US are spiking the price of South African wine in the world\u2019s biggest market, making it ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Alibaba Group Holding Limited // Consumer Cyclical [Internet Retail]. Mkt Cap: $371.78B. Rev Growth: 4.8%. PM: 12.2%.",
+    "forward_looking": "Beta: 0.39. Range(52W): 95.73 - 192.67. Analyst Tgt: 198.45145."
+  },
+  "geospatial": {
+    "site": "Causeway Bay, Hong Kong",
+    "coords": "https://www.alibabagroup.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 80,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -27.3,
+    "target_price": 113.22,
+    "graham_num": 104.83,
+    "lynch_value": 36.38,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-27.3%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-27.3%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

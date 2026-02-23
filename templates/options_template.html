@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options Data Dashboard | ALPHA-PLAYBOOK | HUD-V2</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Alpine.js for declarative UI binding -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- Plotly.js for Charts -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        body {
+            background-color: #0d0d0d;
+            color: #e5e5e5;
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .panel {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .text-positive { color: #4ade80; } /* green-400 */
+        .text-negative { color: #f87171; } /* red-400 */
+        .bg-positive { background-color: #4ade80; }
+        .bg-negative { background-color: #f87171; }
+        
+        /* Subtle scrollbar for data grids */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #1a1a1a; }
+        ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+    </style>
+</head>
+<body class="p-4 md:p-6 min-h-screen" x-data="dashboardApp()" x-init="initDashboard()">
+
+    <div class="max-w-7xl mx-auto space-y-6">
+        
+        <!-- SECTION 1: GLOBAL HEADER -->
+        <header class="flex flex-col md:flex-row justify-between items-end pb-4 border-b border-gray-700">
+            <div>
+                <h1 class="text-5xl font-extrabold tracking-tight text-white" x-text="data.ticker">TICKER</h1>
+                <h2 class="text-xl text-gray-400 font-medium mt-1" x-text="data.companyName">Company Name</h2>
+            </div>
+            <div class="text-right mt-4 md:mt-0">
+                <div class="flex items-baseline justify-end space-x-3">
+                    <span class="text-4xl font-bold text-white" x-text="formatCurrency(data.currentPrice)">$0.00</span>
+                    <div class="text-lg font-bold flex items-center" :class="data.priceChange >= 0 ? 'text-positive' : 'text-negative'">
+                        <span x-text="formatChange(data.priceChange)">+0.00</span>
+                        <span class="ml-1" x-text="'(' + formatPct(data.priceChangePct) + ')'">(+0.00%)</span>
+                    </div>
+                </div>
+                <div class="text-sm text-gray-500 mt-2 font-mono">
+                    <span x-text="data.timestamp">00/00/00 00:00</span>
+                    <span class="mx-2">|</span>
+                    <span x-text="data.postMarketStr">Post-Market: --</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- SECTION 2: TOP SUMMARY BAR -->
+        <section class="panel flex flex-col md:flex-row justify-between items-center divide-y md:divide-y-0 md:divide-x divide-gray-700 p-4">
+            <div class="flex-1 text-center py-2 md:py-0">
+                <div class="text-xs text-gray-400 uppercase tracking-wider mb-1">Implied Volatility</div>
+                <div class="text-2xl font-bold" x-text="data.impliedVolatility.toFixed(2) + '%'">--</div>
+            </div>
+            <div class="flex-1 text-center py-2 md:py-0">
+                <div class="text-xs text-gray-400 uppercase tracking-wider mb-1">Historic Volatility</div>
+                <div class="text-2xl font-bold" x-text="data.historicVolatility.toFixed(2) + '%'">--</div>
+            </div>
+            <div class="flex-1 text-center py-2 md:py-0">
+                <div class="text-xs text-gray-400 uppercase tracking-wider mb-1">IV Rank</div>
+                <div class="text-2xl font-bold" x-text="data.ivRank.toFixed(2)">--</div>
+            </div>
+            <div class="flex-1 text-center py-2 md:py-0">
+                <div class="text-xs text-gray-400 uppercase tracking-wider mb-1">IV Percentile</div>
+                <div class="text-2xl font-bold" x-text="data.ivPercentile.toFixed(2) + '%'">--</div>
+            </div>
+        </section>
+
+        <!-- MAIN 2x2 GRID -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            
+            <!-- SECTION 3: TOP LEFT PANEL (Volatility Status) -->
+            <section class="panel p-5 flex flex-col h-full">
+                <h3 class="text-center text-lg font-bold text-gray-200 mb-6" x-text="getVolatilityStatus()">Volatility Status</h3>
+                
+                <div class="flex-1 flex flex-col items-center justify-center mb-8 relative">
+                    <!-- Gauge -->
+                    <div id="ivRankGauge" class="w-full h-40"></div>
+                    
+                    <!-- Progress Bar for IV Percentile -->
+                    <div class="w-full max-w-sm mt-4">
+                        <div class="flex justify-between text-xs text-gray-400 mb-1">
+                            <span>0%</span>
+                            <span>IV Percentile</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="w-full bg-gray-800 rounded-full h-2.5">
+                            <div class="bg-gradient-to-r from-blue-500 to-purple-500 h-2.5 rounded-full" :style="'width: ' + Math.min(100, Math.max(0, data.ivPercentile)) + '%'"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-x-4 gap-y-3 text-sm border-t border-gray-700 pt-4">
+                    <div class="flex justify-between"><span class="text-gray-400">Implied Volatility</span> <span class="font-mono font-medium" x-text="data.impliedVolatility.toFixed(2)+'%'"></span></div>
+                    <div class="flex justify-between"><span class="text-gray-400">Historic Volatility</span> <span class="font-mono font-medium" x-text="data.historicVolatility.toFixed(2)+'%'"></span></div>
+                    <div class="flex justify-between"><span class="text-gray-400">5D IV Avg</span> <span class="font-mono font-medium" x-text="data.iv5dAvg.toFixed(2)+'%'"></span></div>
+                    <div class="flex justify-between"><span class="text-gray-400">1M IV Avg</span> <span class="font-mono font-medium" x-text="data.iv1mAvg.toFixed(2)+'%'"></span></div>
+                    
+                    <div class="flex flex-col">
+                        <div class="flex justify-between"><span class="text-gray-400">IV 3M Low</span> <span class="font-mono font-medium" x-text="data.iv3mLow.toFixed(2)+'%'"></span></div>
+                        <div class="text-right text-xs text-gray-500" x-text="data.iv3mLowDate"></div>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="flex justify-between"><span class="text-gray-400">IV 3M High</span> <span class="font-mono font-medium" x-text="data.iv3mHigh.toFixed(2)+'%'"></span></div>
+                        <div class="text-right text-xs text-gray-500" x-text="data.iv3mHighDate"></div>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="flex justify-between"><span class="text-gray-400">IV 52W Low</span> <span class="font-mono font-medium" x-text="data.iv52wLow.toFixed(2)+'%'"></span></div>
+                        <div class="text-right text-xs text-gray-500" x-text="data.iv52wLowDate"></div>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="flex justify-between"><span class="text-gray-400">IV 52W High</span> <span class="font-mono font-medium" x-text="data.iv52wHigh.toFixed(2)+'%'"></span></div>
+                        <div class="text-right text-xs text-gray-500" x-text="data.iv52wHighDate"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 4: TOP RIGHT PANEL (Trend Status) -->
+            <section class="panel p-5 flex flex-col h-full">
+                <h3 class="text-center text-lg font-bold mb-6">
+                    Trend: <span :class="getTrendColor(data.trendOverall)" x-text="data.trendOverall + ' Market'"></span>
+                </h3>
+
+                <!-- Visual 3 Circular Icons -->
+                <div class="flex justify-around items-center mb-6 px-4">
+                    <template x-for="term in [
+                        { label: 'Short-Term', val: data.trendShort },
+                        { label: 'Med-Term', val: data.trendMed },
+                        { label: 'Long-Term', val: data.trendLong }
+                    ]">
+                        <div class="flex flex-col items-center">
+                            <div class="w-16 h-16 rounded-full flex items-center justify-center border-2 mb-2 shadow-lg"
+                                 :class="[getTrendBgColor(term.val), getTrendBorderColor(term.val)]">
+                                <!-- Arrow SVG based on trend direction -->
+                                <svg x-show="isBullish(term.val)" class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+                                <svg x-show="!isBullish(term.val) && term.val !== 'Neutral'" class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                                <svg x-show="term.val === 'Neutral'" class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 12h14"></path></svg>
+                            </div>
+                            <span class="text-xs text-gray-400 uppercase font-semibold" x-text="term.label"></span>
+                            <span class="text-sm font-bold mt-1" :class="getTrendTextColor(term.val)" x-text="term.val"></span>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Middle Banner -->
+                <div class="bg-gray-800 rounded-md py-3 text-center mb-6">
+                    <span class="text-gray-400 text-sm mr-2">Last Price:</span>
+                    <span class="text-xl font-bold" x-text="formatCurrency(data.currentPrice)"></span>
+                    <span class="ml-2 font-bold" :class="data.priceChange >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.priceChangePct)"></span>
+                </div>
+
+                <!-- Data Grid (3 columns) -->
+                <div class="grid grid-cols-3 gap-4 text-center text-sm border-t border-gray-700 pt-4 flex-1">
+                    <!-- Row 1 -->
+                    <div>
+                        <div class="text-gray-500 text-xs mb-1">20D MovAvg</div>
+                        <div class="font-mono" x-text="formatCurrency(data.movAvg20d)"></div>
+                    </div>
+                    <div>
+                        <div class="text-gray-500 text-xs mb-1">50D MovAvg</div>
+                        <div class="font-mono" x-text="formatCurrency(data.movAvg50d)"></div>
+                    </div>
+                    <div>
+                        <div class="text-gray-500 text-xs mb-1">100D MovAvg</div>
+                        <div class="font-mono" x-text="formatCurrency(data.movAvg100d)"></div>
+                    </div>
+                    
+                    <!-- Row 2 -->
+                    <div>
+                        <div class="font-mono text-xs" :class="data.movAvgChange20d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatChange(data.movAvgChange20d)"></div>
+                    </div>
+                    <div>
+                        <div class="font-mono text-xs" :class="data.movAvgChange50d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatChange(data.movAvgChange50d)"></div>
+                    </div>
+                    <div>
+                        <div class="font-mono text-xs" :class="data.movAvgChange100d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatChange(data.movAvgChange100d)"></div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="mt-2">
+                        <div class="text-gray-500 text-xs mb-1">20D ATR</div>
+                        <div class="font-mono" x-text="data.atr20d.toFixed(2)"></div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="text-gray-500 text-xs mb-1">20D RSI</div>
+                        <div class="font-mono" x-text="data.rsi20d.toFixed(2)"></div>
+                    </div>
+                    <div class="mt-2">
+                        <div class="text-gray-500 text-xs mb-1">Trend Seeker</div>
+                        <div class="font-bold text-xs p-1 rounded bg-gray-800" :class="data.trendSeekerSignal.includes('BUY') ? 'text-positive' : (data.trendSeekerSignal.includes('SELL') ? 'text-negative' : 'text-yellow-400')" x-text="data.trendSeekerSignal"></div>
+                    </div>
+
+                    <!-- Bottom Row spanning all -->
+                    <div class="col-span-3 flex justify-between mt-4 pt-3 border-t border-gray-700 px-2">
+                        <div class="text-left">
+                            <div class="text-gray-500 text-xs mb-1">52-Week Low</div>
+                            <div class="font-mono text-negative font-bold" x-text="formatCurrency(data.low52w)"></div>
+                            <div class="text-xs text-gray-500" x-text="data.low52wDate"></div>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-gray-500 text-xs mb-1">52-Week High</div>
+                            <div class="font-mono text-positive font-bold" x-text="formatCurrency(data.high52w)"></div>
+                            <div class="text-xs text-gray-500" x-text="data.high52wDate"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 5: BOTTOM LEFT PANEL (Expected Move) -->
+            <section class="panel p-5 flex flex-col h-full">
+                <h3 class="text-lg font-bold text-gray-200 mb-2"><span x-text="data.ticker"></span> Expected Move</h3>
+                
+                <div id="expectedMoveChart" class="w-full h-64 mb-4"></div>
+
+                <div class="flex-1 overflow-auto max-h-64 mt-2 border border-gray-800 rounded">
+                    <table class="w-full text-left text-sm whitespace-nowrap">
+                        <thead class="bg-gray-800 text-gray-400 sticky top-0">
+                            <tr>
+                                <th class="px-4 py-2 font-medium">Expiration</th>
+                                <th class="px-4 py-2 font-medium text-right">Expected Move</th>
+                                <th class="px-4 py-2 font-medium text-center">Expected Range</th>
+                                <th class="px-4 py-2 font-medium text-right">Implied Vol</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-800">
+                            <template x-for="item in data.expectedMoves" :key="item.expiration">
+                                <tr class="hover:bg-gray-800/50 transition-colors">
+                                    <td class="px-4 py-2 font-mono" x-text="item.expiration"></td>
+                                    <td class="px-4 py-2 text-right font-mono" x-text="formatCurrency(item.expectedMove)"></td>
+                                    <td class="px-4 py-2 text-center text-xs text-gray-300" x-text="item.expectedRange"></td>
+                                    <td class="px-4 py-2 text-right font-mono text-blue-400" x-text="item.iv.toFixed(1) + '%'"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- SECTION 6: BOTTOM RIGHT PANEL (Put Call Ratio) -->
+            <section class="panel p-5 flex flex-col h-full">
+                <h3 class="text-lg font-bold text-gray-200 mb-2"><span x-text="data.ticker"></span> Put Call Ratio</h3>
+                
+                <div id="putCallChart" class="w-full h-64 mb-4"></div>
+
+                <div class="grid grid-cols-4 gap-2 text-xs md:text-sm text-right mt-auto border border-gray-800 rounded p-3 bg-gray-900/50">
+                    <!-- Headers -->
+                    <div class="text-left text-gray-500 font-medium pb-2 border-b border-gray-700">Metric</div>
+                    <div class="text-gray-500 font-medium pb-2 border-b border-gray-700">Calls</div>
+                    <div class="text-gray-500 font-medium pb-2 border-b border-gray-700">Puts</div>
+                    <div class="text-gray-500 font-medium pb-2 border-b border-gray-700">Total / Ratio</div>
+                    
+                    <!-- Row 1: Volume -->
+                    <div class="text-left text-gray-400 py-2">Volume</div>
+                    <div class="font-mono py-2 text-white" x-text="formatNumber(data.volumeStats.callVolume)"></div>
+                    <div class="font-mono py-2 text-white" x-text="formatNumber(data.volumeStats.putVolume)"></div>
+                    <div class="font-mono py-2 text-white font-bold flex flex-col items-end">
+                        <span x-text="formatNumber(data.volumeStats.totalVolume)"></span>
+                        <span class="text-xs text-blue-400 mt-1" x-text="'P/C: ' + data.volumeStats.pcRatioVol.toFixed(2)"></span>
+                    </div>
+
+                    <!-- Row 2: Open Interest -->
+                    <div class="text-left text-gray-400 py-2 border-t border-gray-800">Open Int</div>
+                    <div class="font-mono py-2 border-t border-gray-800 text-white" x-text="formatNumber(data.volumeStats.callOpenInt)"></div>
+                    <div class="font-mono py-2 border-t border-gray-800 text-white" x-text="formatNumber(data.volumeStats.putOpenInt)"></div>
+                    <div class="font-mono py-2 border-t border-gray-800 text-white font-bold flex flex-col items-end">
+                        <span x-text="formatNumber(data.volumeStats.totalOpenInt)"></span>
+                        <span class="text-xs text-blue-400 mt-1" x-text="'P/C: ' + data.volumeStats.pcRatioOi.toFixed(2)"></span>
+                    </div>
+
+                    <!-- Row 3: % Change -->
+                    <div class="text-left text-gray-400 py-2 border-t border-gray-800">% Chg</div>
+                    <div class="py-2 border-t border-gray-800 flex flex-col items-end">
+                        <span class="text-[10px] text-gray-500">5D Vol</span>
+                        <span class="font-mono" :class="data.volumeStats.volChg5d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.volumeStats.volChg5d)"></span>
+                    </div>
+                    <div class="py-2 border-t border-gray-800 flex flex-col items-end">
+                        <span class="text-[10px] text-gray-500">1M Vol</span>
+                        <span class="font-mono" :class="data.volumeStats.volChg1m >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.volumeStats.volChg1m)"></span>
+                    </div>
+                    <div class="py-2 border-t border-gray-800 flex justify-between gap-2">
+                        <div class="flex flex-col items-end">
+                            <span class="text-[10px] text-gray-500">5D OI</span>
+                            <span class="font-mono" :class="data.volumeStats.oiChg5d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.volumeStats.oiChg5d)"></span>
+                        </div>
+                        <div class="flex flex-col items-end">
+                            <span class="text-[10px] text-gray-500">1M OI</span>
+                            <span class="font-mono" :class="data.volumeStats.oiChg1m >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.volumeStats.oiChg1m)"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script>
+        // Use injected template data if available, otherwise fallback to mock data
+        const injectedData = {{ raw_json_data | default('null', true) | safe }};
+        
+        const mockData = {
+            ticker: "NVDA",
+            companyName: "NVIDIA Corporation",
+            currentPrice: 182.81,
+            priceChange: -2.21,
+            priceChangePct: -1.20,
+            timestamp: "02/14/26 15:58 EST",
+            postMarketStr: "Post-Market: $183.10 (+0.29)",
+            impliedVolatility: 40.04,
+            historicVolatility: 36.59,
+            ivRank: 12.5,
+            ivPercentile: 25.4,
+            iv5dAvg: 41.2,
+            iv1mAvg: 45.1,
+            iv3mLow: 32.1, iv3mLowDate: "12/24/25",
+            iv3mHigh: 65.4, iv3mHighDate: "11/05/25",
+            iv52wLow: 28.5, iv52wLowDate: "05/10/25",
+            iv52wHigh: 85.2, iv52wHighDate: "08/05/25",
+            trendOverall: "Bullish",
+            trendShort: "Weak", trendMed: "Soft", trendLong: "Strong",
+            movAvg20d: 185.32, movAvg50d: 184.41, movAvg100d: 182.02,
+            movAvgChange20d: -2.51, movAvgChange50d: -1.60, movAvgChange100d: 0.79,
+            atr20d: 5.4, rsi20d: 46.68, trendSeekerSignal: "Soft BUY",
+            low52w: 86.62, low52wDate: "04/07/25",
+            high52w: 212.19, high52wDate: "12/13/25",
+            anchorDate: "2026-02-14",
+            historicalPrices: [
+                {date: "2026-02-07", price: 178.5}, {date: "2026-02-10", price: 181.2}, 
+                {date: "2026-02-11", price: 180.5}, {date: "2026-02-12", price: 184.0}, 
+                {date: "2026-02-13", price: 185.02}, {date: "2026-02-14", price: 182.81}
+            ],
+            expectedMoves: [
+                {expiration: "02/20/26", expectedMove: 5.25, expectedRange: "177.56 - 188.06", iv: 38.5},
+                {expiration: "02/27/26", expectedMove: 8.10, expectedRange: "174.71 - 190.91", iv: 40.2},
+                {expiration: "03/20/26", expectedMove: 14.50, expectedRange: "168.31 - 197.31", iv: 42.1},
+                {expiration: "04/17/26", expectedMove: 21.30, expectedRange: "161.51 - 204.11", iv: 43.8}
+            ],
+            volumeStats: {
+                callVolume: 1250400, putVolume: 850600, totalVolume: 2101000, pcRatioVol: 0.68,
+                callOpenInt: 4500000, putOpenInt: 3800000, totalOpenInt: 8300000, pcRatioOi: 0.84,
+                volChg5d: 12.4, volChg1m: -8.5, oiChg5d: 1.5, oiChg1m: 4.2
+            },
+            pcCharts: {
+                dates: ["02/07", "02/10", "02/11", "02/12", "02/13", "02/14"],
+                stockPrices: [178.5, 181.2, 180.5, 184.0, 185.02, 182.81],
+                volRatios: [0.72, 0.65, 0.68, 0.61, 0.64, 0.68],
+                oiRatios: [0.86, 0.85, 0.85, 0.84, 0.84, 0.84]
+            }
+        };
+
+        const dashboardData = injectedData || mockData;
+
+        function dashboardApp() {
+            return {
+                data: dashboardData,
+                
+                formatCurrency(val) {
+                    if(val === undefined || val === null) return '--';
+                    return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(val);
+                },
+                formatChange(val) {
+                    if(val === undefined || val === null) return '--';
+                    const sign = val > 0 ? '+' : '';
+                    return sign + val.toFixed(2);
+                },
+                formatPct(val) {
+                    if(val === undefined || val === null) return '--';
+                    const sign = val > 0 ? '+' : '';
+                    return sign + val.toFixed(2) + '%';
+                },
+                formatNumber(val) {
+                    if(val === undefined || val === null) return '--';
+                    return new Intl.NumberFormat('en-US').format(val);
+                },
+                getVolatilityStatus() {
+                    const r = this.data.ivRank;
+                    if(r < 25) return "Volatility is Low";
+                    if(r < 50) return "Volatility is Normal";
+                    if(r < 75) return "Volatility is Elevated";
+                    return "Volatility is Extreme";
+                },
+                getTrendColor(trend) {
+                    trend = (trend || '').toLowerCase();
+                    if(trend.includes('bull')) return 'text-positive';
+                    if(trend.includes('bear')) return 'text-negative';
+                    return 'text-gray-400';
+                },
+                isBullish(val) {
+                    return val && !val.toLowerCase().includes('weak') && !val.toLowerCase().includes('bear');
+                },
+                getTrendBgColor(val) {
+                    if(!val) return 'bg-gray-800';
+                    const v = val.toLowerCase();
+                    if(v.includes('strong') && !v.includes('bear')) return 'bg-green-500/20';
+                    if(v.includes('weak') || v.includes('bear')) return 'bg-red-500/20';
+                    if(v.includes('soft')) return 'bg-yellow-500/20';
+                    return 'bg-gray-700';
+                },
+                getTrendBorderColor(val) {
+                    if(!val) return 'border-gray-600';
+                    const v = val.toLowerCase();
+                    if(v.includes('strong') && !v.includes('bear')) return 'border-green-500';
+                    if(v.includes('weak') || v.includes('bear')) return 'border-red-500';
+                    if(v.includes('soft')) return 'border-yellow-500';
+                    return 'border-gray-500';
+                },
+                getTrendTextColor(val) {
+                    if(!val) return 'text-gray-400';
+                    const v = val.toLowerCase();
+                    if(v.includes('strong') && !v.includes('bear')) return 'text-green-400';
+                    if(v.includes('weak') || v.includes('bear')) return 'text-red-400';
+                    if(v.includes('soft')) return 'text-yellow-400';
+                    return 'text-gray-300';
+                },
+
+                initDashboard() {
+                    this.renderGauge();
+                    this.renderExpectedMoveChart();
+                    this.renderPCRatioChart();
+                },
+
+                renderGauge() {
+                    const data = [
+                        {
+                            type: "indicator",
+                            mode: "gauge+number",
+                            value: this.data.ivRank,
+                            number: { suffix: "%", font: { color: "#e5e5e5" } },
+                            gauge: {
+                                axis: { range: [null, 100], tickwidth: 1, tickcolor: "#333" },
+                                bar: { color: "#3b82f6" }, // blue-500
+                                bgcolor: "#1a1a1a",
+                                borderwidth: 2,
+                                bordercolor: "#333",
+                                steps: [
+                                    { range: [0, 25], color: "rgba(59, 130, 246, 0.1)" },
+                                    { range: [25, 50], color: "rgba(59, 130, 246, 0.3)" },
+                                    { range: [50, 75], color: "rgba(59, 130, 246, 0.5)" },
+                                    { range: [75, 100], color: "rgba(59, 130, 246, 0.8)" }
+                                ]
+                            }
+                        }
+                    ];
+                    const layout = {
+                        margin: { t: 25, r: 25, l: 25, b: 25 },
+                        paper_bgcolor: 'rgba(0,0,0,0)',
+                        font: { color: '#e5e5e5', family: 'Inter' }
+                    };
+                    Plotly.newPlot('ivRankGauge', data, layout, {displayModeBar: false});
+                },
+
+                renderExpectedMoveChart() {
+                    const hist = this.data.historicalPrices;
+                    const xHist = hist.map(d => d.date);
+                    const yHist = hist.map(d => d.price);
+
+                    // Origin for cone is anchor date
+                    const anchorPrice = this.data.currentPrice;
+                    const coneX = [this.data.anchorDate];
+                    const coneYUpper = [anchorPrice];
+                    const coneYLower = [anchorPrice];
+
+                    this.data.expectedMoves.forEach(em => {
+                        // Very rough parse of '146.75 - 153.75'
+                        const parts = em.expectedRange.split('-');
+                        if(parts.length === 2) {
+                            coneX.push(em.expiration);
+                            coneYLower.push(parseFloat(parts[0].trim()));
+                            coneYUpper.push(parseFloat(parts[1].trim()));
+                        }
+                    });
+
+                    const traces = [
+                        {
+                            x: xHist, y: yHist,
+                            type: 'scatter', mode: 'lines',
+                            name: 'Price',
+                            line: {color: '#e5e5e5', width: 2}
+                        },
+                        {
+                            x: coneX, y: coneYUpper,
+                            type: 'scatter', mode: 'lines',
+                            name: 'Upper Bound',
+                            line: {color: '#4ade80', width: 2, dash: 'dot'}
+                        },
+                        {
+                            x: coneX, y: coneYLower,
+                            type: 'scatter', mode: 'lines',
+                            name: 'Lower Bound',
+                            line: {color: '#f87171', width: 2, dash: 'dot'}
+                        }
+                    ];
+
+                    const layout = {
+                        margin: { t: 10, r: 10, l: 40, b: 30 },
+                        paper_bgcolor: 'rgba(0,0,0,0)',
+                        plot_bgcolor: 'rgba(0,0,0,0)',
+                        font: { color: '#9ca3af', family: 'Inter', size: 10 },
+                        xaxis: { showgrid: false, zeroline: false },
+                        yaxis: { gridcolor: '#333', zeroline: false },
+                        showlegend: false,
+                        shapes: [
+                            {
+                                type: 'line',
+                                x0: this.data.anchorDate, y0: 0,
+                                x1: this.data.anchorDate, y1: 1,
+                                yref: 'paper',
+                                line: { color: '#60a5fa', width: 1, dash: 'dash' }
+                            }
+                        ]
+                    };
+                    Plotly.newPlot('expectedMoveChart', traces, layout, {displayModeBar: false});
+                },
+
+                renderPCRatioChart() {
+                    const c = this.data.pcCharts;
+                    const tracePrice = {
+                        x: c.dates, y: c.stockPrices,
+                        type: 'scatter', mode: 'lines',
+                        name: 'Price', line: {color: '#e5e5e5'}
+                    };
+                    const traceVol = {
+                        x: c.dates, y: c.volRatios,
+                        type: 'scatter', mode: 'lines',
+                        name: 'Vol P/C', yaxis: 'y2', line: {color: '#60a5fa'}
+                    };
+                    const traceOi = {
+                        x: c.dates, y: c.oiRatios,
+                        type: 'scatter', mode: 'lines',
+                        name: 'OI P/C', yaxis: 'y2', line: {color: '#c084fc'}
+                    };
+
+                    const layout = {
+                        margin: { t: 10, r: 40, l: 40, b: 30 },
+                        paper_bgcolor: 'rgba(0,0,0,0)',
+                        plot_bgcolor: 'rgba(0,0,0,0)',
+                        font: { color: '#9ca3af', family: 'Inter', size: 10 },
+                        xaxis: { showgrid: false, zeroline: false },
+                        yaxis: { domain: [0.55, 1], gridcolor: '#333', zeroline: false },
+                        yaxis2: { domain: [0, 0.45], gridcolor: '#333', zeroline: false, side: 'right' },
+                        showlegend: true,
+                        legend: { orientation: 'h', y: -0.2, x: 0.5, xanchor: 'center' }
+                    };
+                    Plotly.newPlot('putCallChart', [tracePrice, traceVol, traceOi], layout, {displayModeBar: false});
+                }
+            };
+        }
+    </script>
+</body>
+</html>

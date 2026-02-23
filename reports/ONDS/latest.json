@@ -1,0 +1,255 @@
+{
+  "ticker": "ONDS",
+  "companyName": "Ondas Inc.",
+  "currentPrice": 10.01,
+  "priceChange": -0.02,
+  "priceChangePct": -0.25,
+  "timestamp": "02/23/26 13:31 ",
+  "postMarketStr": "Post-Market: $10.01 (0.00)",
+  "impliedVolatility": 134.77,
+  "historicVolatility": 117.62,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 134.77,
+  "iv1mAvg": 134.77,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bearish",
+  "trendShort": "Bear",
+  "trendMed": "Soft",
+  "trendLong": "Strong",
+  "movAvg20d": 10.36,
+  "movAvg50d": 10.58,
+  "movAvg100d": 9.21,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 42.78,
+  "trendSeekerSignal": "SELL",
+  "low52w": 0.57,
+  "low52wDate": "1Y Low",
+  "high52w": 15.28,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 1.87,
+      "expectedRange": "8.14 - 11.87",
+      "iv": 134.8
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 2.64,
+      "expectedRange": "7.36 - 12.65",
+      "iv": 134.8
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 3.87,
+      "expectedRange": "6.14 - 13.87",
+      "iv": 134.8
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 5.47,
+      "expectedRange": "4.54 - 15.47",
+      "iv": 134.8
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      10.34,
+      9.68,
+      9.23,
+      8.97,
+      9.31,
+      10.05,
+      11.07,
+      11.39,
+      10.03,
+      10.01
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "https://logo.clearbit.com/www.ondas.com",
+  "generated_at": "2026-02-23 19:31:30 UTC",
+  "market_snapshot": {
+    "price": 10.01,
+    "market_cap": "$4.50B",
+    "beta": 2.46,
+    "range_52w": "0.57 - 15.28",
+    "analyst_target": 18.38
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 10.58,
+      "sma_200": 6.14,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 10.21,
+      "21": 10.43,
+      "34": 10.46,
+      "55": 10.12,
+      "89": 9.32
+    },
+    "volume": {
+      "current": "54,943,917",
+      "avg_20d": "86,666,780",
+      "rel_vol": 0.63,
+      "rel_vol_pct": 31
+    },
+    "pivots": {
+      "R2": 15.23,
+      "R1": 12.62,
+      "PP": 10.47,
+      "S1": 7.86,
+      "S2": 5.71
+    },
+    "fibonacci": {
+      "100": 15.28,
+      "61.8": 9.66,
+      "50": 7.92,
+      "38.2": 6.19,
+      "0": 0.57
+    },
+    "oscillators": {
+      "rsi_14": 47.03,
+      "adx_14": 15.49,
+      "macd_hist": 0.02
+    }
+  },
+  "volatility": {
+    "hv_30d": 117.62,
+    "iv_current": 134.77
+  },
+  "insider_transactions": [
+    {
+      "date": "2025-12-31",
+      "insider": "BROCK ERIC A",
+      "type": "",
+      "value": "$4.61M"
+    },
+    {
+      "date": "2025-12-22",
+      "insider": "LAIRD NEIL J",
+      "type": "",
+      "value": "$42,906"
+    },
+    {
+      "date": "2025-12-22",
+      "insider": "LAIRD NEIL J",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2025-12-22",
+      "insider": "COHEN RICHARD M",
+      "type": "",
+      "value": "$245,162"
+    },
+    {
+      "date": "2025-12-22",
+      "insider": "COHEN RICHARD M",
+      "type": "",
+      "value": "$nan"
+    }
+  ],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Ondas Inc. // Technology [Communication Equipment]. Mkt Cap: $4.50B. Rev Growth: 582.0%. PM: -172.5%.",
+    "forward_looking": "Beta: 2.465. Range(52W): 0.57 - 15.28. Analyst Tgt: 18.375."
+  },
+  "geospatial": {
+    "site": "West Palm Beach, United States",
+    "coords": "https://www.ondas.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 75,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 83.7,
+    "target_price": 18.38,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 83.7%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 83.7%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

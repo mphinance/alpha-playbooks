@@ -1,0 +1,218 @@
+{
+  "ticker": "RR",
+  "logo_url": "https://logo.clearbit.com/www.richtechrobotics.com",
+  "generated_at": "2026-02-17 08:43:27 UTC",
+  "market_snapshot": {
+    "price": 2.98,
+    "market_cap": "$666.32M",
+    "beta": -3.67,
+    "range_52w": "1.37 - 7.43",
+    "analyst_target": 4.0
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 3.78,
+      "sma_200": 3.28,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 3.24,
+      "21": 3.56,
+      "34": 3.67,
+      "55": 3.75,
+      "89": 3.75
+    },
+    "volume": {
+      "current": "15,338,300",
+      "avg_20d": "45,028,890",
+      "rel_vol": 0.34,
+      "rel_vol_pct": 17
+    },
+    "pivots": {
+      "R2": 6.58,
+      "R1": 4.78,
+      "PP": 3.8,
+      "S1": 2.0,
+      "S2": 1.03
+    },
+    "fibonacci": {
+      "100": 7.43,
+      "61.8": 5.12,
+      "50": 4.4,
+      "38.2": 3.68,
+      "0": 1.37
+    },
+    "oscillators": {
+      "rsi_14": 42.51,
+      "adx_14": 13.95,
+      "macd_hist": -0.12
+    }
+  },
+  "volatility": {
+    "hv_30d": 169.67,
+    "iv_current": 1.56
+  },
+  "insider_transactions": [
+    {
+      "date": "2025-12-04",
+      "insider": "CASELLA MATTHEW G.",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "ZHENG PHIL",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "HUANG ZHENWU",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "HUANG ZHENQIANG",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-10-29",
+      "insider": "SHIGLEY JOHN L.",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Microsoft\u2019s AI Growth Story Tests Investor Patience On Heavy Spending",
+      "link": "https://finance.yahoo.com/news/microsoft-ai-growth-story-tests-070753789.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Microsoft (NasdaqGS:MSFT) reported second quarter results with record cloud and AI revenues and the launch of its Maia 200 AI chip. The company highli..."
+    },
+    {
+      "title": "Mixed options sentiment in Richtech Robotics Inc with shares up 0.42%",
+      "link": "https://finance.yahoo.com/news/mixed-options-sentiment-richtech-robotics-160517873.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Mixed options sentiment in Richtech Robotics Inc (RR), with shares up 2c, or 0.42%, near $3.60. Options volume roughly in line with average with 27k c..."
+    },
+    {
+      "title": "Microsoft AI Chip Push Tests Market Confidence In OpenAI Reliance",
+      "link": "https://finance.yahoo.com/news/microsoft-ai-chip-push-tests-043535881.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Microsoft has rolled out its second generation Maia 200 AI chip, expanding its in house AI infrastructure offerings. The company is deepening AI colla..."
+    },
+    {
+      "title": "Microsoft\u2019s Expanding AI Ecosystem Tests Copilot Scale And Investor Expectations",
+      "link": "https://finance.yahoo.com/news/microsoft-expanding-ai-ecosystem-tests-002349536.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Microsoft (NasdaqGS:MSFT) is expanding its AI ecosystem, with record uptake of Microsoft 365 Copilot, now at 15 million paid seats, and new partner in..."
+    },
+    {
+      "title": "Richtech: Fiscal Q1 Earnings Snapshot",
+      "link": "https://finance.yahoo.com/news/richtech-fiscal-q1-earnings-snapshot-111358393.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "LAS VEGAS (AP) \u2014 Richtech Robotics (RR) on Wednesday reported a loss of $8.4 million in its fiscal first quarter. On a per-share basis, the Las Vegas-..."
+    },
+    {
+      "title": "Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years",
+      "source": "BLOOMBERG",
+      "summary": "Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+    },
+    {
+      "title": "Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/microsoft-ai-growth-story-tests-070753789.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Microsoft\u2019s AI Growth Story Tests Investor Patience On Heavy Spending</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Microsoft (NasdaqGS:MSFT) reported second quarter results with record cloud and AI revenues and the launch of its Maia 200 AI chip. The company highli..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/mixed-options-sentiment-richtech-robotics-160517873.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Mixed options sentiment in Richtech Robotics Inc with shares up 0.42%</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Mixed options sentiment in Richtech Robotics Inc (RR), with shares up 2c, or 0.42%, near $3.60. Options volume roughly in line with average with 27k c..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/microsoft-ai-chip-push-tests-043535881.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Microsoft AI Chip Push Tests Market Confidence In OpenAI Reliance</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Microsoft has rolled out its second generation Maia 200 AI chip, expanding its in house AI infrastructure offerings. The company is deepening AI colla..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/microsoft-expanding-ai-ecosystem-tests-002349536.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Microsoft\u2019s Expanding AI Ecosystem Tests Copilot Scale And Investor Expectations</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Microsoft (NasdaqGS:MSFT) is expanding its AI ecosystem, with record uptake of Microsoft 365 Copilot, now at 15 million paid seats, and new partner in..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/richtech-fiscal-q1-earnings-snapshot-111358393.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Richtech: Fiscal Q1 Earnings Snapshot</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> LAS VEGAS (AP) \u2014 Richtech Robotics (RR) on Wednesday reported a loss of $8.4 million in its fiscal first quarter. On a per-share basis, the Las Vegas-..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years' target='_blank' class='hover:text-neon-blue transition-colors'>Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Richtech Robotics Inc. // Industrials [Specialty Industrial Machinery]. Mkt Cap: $666.32M. Rev Growth: -8.8%. PM: 0.0%.",
+    "forward_looking": "Beta: -3.668. Range(52W): 1.37 - 7.43. Analyst Tgt: 4.0."
+  },
+  "geospatial": {
+    "site": "Las Vegas, United States",
+    "coords": "https://www.richtechrobotics.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 55,
+    "fundamental": 60,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 34.2,
+    "target_price": 4.0,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 55/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 34.2%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 55/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 34.2%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

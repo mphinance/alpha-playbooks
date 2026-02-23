@@ -1,0 +1,218 @@
+{
+  "ticker": "NFLX",
+  "logo_url": "https://logo.clearbit.com/www.netflix.com",
+  "generated_at": "2026-02-17 08:43:55 UTC",
+  "market_snapshot": {
+    "price": 76.87,
+    "market_cap": "$326.07B",
+    "beta": 1.71,
+    "range_52w": "75.23 - 134.115",
+    "analyst_target": 111.43
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 89.32,
+      "sma_200": 111.62,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 79.54,
+      "21": 82.9,
+      "34": 86.01,
+      "55": 90.63,
+      "89": 96.28
+    },
+    "volume": {
+      "current": "42,228,700",
+      "avg_20d": "55,375,070",
+      "rel_vol": 0.76,
+      "rel_vol_pct": 38
+    },
+    "pivots": {
+      "R2": 95.34,
+      "R1": 86.1,
+      "PP": 80.67,
+      "S1": 71.43,
+      "S2": 66.0
+    },
+    "fibonacci": {
+      "100": 134.12,
+      "61.8": 111.62,
+      "50": 104.67,
+      "38.2": 97.72,
+      "0": 75.23
+    },
+    "oscillators": {
+      "rsi_14": 24.79,
+      "adx_14": 30.83,
+      "macd_hist": -0.18
+    }
+  },
+  "volatility": {
+    "hv_30d": 26.56,
+    "iv_current": 1.62
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-10",
+      "insider": "PETERS GREGORY K.",
+      "type": "",
+      "value": "$2.27M"
+    },
+    {
+      "date": "2026-02-10",
+      "insider": "WILLEMS CLETUS R",
+      "type": "",
+      "value": "$259,253"
+    },
+    {
+      "date": "2026-02-09",
+      "insider": "HYMAN DAVID A",
+      "type": "",
+      "value": "$464,231"
+    },
+    {
+      "date": "2026-02-06",
+      "insider": "NEUMANN SPENCER ADAM",
+      "type": "",
+      "value": "$751,598"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "HASTINGS REED",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Disney Fights Against TikTok Parent\u2019s AI Video Model. Big Money Is at Stake.",
+      "link": "https://finance.yahoo.com/m/d6ab316c-a85c-3890-ae9a-d02a8f20fa45/disney-fights-against-tiktok.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Seedance 2.0 has flooded the internet with AI-generated videos of beloved actors and characters. Disney is taking aim at its owner ByteDance...."
+    },
+    {
+      "title": "Netflix Faces Investor Pushback In High Stakes Warner Bros. Discovery Pursuit",
+      "link": "https://finance.yahoo.com/news/netflix-faces-investor-pushback-high-160611081.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Netflix (NasdaqGS:NFLX) is pursuing an acquisition of Warner Bros. Discovery that has triggered an escalating bidding contest and regulatory scrutiny...."
+    },
+    {
+      "title": "These 3 Stocks Appear to Be Set Up For a Massive 2026",
+      "link": "https://247wallst.com/investing/2026/02/16/these-3-stocks-appear-to-be-set-up-for-a-massive-2026/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "It\u2019s been quite the run in the stock market, for investors of all ages and risk profiles. However, it\u2019s been true that investors who have continued to..."
+    },
+    {
+      "title": "NYT Avoids Netflix-Style Password Crackdowns, Leans On Premium Family Plans",
+      "link": "https://finance.yahoo.com/news/nyt-avoids-netflix-style-password-183102812.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The New York Times Co. (NYSE:NYT) is leveraging a \u201ccarrot\u201d approach to monetization, using premium Family Plans to drive growth while avoiding the agg..."
+    },
+    {
+      "title": "Warner Bros Discovery Stalls at $27.99 as $108 Billion Paramount Bid Faces Delay",
+      "link": "https://247wallst.com/investing/2026/02/16/warner-bros-discovery-stalls-at-27-99-as-108-billion-paramount-bid-faces-delay/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Amid all of the ongoing conversation around Netflix and Paramount, Shares of Warner Bros. Discovery (NASDAQ:WBD) are trading at $27.99, hovering just ..."
+    },
+    {
+      "title": "Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years",
+      "source": "BLOOMBERG",
+      "summary": "Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+    },
+    {
+      "title": "Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/d6ab316c-a85c-3890-ae9a-d02a8f20fa45/disney-fights-against-tiktok.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Disney Fights Against TikTok Parent\u2019s AI Video Model. Big Money Is at Stake.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Seedance 2.0 has flooded the internet with AI-generated videos of beloved actors and characters. Disney is taking aim at its owner ByteDance...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/netflix-faces-investor-pushback-high-160611081.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Netflix Faces Investor Pushback In High Stakes Warner Bros. Discovery Pursuit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Netflix (NasdaqGS:NFLX) is pursuing an acquisition of Warner Bros. Discovery that has triggered an escalating bidding contest and regulatory scrutiny...."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/16/these-3-stocks-appear-to-be-set-up-for-a-massive-2026/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>These 3 Stocks Appear to Be Set Up For a Massive 2026</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> It\u2019s been quite the run in the stock market, for investors of all ages and risk profiles. However, it\u2019s been true that investors who have continued to..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/nyt-avoids-netflix-style-password-183102812.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>NYT Avoids Netflix-Style Password Crackdowns, Leans On Premium Family Plans</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The New York Times Co. (NYSE:NYT) is leveraging a \u201ccarrot\u201d approach to monetization, using premium Family Plans to drive growth while avoiding the agg..."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/16/warner-bros-discovery-stalls-at-27-99-as-108-billion-paramount-bid-faces-delay/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Warner Bros Discovery Stalls at $27.99 as $108 Billion Paramount Bid Faces Delay</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Amid all of the ongoing conversation around Netflix and Paramount, Shares of Warner Bros. Discovery (NASDAQ:WBD) are trading at $27.99, hovering just ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years' target='_blank' class='hover:text-neon-blue transition-colors'>Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Netflix, Inc. // Communication Services [Entertainment]. Mkt Cap: $326.07B. Rev Growth: 17.6%. PM: 24.3%.",
+    "forward_looking": "Beta: 1.712. Range(52W): 75.23 - 134.115. Analyst Tgt: 111.42846."
+  },
+  "geospatial": {
+    "site": "Los Gatos, United States",
+    "coords": "https://www.netflix.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 5,
+    "fundamental": 80,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -24.2,
+    "target_price": 58.3,
+    "graham_num": 18.94,
+    "lynch_value": 44.53,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 5/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-24.2%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 5/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-24.2%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}

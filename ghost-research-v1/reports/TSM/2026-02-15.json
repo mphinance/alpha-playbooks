@@ -1,0 +1,187 @@
+{
+  "ticker": "TSM",
+  "logo_url": "https://logo.clearbit.com/www.tsmc.com",
+  "generated_at": "2026-02-15 08:48:46 UTC",
+  "market_snapshot": {
+    "price": 366.36,
+    "market_cap": "$1900.13B",
+    "beta": 1.27,
+    "range_52w": "134.25 - 380.0",
+    "analyst_target": 421.49
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 320.46,
+      "sma_200": 263.53,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 357.86,
+      "21": 343.97,
+      "34": 334.64,
+      "55": 323.3,
+      "89": 308.66
+    },
+    "volume": {
+      "current": "10,441,500",
+      "avg_20d": "14,583,325",
+      "rel_vol": 0.72,
+      "rel_vol_pct": 35
+    },
+    "pivots": {
+      "R2": 416.07,
+      "R1": 391.22,
+      "PP": 355.14,
+      "S1": 330.29,
+      "S2": 294.21
+    },
+    "fibonacci": {
+      "100": 380.0,
+      "61.8": 285.64,
+      "50": 256.49,
+      "38.2": 227.34,
+      "0": 132.98
+    },
+    "oscillators": {
+      "rsi_14": 66.2,
+      "adx_14": 20.72,
+      "macd_hist": 2.45
+    }
+  },
+  "volatility": {
+    "hv_30d": 38.01,
+    "iv_current": 48.38
+  },
+  "insider_transactions": [],
+  "intel_feed": [
+    {
+      "title": "Taiwan Semiconductor Manufacturing Scores Fresh Buy Rating",
+      "link": "https://finance.yahoo.com/m/31a1956c-0336-3cd0-a629-e55beacaeed6/taiwan-semiconductor.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Taiwan Semiconductor Manufacturing is trading in record high territory, but a Wall Street analyst thinks TSM stock has room to run higher...."
+    },
+    {
+      "title": "3 Stocks That Will Be Worth $3 Trillion or More in 3 Years",
+      "link": "https://www.fool.com/investing/2026/02/14/3-stocks-that-will-be-worth-3-trillion-or-more-in/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The $3 trillion club is going to get a lot bigger in the next few years...."
+    },
+    {
+      "title": "TSMC\u2019s AI Revenue Record And Global Expansion Shape Valuation Debate",
+      "link": "https://finance.yahoo.com/news/tsmc-ai-revenue-record-global-141323254.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "TSMC reports record high monthly revenue, driven mainly by demand for advanced AI chips. The company outlines a major global manufacturing expansion w..."
+    },
+    {
+      "title": "The AI Boom Is Real, And Taiwan Is Cashing The Checks",
+      "link": "https://finance.yahoo.com/news/ai-boom-real-taiwan-cashing-223110051.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Taiwan raised its 2026 economic growth outlook as the island continues to benefit from booming AI-driven exports. AI-Driven Exports Taiwan's exports s..."
+    },
+    {
+      "title": "2 Growth Stocks to Invest $1,000 in Right Now",
+      "link": "https://www.fool.com/investing/2026/02/14/2-growth-stocks-to-invest-1000-in-right-now/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Alphabet and TSMC have robust competitive moats...."
+    },
+    {
+      "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+      "source": "BLOOMBERG",
+      "summary": "Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+    },
+    {
+      "title": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+      "source": "BLOOMBERG",
+      "summary": "India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/31a1956c-0336-3cd0-a629-e55beacaeed6/taiwan-semiconductor.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Taiwan Semiconductor Manufacturing Scores Fresh Buy Rating</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Taiwan Semiconductor Manufacturing is trading in record high territory, but a Wall Street analyst thinks TSM stock has room to run higher...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/3-stocks-that-will-be-worth-3-trillion-or-more-in/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Stocks That Will Be Worth $3 Trillion or More in 3 Years</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The $3 trillion club is going to get a lot bigger in the next few years...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/tsmc-ai-revenue-record-global-141323254.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>TSMC\u2019s AI Revenue Record And Global Expansion Shape Valuation Debate</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> TSMC reports record high monthly revenue, driven mainly by demand for advanced AI chips. The company outlines a major global manufacturing expansion w..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/ai-boom-real-taiwan-cashing-223110051.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>The AI Boom Is Real, And Taiwan Is Cashing The Checks</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Taiwan raised its 2026 economic growth outlook as the island continues to benefit from booming AI-driven exports. AI-Driven Exports Taiwan's exports s..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/2-growth-stocks-to-invest-1000-in-right-now/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>2 Growth Stocks to Invest $1,000 in Right Now</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Alphabet and TSMC have robust competitive moats...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus' target='_blank' class='hover:text-neon-blue transition-colors'>Goldman Upgrades Forecast for 2026 China Current-Account Surplus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes' target='_blank' class='hover:text-neon-blue transition-colors'>India Curbs Loans Extended to Brokers in Blow to Trading Volumes</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Taiwan Semiconductor Manufacturing Company Limited // Technology [Semiconductors]. Mkt Cap: $1900.13B. Rev Growth: 20.5%. PM: 45.1%.",
+    "forward_looking": "Beta: 1.272. Range(52W): 134.25 - 380.0. Analyst Tgt: 421.49057."
+  },
+  "geospatial": {
+    "site": "Hsinchu City, Taiwan",
+    "coords": "https://www.tsmc.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 100,
+    "fundamental": 80,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -38.4,
+    "target_price": 225.83,
+    "graham_num": 39.72,
+    "lynch_value": 216.28,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 100/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-38.4%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 100/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-38.4%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

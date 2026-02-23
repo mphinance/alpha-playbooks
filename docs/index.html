@@ -1,168 +1,595 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALPHA DASHBOARD | UAMY Institutional Intel</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;500;700&display=swap"
-        rel="stylesheet">
+    <title>Options Data Dashboard | ALPHA-PLAYBOOK | HUD-V2</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Alpine.js for declarative UI binding -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- Plotly.js for Charts -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        body {
+            background-color: #0d0d0d;
+            color: #e5e5e5;
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .panel {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .text-positive { color: #4ade80; } /* green-400 */
+        .text-negative { color: #f87171; } /* red-400 */
+        .bg-positive { background-color: #4ade80; }
+        .bg-negative { background-color: #f87171; }
+        
+        /* Subtle scrollbar for data grids */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #1a1a1a; }
+        ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+
+        [x-cloak] { display: none !important; }
+    </style>
 </head>
+<body class="p-4 md:p-6 min-h-screen" x-data="dashboardApp()" x-init="initDashboard()">
 
-<body>
-    <div class="glow-bg"></div>
-    <main class="dashboard">
-        <!-- Sidebar Navigation -->
-        <aside class="sidebar">
-            <div class="logo">
-                <span class="alpha-text">WAR ROOM</span>
-                <span class="version">uamy_ops</span>
+    <div class="max-w-7xl mx-auto space-y-6">
+        
+        <!-- SECTION 1: GLOBAL HEADER + TICKER SELECTOR -->
+        <header class="flex flex-col md:flex-row justify-between items-end pb-4 border-b border-gray-700">
+            <div class="flex flex-col space-y-4">
+                <div class="flex items-center space-x-4">
+                    <h1 class="text-5xl font-extrabold tracking-tight text-white" x-text="data.ticker || 'SELECT'">TICKER</h1>
+                    
+                    <!-- TICKER DROPDOWN -->
+                    <div class="relative">
+                        <select 
+                            x-model="selectedTicker" 
+                            @change="loadTicker(selectedTicker)"
+                            class="bg-gray-800 border border-gray-700 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 appearance-none pr-8 cursor-pointer hover:bg-gray-700 transition-colors"
+                        >
+                            <option value="" disabled>Select Ticker</option>
+                            <template x-for="ticker in tickerList" :key="ticker">
+                                <option :value="ticker" x-text="ticker" :selected="ticker === selectedTicker"></option>
+                            </template>
+                        </select>
+                        <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none text-gray-400">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-xl text-gray-400 font-medium mt-1" x-text="data.companyName || 'Select an asset from the list'">Select an asset</h2>
             </div>
-            <nav>
-                <ul>
-                    <li class="active"><a href="#"><span class="icon">📡</span> Tactical Overview</a></li>
-                    <li><a href="https://github.com/mphinance/alpha-playbooks" target="_blank"><span
-                                class="icon">🛠️</span> Weaponry Repo</a></li>
-                    <li><a href="https://mphinance.substack.com" target="_blank"><span class="icon">🗞️</span>
-                            Intelligence</a></li>
-                    <li><a href="https://notebooklm.google.com/notebook/db4ee70e-63f0-4234-909e-cd9558c36fab"
-                            target="_blank" class="cta-link"><span class="icon">☢️</span> ENTER VAULT</a></li>
-                </ul>
-            </nav>
-            <div class="sidebar-footer">
-                <div class="status-indicator">
-                    <span class="pulse"></span> COMBAT READY
+            
+            <div class="text-right mt-4 md:mt-0" x-show="data.ticker">
+                <div class="flex items-baseline justify-end space-x-3">
+                    <span class="text-4xl font-bold text-white" x-text="formatCurrency(data.currentPrice)">$0.00</span>
+                    <div class="text-lg font-bold flex items-center" :class="data.priceChange >= 0 ? 'text-positive' : 'text-negative'">
+                        <span x-text="formatChange(data.priceChange)">+0.00</span>
+                        <span class="ml-1" x-text="'(' + formatPct(data.priceChangePct) + ')'">(+0.00%)</span>
+                    </div>
+                </div>
+                <div class="text-sm text-gray-500 mt-2 font-mono">
+                    <span x-text="data.timestamp">00/00/00 00:00</span>
+                    <span class="mx-2">|</span>
+                    <span x-text="data.postMarketStr">Post-Market: --</span>
                 </div>
             </div>
-        </aside>
+        </header>
 
-        <!-- Main Content Area -->
-        <section class="content">
-            <header class="top-bar">
-                <div class="ticker-info">
-                    <h1>UAMY <span class="sub-text">STRATEGIC WEAPONIZED ANTIMONY</span></h1>
-                </div>
-                <div class="market-stats">
-                    <div class="stat-item">
-                        <span class="label">PRICE_STRIKE</span>
-                        <span class="value" id="price-val">$8.61</span>
-                    </div>
-                    <div class="stat-item highlight">
-                        <span class="label">FORMATION</span>
-                        <span class="value" id="sentiment-val">BULLISH_STACKED</span>
-                    </div>
-                </div>
-            </header>
+        <!-- LOADING STATE -->
+        <div x-show="loading" class="flex justify-center items-center py-20" x-cloak>
+            <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-500"></div>
+        </div>
 
-            <div class="grid-container">
-                <!-- Section 1: Technical Deep Dive -->
-                <div class="card glass technical-expanded">
-                    <div class="card-header">
-                        <h3>ENGAGEMENT ZONE</h3>
-                        <span class="tag">TRAJECTORY_INTEL</span>
-                    </div>
-                    <div class="card-body multi-column">
-                        <div class="buy-zone-hero">
-                            <span class="label">KILL_CHAIN</span>
-                            <span class="value success" id="buy-zone-val">ACTIVE</span>
-                            <div class="mini-metrics">
-                                <span>VECTOR 21: <strong id="ema-val"></strong></span>
-                                <span>SPREAD_ATR: <strong id="atr-val"></strong></span>
+        <!-- MAIN DASHBOARD CONTENT -->
+        <div x-show="!loading && data.ticker" x-cloak class="space-y-6">
+            
+            <!-- SECTION 2: TOP SUMMARY BAR -->
+            <section class="panel flex flex-col md:flex-row justify-between items-center divide-y md:divide-y-0 md:divide-x divide-gray-700 p-4">
+                <div class="flex-1 text-center py-2 md:py-0">
+                    <div class="text-xs text-gray-400 uppercase tracking-wider mb-1">Implied Volatility</div>
+                    <div class="text-2xl font-bold" x-text="(data.impliedVolatility || 0).toFixed(2) + '%'">--</div>
+                </div>
+                <div class="flex-1 text-center py-2 md:py-0">
+                    <div class="text-xs text-gray-400 uppercase tracking-wider mb-1">Historic Volatility</div>
+                    <div class="text-2xl font-bold" x-text="(data.historicVolatility || 0).toFixed(2) + '%'">--</div>
+                </div>
+                <div class="flex-1 text-center py-2 md:py-0">
+                    <div class="text-xs text-gray-400 uppercase tracking-wider mb-1">IV Rank</div>
+                    <div class="text-2xl font-bold" x-text="(data.ivRank || 0).toFixed(2)">--</div>
+                </div>
+                <div class="flex-1 text-center py-2 md:py-0">
+                    <div class="text-xs text-gray-400 uppercase tracking-wider mb-1">IV Percentile</div>
+                    <div class="text-2xl font-bold" x-text="(data.ivPercentile || 0).toFixed(2) + '%'">--</div>
+                </div>
+            </section>
+
+            <!-- MAIN 2x2 GRID -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                
+                <!-- SECTION 3: TOP LEFT PANEL (Volatility Status) -->
+                <section class="panel p-5 flex flex-col h-full">
+                    <h3 class="text-center text-lg font-bold text-gray-200 mb-6" x-text="getVolatilityStatus()">Volatility Status</h3>
+                    
+                    <div class="flex-1 flex flex-col items-center justify-center mb-8 relative">
+                        <!-- Gauge -->
+                        <div id="ivRankGauge" class="w-full h-40"></div>
+                        
+                        <!-- Progress Bar for IV Percentile -->
+                        <div class="w-full max-w-sm mt-4">
+                            <div class="flex justify-between text-xs text-gray-400 mb-1">
+                                <span>0%</span>
+                                <span>IV Percentile</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="w-full bg-gray-800 rounded-full h-2.5">
+                                <div class="bg-gradient-to-r from-blue-500 to-purple-500 h-2.5 rounded-full" :style="'width: ' + Math.min(100, Math.max(0, data.ivPercentile)) + '%'"></div>
                             </div>
                         </div>
-                        <div class="levels-grid">
-                            <div class="table-mini">
-                                <h4>TACTICAL PIVOTS</h4>
-                                <ul id="pivot-list" class="data-list"></ul>
-                            </div>
-                            <div class="table-mini">
-                                <h4>RETRACEMENT_FIB</h4>
-                                <ul id="fib-list" class="data-list"></ul>
-                            </div>
-                        </div>
                     </div>
-                </div>
 
-                <!-- Section 2: Geospatial Timeline -->
-                <div class="card glass geospatial-expanded">
-                    <div class="card-header">
-                        <h3>TARGET_SIGHT_GROUND_TRUTH</h3>
-                        <span class="tag">SAR_SATELLITE_FIX</span>
+                    <div class="grid grid-cols-2 gap-x-4 gap-y-3 text-sm border-t border-gray-700 pt-4">
+                        <div class="flex justify-between"><span class="text-gray-400">Implied Volatility</span> <span class="font-mono font-medium" x-text="(data.impliedVolatility || 0).toFixed(2)+'%'"></span></div>
+                        <div class="flex justify-between"><span class="text-gray-400">Historic Volatility</span> <span class="font-mono font-medium" x-text="(data.historicVolatility || 0).toFixed(2)+'%'"></span></div>
+                        <div class="flex justify-between"><span class="text-gray-400">5D IV Avg</span> <span class="font-mono font-medium" x-text="(data.iv5dAvg || 0).toFixed(2)+'%'"></span></div>
+                        <div class="flex justify-between"><span class="text-gray-400">1M IV Avg</span> <span class="font-mono font-medium" x-text="(data.iv1mAvg || 0).toFixed(2)+'%'"></span></div>
+                        
+                        <div class="flex flex-col">
+                            <div class="flex justify-between"><span class="text-gray-400">IV 3M Low</span> <span class="font-mono font-medium" x-text="(data.iv3mLow || 0).toFixed(2)+'%'"></span></div>
+                            <div class="text-right text-xs text-gray-500" x-text="data.iv3mLowDate"></div>
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex justify-between"><span class="text-gray-400">IV 3M High</span> <span class="font-mono font-medium" x-text="(data.iv3mHigh || 0).toFixed(2)+'%'"></span></div>
+                            <div class="text-right text-xs text-gray-500" x-text="data.iv3mHighDate"></div>
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex justify-between"><span class="text-gray-400">IV 52W Low</span> <span class="font-mono font-medium" x-text="(data.iv52wLow || 0).toFixed(2)+'%'"></span></div>
+                            <div class="text-right text-xs text-gray-500" x-text="data.iv52wLowDate"></div>
+                        </div>
+                        <div class="flex flex-col">
+                            <div class="flex justify-between"><span class="text-gray-400">IV 52W High</span> <span class="font-mono font-medium" x-text="(data.iv52wHigh || 0).toFixed(2)+'%'"></span></div>
+                            <div class="text-right text-xs text-gray-500" x-text="data.iv52wHighDate"></div>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <div class="geo-hero">
-                            <div class="score-box" id="geo-score">85%</div>
-                            <div class="site-meta">
-                                <h4 id="site-name">STIBNITE HILL, MT</h4>
-                                <p id="site-coords" class="coord-text">POS: 47.59 N, 115.33 W</p>
+                </section>
+
+                <!-- SECTION 4: TOP RIGHT PANEL (Trend Status) -->
+                <section class="panel p-5 flex flex-col h-full">
+                    <h3 class="text-center text-lg font-bold mb-6">
+                        Trend: <span :class="getTrendColor(data.trendOverall)" x-text="data.trendOverall + ' Market'"></span>
+                    </h3>
+
+                    <!-- Visual 3 Circular Icons -->
+                    <div class="flex justify-around items-center mb-6 px-4">
+                        <template x-for="term in [
+                            { label: 'Short-Term', val: data.trendShort },
+                            { label: 'Med-Term', val: data.trendMed },
+                            { label: 'Long-Term', val: data.trendLong }
+                        ]">
+                            <div class="flex flex-col items-center">
+                                <div class="w-16 h-16 rounded-full flex items-center justify-center border-2 mb-2 shadow-lg"
+                                     :class="[getTrendBgColor(term.val), getTrendBorderColor(term.val)]">
+                                    <!-- Arrow SVG based on trend direction -->
+                                    <svg x-show="isBullish(term.val)" class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+                                    <svg x-show="!isBullish(term.val) && term.val !== 'Neutral'" class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                                    <svg x-show="term.val === 'Neutral'" class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 12h14"></path></svg>
+                                </div>
+                                <span class="text-xs text-gray-400 uppercase font-semibold" x-text="term.label"></span>
+                                <span class="text-sm font-bold mt-1" :class="getTrendTextColor(term.val)" x-text="term.val"></span>
+                            </div>
+                        </template>
+                    </div>
+
+                    <!-- Middle Banner -->
+                    <div class="bg-gray-800 rounded-md py-3 text-center mb-6">
+                        <span class="text-gray-400 text-sm mr-2">Last Price:</span>
+                        <span class="text-xl font-bold" x-text="formatCurrency(data.currentPrice)"></span>
+                        <span class="ml-2 font-bold" :class="data.priceChange >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.priceChangePct)"></span>
+                    </div>
+
+                    <!-- Data Grid (3 columns) -->
+                    <div class="grid grid-cols-3 gap-4 text-center text-sm border-t border-gray-700 pt-4 flex-1">
+                        <!-- Row 1 -->
+                        <div>
+                            <div class="text-gray-500 text-xs mb-1">20D MovAvg</div>
+                            <div class="font-mono" x-text="formatCurrency(data.movAvg20d)"></div>
+                        </div>
+                        <div>
+                            <div class="text-gray-500 text-xs mb-1">50D MovAvg</div>
+                            <div class="font-mono" x-text="formatCurrency(data.movAvg50d)"></div>
+                        </div>
+                        <div>
+                            <div class="text-gray-500 text-xs mb-1">100D MovAvg</div>
+                            <div class="font-mono" x-text="formatCurrency(data.movAvg100d)"></div>
+                        </div>
+                        
+                        <!-- Row 2 -->
+                        <div>
+                            <div class="font-mono text-xs" :class="data.movAvgChange20d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatChange(data.movAvgChange20d)"></div>
+                        </div>
+                        <div>
+                            <div class="font-mono text-xs" :class="data.movAvgChange50d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatChange(data.movAvgChange50d)"></div>
+                        </div>
+                        <div>
+                            <div class="font-mono text-xs" :class="data.movAvgChange100d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatChange(data.movAvgChange100d)"></div>
+                        </div>
+
+                        <!-- Row 3 -->
+                        <div class="mt-2">
+                            <div class="text-gray-500 text-xs mb-1">20D ATR</div>
+                            <div class="font-mono" x-text="(data.atr20d || 0).toFixed(2)"></div>
+                        </div>
+                        <div class="mt-2">
+                            <div class="text-gray-500 text-xs mb-1">20D RSI</div>
+                            <div class="font-mono" x-text="(data.rsi20d || 0).toFixed(2)"></div>
+                        </div>
+                        <div class="mt-2">
+                            <div class="text-gray-500 text-xs mb-1">Trend Seeker</div>
+                            <div class="font-bold text-xs p-1 rounded bg-gray-800" :class="(data.trendSeekerSignal || '').includes('BUY') ? 'text-positive' : ((data.trendSeekerSignal || '').includes('SELL') ? 'text-negative' : 'text-yellow-400')" x-text="data.trendSeekerSignal"></div>
+                        </div>
+
+                        <!-- Bottom Row spanning all -->
+                        <div class="col-span-3 flex justify-between mt-4 pt-3 border-t border-gray-700 px-2">
+                            <div class="text-left">
+                                <div class="text-gray-500 text-xs mb-1">52-Week Low</div>
+                                <div class="font-mono text-negative font-bold" x-text="formatCurrency(data.low52w)"></div>
+                                <div class="text-xs text-gray-500" x-text="data.low52wDate"></div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-gray-500 text-xs mb-1">52-Week High</div>
+                                <div class="font-mono text-positive font-bold" x-text="formatCurrency(data.high52w)"></div>
+                                <div class="text-xs text-gray-500" x-text="data.high52wDate"></div>
                             </div>
                         </div>
-                        <div class="timeline" id="geo-timeline">
-                            <!-- Injected by JS -->
-                        </div>
                     </div>
-                </div>
+                </section>
 
-                <!-- Section 3: Insider & SEC Activity -->
-                <div class="card glass activity">
-                    <div class="card-header">
-                        <h3>STRATEGIC RESERVES & INTEL</h3>
-                        <span class="tag">ORDER_FLOW_FORM_4</span>
-                    </div>
-                    <div class="card-body dual-pane">
-                        <div class="insider-pane">
-                            <h4>PURCHASE_MOMENTUM</h4>
-                            <table class="styled-table">
-                                <thead>
-                                    <tr>
-                                        <th>TIMESTAMP</th>
-                                        <th>VALUE</th>
-                                        <th>QTY</th>
+                <!-- SECTION 5: BOTTOM LEFT PANEL (Expected Move) -->
+                <section class="panel p-5 flex flex-col h-full">
+                    <h3 class="text-lg font-bold text-gray-200 mb-2"><span x-text="data.ticker"></span> Expected Move</h3>
+                    
+                    <div id="expectedMoveChart" class="w-full h-64 mb-4"></div>
+
+                    <div class="flex-1 overflow-auto max-h-64 mt-2 border border-gray-800 rounded">
+                        <table class="w-full text-left text-sm whitespace-nowrap">
+                            <thead class="bg-gray-800 text-gray-400 sticky top-0">
+                                <tr>
+                                    <th class="px-4 py-2 font-medium">Expiration</th>
+                                    <th class="px-4 py-2 font-medium text-right">Expected Move</th>
+                                    <th class="px-4 py-2 font-medium text-center">Expected Range</th>
+                                    <th class="px-4 py-2 font-medium text-right">Implied Vol</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-800">
+                                <template x-for="item in (data.expectedMoves || [])" :key="item.expiration">
+                                    <tr class="hover:bg-gray-800/50 transition-colors">
+                                        <td class="px-4 py-2 font-mono" x-text="item.expiration"></td>
+                                        <td class="px-4 py-2 text-right font-mono" x-text="formatCurrency(item.expectedMove)"></td>
+                                        <td class="px-4 py-2 text-center text-xs text-gray-300" x-text="item.expectedRange"></td>
+                                        <td class="px-4 py-2 text-right font-mono text-blue-400" x-text="(item.iv || 0).toFixed(1) + '%'"></td>
                                     </tr>
-                                </thead>
-                                <tbody id="insider-table"></tbody>
-                            </table>
-                        </div>
-                        <div class="sec-pane">
-                            <h4>MISSION_OPS</h4>
-                            <p id="sec-ops" class="insight-text"></p>
-                            <h4>THREAT_VECTORS</h4>
-                            <p id="sec-risks" class="insight-text"></p>
-                        </div>
+                                </template>
+                            </tbody>
+                        </table>
                     </div>
-                </div>
+                </section>
 
-                <!-- Section 4: Supply Chain & Headlines -->
-                <div class="card glass supply-expanded">
-                    <div class="card-header">
-                        <h3>WAR_METAL_LOGISTICS</h3>
-                        <span class="tag">SUPPLY_THROUGHPUT</span>
-                    </div>
-                    <div class="card-body multi-column">
-                        <div class="supply-stats">
-                            <div class="benchmark-hero">
-                                <span class="label">ANTIMONY_BENCHMARK</span>
-                                <span class="value" id="benchmark-val">$46.70</span>
-                                <span class="unit">USD/KG</span>
+                <!-- SECTION 6: BOTTOM RIGHT PANEL (Put Call Ratio) -->
+                <section class="panel p-5 flex flex-col h-full">
+                    <h3 class="text-lg font-bold text-gray-200 mb-2"><span x-text="data.ticker"></span> Put Call Ratio</h3>
+                    
+                    <div id="putCallChart" class="w-full h-64 mb-4"></div>
+
+                    <div class="grid grid-cols-4 gap-2 text-xs md:text-sm text-right mt-auto border border-gray-800 rounded p-3 bg-gray-900/50" x-show="data.volumeStats">
+                        <!-- Headers -->
+                        <div class="text-left text-gray-500 font-medium pb-2 border-b border-gray-700">Metric</div>
+                        <div class="text-gray-500 font-medium pb-2 border-b border-gray-700">Calls</div>
+                        <div class="text-gray-500 font-medium pb-2 border-b border-gray-700">Puts</div>
+                        <div class="text-gray-500 font-medium pb-2 border-b border-gray-700">Total / Ratio</div>
+                        
+                        <!-- Row 1: Volume -->
+                        <div class="text-left text-gray-400 py-2">Volume</div>
+                        <div class="font-mono py-2 text-white" x-text="formatNumber(data.volumeStats.callVolume)"></div>
+                        <div class="font-mono py-2 text-white" x-text="formatNumber(data.volumeStats.putVolume)"></div>
+                        <div class="font-mono py-2 text-white font-bold flex flex-col items-end">
+                            <span x-text="formatNumber(data.volumeStats.totalVolume)"></span>
+                            <span class="text-xs text-blue-400 mt-1" x-text="'P/C: ' + (data.volumeStats.pcRatioVol || 0).toFixed(2)"></span>
+                        </div>
+
+                        <!-- Row 2: Open Interest -->
+                        <div class="text-left text-gray-400 py-2 border-t border-gray-800">Open Int</div>
+                        <div class="font-mono py-2 border-t border-gray-800 text-white" x-text="formatNumber(data.volumeStats.callOpenInt)"></div>
+                        <div class="font-mono py-2 border-t border-gray-800 text-white" x-text="formatNumber(data.volumeStats.putOpenInt)"></div>
+                        <div class="font-mono py-2 border-t border-gray-800 text-white font-bold flex flex-col items-end">
+                            <span x-text="formatNumber(data.volumeStats.totalOpenInt)"></span>
+                            <span class="text-xs text-blue-400 mt-1" x-text="'P/C: ' + (data.volumeStats.pcRatioOi || 0).toFixed(2)"></span>
+                        </div>
+
+                        <!-- Row 3: % Change -->
+                        <div class="text-left text-gray-400 py-2 border-t border-gray-800">% Chg</div>
+                        <div class="py-2 border-t border-gray-800 flex flex-col items-end">
+                            <span class="text-[10px] text-gray-500">5D Vol</span>
+                            <span class="font-mono" :class="data.volumeStats.volChg5d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.volumeStats.volChg5d)"></span>
+                        </div>
+                        <div class="py-2 border-t border-gray-800 flex flex-col items-end">
+                            <span class="text-[10px] text-gray-500">1M Vol</span>
+                            <span class="font-mono" :class="data.volumeStats.volChg1m >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.volumeStats.volChg1m)"></span>
+                        </div>
+                        <div class="py-2 border-t border-gray-800 flex justify-between gap-2">
+                            <div class="flex flex-col items-end">
+                                <span class="text-[10px] text-gray-500">5D OI</span>
+                                <span class="font-mono" :class="data.volumeStats.oiChg5d >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.volumeStats.oiChg5d)"></span>
                             </div>
-                            <div class="verification-badges" id="verification-badges">
-                                <!-- Injected by JS -->
+                            <div class="flex flex-col items-end">
+                                <span class="text-[10px] text-gray-500">1M OI</span>
+                                <span class="font-mono" :class="data.volumeStats.oiChg1m >= 0 ? 'text-positive' : 'text-negative'" x-text="formatPct(data.volumeStats.oiChg1m)"></span>
                             </div>
                         </div>
-                        <div class="news-ticker">
-                            <h4>FIELD_REPORTS_HEADLINES</h4>
-                            <div id="news-list"></div>
-                        </div>
                     </div>
-                </div>
+                </section>
+
             </div>
-        </section>
-    </main>
+        </div>
+        
+        <div x-show="!loading && !data.ticker" class="text-center py-20 text-gray-500 italic" x-cloak>
+            NO TICKER DATA LOADED. SELECT A TICKER FROM THE MENU.
+        </div>
+    </div>
 
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+    <script>
+        function dashboardApp() {
+            return {
+                data: {},
+                loading: false,
+                selectedTicker: '',
+                tickerList: ["ACHR", "AMT", "ASTS", "AVGO", "BABA", "CLS", "DDD", "DNN", "GDX", "GLXY", "GOOGL", "ISRG", "KTOS", "MU", "NFLX", "NVDA", "ONDS", "PTRN", "RKLB", "RR", "TER", "TSM", "UAMY"],
+                
+                formatCurrency(val) {
+                    if(val === undefined || val === null) return '--';
+                    return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(val);
+                },
+                formatChange(val) {
+                    if(val === undefined || val === null) return '--';
+                    const sign = val > 0 ? '+' : '';
+                    return sign + val.toFixed(2);
+                },
+                formatPct(val) {
+                    if(val === undefined || val === null) return '--';
+                    const sign = val > 0 ? '+' : '';
+                    return sign + val.toFixed(2) + '%';
+                },
+                formatNumber(val) {
+                    if(val === undefined || val === null) return '--';
+                    return new Intl.NumberFormat('en-US').format(val);
+                },
+                getVolatilityStatus() {
+                    const r = this.data.ivRank || 0;
+                    if(r < 25) return "Volatility is Low";
+                    if(r < 50) return "Volatility is Normal";
+                    if(r < 75) return "Volatility is Elevated";
+                    return "Volatility is Extreme";
+                },
+                getTrendColor(trend) {
+                    trend = (trend || '').toLowerCase();
+                    if(trend.includes('bull')) return 'text-positive';
+                    if(trend.includes('bear')) return 'text-negative';
+                    return 'text-gray-400';
+                },
+                isBullish(val) {
+                    return val && !val.toLowerCase().includes('weak') && !val.toLowerCase().includes('bear');
+                },
+                getTrendBgColor(val) {
+                    if(!val) return 'bg-gray-800';
+                    const v = val.toLowerCase();
+                    if(v.includes('strong') && !v.includes('bear')) return 'bg-green-500/20';
+                    if(v.includes('weak') || v.includes('bear')) return 'bg-red-500/20';
+                    if(v.includes('soft')) return 'bg-yellow-500/20';
+                    return 'bg-gray-700';
+                },
+                getTrendBorderColor(val) {
+                    if(!val) return 'border-gray-600';
+                    const v = val.toLowerCase();
+                    if(v.includes('strong') && !v.includes('bear')) return 'border-green-500';
+                    if(v.includes('weak') || v.includes('bear')) return 'border-red-500';
+                    if(v.includes('soft')) return 'border-yellow-500';
+                    return 'border-gray-500';
+                },
+                getTrendTextColor(val) {
+                    if(!val) return 'text-gray-400';
+                    const v = val.toLowerCase();
+                    if(v.includes('strong') && !v.includes('bear')) return 'text-green-400';
+                    if(v.includes('weak') || v.includes('bear')) return 'text-red-400';
+                    if(v.includes('soft')) return 'text-yellow-400';
+                    return 'text-gray-300';
+                },
+
+                async initDashboard() {
+                    // Default to NVDA if available, else first in list
+                    const defaultTicker = this.tickerList.includes('NVDA') ? 'NVDA' : this.tickerList[0];
+                    if (defaultTicker) {
+                        this.selectedTicker = defaultTicker;
+                        await this.loadTicker(defaultTicker);
+                    }
+                },
+
+                async loadTicker(ticker) {
+                    if (!ticker) return;
+                    this.loading = true;
+                    try {
+                        // Fetch latest JSON and latest series JSON
+                        // Paths are relative to docs/index.html -> ../{ticker}/latest.json
+                        const [res, resSeries] = await Promise.all([
+                            fetch(`../${ticker}/latest.json`),
+                            fetch(`../${ticker}/latest_series.json`)
+                        ]);
+                        
+                        if (!res.ok || !resSeries.ok) throw new Error('Data fetch failed');
+                        
+                        const json = await res.json();
+                        const seriesJson = await resSeries.json();
+                        
+                        // Merge or adapt data
+                        // The dynamic dashboard expects a specific structure
+                        // Let's assume the JSON matches what options_template.html uses but adapted
+                        
+                        // Mapping logic from reports/{ticker}/latest.json to dashboard structure
+                        // (This depends on how generate_options_playbook.py structures latest.json)
+                        
+                        // FOR NOW, let's assume latest.json has the flattened structure needed.
+                        // We might need to adjust save_json in generate_options_playbook.py
+                        
+                        this.data = json;
+                        
+                        // Add series data
+                        this.data.anchorDate = seriesJson.generated_at.split(' ')[0];
+                        this.data.historicalPrices = (seriesJson.chart_data || []).map(d => ({ date: d.time, price: d.close }));
+                        
+                        // Re-render charts
+                        this.$nextTick(() => {
+                            this.renderGauge();
+                            this.renderExpectedMoveChart();
+                            this.renderPCRatioChart();
+                        });
+                    } catch (e) {
+                        console.error("Error loading ticker:", e);
+                    } finally {
+                        this.loading = false;
+                    }
+                },
+
+                renderGauge() {
+                    const data = [
+                        {
+                            type: "indicator",
+                            mode: "gauge+number",
+                            value: this.data.ivRank || 0,
+                            number: { suffix: "%", font: { color: "#e5e5e5" } },
+                            gauge: {
+                                axis: { range: [null, 100], tickwidth: 1, tickcolor: "#333" },
+                                bar: { color: "#3b82f6" }, // blue-500
+                                bgcolor: "#1a1a1a",
+                                borderwidth: 2,
+                                bordercolor: "#333",
+                                steps: [
+                                    { range: [0, 25], color: "rgba(59, 130, 246, 0.1)" },
+                                    { range: [25, 50], color: "rgba(59, 130, 246, 0.3)" },
+                                    { range: [50, 75], color: "rgba(59, 130, 246, 0.5)" },
+                                    { range: [75, 100], color: "rgba(59, 130, 246, 0.8)" }
+                                ]
+                            }
+                        }
+                    ];
+                    const layout = {
+                        margin: { t: 25, r: 25, l: 25, b: 25 },
+                        paper_bgcolor: 'rgba(0,0,0,0)',
+                        font: { color: '#e5e5e5', family: 'Inter' }
+                    };
+                    Plotly.newPlot('ivRankGauge', data, layout, {displayModeBar: false});
+                },
+
+                renderExpectedMoveChart() {
+                    const hist = this.data.historicalPrices || [];
+                    const xHist = hist.map(d => d.date);
+                    const yHist = hist.map(d => d.price);
+
+                    const anchorPrice = this.data.currentPrice || 0;
+                    const coneX = [this.data.anchorDate];
+                    const coneYUpper = [anchorPrice];
+                    const coneYLower = [anchorPrice];
+
+                    (this.data.expectedMoves || []).forEach(em => {
+                        const parts = (em.expectedRange || '').split('-');
+                        if(parts.length === 2) {
+                            coneX.push(em.expiration);
+                            coneYLower.push(parseFloat(parts[0].trim()));
+                            coneYUpper.push(parseFloat(parts[1].trim()));
+                        }
+                    });
+
+                    const traces = [
+                        {
+                            x: xHist, y: yHist,
+                            type: 'scatter', mode: 'lines',
+                            name: 'Price',
+                            line: {color: '#e5e5e5', width: 2}
+                        },
+                        {
+                            x: coneX, y: coneYUpper,
+                            type: 'scatter', mode: 'lines',
+                            name: 'Upper Bound',
+                            line: {color: '#4ade80', width: 2, dash: 'dot'}
+                        },
+                        {
+                            x: coneX, y: coneYLower,
+                            type: 'scatter', mode: 'lines',
+                            name: 'Lower Bound',
+                            line: {color: '#f87171', width: 2, dash: 'dot'}
+                        }
+                    ];
+
+                    const layout = {
+                        margin: { t: 10, r: 10, l: 40, b: 30 },
+                        paper_bgcolor: 'rgba(0,0,0,0)',
+                        plot_bgcolor: 'rgba(0,0,0,0)',
+                        font: { color: '#9ca3af', family: 'Inter', size: 10 },
+                        xaxis: { showgrid: false, zeroline: false },
+                        yaxis: { gridcolor: '#333', zeroline: false },
+                        showlegend: false,
+                        shapes: [
+                            {
+                                type: 'line',
+                                x0: this.data.anchorDate, y0: 0,
+                                x1: this.data.anchorDate, y1: 1,
+                                yref: 'paper',
+                                line: { color: '#60a5fa', width: 1, dash: 'dash' }
+                            }
+                        ]
+                    };
+                    Plotly.newPlot('expectedMoveChart', traces, layout, {displayModeBar: false});
+                },
+
+                renderPCRatioChart() {
+                    const c = this.data.pcCharts;
+                    if (!c) return;
+                    const tracePrice = {
+                        x: c.dates, y: c.stockPrices,
+                        type: 'scatter', mode: 'lines',
+                        name: 'Price', line: {color: '#e5e5e5'}
+                    };
+                    const traceVol = {
+                        x: c.dates, y: c.volRatios,
+                        type: 'scatter', mode: 'lines',
+                        name: 'Vol P/C', yaxis: 'y2', line: {color: '#60a5fa'}
+                    };
+                    const traceOi = {
+                        x: c.dates, y: c.oiRatios,
+                        type: 'scatter', mode: 'lines',
+                        name: 'OI P/C', yaxis: 'y2', line: {color: '#c084fc'}
+                    };
+
+                    const layout = {
+                        margin: { t: 10, r: 40, l: 40, b: 30 },
+                        paper_bgcolor: 'rgba(0,0,0,0)',
+                        plot_bgcolor: 'rgba(0,0,0,0)',
+                        font: { color: '#9ca3af', family: 'Inter', size: 10 },
+                        xaxis: { showgrid: false, zeroline: false },
+                        yaxis: { domain: [0.55, 1], gridcolor: '#333', zeroline: false },
+                        yaxis2: { domain: [0, 0.45], gridcolor: '#333', zeroline: false, side: 'right' },
+                        showlegend: true,
+                        legend: { orientation: 'h', y: -0.2, x: 0.5, xanchor: 'center' }
+                    };
+                    Plotly.newPlot('putCallChart', [tracePrice, traceVol, traceOi], layout, {displayModeBar: false});
+                }
+            };
+        }
+    </script>
 </body>
-
 </html>

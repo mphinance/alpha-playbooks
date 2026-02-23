@@ -1,0 +1,187 @@
+{
+  "ticker": "TSM",
+  "logo_url": "https://logo.clearbit.com/www.tsmc.com",
+  "generated_at": "2026-02-21 08:19:43 UTC",
+  "market_snapshot": {
+    "price": 370.54,
+    "market_cap": "$1921.81B",
+    "beta": 1.27,
+    "range_52w": "134.25 - 380.0",
+    "analyst_target": 421.49
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 325.97,
+      "sma_200": 267.38,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 362.37,
+      "21": 350.5,
+      "34": 340.9,
+      "55": 328.87,
+      "89": 313.45
+    },
+    "volume": {
+      "current": "8,994,200",
+      "avg_20d": "12,688,070",
+      "rel_vol": 0.71,
+      "rel_vol_pct": 35
+    },
+    "pivots": {
+      "R2": 417.47,
+      "R1": 394.0,
+      "PP": 356.54,
+      "S1": 333.07,
+      "S2": 295.61
+    },
+    "fibonacci": {
+      "100": 380.0,
+      "61.8": 285.64,
+      "50": 256.49,
+      "38.2": 227.34,
+      "0": 132.98
+    },
+    "oscillators": {
+      "rsi_14": 70.27,
+      "adx_14": 16.0,
+      "macd_hist": 0.73
+    }
+  },
+  "volatility": {
+    "hv_30d": 35.24,
+    "iv_current": 44.83
+  },
+  "insider_transactions": [],
+  "intel_feed": [
+    {
+      "title": "ETFs to Buy as NVIDIA Nears $30 Billion Investment in OpenAI",
+      "link": "https://finance.yahoo.com/news/etfs-buy-nvidia-nears-30-153900102.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "NVIDIA is nearing a $30B OpenAI stake, replacing a $100B pact and spotlighting ETFs loaded with the AI chip giant as investors weigh risk and reward...."
+    },
+    {
+      "title": "AI, Clean Energy & Health Stocks: The Big Winners in a Multipolar 2026",
+      "link": "https://finance.yahoo.com/news/ai-clean-energy-health-stocks-190000575.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "NVIDIA, Albemarle and Axsome Therapeutics emerge as standout plays as AI, clean energy and healthcare draw massive capital in a split 2026 market...."
+    },
+    {
+      "title": "The Best Stocks to Buy With $10,000 Right Now",
+      "link": "https://www.fool.com/investing/2026/02/20/the-best-stocks-to-buy-with-10000-right-now/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The market is giving investors a rare buying opportunity for some of its best stocks...."
+    },
+    {
+      "title": "TSMC (TSM) Rises Higher Than Market: Key Facts",
+      "link": "https://finance.yahoo.com/news/tsmc-tsm-rises-higher-market-224503676.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "In the latest trading session, TSMC (TSM) closed at $370.54, marking a +2.82% move from the previous day...."
+    },
+    {
+      "title": "Dow Jones Futures: Stock Market Rallies On Trump Tariff Decision; Iran, Nvidia In Focus",
+      "link": "https://finance.yahoo.com/m/3a31782f-5969-3157-9772-a6293c1ebb72/dow-jones-futures%3A-stock.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Dow Jones futures will open Sunday evening, along with S&amp;P 500 futures and Nasdaq futures. Nvidia earnings loom with investors also watching out f..."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/etfs-buy-nvidia-nears-30-153900102.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>ETFs to Buy as NVIDIA Nears $30 Billion Investment in OpenAI</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> NVIDIA is nearing a $30B OpenAI stake, replacing a $100B pact and spotlighting ETFs loaded with the AI chip giant as investors weigh risk and reward...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/ai-clean-energy-health-stocks-190000575.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>AI, Clean Energy & Health Stocks: The Big Winners in a Multipolar 2026</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> NVIDIA, Albemarle and Axsome Therapeutics emerge as standout plays as AI, clean energy and healthcare draw massive capital in a split 2026 market...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/20/the-best-stocks-to-buy-with-10000-right-now/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>The Best Stocks to Buy With $10,000 Right Now</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The market is giving investors a rare buying opportunity for some of its best stocks...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/tsmc-tsm-rises-higher-market-224503676.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>TSMC (TSM) Rises Higher Than Market: Key Facts</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> In the latest trading session, TSMC (TSM) closed at $370.54, marking a +2.82% move from the previous day...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/3a31782f-5969-3157-9772-a6293c1ebb72/dow-jones-futures%3A-stock.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Dow Jones Futures: Stock Market Rallies On Trump Tariff Decision; Iran, Nvidia In Focus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Dow Jones futures will open Sunday evening, along with S&amp;P 500 futures and Nasdaq futures. Nvidia earnings loom with investors also watching out f..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Taiwan Semiconductor Manufacturing Company Limited // Technology [Semiconductors]. Mkt Cap: $1921.81B. Rev Growth: 20.5%. PM: 45.1%.",
+    "forward_looking": "Beta: 1.272. Range(52W): 134.25 - 380.0. Analyst Tgt: 421.49057."
+  },
+  "geospatial": {
+    "site": "Hsinchu City, Taiwan",
+    "coords": "https://www.tsmc.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 85,
+    "fundamental": 80,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -39.1,
+    "target_price": 225.57,
+    "graham_num": 39.56,
+    "lynch_value": 215.66,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 85/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-39.1%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 85/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-39.1%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

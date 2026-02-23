@@ -1,0 +1,255 @@
+{
+  "ticker": "NFLX",
+  "companyName": "Netflix, Inc.",
+  "currentPrice": 76.06,
+  "priceChange": -2.61,
+  "priceChangePct": -3.32,
+  "timestamp": "02/23/26 13:38 ",
+  "postMarketStr": "Post-Market: $76.06 (0.00)",
+  "impliedVolatility": 43.0,
+  "historicVolatility": 28.49,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 43.0,
+  "iv1mAvg": 43.0,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bearish",
+  "trendShort": "Bear",
+  "trendMed": "Soft",
+  "trendLong": "Bear",
+  "movAvg20d": 80.56,
+  "movAvg50d": 87.03,
+  "movAvg100d": 99.61,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 29.31,
+  "trendSeekerSignal": "SELL",
+  "low52w": 75.01,
+  "low52wDate": "1Y Low",
+  "high52w": 134.12,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 4.53,
+      "expectedRange": "71.53 - 80.58",
+      "iv": 43.0
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 6.41,
+      "expectedRange": "69.65 - 82.46",
+      "iv": 43.0
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 9.38,
+      "expectedRange": "66.68 - 85.43",
+      "iv": 43.0
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 13.26,
+      "expectedRange": "62.8 - 89.31",
+      "iv": 43.0
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      81.47,
+      82.21,
+      79.62,
+      75.86,
+      76.87,
+      77.0,
+      77.99,
+      77.0,
+      78.67,
+      76.06
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "https://logo.clearbit.com/www.netflix.com",
+  "generated_at": "2026-02-23 19:38:45 UTC",
+  "market_snapshot": {
+    "price": 76.06,
+    "market_cap": "$322.62B",
+    "beta": 1.71,
+    "range_52w": "75.01 - 134.115",
+    "analyst_target": 111.43
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 87.03,
+      "sma_200": 110.71,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 77.9,
+      "21": 80.78,
+      "34": 83.8,
+      "55": 88.42,
+      "89": 94.26
+    },
+    "volume": {
+      "current": "27,507,832",
+      "avg_20d": "42,199,501",
+      "rel_vol": 0.65,
+      "rel_vol_pct": 32
+    },
+    "pivots": {
+      "R2": 91.27,
+      "R1": 83.66,
+      "PP": 79.34,
+      "S1": 71.73,
+      "S2": 67.41
+    },
+    "fibonacci": {
+      "100": 134.12,
+      "61.8": 111.54,
+      "50": 104.56,
+      "38.2": 97.59,
+      "0": 75.01
+    },
+    "oscillators": {
+      "rsi_14": 33.49,
+      "adx_14": 30.37,
+      "macd_hist": 0.09
+    }
+  },
+  "volatility": {
+    "hv_30d": 28.49,
+    "iv_current": 43.0
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-10",
+      "insider": "PETERS GREGORY K.",
+      "type": "",
+      "value": "$2.27M"
+    },
+    {
+      "date": "2026-02-10",
+      "insider": "WILLEMS CLETUS R",
+      "type": "",
+      "value": "$259,253"
+    },
+    {
+      "date": "2026-02-09",
+      "insider": "HYMAN DAVID A",
+      "type": "",
+      "value": "$464,231"
+    },
+    {
+      "date": "2026-02-06",
+      "insider": "NEUMANN SPENCER ADAM",
+      "type": "",
+      "value": "$751,598"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "HASTINGS REED",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Netflix, Inc. // Communication Services [Entertainment]. Mkt Cap: $322.62B. Rev Growth: 17.6%. PM: 24.3%.",
+    "forward_looking": "Beta: 1.712. Range(52W): 75.01 - 134.115. Analyst Tgt: 111.42846."
+  },
+  "geospatial": {
+    "site": "Los Gatos, United States",
+    "coords": "https://www.netflix.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 20,
+    "fundamental": 80,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -23.3,
+    "target_price": 58.3,
+    "graham_num": 18.94,
+    "lynch_value": 44.53,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-23.3%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-23.3%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}

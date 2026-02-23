@@ -1,0 +1,218 @@
+{
+  "ticker": "CLS",
+  "logo_url": "https://logo.clearbit.com/www.celestica.com",
+  "generated_at": "2026-02-17 08:42:59 UTC",
+  "market_snapshot": {
+    "price": 280.66,
+    "market_cap": "$32.38B",
+    "beta": 1.5,
+    "range_52w": "58.05 - 363.4",
+    "analyst_target": 386.15
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 305.73,
+      "sma_200": 231.31,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 291.6,
+      "21": 298.48,
+      "34": 301.04,
+      "55": 300.2,
+      "89": 290.02
+    },
+    "volume": {
+      "current": "2,121,100",
+      "avg_20d": "3,711,995",
+      "rel_vol": 0.57,
+      "rel_vol_pct": 28
+    },
+    "pivots": {
+      "R2": 385.49,
+      "R1": 333.07,
+      "PP": 299.79,
+      "S1": 247.37,
+      "S2": 214.09
+    },
+    "fibonacci": {
+      "100": 363.4,
+      "61.8": 246.76,
+      "50": 210.72,
+      "38.2": 174.69,
+      "0": 58.05
+    },
+    "oscillators": {
+      "rsi_14": 44.08,
+      "adx_14": 13.09,
+      "macd_hist": -2.25
+    }
+  },
+  "volatility": {
+    "hv_30d": 82.67,
+    "iv_current": 0.94
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-06",
+      "insider": "COOPER TODD CHRISTOPHER",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-06",
+      "insider": "PHILLIPS JASON",
+      "type": "",
+      "value": "$36.89M"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "TZEVELEKIS THEODOROS",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "MIONIS ROBERT ANDREW",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "COOPER TODD CHRISTOPHER",
+      "type": "",
+      "value": "$301,938"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Celestica\u2019s $1 Billion Investment Signals Confidence in the AI Boom \u2014 Is CLS Stock a Buy?",
+      "link": "https://www.barchart.com/story/news/191103/celesticas-1-billion-investment-signals-confidence-in-the-ai-boom-is-cls-stock-a-buy?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Celestica continues to benefit from rising global spending on AI infrastructure and is expanding its capacity to capitalize on demand...."
+    },
+    {
+      "title": "Celestica\u2019s $1b CCS Expansion Puts Hyperscaler Demand And Valuation In Focus",
+      "link": "https://finance.yahoo.com/news/celestica-1b-ccs-expansion-puts-031353120.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Celestica (TSX:CLS) reported robust Q4 results, highlighting strong operational performance. The company announced a fully funded CA$1b capital expend..."
+    },
+    {
+      "title": "Is Celestica (TSX:CLS) Still Attractive After A 103% One Year Share Price Surge?",
+      "link": "https://finance.yahoo.com/news/celestica-tsx-cls-still-attractive-061413995.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "If you are asking yourself whether Celestica's share price still reflects good value after such a strong run, you are exactly who this breakdown is fo..."
+    },
+    {
+      "title": "Celestica Inc (CLS): Analysts Bullish Amid Strong 2026 Outlook",
+      "link": "https://finance.yahoo.com/news/celestica-inc-cls-analysts-bullish-150622928.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Celestica Inc (NYSE:CLS) is one of the best NYSE stocks to buy for the long term. Celestica Inc (NYSE:CLS) reported its Q4 2025 earnings on January 28..."
+    },
+    {
+      "title": "Google (GOOGL) Cloud Revenue Just Surged 48% And May Have Delivered Knockout Blow To OpenAI",
+      "link": "https://247wallst.com/investing/2026/02/16/google-googl-cloud-revenue-just-surged-48-and-may-have-delivered-knockout-blow-to-openai/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Summary: Our AI Investor Podcasts have been counting down the 12 trends that AI investors should be watching in 2026. Recently, Eric Bleeker and Austi..."
+    },
+    {
+      "title": "Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years",
+      "source": "BLOOMBERG",
+      "summary": "Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+    },
+    {
+      "title": "Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.barchart.com/story/news/191103/celesticas-1-billion-investment-signals-confidence-in-the-ai-boom-is-cls-stock-a-buy?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Celestica\u2019s $1 Billion Investment Signals Confidence in the AI Boom \u2014 Is CLS Stock a Buy?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Celestica continues to benefit from rising global spending on AI infrastructure and is expanding its capacity to capitalize on demand...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/celestica-1b-ccs-expansion-puts-031353120.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Celestica\u2019s $1b CCS Expansion Puts Hyperscaler Demand And Valuation In Focus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Celestica (TSX:CLS) reported robust Q4 results, highlighting strong operational performance. The company announced a fully funded CA$1b capital expend..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/celestica-tsx-cls-still-attractive-061413995.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Is Celestica (TSX:CLS) Still Attractive After A 103% One Year Share Price Surge?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> If you are asking yourself whether Celestica's share price still reflects good value after such a strong run, you are exactly who this breakdown is fo..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/celestica-inc-cls-analysts-bullish-150622928.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Celestica Inc (CLS): Analysts Bullish Amid Strong 2026 Outlook</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Celestica Inc (NYSE:CLS) is one of the best NYSE stocks to buy for the long term. Celestica Inc (NYSE:CLS) reported its Q4 2025 earnings on January 28..."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/16/google-googl-cloud-revenue-just-surged-48-and-may-have-delivered-knockout-blow-to-openai/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Google (GOOGL) Cloud Revenue Just Surged 48% And May Have Delivered Knockout Blow To OpenAI</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Summary: Our AI Investor Podcasts have been counting down the 12 trends that AI investors should be watching in 2026. Recently, Eric Bleeker and Austi..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years' target='_blank' class='hover:text-neon-blue transition-colors'>Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Celestica Inc. // Technology [Electronic Components]. Mkt Cap: $32.38B. Rev Growth: 43.6%. PM: 6.7%.",
+    "forward_looking": "Beta: 1.505. Range(52W): 58.05 - 363.4. Analyst Tgt: 386.15067."
+  },
+  "geospatial": {
+    "site": "Toronto, Canada",
+    "coords": "https://www.celestica.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 75,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": -10.4,
+    "target_price": 251.36,
+    "graham_num": 55.74,
+    "lynch_value": 312.18,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

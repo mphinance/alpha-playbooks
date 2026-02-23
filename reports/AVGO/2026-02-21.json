@@ -1,0 +1,356 @@
+{
+  "ticker": "AVGO",
+  "logo_url": "https://logo.clearbit.com/www.broadcom.com",
+  "generated_at": "2026-02-21 08:16:30 UTC",
+  "market_snapshot": {
+    "price": 332.65,
+    "market_cap": "$1577.18B",
+    "beta": 1.22,
+    "range_52w": "138.1 - 414.61",
+    "analyst_target": 456.1
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 7,
+      "SELL": 9,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 1,
+      "SELL": 1,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "SELL",
+        "MACD": "BUY",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 6,
+      "SELL": 8,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "BUY",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "BUY",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "BUY",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0,
+      "Recommend.All": -0.07,
+      "Recommend.MA": -0.13,
+      "RSI": 48.89,
+      "RSI[1]": 49.7,
+      "Stoch.K": 66.77,
+      "Stoch.D": 65.01,
+      "Stoch.K[1]": 51.15,
+      "Stoch.D[1]": 53.56,
+      "CCI20": 45.72,
+      "CCI20[1]": 48.97,
+      "ADX": 17.32,
+      "ADX+DI": 17.23,
+      "ADX-DI": 24.14,
+      "ADX+DI[1]": 17.3,
+      "ADX-DI[1]": 25.47,
+      "AO": -3.73,
+      "AO[1]": -3.49,
+      "Mom": 22.14,
+      "Mom[1]": 25.94,
+      "MACD.macd": -1.93,
+      "MACD.signal": -3.29,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 75.63,
+      "Rec.WR": 0,
+      "W.R": -34.52,
+      "Rec.BBPower": 0,
+      "BBPower": 5.36,
+      "Rec.UO": 0,
+      "UO": 46.79,
+      "close": 332.65,
+      "EMA5": 332.84,
+      "SMA5": 331.57,
+      "EMA10": 332.29,
+      "SMA10": 334.91,
+      "EMA20": 332.85,
+      "SMA20": 329.6,
+      "EMA30": 335.06,
+      "SMA30": 333.26,
+      "EMA50": 338.96,
+      "SMA50": 341.55,
+      "EMA100": 336.71,
+      "SMA100": 349.21,
+      "EMA200": 312.07,
+      "SMA200": 315.48,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 324.9,
+      "Rec.VWMA": 1,
+      "VWMA": 327.48,
+      "Rec.HullMA9": 1,
+      "HullMA9": 331.92,
+      "Pivot.M.Classic.S3": 242.26,
+      "Pivot.M.Classic.S2": 288.81,
+      "Pivot.M.Classic.S1": 310.05,
+      "Pivot.M.Classic.Middle": 335.36,
+      "Pivot.M.Classic.R1": 356.6,
+      "Pivot.M.Classic.R2": 381.91,
+      "Pivot.M.Classic.R3": 428.46,
+      "Pivot.M.Fibonacci.S3": 288.81,
+      "Pivot.M.Fibonacci.S2": 306.59,
+      "Pivot.M.Fibonacci.S1": 317.57,
+      "Pivot.M.Fibonacci.Middle": 335.36,
+      "Pivot.M.Fibonacci.R1": 353.14,
+      "Pivot.M.Fibonacci.R2": 364.12,
+      "Pivot.M.Fibonacci.R3": 381.91,
+      "Pivot.M.Camarilla.S3": 318.5,
+      "Pivot.M.Camarilla.S2": 322.77,
+      "Pivot.M.Camarilla.S1": 327.03,
+      "Pivot.M.Camarilla.Middle": 335.36,
+      "Pivot.M.Camarilla.R1": 335.57,
+      "Pivot.M.Camarilla.R2": 339.83,
+      "Pivot.M.Camarilla.R3": 344.1,
+      "Pivot.M.Woodie.S3": 256.28,
+      "Pivot.M.Woodie.S2": 285.2,
+      "Pivot.M.Woodie.S1": 302.83,
+      "Pivot.M.Woodie.Middle": 331.75,
+      "Pivot.M.Woodie.R1": 349.38,
+      "Pivot.M.Woodie.R2": 378.3,
+      "Pivot.M.Woodie.R3": 395.94,
+      "Pivot.M.Demark.S1": 299.43,
+      "Pivot.M.Demark.Middle": 330.05,
+      "Pivot.M.Demark.R1": 345.98,
+      "open": 332.36,
+      "P.SAR": 303.81,
+      "BB.lower": 311.49,
+      "BB.upper": 347.72,
+      "AO[2]": -2.71,
+      "volume": 17658930,
+      "change": -0.4,
+      "low": 329.58,
+      "high": 340.11
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 341.43,
+      "sma_200": 314.7,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 332.5,
+      "21": 333.01,
+      "34": 335.95,
+      "55": 339.32,
+      "89": 338.05
+    },
+    "volume": {
+      "current": "17,638,800",
+      "avg_20d": "25,138,290",
+      "rel_vol": 0.7,
+      "rel_vol_pct": 35
+    },
+    "pivots": {
+      "R2": 383.8,
+      "R1": 358.23,
+      "PP": 326.76,
+      "S1": 301.19,
+      "S2": 269.72
+    },
+    "fibonacci": {
+      "100": 413.82,
+      "61.8": 308.18,
+      "50": 275.55,
+      "38.2": 242.92,
+      "0": 137.28
+    },
+    "oscillators": {
+      "rsi_14": 50.73,
+      "adx_14": 15.59,
+      "macd_hist": 1.36
+    }
+  },
+  "volatility": {
+    "hv_30d": 42.39,
+    "iv_current": 53.37
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-06",
+      "insider": "TAN HOCK E",
+      "type": "",
+      "value": "$24.31M"
+    },
+    {
+      "date": "2026-01-06",
+      "insider": "BRAZEAL MARK DAVID",
+      "type": "",
+      "value": "$10.41M"
+    },
+    {
+      "date": "2025-12-31",
+      "insider": "SPEARS KIRSTEN MARGRETA",
+      "type": "",
+      "value": "$10.43M"
+    },
+    {
+      "date": "2025-12-26",
+      "insider": "BRAZEAL MARK DAVID",
+      "type": "",
+      "value": "$9.13M"
+    },
+    {
+      "date": "2025-12-23",
+      "insider": "TAN HOCK E",
+      "type": "",
+      "value": "$34.56M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "AMD vs. Broadcom: Which One Will Dominate the Next Decade?",
+      "link": "https://www.fool.com/investing/2026/02/20/amd-vs-avgo-which-will-dominate-the-next-decade/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "AMD and Broadcom grew at a record pace in 2025, but one has a slight edge in the intermediate future...."
+    },
+    {
+      "title": "3 Predictions for Broadcom in 2026",
+      "link": "https://www.fool.com/investing/2026/02/20/3-predictions-for-broadcom-in-2026/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Broadcom is one of the top AI infrastructure stocks right now...."
+    },
+    {
+      "title": "Nvidia Stock Rises. It\u2019s Nearing $30 Billion OpenAI Investment, Report Says.",
+      "link": "https://finance.yahoo.com/m/647f4b08-48f1-392b-9552-78465c46b597/nvidia-stock-rises.-it%E2%80%99s.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Nvidia is reportedly close to agreeing a $30 billion investment into ChatGPT-developer OpenAI.  Nvidia  shares were up 0.4% to $186.66 in premarket tr..."
+    },
+    {
+      "title": "NVIDIA Q4 Earnings Loom: Should You Buy the Stock Ahead of Results?",
+      "link": "https://finance.yahoo.com/news/nvidia-q4-earnings-loom-buy-120900185.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "NVDA's Q4 performance is likely to reflect benefits from soaring AI chip demand from hyperscalers...."
+    },
+    {
+      "title": "Paloma Partners Reduces Core Scientific Position as Mining Efficiency and Costs Shape the Bitcoin Cycle",
+      "link": "https://www.fool.com/coverage/filings/2026/02/20/paloma-partners-trims-core-scientific-as-mining-efficiency-and-costs-shape-the-bitcoin-cycle/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Core Scientific operates in one of crypto\u2019s most capital-intensive segments, where energy costs and production efficiency shape long-term returns. Pal..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Mexico, Canada Get Exemption to 10% US Levy But USMCA Risk Looms",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/mexico-canada-get-exemption-to-10-us-levy-but-usmca-risk-looms",
+      "source": "BLOOMBERG",
+      "summary": "The US Supreme Court\u2019s decision to strike down many of Donald Trump\u2019s tariffs offers some relief to Mexico and Canada, but a much bigger set of risks ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/20/amd-vs-avgo-which-will-dominate-the-next-decade/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>AMD vs. Broadcom: Which One Will Dominate the Next Decade?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> AMD and Broadcom grew at a record pace in 2025, but one has a slight edge in the intermediate future...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/20/3-predictions-for-broadcom-in-2026/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>3 Predictions for Broadcom in 2026</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Broadcom is one of the top AI infrastructure stocks right now...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/647f4b08-48f1-392b-9552-78465c46b597/nvidia-stock-rises.-it%E2%80%99s.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Nvidia Stock Rises. It\u2019s Nearing $30 Billion OpenAI Investment, Report Says.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Nvidia is reportedly close to agreeing a $30 billion investment into ChatGPT-developer OpenAI.  Nvidia  shares were up 0.4% to $186.66 in premarket tr..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/nvidia-q4-earnings-loom-buy-120900185.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>NVIDIA Q4 Earnings Loom: Should You Buy the Stock Ahead of Results?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> NVDA's Q4 performance is likely to reflect benefits from soaring AI chip demand from hyperscalers...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/coverage/filings/2026/02/20/paloma-partners-trims-core-scientific-as-mining-efficiency-and-costs-shape-the-bitcoin-cycle/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Paloma Partners Reduces Core Scientific Position as Mining Efficiency and Costs Shape the Bitcoin Cycle</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Core Scientific operates in one of crypto\u2019s most capital-intensive segments, where energy costs and production efficiency shape long-term returns. Pal..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/mexico-canada-get-exemption-to-10-us-levy-but-usmca-risk-looms' target='_blank' class='hover:text-neon-blue transition-colors'>Mexico, Canada Get Exemption to 10% US Levy But USMCA Risk Looms</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> The US Supreme Court\u2019s decision to strike down many of Donald Trump\u2019s tariffs offers some relief to Mexico and Canada, but a much bigger set of risks ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Broadcom Inc. // Technology [Semiconductors]. Mkt Cap: $1577.18B. Rev Growth: 16.4%. PM: 36.2%.",
+    "forward_looking": "Beta: 1.221. Range(52W): 138.1 - 414.61. Analyst Tgt: 456.0997."
+  },
+  "geospatial": {
+    "site": "Palo Alto, United States",
+    "coords": "https://www.broadcom.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 75,
+    "fundamental": 80,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -38.5,
+    "target_price": 204.6,
+    "graham_num": 79.64,
+    "lynch_value": 78.06,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-38.5%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-38.5%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

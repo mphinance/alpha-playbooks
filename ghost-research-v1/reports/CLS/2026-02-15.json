@@ -1,0 +1,356 @@
+{
+  "ticker": "CLS",
+  "logo_url": "https://logo.clearbit.com/www.celestica.com",
+  "generated_at": "2026-02-15 08:48:33 UTC",
+  "market_snapshot": {
+    "price": 280.66,
+    "market_cap": "$32.38B",
+    "beta": 1.5,
+    "range_52w": "58.05 - 363.4",
+    "analyst_target": 386.15
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 5,
+      "SELL": 13,
+      "NEUTRAL": 8
+    },
+    "oscillators": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 3,
+      "SELL": 1,
+      "NEUTRAL": 7,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "BUY",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "BUY",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 2,
+      "SELL": 12,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.18,
+      "Recommend.All": -0.24,
+      "Recommend.MA": -0.67,
+      "RSI": 44.37,
+      "RSI[1]": 42.55,
+      "Stoch.K": 20.08,
+      "Stoch.D": 30.32,
+      "Stoch.K[1]": 39.25,
+      "Stoch.D[1]": 53.16,
+      "CCI20": -109.96,
+      "CCI20[1]": -112.43,
+      "ADX": 14.73,
+      "ADX+DI": 17.09,
+      "ADX-DI": 25.25,
+      "ADX+DI[1]": 17.78,
+      "ADX-DI[1]": 25.55,
+      "AO": -6.01,
+      "AO[1]": -0.39,
+      "Mom": -0.33,
+      "Mom[1]": -25.21,
+      "MACD.macd": -5.16,
+      "MACD.signal": -2.9,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 14.3,
+      "Rec.WR": 1,
+      "W.R": -83.48,
+      "Rec.BBPower": 0,
+      "BBPower": -33.71,
+      "Rec.UO": 0,
+      "UO": 47.21,
+      "close": 280.66,
+      "EMA5": 288.0,
+      "SMA5": 293.65,
+      "EMA10": 293.27,
+      "SMA10": 292.91,
+      "EMA20": 298.16,
+      "SMA20": 301.24,
+      "EMA30": 300.52,
+      "SMA30": 302.97,
+      "EMA50": 300.9,
+      "SMA50": 305.72,
+      "EMA100": 285.54,
+      "SMA100": 298.56,
+      "EMA200": 242.65,
+      "SMA200": 231.3,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 309.35,
+      "Rec.VWMA": -1,
+      "VWMA": 300.47,
+      "Rec.HullMA9": -1,
+      "HullMA9": 283.73,
+      "Pivot.M.Classic.S3": 142.92,
+      "Pivot.M.Classic.S2": 222.44,
+      "Pivot.M.Classic.S1": 251.72,
+      "Pivot.M.Classic.Middle": 301.96,
+      "Pivot.M.Classic.R1": 331.23,
+      "Pivot.M.Classic.R2": 381.47,
+      "Pivot.M.Classic.R3": 460.99,
+      "Pivot.M.Fibonacci.S3": 222.44,
+      "Pivot.M.Fibonacci.S2": 252.82,
+      "Pivot.M.Fibonacci.S1": 271.58,
+      "Pivot.M.Fibonacci.Middle": 301.96,
+      "Pivot.M.Fibonacci.R1": 332.33,
+      "Pivot.M.Fibonacci.R2": 351.1,
+      "Pivot.M.Fibonacci.R3": 381.47,
+      "Pivot.M.Camarilla.S3": 259.12,
+      "Pivot.M.Camarilla.S2": 266.41,
+      "Pivot.M.Camarilla.S1": 273.7,
+      "Pivot.M.Camarilla.Middle": 301.96,
+      "Pivot.M.Camarilla.R1": 288.28,
+      "Pivot.M.Camarilla.R2": 295.57,
+      "Pivot.M.Camarilla.R3": 302.86,
+      "Pivot.M.Woodie.S3": 165.91,
+      "Pivot.M.Woodie.S2": 219.29,
+      "Pivot.M.Woodie.S1": 245.42,
+      "Pivot.M.Woodie.Middle": 298.81,
+      "Pivot.M.Woodie.R1": 324.94,
+      "Pivot.M.Woodie.R2": 378.33,
+      "Pivot.M.Woodie.R3": 404.45,
+      "Pivot.M.Demark.S1": 237.08,
+      "Pivot.M.Demark.Middle": 294.64,
+      "Pivot.M.Demark.R1": 316.6,
+      "open": 279.28,
+      "P.SAR": 321.5,
+      "BB.lower": 265.67,
+      "BB.upper": 336.82,
+      "AO[2]": -0.38,
+      "volume": 2122657,
+      "change": 2.14,
+      "low": 272,
+      "high": 284.68
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 305.73,
+      "sma_200": 231.31,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 291.6,
+      "21": 298.48,
+      "34": 301.04,
+      "55": 300.2,
+      "89": 290.02
+    },
+    "volume": {
+      "current": "2,121,100",
+      "avg_20d": "3,711,995",
+      "rel_vol": 0.57,
+      "rel_vol_pct": 28
+    },
+    "pivots": {
+      "R2": 385.49,
+      "R1": 333.07,
+      "PP": 299.79,
+      "S1": 247.37,
+      "S2": 214.09
+    },
+    "fibonacci": {
+      "100": 363.4,
+      "61.8": 246.76,
+      "50": 210.72,
+      "38.2": 174.69,
+      "0": 58.05
+    },
+    "oscillators": {
+      "rsi_14": 44.08,
+      "adx_14": 13.09,
+      "macd_hist": -2.25
+    }
+  },
+  "volatility": {
+    "hv_30d": 82.67,
+    "iv_current": 81.85
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-06",
+      "insider": "COOPER TODD CHRISTOPHER",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-06",
+      "insider": "PHILLIPS JASON",
+      "type": "",
+      "value": "$36.89M"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "TZEVELEKIS THEODOROS",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "MIONIS ROBERT ANDREW",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "COOPER TODD CHRISTOPHER",
+      "type": "",
+      "value": "$301,938"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "TD Cowen Cites Improved Risk-to-Reward Profile for Celestica (CLS) Following Post-Earnings Pullback",
+      "link": "https://finance.yahoo.com/news/td-cowen-cites-improved-risk-180821612.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Celestica Inc. (NYSE:CLS) is one of the under-the-radar AI stocks to buy. On January 30, TD Cowen raised the price target for Celestica to C$330 from ..."
+    },
+    {
+      "title": "New Strong Buy Stocks for February 12th",
+      "link": "https://finance.yahoo.com/news/strong-buy-stocks-february-12th-112200040.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "AAUC, GFI, CLS, PRLB and WTBA have been added to the Zacks Rank #1 (Strong Buy) List on February 12, 2026...."
+    },
+    {
+      "title": "Celestica\u2019s $1 Billion Investment Signals Confidence in the AI Boom \u2014 Is CLS Stock a Buy?",
+      "link": "https://www.barchart.com/story/news/191103/celesticas-1-billion-investment-signals-confidence-in-the-ai-boom-is-cls-stock-a-buy?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Celestica continues to benefit from rising global spending on AI infrastructure and is expanding its capacity to capitalize on demand...."
+    },
+    {
+      "title": "Celestica\u2019s $1b CCS Expansion Puts Hyperscaler Demand And Valuation In Focus",
+      "link": "https://finance.yahoo.com/news/celestica-1b-ccs-expansion-puts-031353120.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Celestica (TSX:CLS) reported robust Q4 results, highlighting strong operational performance. The company announced a fully funded CA$1b capital expend..."
+    },
+    {
+      "title": "Is Celestica (TSX:CLS) Still Attractive After A 103% One Year Share Price Surge?",
+      "link": "https://finance.yahoo.com/news/celestica-tsx-cls-still-attractive-061413995.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "If you are asking yourself whether Celestica's share price still reflects good value after such a strong run, you are exactly who this breakdown is fo..."
+    },
+    {
+      "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+      "source": "BLOOMBERG",
+      "summary": "Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+    },
+    {
+      "title": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+      "source": "BLOOMBERG",
+      "summary": "India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/td-cowen-cites-improved-risk-180821612.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>TD Cowen Cites Improved Risk-to-Reward Profile for Celestica (CLS) Following Post-Earnings Pullback</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Celestica Inc. (NYSE:CLS) is one of the under-the-radar AI stocks to buy. On January 30, TD Cowen raised the price target for Celestica to C$330 from ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/strong-buy-stocks-february-12th-112200040.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>New Strong Buy Stocks for February 12th</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> AAUC, GFI, CLS, PRLB and WTBA have been added to the Zacks Rank #1 (Strong Buy) List on February 12, 2026...."
+      },
+      {
+        "claim": "<a href='https://www.barchart.com/story/news/191103/celesticas-1-billion-investment-signals-confidence-in-the-ai-boom-is-cls-stock-a-buy?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Celestica\u2019s $1 Billion Investment Signals Confidence in the AI Boom \u2014 Is CLS Stock a Buy?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Celestica continues to benefit from rising global spending on AI infrastructure and is expanding its capacity to capitalize on demand...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/celestica-1b-ccs-expansion-puts-031353120.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Celestica\u2019s $1b CCS Expansion Puts Hyperscaler Demand And Valuation In Focus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Celestica (TSX:CLS) reported robust Q4 results, highlighting strong operational performance. The company announced a fully funded CA$1b capital expend..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/celestica-tsx-cls-still-attractive-061413995.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Is Celestica (TSX:CLS) Still Attractive After A 103% One Year Share Price Surge?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> If you are asking yourself whether Celestica's share price still reflects good value after such a strong run, you are exactly who this breakdown is fo..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus' target='_blank' class='hover:text-neon-blue transition-colors'>Goldman Upgrades Forecast for 2026 China Current-Account Surplus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes' target='_blank' class='hover:text-neon-blue transition-colors'>India Curbs Loans Extended to Brokers in Blow to Trading Volumes</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Celestica Inc. // Technology [Electronic Components]. Mkt Cap: $32.38B. Rev Growth: 43.6%. PM: 6.7%.",
+    "forward_looking": "Beta: 1.505. Range(52W): 58.05 - 363.4. Analyst Tgt: 386.15067."
+  },
+  "geospatial": {
+    "site": "Toronto, Canada",
+    "coords": "https://www.celestica.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 75,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": -10.4,
+    "target_price": 251.36,
+    "graham_num": 55.74,
+    "lynch_value": 312.18,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

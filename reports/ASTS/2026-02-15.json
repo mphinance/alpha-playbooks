@@ -1,0 +1,356 @@
+{
+  "ticker": "ASTS",
+  "logo_url": "https://logo.clearbit.com/ast-science.com",
+  "generated_at": "2026-02-15 08:48:06 UTC",
+  "market_snapshot": {
+    "price": 82.51,
+    "market_cap": "$30.66B",
+    "beta": 2.71,
+    "range_52w": "18.22 - 129.89",
+    "analyst_target": 80.39
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 7,
+      "SELL": 11,
+      "NEUTRAL": 8
+    },
+    "oscillators": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 3,
+      "SELL": 1,
+      "NEUTRAL": 7,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "BUY",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "BUY",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 4,
+      "SELL": 10,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "BUY",
+        "SMA100": "BUY",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.18,
+      "Recommend.All": -0.11,
+      "Recommend.MA": -0.4,
+      "RSI": 41.2,
+      "RSI[1]": 41.01,
+      "Stoch.K": 8.12,
+      "Stoch.D": 12.38,
+      "Stoch.K[1]": 13.7,
+      "Stoch.D[1]": 19.07,
+      "CCI20": -187.82,
+      "CCI20[1]": -212.64,
+      "ADX": 21.71,
+      "ADX+DI": 19.3,
+      "ADX-DI": 24.77,
+      "ADX+DI[1]": 19.93,
+      "ADX-DI[1]": 25.57,
+      "AO": -4.78,
+      "AO[1]": -1.72,
+      "Mom": -28.7,
+      "Mom[1]": -39.87,
+      "MACD.macd": -0.78,
+      "MACD.signal": 3.44,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 3.52,
+      "Rec.WR": 1,
+      "W.R": -94.76,
+      "Rec.BBPower": 0,
+      "BBPower": -29.83,
+      "Rec.UO": 0,
+      "UO": 37.85,
+      "close": 82.51,
+      "EMA5": 89.98,
+      "SMA5": 92.01,
+      "EMA10": 95.74,
+      "SMA10": 97.89,
+      "EMA20": 98.54,
+      "SMA20": 105.56,
+      "EMA30": 96.92,
+      "SMA30": 101.49,
+      "EMA50": 91.64,
+      "SMA50": 90.41,
+      "EMA100": 80.36,
+      "SMA100": 79.18,
+      "EMA200": 65.33,
+      "SMA200": 60.21,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 104.89,
+      "Rec.VWMA": -1,
+      "VWMA": 105.49,
+      "Rec.HullMA9": -1,
+      "HullMA9": 85.17,
+      "Pivot.M.Classic.S3": null,
+      "Pivot.M.Classic.S2": 42.81,
+      "Pivot.M.Classic.S1": 77.01,
+      "Pivot.M.Classic.Middle": 103.45,
+      "Pivot.M.Classic.R1": 137.65,
+      "Pivot.M.Classic.R2": 164.09,
+      "Pivot.M.Classic.R3": 224.73,
+      "Pivot.M.Fibonacci.S3": 42.81,
+      "Pivot.M.Fibonacci.S2": 65.97,
+      "Pivot.M.Fibonacci.S1": 80.29,
+      "Pivot.M.Fibonacci.Middle": 103.45,
+      "Pivot.M.Fibonacci.R1": 126.61,
+      "Pivot.M.Fibonacci.R2": 140.93,
+      "Pivot.M.Fibonacci.R3": 164.09,
+      "Pivot.M.Camarilla.S3": 94.53,
+      "Pivot.M.Camarilla.S2": 100.09,
+      "Pivot.M.Camarilla.S1": 105.65,
+      "Pivot.M.Camarilla.Middle": 103.45,
+      "Pivot.M.Camarilla.R1": 116.77,
+      "Pivot.M.Camarilla.R2": 122.33,
+      "Pivot.M.Camarilla.R3": 127.89,
+      "Pivot.M.Woodie.S3": 18.93,
+      "Pivot.M.Woodie.S2": 44.09,
+      "Pivot.M.Woodie.S1": 79.57,
+      "Pivot.M.Woodie.Middle": 104.73,
+      "Pivot.M.Woodie.R1": 140.21,
+      "Pivot.M.Woodie.R2": 165.37,
+      "Pivot.M.Woodie.R3": 200.85,
+      "Pivot.M.Demark.S1": 90.23,
+      "Pivot.M.Demark.Middle": 110.06,
+      "Pivot.M.Demark.R1": 150.87,
+      "open": 82.14,
+      "P.SAR": 112.51,
+      "BB.lower": 83.45,
+      "BB.upper": 127.67,
+      "AO[2]": 0.81,
+      "volume": 12963097,
+      "change": 0.35,
+      "low": 80.1,
+      "high": 85
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 90.41,
+      "sma_200": 60.21,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 93.93,
+      "21": 98.48,
+      "34": 95.92,
+      "55": 90.34,
+      "89": 82.54
+    },
+    "volume": {
+      "current": "12,946,600",
+      "avg_20d": "17,134,700",
+      "rel_vol": 0.76,
+      "rel_vol_pct": 37
+    },
+    "pivots": {
+      "R2": 147.43,
+      "R1": 114.97,
+      "PP": 97.43,
+      "S1": 64.97,
+      "S2": 47.43
+    },
+    "fibonacci": {
+      "100": 129.89,
+      "61.8": 87.23,
+      "50": 74.05,
+      "38.2": 60.88,
+      "0": 18.22
+    },
+    "oscillators": {
+      "rsi_14": 38.74,
+      "adx_14": 13.13,
+      "macd_hist": -4.23
+    }
+  },
+  "volatility": {
+    "hv_30d": 133.88,
+    "iv_current": 122.05
+  },
+  "insider_transactions": [
+    {
+      "date": "2025-12-24",
+      "insider": "LARSON KEITH R",
+      "type": "",
+      "value": "$50,000"
+    },
+    {
+      "date": "2025-12-17",
+      "insider": "LARSON KEITH R",
+      "type": "",
+      "value": "$50,064"
+    },
+    {
+      "date": "2025-12-10",
+      "insider": "LARSON KEITH R",
+      "type": "",
+      "value": "$49,079"
+    },
+    {
+      "date": "2025-12-10",
+      "insider": "GUPTA SHANTI B.",
+      "type": "",
+      "value": "$773,400"
+    },
+    {
+      "date": "2025-12-09",
+      "insider": "AMERICAN TOWER CORPORATION",
+      "type": "",
+      "value": "$159.63M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Antero Midstream Q4 Earnings Call Highlights",
+      "link": "https://www.marketbeat.com/instant-alerts/antero-midstream-q4-earnings-call-highlights-2026-02-12/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Antero Midstream (NYSE:AM) used its fourth-quarter 2025 earnings call to highlight a recently completed acquisition, continued year-over-year growth, ..."
+    },
+    {
+      "title": "Evaluating AST SpaceMobile (ASTS) After Strong Multi\u2011Year Returns And Conflicting Valuation Signals",
+      "link": "https://finance.yahoo.com/news/evaluating-ast-spacemobile-asts-strong-201857448.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Recent performance snapshot for AST SpaceMobile AST SpaceMobile (ASTS) has drawn fresh attention after a sharp move in its share price over the past 3..."
+    },
+    {
+      "title": "AST SpaceMobile Stock Sinks. What\u2019s Bringing the Satellite Player Down to Earth.",
+      "link": "https://finance.yahoo.com/m/a0c35221-7c96-30f4-93e0-2ad2582e8383/ast-spacemobile-stock-sinks..html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "AST SpaceMobile  shares plunged on Thursday as the company priced $1 billion worth of debt that can be converted into shares.  AST SpaceMobile shares ..."
+    },
+    {
+      "title": "These Stocks Are Today\u2019s Movers: AppLovin, Fastly, Micron, Cisco, QuantumScape, Novocure, AST SpaceMobile, and More",
+      "link": "https://finance.yahoo.com/m/1ee51d85-4643-3960-aee9-db352eccec78/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "AppLovin and Cisco slide after reporting earnings while Fastly soars on better-than-expected quarterly profit and solid guidance...."
+    },
+    {
+      "title": "Why AST SpaceMobile Stock Sank Almost 20% This Week",
+      "link": "https://www.fool.com/investing/2026/02/14/why-ast-spacemobile-stock-sank-almost-20-this-week/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "AST SpaceMobile shares may see \"substantial\" volatility next week...."
+    },
+    {
+      "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+      "source": "BLOOMBERG",
+      "summary": "Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+    },
+    {
+      "title": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+      "source": "BLOOMBERG",
+      "summary": "India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.marketbeat.com/instant-alerts/antero-midstream-q4-earnings-call-highlights-2026-02-12/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Antero Midstream Q4 Earnings Call Highlights</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Antero Midstream (NYSE:AM) used its fourth-quarter 2025 earnings call to highlight a recently completed acquisition, continued year-over-year growth, ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/evaluating-ast-spacemobile-asts-strong-201857448.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Evaluating AST SpaceMobile (ASTS) After Strong Multi\u2011Year Returns And Conflicting Valuation Signals</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Recent performance snapshot for AST SpaceMobile AST SpaceMobile (ASTS) has drawn fresh attention after a sharp move in its share price over the past 3..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/a0c35221-7c96-30f4-93e0-2ad2582e8383/ast-spacemobile-stock-sinks..html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>AST SpaceMobile Stock Sinks. What\u2019s Bringing the Satellite Player Down to Earth.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> AST SpaceMobile  shares plunged on Thursday as the company priced $1 billion worth of debt that can be converted into shares.  AST SpaceMobile shares ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/1ee51d85-4643-3960-aee9-db352eccec78/these-stocks-are-today%E2%80%99s.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>These Stocks Are Today\u2019s Movers: AppLovin, Fastly, Micron, Cisco, QuantumScape, Novocure, AST SpaceMobile, and More</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> AppLovin and Cisco slide after reporting earnings while Fastly soars on better-than-expected quarterly profit and solid guidance...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/14/why-ast-spacemobile-stock-sank-almost-20-this-week/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Why AST SpaceMobile Stock Sank Almost 20% This Week</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> AST SpaceMobile shares may see \"substantial\" volatility next week...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus' target='_blank' class='hover:text-neon-blue transition-colors'>Goldman Upgrades Forecast for 2026 China Current-Account Surplus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes' target='_blank' class='hover:text-neon-blue transition-colors'>India Curbs Loans Extended to Brokers in Blow to Trading Volumes</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "AST SpaceMobile, Inc. // Technology [Communication Equipment]. Mkt Cap: $30.66B. Rev Growth: 1239.9%. PM: 0.0%.",
+    "forward_looking": "Beta: 2.708. Range(52W): 18.22 - 129.89. Analyst Tgt: 80.3875."
+  },
+  "geospatial": {
+    "site": "Midland, United States",
+    "coords": "https://ast-science.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 80,
+    "fundamental": 60,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": -2.6,
+    "target_price": 80.39,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

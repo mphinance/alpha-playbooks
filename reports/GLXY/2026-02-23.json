@@ -1,0 +1,255 @@
+{
+  "ticker": "GLXY",
+  "companyName": "Galaxy Digital",
+  "currentPrice": 20.34,
+  "priceChange": -0.86,
+  "priceChangePct": -4.06,
+  "timestamp": "02/23/26 13:30 ",
+  "postMarketStr": "Post-Market: $20.34 (0.00)",
+  "impliedVolatility": 100.05,
+  "historicVolatility": 119.41,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 100.05,
+  "iv1mAvg": 100.05,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bearish",
+  "trendShort": "Bear",
+  "trendMed": "Soft",
+  "trendLong": "Bear",
+  "movAvg20d": 23.53,
+  "movAvg50d": 25.35,
+  "movAvg100d": 29.14,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 29.31,
+  "trendSeekerSignal": "SELL",
+  "low52w": 16.67,
+  "low52wDate": "1Y Low",
+  "high52w": 45.92,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 2.82,
+      "expectedRange": "17.52 - 23.16",
+      "iv": 100.0
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 3.99,
+      "expectedRange": "16.35 - 24.33",
+      "iv": 100.0
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 5.83,
+      "expectedRange": "14.51 - 26.17",
+      "iv": 100.0
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 8.25,
+      "expectedRange": "12.09 - 28.59",
+      "iv": 100.0
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      21.15,
+      21.19,
+      20.4,
+      20.15,
+      21.66,
+      21.3,
+      21.73,
+      21.63,
+      21.2,
+      20.34
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "https://logo.clearbit.com/www.galaxy.com",
+  "generated_at": "2026-02-23 19:30:57 UTC",
+  "market_snapshot": {
+    "price": 20.34,
+    "market_cap": "$7.96B",
+    "beta": 3.76,
+    "range_52w": "16.67 - 45.92",
+    "analyst_target": 43.18
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 25.35,
+      "sma_200": null,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 21.23,
+      "21": 23.0,
+      "34": 24.19,
+      "55": 25.41,
+      "89": 26.44
+    },
+    "volume": {
+      "current": "2,207,590",
+      "avg_20d": "7,674,069",
+      "rel_vol": 0.29,
+      "rel_vol_pct": 14
+    },
+    "pivots": {
+      "R2": 40.6,
+      "R1": 30.47,
+      "PP": 23.57,
+      "S1": 13.44,
+      "S2": 6.54
+    },
+    "fibonacci": {
+      "100": 45.92,
+      "61.8": 34.75,
+      "50": 31.29,
+      "38.2": 27.84,
+      "0": 16.67
+    },
+    "oscillators": {
+      "rsi_14": 33.67,
+      "adx_14": 33.82,
+      "macd_hist": -0.08
+    }
+  },
+  "volatility": {
+    "hv_30d": 119.41,
+    "iv_current": 100.05
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-04",
+      "insider": "DEASON DOUGLAS R",
+      "type": "",
+      "value": "$519,950"
+    },
+    {
+      "date": "2026-02-03",
+      "insider": "NOVOGRATZ MICHAEL E",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-03",
+      "insider": "FRIEDRICH MATTHEW W",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-03",
+      "insider": "BROWN ERIN ELIZABETH",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-03",
+      "insider": "FERRARO CHRISTOPHER CHARLES",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Galaxy Digital // Financial Services [Capital Markets]. Mkt Cap: $7.96B. Rev Growth: 0.0%. PM: -0.4%.",
+    "forward_looking": "Beta: 3.756. Range(52W): 16.67 - 45.92. Analyst Tgt: 43.18182."
+  },
+  "geospatial": {
+    "site": "New York, United States",
+    "coords": "https://www.galaxy.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 20,
+    "fundamental": 60,
+    "grade": "D"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 112.3,
+    "target_price": 43.18,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 112.3%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 112.3%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}

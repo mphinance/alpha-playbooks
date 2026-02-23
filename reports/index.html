@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALPHA.SYSTEM // COMMAND.CENTER</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #050505;
+            color: #d1d5db;
+            font-family: 'JetBrains Mono', monospace;
+            background-image:
+                linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+                linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)),
+                radial-gradient(circle at 50% 50%, #111 0%, #050505 100%);
+            background-size: 100% 2px, 3px 100%, 100% 100%;
+        }
+
+        .hud-border {
+            border: 1px solid #1e293b;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .neon-blue {
+            color: #22d3ee;
+            text-shadow: 0 0 5px rgba(34, 211, 238, 0.5);
+        }
+
+        .neon-amber {
+            color: #fb923c;
+            text-shadow: 0 0 5px rgba(251, 146, 60, 0.5);
+        }
+
+        .neon-green {
+            color: #4ade80;
+            text-shadow: 0 0 5px rgba(74, 222, 128, 0.5);
+        }
+
+        .scanline {
+            width: 100%;
+            height: 100px;
+            z-index: 10;
+            background: linear-gradient(0deg, transparent, rgba(34, 211, 238, 0.05), transparent);
+            position: fixed;
+            top: 0;
+            animation: scan 8s linear infinite;
+        }
+
+        @keyframes scan {
+            0% {
+                top: -100px;
+            }
+
+            100% {
+                top: 100%;
+            }
+        }
+
+        .asset-card:hover {
+            border-color: #22d3ee;
+            background: rgba(34, 211, 238, 0.05);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body class="p-4 md:p-12">
+    <div class="scanline"></div>
+
+    <div class="max-w-6xl mx-auto space-y-6 relative">
+        <!-- GLOBAL HEADER -->
+        <div
+            class="hud-border p-6 rounded-sm flex flex-col md:flex-row justify-between items-center border-l-4 border-neon-blue">
+            <div class="space-y-1">
+                <div class="flex items-center space-x-3">
+                    <h1 class="text-3xl font-black tracking-tighter text-white font-tech uppercase italic">
+                        ALPHA.SYSTEM <span class="neon-blue">●</span>
+                    </h1>
+                    <span
+                        class="text-[10px] bg-neon-blue/10 text-neon-blue px-2 py-0.5 border border-neon-blue/30 rounded-full animate-pulse">LIVE.DATA</span>
+                </div>
+                <p class="text-[10px] text-gray-500 uppercase tracking-[0.3em]">Institutional Research // Ghost Protocol
+                    v1.2</p>
+            </div>
+
+            <div class="flex space-x-8 mt-4 md:mt-0">
+                <div class="text-right">
+                    <div class="text-[10px] text-gray-600 uppercase">System Status</div>
+                    <div class="text-xs neon-green font-bold">OPERATIONAL</div>
+                </div>
+                <div class="text-right border-l border-gray-800 pl-4">
+                    <div class="text-[10px] text-gray-600 uppercase">Uptime</div>
+                    <div class="text-xs text-neon-amber">99.98%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT AREA -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+            <!-- SIDEBAR -->
+            <div class="lg:col-span-1 space-y-6">
+                <!-- NODE SELECTOR -->
+                <div class="hud-border p-4 rounded-sm bg-black/40">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-4 border-b border-gray-800 pb-2">
+                        Central Gateways</div>
+                    <div class="space-y-2">
+                        <a href="../docs/index.html"
+                            class="block p-3 border border-gray-800 hover:border-neon-blue transition-colors group bg-black/20">
+                            <div
+                                class="text-[10px] text-neon-blue group-hover:text-white transition-colors uppercase font-bold">
+                                OPTIONS.DASHBOARD</div>
+                        </a>
+                        <div class="block p-3 border border-neon-amber/50 bg-neon-amber/5">
+                            <div class="text-[10px] text-neon-amber font-bold uppercase">Ghost.Research</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ANALYTICS -->
+                <div class="hud-border p-4 rounded-sm bg-black/40">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest mb-4 border-b border-gray-800 pb-2">
+                        Global Stats</div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <div class="text-[9px] text-gray-600 uppercase">Reports</div>
+                            <div class="text-xl font-bold text-white">93</div>
+                        </div>
+                        <div>
+                            <div class="text-[9px] text-gray-600 uppercase">Assets</div>
+                            <div class="text-xl font-bold text-white">23</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ASSET GRID -->
+            <div class="lg:col-span-3 space-y-4">
+                <div class="flex justify-between items-center px-2">
+                    <h2 class="text-xs font-bold text-gray-400 uppercase tracking-widest italic">Intelligence.Archive
+                        <span class="neon-blue">/</span> Asset.Ledger</h2>
+                    <div class="text-[9px] text-gray-600 uppercase font-mono">Synced: 2026-02-23 13:42</div>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
+                    
+                    <a href="ACHR/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            ACHR
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                A
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    ACHR</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="AMT/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            AMT
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                A
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    AMT</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="ASTS/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            ASTS
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                A
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    ASTS</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="AVGO/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            AVGO
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                A
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    AVGO</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 5</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="BABA/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            BABA
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                B
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    BABA</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="CLS/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            CLS
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                C
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    CLS</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="DDD/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            DDD
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                D
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    DDD</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="DNN/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            DNN
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                D
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    DNN</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="GDX/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            GDX
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                G
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    GDX</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 3</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="GLXY/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            GLXY
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                G
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    GLXY</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="GOOGL/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            GOOGL
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                G
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    GOOGL</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="ISRG/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            ISRG
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                I
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    ISRG</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 5</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="KTOS/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            KTOS
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                K
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    KTOS</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="MU/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            MU
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                M
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    MU</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="NFLX/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            NFLX
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                N
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    NFLX</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="NVDA/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            NVDA
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                N
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    NVDA</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="ONDS/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            ONDS
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                O
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    ONDS</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="PTRN/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            PTRN
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                P
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    PTRN</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="RKLB/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            RKLB
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                R
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    RKLB</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="RR/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            RR
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                R
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    RR</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="TER/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            TER
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                T
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    TER</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="TSM/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            TSM
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                T
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    TSM</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                    <a href="UAMY/2026-02-23.html"
+                        class="asset-card hud-border bg-black/60 p-4 rounded-sm transition-all group relative overflow-hidden block">
+                        <!-- BG DECOR -->
+                        <div
+                            class="absolute -bottom-2 -right-1 text-4xl font-black text-white/5 pointer-events-none uppercase italic group-hover:text-neon-blue/10 transition-colors">
+                            UAMY
+                        </div>
+
+                        <div class="flex items-center space-x-3 mb-2 relative z-10">
+                            <div
+                                class="w-8 h-8 bg-neon-blue/5 border border-neon-blue/20 flex items-center justify-center text-neon-blue font-black text-sm tracking-tighter">
+                                U
+                            </div>
+                            <div class="overflow-hidden">
+                                <h3
+                                    class="text-sm font-black text-white tracking-tight uppercase group-hover:text-neon-blue transition-colors truncate">
+                                    UAMY</h3>
+                                <div class="text-[8px] text-neon-blue/60 uppercase font-mono tracking-widest">Active //
+                                    Logs: 4</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex justify-between items-center relative z-10 mt-3 pt-2 border-t border-gray-800/50">
+                            <span class="text-[9px] text-gray-500 font-mono">2026-02-23</span>
+                            <span
+                                class="text-[8px] text-neon-blue opacity-0 group-hover:opacity-100 transition-all font-bold">OPEN_FILE</span>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="text-center pt-8 pb-4 border-t border-gray-900 mt-8">
+            <p class="text-[9px] text-neon-blue font-tech uppercase tracking-[0.4em] opacity-40">
+                Sam the Ghost Quant // Intelligence Protocol
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

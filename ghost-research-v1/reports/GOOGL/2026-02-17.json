@@ -1,0 +1,218 @@
+{
+  "ticker": "GOOGL",
+  "logo_url": "https://logo.clearbit.com/abc.xyz",
+  "generated_at": "2026-02-17 08:44:23 UTC",
+  "market_snapshot": {
+    "price": 305.72,
+    "market_cap": "$3698.30B",
+    "beta": 1.09,
+    "range_52w": "140.53 - 349.0",
+    "analyst_target": 373.24
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 321.21,
+      "sma_200": 242.65,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 317.44,
+      "21": 323.58,
+      "34": 322.12,
+      "55": 315.05,
+      "89": 300.15
+    },
+    "volume": {
+      "current": "38,465,000",
+      "avg_20d": "40,235,270",
+      "rel_vol": 0.96,
+      "rel_vol_pct": 47
+    },
+    "pivots": {
+      "R2": 364.77,
+      "R1": 335.24,
+      "PP": 319.48,
+      "S1": 289.95,
+      "S2": 274.19
+    },
+    "fibonacci": {
+      "100": 349.0,
+      "61.8": 269.22,
+      "50": 244.57,
+      "38.2": 219.93,
+      "0": 140.14
+    },
+    "oscillators": {
+      "rsi_14": 23.43,
+      "adx_14": 25.32,
+      "macd_hist": -4.16
+    }
+  },
+  "volatility": {
+    "hv_30d": 21.44,
+    "iv_current": 2.21
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-13",
+      "insider": "HENNESSY JOHN L",
+      "type": "",
+      "value": "$202,514"
+    },
+    {
+      "date": "2025-12-09",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-09-25",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-08-15",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$5.33M"
+    },
+    {
+      "date": "2025-07-18",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$6.24M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Peter Thiel's Palantir Extends Partnership With Boeing Rival Airbus",
+      "link": "https://finance.yahoo.com/news/peter-thiels-palantir-extends-partnership-023105477.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Software company Palantir Technologies Inc. (NASDAQ:PLTR), co-founded by Peter Thiel, has announced the expansion of its partnership with aircraft man..."
+    },
+    {
+      "title": "Modi Seizes AI Summit to Assert India\u2019s Global Ambitions After Tough Year",
+      "link": "https://finance.yahoo.com/news/modi-seizes-ai-summit-assert-000000628.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Two months into the new year, he\u2019s secured major trade pacts with the European Union and the US, will host several foreign leaders in the coming weeks..."
+    },
+    {
+      "title": "Why Is Nvidia Stock Underperforming in 2026?",
+      "link": "https://www.fool.com/investing/2026/02/16/why-is-nvidia-stock-underperforming-in-2026/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Investors are worried about the sustainability of the AI boom and whether intensifying competition poses a threat...."
+    },
+    {
+      "title": "India's Adani to invest $100 billion in AI-ready data centres by 2035",
+      "link": "https://finance.yahoo.com/news/indias-adani-invest-100-billion-070737912.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Adani Enterprises said on Tuesday that the group will invest $100 billion to build renewable \u200cenergy-powered AI-ready data centres by 2035, as it seek..."
+    },
+    {
+      "title": "2 Top Growth Stocks to Buy in the First Half of 2026",
+      "link": "https://www.fool.com/investing/2026/02/17/2-top-growth-stocks-to-buy-in-the-first-half-of-20/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Investors are unfairly punishing too many stocks as part of a right-pricing of AI-related names. That spells opportunity for you...."
+    },
+    {
+      "title": "Horizons Middle East & Africa 2/17/2026 (Video)",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-17/horizons-middle-east-africa-2-17-2026-video",
+      "source": "BLOOMBERG",
+      "summary": "No summary..."
+    },
+    {
+      "title": "US Trade Tariffs Punish South African Winemakers, UN Body Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/us-trade-tariffs-punish-south-african-winemakers-un-body-says",
+      "source": "BLOOMBERG",
+      "summary": "Tariffs imposed on South African agricultural products by the US are spiking the price of South African wine in the world\u2019s biggest market, making it ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/peter-thiels-palantir-extends-partnership-023105477.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Peter Thiel's Palantir Extends Partnership With Boeing Rival Airbus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Software company Palantir Technologies Inc. (NASDAQ:PLTR), co-founded by Peter Thiel, has announced the expansion of its partnership with aircraft man..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/modi-seizes-ai-summit-assert-000000628.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Modi Seizes AI Summit to Assert India\u2019s Global Ambitions After Tough Year</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Two months into the new year, he\u2019s secured major trade pacts with the European Union and the US, will host several foreign leaders in the coming weeks..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/16/why-is-nvidia-stock-underperforming-in-2026/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Why Is Nvidia Stock Underperforming in 2026?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Investors are worried about the sustainability of the AI boom and whether intensifying competition poses a threat...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/indias-adani-invest-100-billion-070737912.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>India's Adani to invest $100 billion in AI-ready data centres by 2035</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Adani Enterprises said on Tuesday that the group will invest $100 billion to build renewable \u200cenergy-powered AI-ready data centres by 2035, as it seek..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/17/2-top-growth-stocks-to-buy-in-the-first-half-of-20/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>2 Top Growth Stocks to Buy in the First Half of 2026</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Investors are unfairly punishing too many stocks as part of a right-pricing of AI-related names. That spells opportunity for you...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-17/horizons-middle-east-africa-2-17-2026-video' target='_blank' class='hover:text-neon-blue transition-colors'>Horizons Middle East & Africa 2/17/2026 (Video)</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> No summary..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/us-trade-tariffs-punish-south-african-winemakers-un-body-says' target='_blank' class='hover:text-neon-blue transition-colors'>US Trade Tariffs Punish South African Winemakers, UN Body Says</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Tariffs imposed on South African agricultural products by the US are spiking the price of South African wine in the world\u2019s biggest market, making it ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Alphabet Inc. // Communication Services [Internet Content & Information]. Mkt Cap: $3698.30B. Rev Growth: 18.0%. PM: 32.8%.",
+    "forward_looking": "Beta: 1.086. Range(52W): 140.53 - 349.0. Analyst Tgt: 373.235."
+  },
+  "geospatial": {
+    "site": "Mountain View, United States",
+    "coords": "https://abc.xyz",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 65,
+    "fundamental": 80,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -28.1,
+    "target_price": 219.82,
+    "graham_num": 91.45,
+    "lynch_value": 194.76,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-28.1%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-28.1%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

@@ -1,0 +1,356 @@
+{
+  "ticker": "AMT",
+  "logo_url": "https://logo.clearbit.com/www.americantower.com",
+  "generated_at": "2026-02-16 20:05:24 UTC",
+  "market_snapshot": {
+    "price": 192.1,
+    "market_cap": "$89.95B",
+    "beta": 0.94,
+    "range_52w": "166.88 - 234.33",
+    "analyst_target": 217.5
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 15,
+      "SELL": 1,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 2,
+      "SELL": 0,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "BUY",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_BUY",
+      "BUY": 13,
+      "SELL": 1,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "BUY",
+        "SMA10": "BUY",
+        "EMA20": "BUY",
+        "SMA20": "BUY",
+        "EMA30": "BUY",
+        "SMA30": "BUY",
+        "EMA50": "BUY",
+        "SMA50": "BUY",
+        "EMA100": "BUY",
+        "SMA100": "BUY",
+        "EMA200": "BUY",
+        "SMA200": "SELL",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "BUY",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.18,
+      "Recommend.All": 0.49,
+      "Recommend.MA": 0.8,
+      "RSI": 67.97,
+      "RSI[1]": 64.58,
+      "Stoch.K": 91.38,
+      "Stoch.D": 78.9,
+      "Stoch.K[1]": 89.34,
+      "Stoch.D[1]": 68.91,
+      "CCI20": 259.01,
+      "CCI20[1]": 218.16,
+      "ADX": 17.26,
+      "ADX+DI": 34.55,
+      "ADX-DI": 14.04,
+      "ADX+DI[1]": 33.88,
+      "ADX-DI[1]": 14.9,
+      "AO": 4.03,
+      "AO[1]": 0.68,
+      "Mom": 12.82,
+      "Mom[1]": 6.85,
+      "MACD.macd": 1.84,
+      "MACD.signal": 0.29,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 98.1,
+      "Rec.WR": 0,
+      "W.R": -0.47,
+      "Rec.BBPower": 0,
+      "BBPower": 20.14,
+      "Rec.UO": 0,
+      "UO": 68.21,
+      "close": 192.1,
+      "EMA5": 184.51,
+      "SMA5": 182.6,
+      "EMA10": 181.01,
+      "SMA10": 177.91,
+      "EMA20": 178.95,
+      "SMA20": 178.6,
+      "EMA30": 178.36,
+      "SMA30": 177.05,
+      "EMA50": 178.77,
+      "SMA50": 177.24,
+      "EMA100": 183.06,
+      "SMA100": 181.2,
+      "EMA200": 190.48,
+      "SMA200": 196.81,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 179.55,
+      "Rec.VWMA": 1,
+      "VWMA": 178.69,
+      "Rec.HullMA9": 1,
+      "HullMA9": 188.71,
+      "Pivot.M.Classic.S3": 142.2,
+      "Pivot.M.Classic.S2": 159.49,
+      "Pivot.M.Classic.S1": 169.38,
+      "Pivot.M.Classic.Middle": 176.78,
+      "Pivot.M.Classic.R1": 186.67,
+      "Pivot.M.Classic.R2": 194.07,
+      "Pivot.M.Classic.R3": 211.36,
+      "Pivot.M.Fibonacci.S3": 159.49,
+      "Pivot.M.Fibonacci.S2": 166.09,
+      "Pivot.M.Fibonacci.S1": 170.17,
+      "Pivot.M.Fibonacci.Middle": 176.78,
+      "Pivot.M.Fibonacci.R1": 183.38,
+      "Pivot.M.Fibonacci.R2": 187.46,
+      "Pivot.M.Fibonacci.R3": 194.07,
+      "Pivot.M.Camarilla.S3": 174.53,
+      "Pivot.M.Camarilla.S2": 176.11,
+      "Pivot.M.Camarilla.S1": 177.7,
+      "Pivot.M.Camarilla.Middle": 176.78,
+      "Pivot.M.Camarilla.R1": 180.86,
+      "Pivot.M.Camarilla.R2": 182.45,
+      "Pivot.M.Camarilla.R3": 184.03,
+      "Pivot.M.Woodie.S3": 153.05,
+      "Pivot.M.Woodie.S2": 159.96,
+      "Pivot.M.Woodie.S1": 170.34,
+      "Pivot.M.Woodie.Middle": 177.25,
+      "Pivot.M.Woodie.R1": 187.62,
+      "Pivot.M.Woodie.R2": 194.54,
+      "Pivot.M.Woodie.R3": 204.91,
+      "Pivot.M.Demark.S1": 173.08,
+      "Pivot.M.Demark.Middle": 178.62,
+      "Pivot.M.Demark.R1": 190.37,
+      "open": 188.67,
+      "P.SAR": 169.77,
+      "BB.lower": 168.55,
+      "BB.upper": 188.64,
+      "AO[2]": -1.86,
+      "volume": 3413310,
+      "change": 2.08,
+      "low": 188.1,
+      "high": 192.21
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 176.66,
+      "sma_200": 193.98,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 181.97,
+      "21": 178.78,
+      "34": 178.06,
+      "55": 178.49,
+      "89": 180.89
+    },
+    "volume": {
+      "current": "3,413,100",
+      "avg_20d": "3,510,975",
+      "rel_vol": 0.97,
+      "rel_vol_pct": 48
+    },
+    "pivots": {
+      "R2": 207.86,
+      "R1": 199.98,
+      "PP": 184.33,
+      "S1": 176.45,
+      "S2": 160.8
+    },
+    "fibonacci": {
+      "100": 230.04,
+      "61.8": 205.92,
+      "50": 198.46,
+      "38.2": 191.01,
+      "0": 166.88
+    },
+    "oscillators": {
+      "rsi_14": 64.13,
+      "adx_14": 13.25,
+      "macd_hist": 1.5
+    }
+  },
+  "volatility": {
+    "hv_30d": 30.02,
+    "iv_current": 30.71
+  },
+  "insider_transactions": [
+    {
+      "date": "2025-10-31",
+      "insider": "REILLY EUGENE F",
+      "type": "",
+      "value": "$994,110"
+    },
+    {
+      "date": "2025-07-31",
+      "insider": "FONT JUAN HERNANDEZ",
+      "type": "",
+      "value": "$149,998"
+    },
+    {
+      "date": "2025-03-17",
+      "insider": "GOEL SANJAY",
+      "type": "",
+      "value": "$863,680"
+    },
+    {
+      "date": "2025-03-10",
+      "insider": "MACNAB CRAIG",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-03-10",
+      "insider": "REED JOANN A",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "AST SpaceMobile Successfully Completes Unfolding of BlueBird 6, the Largest Commercial Communications Array Antenna Ever Deployed in Low Earth Orbit",
+      "link": "https://finance.yahoo.com/news/ast-spacemobile-successfully-completes-unfolding-011400298.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "MIDLAND, Texas, February 11, 2026--AST SpaceMobile, Inc. (\"AST SpaceMobile\") (NASDAQ: ASTS), the company building the first and only space-based cellu..."
+    },
+    {
+      "title": "This Is Graco\u2019s Dividend Score After Paying Investors",
+      "link": "https://247wallst.com/investing/2026/02/12/ggg-dividend-scorecard/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Graco just paid investors $0.295 per share on February 4, 2026, marking the company\u2019s 27th consecutive year of quarterly dividend payments. This indus..."
+    },
+    {
+      "title": "American Tower (AMT) Valuation Check As Dish Default And Tower Asset Debates Draw Investor Attention",
+      "link": "https://finance.yahoo.com/news/american-tower-amt-valuation-check-043657668.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "American Tower (AMT) is back in focus after confirming Dish Wireless has defaulted on lease payments, while management says 2025 results remain unchan..."
+    },
+    {
+      "title": "How Does Dish\u2019s Default Recast American Tower\u2019s (AMT) Tenant Risk and Contract Quality Narrative?",
+      "link": "https://finance.yahoo.com/news/does-dish-default-recast-american-071942221.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "American Tower recently disclosed that Dish Wireless has fallen behind on lease payments, triggering a default under their Strategic Collaboration Agr..."
+    },
+    {
+      "title": "The ASTS Week in Review: 19% Stock Drop on Capital Raise Announcement",
+      "link": "https://247wallst.com/investing/2026/02/15/the-asts-week-in-review-19-stock-drop-on-capital-raise-announcement/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "AST SpaceMobile (NASDAQ:ASTS) dropped 19% this week, falling from $101.79 to $82.51 as the space-based cellular broadband company executed a complex c..."
+    },
+    {
+      "title": "Stocks, Bonds Fluctuate in Holiday-Thinned Trade: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks and bonds posted small moves amid muted holiday trading after Friday\u2019s benign US inflation data reinforced expectations that the Federal Reserv..."
+    },
+    {
+      "title": "Europe\u2019s Finance Chiefs Push Bigger Global Role for Euro",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/euro-area-finance-chiefs-push-for-bigger-role-of-single-currency",
+      "source": "BLOOMBERG",
+      "summary": "Euro-area finance chiefs are pushing to expand the single currency\u2019s global role, as US President Donald Trump roils markets and the US dollar weakens..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/ast-spacemobile-successfully-completes-unfolding-011400298.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>AST SpaceMobile Successfully Completes Unfolding of BlueBird 6, the Largest Commercial Communications Array Antenna Ever Deployed in Low Earth Orbit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> MIDLAND, Texas, February 11, 2026--AST SpaceMobile, Inc. (\"AST SpaceMobile\") (NASDAQ: ASTS), the company building the first and only space-based cellu..."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/12/ggg-dividend-scorecard/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>This Is Graco\u2019s Dividend Score After Paying Investors</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Graco just paid investors $0.295 per share on February 4, 2026, marking the company\u2019s 27th consecutive year of quarterly dividend payments. This indus..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/american-tower-amt-valuation-check-043657668.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>American Tower (AMT) Valuation Check As Dish Default And Tower Asset Debates Draw Investor Attention</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> American Tower (AMT) is back in focus after confirming Dish Wireless has defaulted on lease payments, while management says 2025 results remain unchan..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/does-dish-default-recast-american-071942221.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>How Does Dish\u2019s Default Recast American Tower\u2019s (AMT) Tenant Risk and Contract Quality Narrative?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> American Tower recently disclosed that Dish Wireless has fallen behind on lease payments, triggering a default under their Strategic Collaboration Agr..."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/15/the-asts-week-in-review-19-stock-drop-on-capital-raise-announcement/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>The ASTS Week in Review: 19% Stock Drop on Capital Raise Announcement</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> AST SpaceMobile (NASDAQ:ASTS) dropped 19% this week, falling from $101.79 to $82.51 as the space-based cellular broadband company executed a complex c..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks, Bonds Fluctuate in Holiday-Thinned Trade: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks and bonds posted small moves amid muted holiday trading after Friday\u2019s benign US inflation data reinforced expectations that the Federal Reserv..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/euro-area-finance-chiefs-push-for-bigger-role-of-single-currency' target='_blank' class='hover:text-neon-blue transition-colors'>Europe\u2019s Finance Chiefs Push Bigger Global Role for Euro</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Euro-area finance chiefs are pushing to expand the single currency\u2019s global role, as US President Donald Trump roils markets and the US dollar weakens..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "American Tower Corporation // Real Estate [REIT - Specialty]. Mkt Cap: $89.95B. Rev Growth: 7.7%. PM: 28.1%.",
+    "forward_looking": "Beta: 0.944. Range(52W): 166.88 - 234.33. Analyst Tgt: 217.5."
+  },
+  "geospatial": {
+    "site": "Boston, United States",
+    "coords": "https://www.americantower.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 40,
+    "fundamental": 80,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -47.9,
+    "target_price": 100.06,
+    "graham_num": 34.48,
+    "lynch_value": 48.2,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 40/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-47.9%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 40/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-47.9%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

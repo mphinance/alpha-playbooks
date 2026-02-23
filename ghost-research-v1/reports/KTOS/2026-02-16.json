@@ -1,0 +1,356 @@
+{
+  "ticker": "KTOS",
+  "logo_url": "https://logo.clearbit.com/www.kratosdefense.com",
+  "generated_at": "2026-02-16 19:34:39 UTC",
+  "market_snapshot": {
+    "price": 89.06,
+    "market_cap": "$15.17B",
+    "beta": 1.09,
+    "range_52w": "23.9 - 134.0",
+    "analyst_target": 117.63
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 7,
+      "SELL": 10,
+      "NEUTRAL": 9
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 2,
+      "SELL": 1,
+      "NEUTRAL": 8,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "BUY",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 5,
+      "SELL": 9,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "BUY",
+        "SMA100": "BUY",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.09,
+      "Recommend.All": -0.09,
+      "Recommend.MA": -0.27,
+      "RSI": 43.01,
+      "RSI[1]": 41.27,
+      "Stoch.K": 9.76,
+      "Stoch.D": 15.18,
+      "Stoch.K[1]": 22.58,
+      "Stoch.D[1]": 31.13,
+      "CCI20": -87.98,
+      "CCI20[1]": -108.66,
+      "ADX": 22.06,
+      "ADX+DI": 20.26,
+      "ADX-DI": 27.36,
+      "ADX+DI[1]": 18.73,
+      "ADX-DI[1]": 28.74,
+      "AO": -9.11,
+      "AO[1]": -8.51,
+      "Mom": -13.95,
+      "Mom[1]": -21.11,
+      "MACD.macd": -2.85,
+      "MACD.signal": 0.04,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 15.59,
+      "Rec.WR": 1,
+      "W.R": -87.15,
+      "Rec.BBPower": 0,
+      "BBPower": -11.94,
+      "Rec.UO": 0,
+      "UO": 44.12,
+      "close": 89.06,
+      "EMA5": 90.27,
+      "SMA5": 91.24,
+      "EMA10": 93.84,
+      "SMA10": 92.67,
+      "EMA20": 97.69,
+      "SMA20": 104.21,
+      "EMA30": 97.67,
+      "SMA30": 104.6,
+      "EMA50": 94.95,
+      "SMA50": 93.31,
+      "EMA100": 87.24,
+      "SMA100": 88.93,
+      "EMA200": 73.81,
+      "SMA200": 70.42,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 109.25,
+      "Rec.VWMA": -1,
+      "VWMA": 106.63,
+      "Rec.HullMA9": 1,
+      "HullMA9": 87.77,
+      "Pivot.M.Classic.S3": null,
+      "Pivot.M.Classic.S2": 44.11,
+      "Pivot.M.Classic.S1": 73.56,
+      "Pivot.M.Classic.Middle": 103.78,
+      "Pivot.M.Classic.R1": 133.23,
+      "Pivot.M.Classic.R2": 163.45,
+      "Pivot.M.Classic.R3": 223.12,
+      "Pivot.M.Fibonacci.S3": 44.11,
+      "Pivot.M.Fibonacci.S2": 66.9,
+      "Pivot.M.Fibonacci.S1": 80.99,
+      "Pivot.M.Fibonacci.Middle": 103.78,
+      "Pivot.M.Fibonacci.R1": 126.57,
+      "Pivot.M.Fibonacci.R2": 140.66,
+      "Pivot.M.Fibonacci.R3": 163.45,
+      "Pivot.M.Camarilla.S3": 86.6,
+      "Pivot.M.Camarilla.S2": 92.07,
+      "Pivot.M.Camarilla.S1": 97.54,
+      "Pivot.M.Camarilla.Middle": 103.78,
+      "Pivot.M.Camarilla.R1": 108.48,
+      "Pivot.M.Camarilla.R2": 113.95,
+      "Pivot.M.Camarilla.R3": 119.42,
+      "Pivot.M.Woodie.S3": 10.4,
+      "Pivot.M.Woodie.S2": 42.37,
+      "Pivot.M.Woodie.S1": 70.07,
+      "Pivot.M.Woodie.Middle": 102.04,
+      "Pivot.M.Woodie.R1": 129.75,
+      "Pivot.M.Woodie.R2": 161.71,
+      "Pivot.M.Woodie.R3": 189.41,
+      "Pivot.M.Demark.S1": 88.67,
+      "Pivot.M.Demark.Middle": 111.33,
+      "Pivot.M.Demark.R1": 148.34,
+      "open": 87.24,
+      "P.SAR": 85.02,
+      "BB.lower": 77.16,
+      "BB.upper": 131.25,
+      "AO[2]": -8.11,
+      "volume": 1768946,
+      "change": 2.31,
+      "low": 87.02,
+      "high": 92.24
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 93.31,
+      "sma_200": 70.42,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 92.42,
+      "21": 97.8,
+      "34": 97.25,
+      "55": 94.17,
+      "89": 88.91
+    },
+    "volume": {
+      "current": "1,765,500",
+      "avg_20d": "3,696,725",
+      "rel_vol": 0.48,
+      "rel_vol_pct": 23
+    },
+    "pivots": {
+      "R2": 152.02,
+      "R1": 120.54,
+      "PP": 102.52,
+      "S1": 71.04,
+      "S2": 53.02
+    },
+    "fibonacci": {
+      "100": 134.0,
+      "61.8": 91.94,
+      "50": 78.95,
+      "38.2": 65.96,
+      "0": 23.9
+    },
+    "oscillators": {
+      "rsi_14": 36.31,
+      "adx_14": 14.77,
+      "macd_hist": -2.89
+    }
+  },
+  "volatility": {
+    "hv_30d": 100.1,
+    "iv_current": 96.04
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-12",
+      "insider": "JARVIS SCOT B",
+      "type": "",
+      "value": "$442,000"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "CARTER DAVID M",
+      "type": "",
+      "value": "$349,593"
+    },
+    {
+      "date": "2026-02-02",
+      "insider": "LUND DEANNA HOM",
+      "type": "",
+      "value": "$484,363"
+    },
+    {
+      "date": "2026-01-28",
+      "insider": "JARVIS SCOT B",
+      "type": "",
+      "value": "$591,380"
+    },
+    {
+      "date": "2026-01-26",
+      "insider": "FENDLEY STEVEN S",
+      "type": "",
+      "value": "$755,824"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Kratos Defense & Security Solutions Schedules Fourth Quarter and Fiscal Year 2025 Earnings Conference Call for Monday, February 23rd",
+      "link": "https://finance.yahoo.com/news/kratos-defense-security-solutions-schedules-130000476.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "SAN DIEGO, Feb. 13, 2026 (GLOBE NEWSWIRE) -- Kratos Defense & Security Solutions, Inc. (NASDAQ: KTOS), a Technology Company in the Defense, National S..."
+    },
+    {
+      "title": "Kratos and Champion Tire & Wheel Expand Automated Truck Platooning for NASCAR 2026 Season",
+      "link": "https://finance.yahoo.com/news/kratos-champion-tire-wheel-expand-140000398.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Autonomy Proves its Value when it Performs in the Real World - On Schedule, Safely, and RepeatedlySAN DIEGO, Feb. 13, 2026 (GLOBE NEWSWIRE) -- Kratos ..."
+    },
+    {
+      "title": "Here's How R&D Spending Powers ATRO's Long-Term Profitability",
+      "link": "https://finance.yahoo.com/news/heres-r-d-spending-powers-165400794.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Astronics' heavy R&amp;D spending is fueling backlog growth, margin stability and long-term profitability as defense and aerospace demand accelerates...."
+    },
+    {
+      "title": "Kratos Autonomy Tests Dual Use Truck Platooning Across NASCAR And Defense",
+      "link": "https://finance.yahoo.com/news/kratos-autonomy-tests-dual-truck-011248367.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Kratos Defense & Security Solutions is extending its autonomous truck platooning and logistics automation support for Champion Tire & Wheel's NASCAR o..."
+    },
+    {
+      "title": "Kratos (KTOS) Reports Next Week: Wall Street Expects Earnings Growth",
+      "link": "https://finance.yahoo.com/news/kratos-ktos-reports-next-week-150004407.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Kratos (KTOS) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with th..."
+    },
+    {
+      "title": "Stocks, Bonds Fluctuate in Holiday-Thinned Trade: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks and bonds posted small moves amid muted holiday trading after Friday\u2019s benign US inflation data reinforced expectations that the Federal Reserv..."
+    },
+    {
+      "title": "Europe\u2019s Finance Chiefs Push Bigger Global Role for Euro",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/euro-area-finance-chiefs-push-for-bigger-role-of-single-currency",
+      "source": "BLOOMBERG",
+      "summary": "Euro-area finance chiefs are pushing to expand the single currency\u2019s global role, as US President Donald Trump roils markets and the US dollar weakens..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/kratos-defense-security-solutions-schedules-130000476.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Kratos Defense & Security Solutions Schedules Fourth Quarter and Fiscal Year 2025 Earnings Conference Call for Monday, February 23rd</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> SAN DIEGO, Feb. 13, 2026 (GLOBE NEWSWIRE) -- Kratos Defense & Security Solutions, Inc. (NASDAQ: KTOS), a Technology Company in the Defense, National S..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/kratos-champion-tire-wheel-expand-140000398.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Kratos and Champion Tire & Wheel Expand Automated Truck Platooning for NASCAR 2026 Season</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Autonomy Proves its Value when it Performs in the Real World - On Schedule, Safely, and RepeatedlySAN DIEGO, Feb. 13, 2026 (GLOBE NEWSWIRE) -- Kratos ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/heres-r-d-spending-powers-165400794.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Here's How R&D Spending Powers ATRO's Long-Term Profitability</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Astronics' heavy R&amp;D spending is fueling backlog growth, margin stability and long-term profitability as defense and aerospace demand accelerates...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/kratos-autonomy-tests-dual-truck-011248367.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Kratos Autonomy Tests Dual Use Truck Platooning Across NASCAR And Defense</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Kratos Defense & Security Solutions is extending its autonomous truck platooning and logistics automation support for Champion Tire & Wheel's NASCAR o..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/kratos-ktos-reports-next-week-150004407.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Kratos (KTOS) Reports Next Week: Wall Street Expects Earnings Growth</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Kratos (KTOS) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with th..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks, Bonds Fluctuate in Holiday-Thinned Trade: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks and bonds posted small moves amid muted holiday trading after Friday\u2019s benign US inflation data reinforced expectations that the Federal Reserv..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/euro-area-finance-chiefs-push-for-bigger-role-of-single-currency' target='_blank' class='hover:text-neon-blue transition-colors'>Europe\u2019s Finance Chiefs Push Bigger Global Role for Euro</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Euro-area finance chiefs are pushing to expand the single currency\u2019s global role, as US President Donald Trump roils markets and the US dollar weakens..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Kratos Defense & Security Solutions, Inc. // Industrials [Aerospace & Defense]. Mkt Cap: $15.17B. Rev Growth: 26.0%. PM: 1.6%.",
+    "forward_looking": "Beta: 1.094. Range(52W): 23.9 - 134.0. Analyst Tgt: 117.63158."
+  },
+  "geospatial": {
+    "site": "San Diego, United States",
+    "coords": "https://www.kratosdefense.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 80,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -52.5,
+    "target_price": 42.29,
+    "graham_num": 5.86,
+    "lynch_value": 3.38,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-52.5%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 80/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-52.5%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

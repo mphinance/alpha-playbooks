@@ -1,0 +1,356 @@
+{
+  "ticker": "TER",
+  "logo_url": "https://logo.clearbit.com/www.teradyne.com",
+  "generated_at": "2026-02-21 08:18:10 UTC",
+  "market_snapshot": {
+    "price": 324.85,
+    "market_cap": "$51.68B",
+    "beta": 1.82,
+    "range_52w": "65.77 - 327.99",
+    "analyst_target": 302.71
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "STRONG_BUY",
+      "BUY": 16,
+      "SELL": 0,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 2,
+      "SELL": 0,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "BUY",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_BUY",
+      "BUY": 14,
+      "SELL": 0,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "BUY",
+        "SMA10": "BUY",
+        "EMA20": "BUY",
+        "SMA20": "BUY",
+        "EMA30": "BUY",
+        "SMA30": "BUY",
+        "EMA50": "BUY",
+        "SMA50": "BUY",
+        "EMA100": "BUY",
+        "SMA100": "BUY",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "BUY",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.27,
+      "Recommend.All": 0.6,
+      "Recommend.MA": 0.93,
+      "RSI": 72.4,
+      "RSI[1]": 70.13,
+      "Stoch.K": 89.36,
+      "Stoch.D": 84.47,
+      "Stoch.K[1]": 66.47,
+      "Stoch.D[1]": 71.28,
+      "CCI20": 92.0,
+      "CCI20[1]": 83.9,
+      "ADX": 61.54,
+      "ADX+DI": 35.48,
+      "ADX-DI": 5.9,
+      "ADX+DI[1]": 33.07,
+      "ADX-DI[1]": 6.23,
+      "AO": 56.45,
+      "AO[1]": 59.38,
+      "Mom": 53.72,
+      "Mom[1]": 46.83,
+      "MACD.macd": 25.34,
+      "MACD.signal": 23.68,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 41.53,
+      "Rec.WR": 0,
+      "W.R": -3.6,
+      "Rec.BBPower": 0,
+      "BBPower": 41.95,
+      "Rec.UO": 0,
+      "UO": 59.31,
+      "close": 324.85,
+      "EMA5": 316.25,
+      "SMA5": 315.15,
+      "EMA10": 306.87,
+      "SMA10": 312.32,
+      "EMA20": 287.23,
+      "SMA20": 281.96,
+      "EMA30": 271.55,
+      "SMA30": 263.25,
+      "EMA50": 248.39,
+      "SMA50": 238.31,
+      "EMA100": 211.3,
+      "SMA100": 200.29,
+      "EMA200": 173.86,
+      "SMA200": 149.58,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 274.15,
+      "Rec.VWMA": 1,
+      "VWMA": 281.84,
+      "Rec.HullMA9": 1,
+      "HullMA9": 317.42,
+      "Pivot.M.Classic.S3": 119.96,
+      "Pivot.M.Classic.S2": 175.9,
+      "Pivot.M.Classic.S1": 208.47,
+      "Pivot.M.Classic.Middle": 231.84,
+      "Pivot.M.Classic.R1": 264.41,
+      "Pivot.M.Classic.R2": 287.78,
+      "Pivot.M.Classic.R3": 343.72,
+      "Pivot.M.Fibonacci.S3": 175.9,
+      "Pivot.M.Fibonacci.S2": 197.27,
+      "Pivot.M.Fibonacci.S1": 210.47,
+      "Pivot.M.Fibonacci.Middle": 231.84,
+      "Pivot.M.Fibonacci.R1": 253.21,
+      "Pivot.M.Fibonacci.R2": 266.41,
+      "Pivot.M.Fibonacci.R3": 287.78,
+      "Pivot.M.Camarilla.S3": 225.67,
+      "Pivot.M.Camarilla.S2": 230.79,
+      "Pivot.M.Camarilla.S1": 235.92,
+      "Pivot.M.Camarilla.Middle": 231.84,
+      "Pivot.M.Camarilla.R1": 246.18,
+      "Pivot.M.Camarilla.R2": 251.31,
+      "Pivot.M.Camarilla.R3": 256.43,
+      "Pivot.M.Woodie.S3": 157.14,
+      "Pivot.M.Woodie.S2": 178.2,
+      "Pivot.M.Woodie.S1": 213.08,
+      "Pivot.M.Woodie.Middle": 234.14,
+      "Pivot.M.Woodie.R1": 269.02,
+      "Pivot.M.Woodie.R2": 290.08,
+      "Pivot.M.Woodie.R3": 324.96,
+      "Pivot.M.Demark.S1": 220.16,
+      "Pivot.M.Demark.Middle": 237.68,
+      "Pivot.M.Demark.R1": 276.1,
+      "open": 319.08,
+      "P.SAR": 300.4,
+      "BB.lower": 215.92,
+      "BB.upper": 348.0,
+      "AO[2]": 63.72,
+      "volume": 2603525,
+      "change": 2.83,
+      "low": 316.27,
+      "high": 327
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 238.23,
+      "sma_200": 149.41,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 310.87,
+      "21": 285.42,
+      "34": 266.14,
+      "55": 243.56,
+      "89": 217.76
+    },
+    "volume": {
+      "current": "2,601,700",
+      "avg_20d": "4,031,095",
+      "rel_vol": 0.65,
+      "rel_vol_pct": 32
+    },
+    "pivots": {
+      "R2": 396.04,
+      "R1": 360.45,
+      "PP": 292.26,
+      "S1": 256.66,
+      "S2": 188.47
+    },
+    "fibonacci": {
+      "100": 327.85,
+      "61.8": 227.64,
+      "50": 196.69,
+      "38.2": 165.74,
+      "0": 65.53
+    },
+    "oscillators": {
+      "rsi_14": 76.05,
+      "adx_14": 72.5,
+      "macd_hist": 1.68
+    }
+  },
+  "volatility": {
+    "hv_30d": 60.73,
+    "iv_current": 62.92
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-05",
+      "insider": "JOHNSON MERCEDES",
+      "type": "",
+      "value": "$166,862"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "SMITH GREGORY STEPHEN",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "DRISCOLL RYAN E",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "POULIN SHANNON JOHN",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "MILLS REGAN",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Teradyne\u2019s AI Test And Robotics Push Fuels Debate On Rich Valuation",
+      "link": "https://finance.yahoo.com/news/teradyne-ai-test-robotics-push-171326706.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Teradyne, NasdaqGS:TER, has formed a joint venture with MultiLane to develop high speed test solutions for AI data centers. The company is also report..."
+    },
+    {
+      "title": "The Year's Five Best Stocks Have A Lot Of Memory Amid AI Boom",
+      "link": "https://finance.yahoo.com/m/f9313de0-f4f6-3218-b58b-33714b08e30c/the-year%27s-five-best-stocks.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Memory has become vital to the AI boom, sending shares of Sandisk, Seagate and Western Digital soaring in 2026 after sprinting in 2025...."
+    },
+    {
+      "title": "TER Benefits From Robust Semiconductor Test Segment: What's Ahead?",
+      "link": "https://finance.yahoo.com/news/ter-benefits-robust-semiconductor-test-160600291.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Teradyne rides on a 45% semiconductor test revenue surge fueled by AI compute, with 2026 growth tied closely to booming AI applications...."
+    },
+    {
+      "title": "2 Tech Bets Cathie Wood is Quietly Trimming Right Now: Should You Too?",
+      "link": "https://www.barchart.com/story/news/312914/2-tech-bets-cathie-wood-is-quietly-trimming-right-now-should-you-too?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Wood reduced her stake in these two tech bets but did not completely exit. What does that imply?..."
+    },
+    {
+      "title": "Beyond Tesla and Nvidia: 2 Overlooked Robotics Stocks Just Blew Out Earnings",
+      "link": "https://247wallst.com/investing/2026/02/20/beyond-tesla-and-nvidia-2-overlooked-robotics-stocks-just-blew-out-earnings/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Everyone knows NVIDIA (NASDAQ:NVDA) and Tesla (NASDAQ:TSLA) are the marquee names in robotics and autonomous systems. But with both stocks carrying tr..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Mexico, Canada Get Exemption to 10% US Levy But USMCA Risk Looms",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/mexico-canada-get-exemption-to-10-us-levy-but-usmca-risk-looms",
+      "source": "BLOOMBERG",
+      "summary": "The US Supreme Court\u2019s decision to strike down many of Donald Trump\u2019s tariffs offers some relief to Mexico and Canada, but a much bigger set of risks ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/teradyne-ai-test-robotics-push-171326706.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Teradyne\u2019s AI Test And Robotics Push Fuels Debate On Rich Valuation</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Teradyne, NasdaqGS:TER, has formed a joint venture with MultiLane to develop high speed test solutions for AI data centers. The company is also report..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/f9313de0-f4f6-3218-b58b-33714b08e30c/the-year%27s-five-best-stocks.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>The Year's Five Best Stocks Have A Lot Of Memory Amid AI Boom</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Memory has become vital to the AI boom, sending shares of Sandisk, Seagate and Western Digital soaring in 2026 after sprinting in 2025...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/ter-benefits-robust-semiconductor-test-160600291.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>TER Benefits From Robust Semiconductor Test Segment: What's Ahead?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Teradyne rides on a 45% semiconductor test revenue surge fueled by AI compute, with 2026 growth tied closely to booming AI applications...."
+      },
+      {
+        "claim": "<a href='https://www.barchart.com/story/news/312914/2-tech-bets-cathie-wood-is-quietly-trimming-right-now-should-you-too?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>2 Tech Bets Cathie Wood is Quietly Trimming Right Now: Should You Too?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Wood reduced her stake in these two tech bets but did not completely exit. What does that imply?..."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/20/beyond-tesla-and-nvidia-2-overlooked-robotics-stocks-just-blew-out-earnings/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Beyond Tesla and Nvidia: 2 Overlooked Robotics Stocks Just Blew Out Earnings</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Everyone knows NVIDIA (NASDAQ:NVDA) and Tesla (NASDAQ:TSLA) are the marquee names in robotics and autonomous systems. But with both stocks carrying tr..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/mexico-canada-get-exemption-to-10-us-levy-but-usmca-risk-looms' target='_blank' class='hover:text-neon-blue transition-colors'>Mexico, Canada Get Exemption to 10% US Levy But USMCA Risk Looms</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> The US Supreme Court\u2019s decision to strike down many of Donald Trump\u2019s tariffs offers some relief to Mexico and Canada, but a much bigger set of risks ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Teradyne, Inc. // Technology [Semiconductor Equipment & Materials]. Mkt Cap: $51.68B. Rev Growth: 43.9%. PM: 17.4%.",
+    "forward_looking": "Beta: 1.821. Range(52W): 65.77 - 327.99. Analyst Tgt: 302.70587."
+  },
+  "geospatial": {
+    "site": "North Reading, United States",
+    "coords": "https://www.teradyne.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 85,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -49.4,
+    "target_price": 164.31,
+    "graham_num": 37.45,
+    "lynch_value": 152.77,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 85/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-49.4%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 85/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-49.4%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

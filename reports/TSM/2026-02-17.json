@@ -1,0 +1,187 @@
+{
+  "ticker": "TSM",
+  "logo_url": "https://logo.clearbit.com/www.tsmc.com",
+  "generated_at": "2026-02-17 08:43:13 UTC",
+  "market_snapshot": {
+    "price": 366.36,
+    "market_cap": "$1900.13B",
+    "beta": 1.27,
+    "range_52w": "134.25 - 380.0",
+    "analyst_target": 421.49
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 320.46,
+      "sma_200": 263.53,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 357.86,
+      "21": 343.97,
+      "34": 334.64,
+      "55": 323.3,
+      "89": 308.66
+    },
+    "volume": {
+      "current": "10,441,500",
+      "avg_20d": "14,583,325",
+      "rel_vol": 0.72,
+      "rel_vol_pct": 35
+    },
+    "pivots": {
+      "R2": 416.07,
+      "R1": 391.22,
+      "PP": 355.14,
+      "S1": 330.29,
+      "S2": 294.21
+    },
+    "fibonacci": {
+      "100": 380.0,
+      "61.8": 285.64,
+      "50": 256.49,
+      "38.2": 227.34,
+      "0": 132.98
+    },
+    "oscillators": {
+      "rsi_14": 66.2,
+      "adx_14": 20.72,
+      "macd_hist": 2.45
+    }
+  },
+  "volatility": {
+    "hv_30d": 38.01,
+    "iv_current": 1.12
+  },
+  "insider_transactions": [],
+  "intel_feed": [
+    {
+      "title": "Chip Stocks Split: AMAT and TSMC Gain While NVDA and Intel Retreat",
+      "link": "https://247wallst.com/investing/2026/02/16/chip-stocks-split-amat-and-tsmc-gain-while-nvda-and-intel-retreat/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The semiconductor sector posted mixed results last week, with the VanEck Semiconductor ETF (SMH) gaining 1.5%. While equipment makers and foundries sh..."
+    },
+    {
+      "title": "Illinois Foundation Doubles Down on Shift4 Payments, Buys $5 Million in Stock",
+      "link": "https://www.fool.com/coverage/filings/2026/02/16/illinois-foundation-doubles-down-on-shift4-payments-buys-usd5-million-in-stock/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Shift4 Payments delivers integrated payment solutions and analytics to merchants across retail, hospitality, and eCommerce sectors...."
+    },
+    {
+      "title": "Advanced Packaging Is Bringing Sexy Back To AI Investing",
+      "link": "https://247wallst.com/ai-portfolio/2026/02/16/advanced-packaging-is-bringing-sexy-back-to-ai-investing/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Summary: Our AI Investor Podcast hosts, Eric Bleeker and Austin Smith, have been counting down 12 trends they believe AI investors will want to keep a..."
+    },
+    {
+      "title": "The Only 3 Stocks You Need to Capitalize on AI Spending",
+      "link": "https://www.fool.com/investing/2026/02/16/the-only-3-stocks-you-need-to-capitalize-on-ai-spe/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Shares of Nvidia, Broadcom, and Taiwan Semiconductor are set to soar further...."
+    },
+    {
+      "title": "TSMC Expands AI Chip Capacity And Pricing Power With Advanced Nodes",
+      "link": "https://finance.yahoo.com/news/tsmc-expands-ai-chip-capacity-050701957.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "TSMC is expanding advanced node production for 3nm and 2nm chips and planning a 1.6nm node to meet fast rising global AI hardware demand. The company ..."
+    },
+    {
+      "title": "Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years",
+      "source": "BLOOMBERG",
+      "summary": "Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+    },
+    {
+      "title": "Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/16/chip-stocks-split-amat-and-tsmc-gain-while-nvda-and-intel-retreat/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Chip Stocks Split: AMAT and TSMC Gain While NVDA and Intel Retreat</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The semiconductor sector posted mixed results last week, with the VanEck Semiconductor ETF (SMH) gaining 1.5%. While equipment makers and foundries sh..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/coverage/filings/2026/02/16/illinois-foundation-doubles-down-on-shift4-payments-buys-usd5-million-in-stock/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Illinois Foundation Doubles Down on Shift4 Payments, Buys $5 Million in Stock</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Shift4 Payments delivers integrated payment solutions and analytics to merchants across retail, hospitality, and eCommerce sectors...."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/ai-portfolio/2026/02/16/advanced-packaging-is-bringing-sexy-back-to-ai-investing/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Advanced Packaging Is Bringing Sexy Back To AI Investing</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Summary: Our AI Investor Podcast hosts, Eric Bleeker and Austin Smith, have been counting down 12 trends they believe AI investors will want to keep a..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/16/the-only-3-stocks-you-need-to-capitalize-on-ai-spe/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>The Only 3 Stocks You Need to Capitalize on AI Spending</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Shares of Nvidia, Broadcom, and Taiwan Semiconductor are set to soar further...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/tsmc-expands-ai-chip-capacity-050701957.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>TSMC Expands AI Chip Capacity And Pricing Power With Advanced Nodes</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> TSMC is expanding advanced node production for 3nm and 2nm chips and planning a 1.6nm node to meet fast rising global AI hardware demand. The company ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years' target='_blank' class='hover:text-neon-blue transition-colors'>Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Taiwan Semiconductor Manufacturing Company Limited // Technology [Semiconductors]. Mkt Cap: $1900.13B. Rev Growth: 20.5%. PM: 45.1%.",
+    "forward_looking": "Beta: 1.272. Range(52W): 134.25 - 380.0. Analyst Tgt: 421.49057."
+  },
+  "geospatial": {
+    "site": "Hsinchu City, Taiwan",
+    "coords": "https://www.tsmc.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 100,
+    "fundamental": 80,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -38.4,
+    "target_price": 225.84,
+    "graham_num": 39.76,
+    "lynch_value": 216.28,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 100/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-38.4%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 100/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-38.4%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

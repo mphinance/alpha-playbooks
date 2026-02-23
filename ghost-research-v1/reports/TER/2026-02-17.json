@@ -1,0 +1,356 @@
+{
+  "ticker": "TER",
+  "logo_url": "https://logo.clearbit.com/www.teradyne.com",
+  "generated_at": "2026-02-17 08:41:45 UTC",
+  "market_snapshot": {
+    "price": 314.66,
+    "market_cap": "$50.05B",
+    "beta": 1.82,
+    "range_52w": "65.77 - 327.99",
+    "analyst_target": 302.71
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 15,
+      "SELL": 2,
+      "NEUTRAL": 9
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 2,
+      "SELL": 1,
+      "NEUTRAL": 8,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "SELL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "BUY",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_BUY",
+      "BUY": 13,
+      "SELL": 1,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "BUY",
+        "SMA10": "BUY",
+        "EMA20": "BUY",
+        "SMA20": "BUY",
+        "EMA30": "BUY",
+        "SMA30": "BUY",
+        "EMA50": "BUY",
+        "SMA50": "BUY",
+        "EMA100": "BUY",
+        "SMA100": "BUY",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "BUY",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.09,
+      "Recommend.All": 0.45,
+      "Recommend.MA": 0.8,
+      "RSI": 72.76,
+      "RSI[1]": 71.94,
+      "Stoch.K": 88.34,
+      "Stoch.D": 89.81,
+      "Stoch.K[1]": 86.53,
+      "Stoch.D[1]": 89.58,
+      "CCI20": 106.89,
+      "CCI20[1]": 131.18,
+      "ADX": 59.07,
+      "ADX+DI": 37.25,
+      "ADX-DI": 6.57,
+      "ADX+DI[1]": 40.09,
+      "ADX-DI[1]": 4.58,
+      "AO": 68.53,
+      "AO[1]": 67.99,
+      "Mom": 73.61,
+      "Mom[1]": 59.16,
+      "MACD.macd": 26.11,
+      "MACD.signal": 21.32,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 69.66,
+      "Rec.WR": 0,
+      "W.R": -14.4,
+      "Rec.BBPower": 0,
+      "BBPower": 46.18,
+      "Rec.UO": 0,
+      "UO": 63.32,
+      "close": 314.66,
+      "EMA5": 308.56,
+      "SMA5": 312.41,
+      "EMA10": 294.71,
+      "SMA10": 293.49,
+      "EMA20": 273.06,
+      "SMA20": 264.56,
+      "EMA30": 258.04,
+      "SMA30": 250.49,
+      "EMA50": 236.73,
+      "SMA50": 229.04,
+      "EMA100": 202.63,
+      "SMA100": 193.03,
+      "EMA200": 168.09,
+      "SMA200": 144.77,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 270.31,
+      "Rec.VWMA": 1,
+      "VWMA": 270.9,
+      "Rec.HullMA9": -1,
+      "HullMA9": 323.47,
+      "Pivot.M.Classic.S3": 119.96,
+      "Pivot.M.Classic.S2": 175.9,
+      "Pivot.M.Classic.S1": 208.47,
+      "Pivot.M.Classic.Middle": 231.84,
+      "Pivot.M.Classic.R1": 264.41,
+      "Pivot.M.Classic.R2": 287.78,
+      "Pivot.M.Classic.R3": 343.72,
+      "Pivot.M.Fibonacci.S3": 175.9,
+      "Pivot.M.Fibonacci.S2": 197.27,
+      "Pivot.M.Fibonacci.S1": 210.47,
+      "Pivot.M.Fibonacci.Middle": 231.84,
+      "Pivot.M.Fibonacci.R1": 253.21,
+      "Pivot.M.Fibonacci.R2": 266.41,
+      "Pivot.M.Fibonacci.R3": 287.78,
+      "Pivot.M.Camarilla.S3": 225.67,
+      "Pivot.M.Camarilla.S2": 230.79,
+      "Pivot.M.Camarilla.S1": 235.92,
+      "Pivot.M.Camarilla.Middle": 231.84,
+      "Pivot.M.Camarilla.R1": 246.18,
+      "Pivot.M.Camarilla.R2": 251.31,
+      "Pivot.M.Camarilla.R3": 256.43,
+      "Pivot.M.Woodie.S3": 157.14,
+      "Pivot.M.Woodie.S2": 178.2,
+      "Pivot.M.Woodie.S1": 213.08,
+      "Pivot.M.Woodie.Middle": 234.14,
+      "Pivot.M.Woodie.R1": 269.02,
+      "Pivot.M.Woodie.R2": 290.08,
+      "Pivot.M.Woodie.R3": 324.96,
+      "Pivot.M.Demark.S1": 220.16,
+      "Pivot.M.Demark.Middle": 237.68,
+      "Pivot.M.Demark.R1": 276.1,
+      "open": 308.57,
+      "P.SAR": 298.01,
+      "BB.lower": 197.21,
+      "BB.upper": 331.92,
+      "AO[2]": 62.33,
+      "volume": 2600566,
+      "change": 1.17,
+      "low": 302.49,
+      "high": 318.17
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 228.95,
+      "sma_200": 144.6,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 300.08,
+      "21": 271.23,
+      "34": 252.98,
+      "55": 232.29,
+      "89": 208.58
+    },
+    "volume": {
+      "current": "2,577,400",
+      "avg_20d": "4,088,595",
+      "rel_vol": 0.63,
+      "rel_vol_pct": 31
+    },
+    "pivots": {
+      "R2": 395.21,
+      "R1": 354.93,
+      "PP": 287.58,
+      "S1": 247.31,
+      "S2": 179.96
+    },
+    "fibonacci": {
+      "100": 327.85,
+      "61.8": 227.64,
+      "50": 196.69,
+      "38.2": 165.74,
+      "0": 65.53
+    },
+    "oscillators": {
+      "rsi_14": 75.38,
+      "adx_14": 68.38,
+      "macd_hist": 4.8
+    }
+  },
+  "volatility": {
+    "hv_30d": 64.13,
+    "iv_current": 1.59
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-05",
+      "insider": "JOHNSON MERCEDES",
+      "type": "",
+      "value": "$166,862"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "SMITH GREGORY STEPHEN",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "DRISCOLL RYAN E",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "POULIN SHANNON JOHN",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "MILLS REGAN",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Why Teradyne (TER) Is Up 19.5% After AI-Driven Beat, Strong Guidance And New Data Center JV",
+      "link": "https://finance.yahoo.com/news/why-teradyne-ter-19-5-201811650.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "In early February 2026, Teradyne reported that fourth quarter 2025 sales rose to US$1,083.34 million with higher net income, issued first quarter 2026..."
+    },
+    {
+      "title": "These 3 Zacks 'Strong Buy' Stocks Reflect the Hottest S&P 500 Stocks of 2026",
+      "link": "https://finance.yahoo.com/news/3-zacks-strong-buy-stocks-163000467.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Shares of these three red-hot companies continue to remain at the top of the S&amp;P 500 leaderboard, underpinned by all being Zacks Rank #1 (Strong B..."
+    },
+    {
+      "title": "These \u2018safer\u2019 chip stocks have boomed this year. Is it too late to buy in?",
+      "link": "https://www.marketwatch.com/story/these-safer-chip-stocks-have-boomed-this-year-is-it-too-late-to-buy-in-98a3e509?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Valuations have risen for many semiconductor-equipment producers \u2014 but some are still relatively cheap...."
+    },
+    {
+      "title": "Teradyne Surges 88% in Three Months: Time to Buy the Stock?",
+      "link": "https://finance.yahoo.com/news/teradyne-surges-88-three-months-154100590.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "TER stock soars 88% in three months as AI demand fuels semiconductor test and robotics growth, with strong Q1 guidance adding momentum...."
+    },
+    {
+      "title": "Advanced Packaging Is Bringing Sexy Back To AI Investing",
+      "link": "https://247wallst.com/ai-portfolio/2026/02/16/advanced-packaging-is-bringing-sexy-back-to-ai-investing/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Summary: Our AI Investor Podcast hosts, Eric Bleeker and Austin Smith, have been counting down 12 trends they believe AI investors will want to keep a..."
+    },
+    {
+      "title": "Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years",
+      "source": "BLOOMBERG",
+      "summary": "Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+    },
+    {
+      "title": "Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/why-teradyne-ter-19-5-201811650.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Why Teradyne (TER) Is Up 19.5% After AI-Driven Beat, Strong Guidance And New Data Center JV</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> In early February 2026, Teradyne reported that fourth quarter 2025 sales rose to US$1,083.34 million with higher net income, issued first quarter 2026..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/3-zacks-strong-buy-stocks-163000467.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>These 3 Zacks 'Strong Buy' Stocks Reflect the Hottest S&P 500 Stocks of 2026</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Shares of these three red-hot companies continue to remain at the top of the S&amp;P 500 leaderboard, underpinned by all being Zacks Rank #1 (Strong B..."
+      },
+      {
+        "claim": "<a href='https://www.marketwatch.com/story/these-safer-chip-stocks-have-boomed-this-year-is-it-too-late-to-buy-in-98a3e509?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>These \u2018safer\u2019 chip stocks have boomed this year. Is it too late to buy in?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Valuations have risen for many semiconductor-equipment producers \u2014 but some are still relatively cheap...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/teradyne-surges-88-three-months-154100590.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Teradyne Surges 88% in Three Months: Time to Buy the Stock?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> TER stock soars 88% in three months as AI demand fuels semiconductor test and robotics growth, with strong Q1 guidance adding momentum...."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/ai-portfolio/2026/02/16/advanced-packaging-is-bringing-sexy-back-to-ai-investing/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Advanced Packaging Is Bringing Sexy Back To AI Investing</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Summary: Our AI Investor Podcast hosts, Eric Bleeker and Austin Smith, have been counting down 12 trends they believe AI investors will want to keep a..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years' target='_blank' class='hover:text-neon-blue transition-colors'>Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Teradyne, Inc. // Technology [Semiconductor Equipment & Materials]. Mkt Cap: $50.05B. Rev Growth: 43.9%. PM: 17.4%.",
+    "forward_looking": "Beta: 1.821. Range(52W): 65.77 - 327.99. Analyst Tgt: 302.70587."
+  },
+  "geospatial": {
+    "site": "North Reading, United States",
+    "coords": "https://www.teradyne.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 85,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -47.9,
+    "target_price": 163.97,
+    "graham_num": 37.3,
+    "lynch_value": 151.89,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 85/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-47.9%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 85/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-47.9%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

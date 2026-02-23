@@ -1,0 +1,356 @@
+{
+  "ticker": "RR",
+  "logo_url": "https://logo.clearbit.com/www.richtechrobotics.com",
+  "generated_at": "2026-02-15 17:12:52 UTC",
+  "market_snapshot": {
+    "price": 2.98,
+    "market_cap": "$666.32M",
+    "beta": -3.67,
+    "range_52w": "1.37 - 7.43",
+    "analyst_target": 4.5
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 4,
+      "SELL": 14,
+      "NEUTRAL": 8
+    },
+    "oscillators": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 3,
+      "SELL": 1,
+      "NEUTRAL": 7,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "BUY",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "BUY",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 1,
+      "SELL": 13,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "SELL",
+        "SMA200": "SELL",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.18,
+      "Recommend.All": -0.31,
+      "Recommend.MA": -0.8,
+      "RSI": 41.27,
+      "RSI[1]": 39.81,
+      "Stoch.K": 4.13,
+      "Stoch.D": 7.13,
+      "Stoch.K[1]": 18.32,
+      "Stoch.D[1]": 22.1,
+      "CCI20": -106.87,
+      "CCI20[1]": -129.93,
+      "ADX": 13.72,
+      "ADX+DI": 17.66,
+      "ADX-DI": 27.36,
+      "ADX+DI[1]": 18.13,
+      "ADX-DI[1]": 28.6,
+      "AO": -0.5,
+      "AO[1]": -0.47,
+      "Mom": -0.6,
+      "Mom[1]": -1.13,
+      "MACD.macd": -0.22,
+      "MACD.signal": -0.11,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 3.91,
+      "Rec.WR": 1,
+      "W.R": -94.41,
+      "Rec.BBPower": 0,
+      "BBPower": -0.78,
+      "Rec.UO": 0,
+      "UO": 41.4,
+      "close": 2.98,
+      "EMA5": 3.11,
+      "SMA5": 3.16,
+      "EMA10": 3.32,
+      "SMA10": 3.3,
+      "EMA20": 3.55,
+      "SMA20": 3.78,
+      "EMA30": 3.64,
+      "SMA30": 3.78,
+      "EMA50": 3.74,
+      "SMA50": 3.78,
+      "EMA100": 3.73,
+      "SMA100": 4.22,
+      "EMA200": 3.4,
+      "SMA200": 3.28,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 4.21,
+      "Rec.VWMA": -1,
+      "VWMA": 4.29,
+      "Rec.HullMA9": 1,
+      "HullMA9": 2.96,
+      "Pivot.M.Classic.S3": null,
+      "Pivot.M.Classic.S2": 1.77,
+      "Pivot.M.Classic.S1": 2.67,
+      "Pivot.M.Classic.Middle": 4.14,
+      "Pivot.M.Classic.R1": 5.04,
+      "Pivot.M.Classic.R2": 6.51,
+      "Pivot.M.Classic.R3": 8.88,
+      "Pivot.M.Fibonacci.S3": 1.77,
+      "Pivot.M.Fibonacci.S2": 2.67,
+      "Pivot.M.Fibonacci.S1": 3.23,
+      "Pivot.M.Fibonacci.Middle": 4.14,
+      "Pivot.M.Fibonacci.R1": 5.04,
+      "Pivot.M.Fibonacci.R2": 5.6,
+      "Pivot.M.Fibonacci.R3": 6.51,
+      "Pivot.M.Camarilla.S3": 2.93,
+      "Pivot.M.Camarilla.S2": 3.15,
+      "Pivot.M.Camarilla.S1": 3.36,
+      "Pivot.M.Camarilla.Middle": 4.14,
+      "Pivot.M.Camarilla.R1": 3.8,
+      "Pivot.M.Camarilla.R2": 4.01,
+      "Pivot.M.Camarilla.R3": 4.23,
+      "Pivot.M.Woodie.S3": 0.02,
+      "Pivot.M.Woodie.S2": 1.62,
+      "Pivot.M.Woodie.S1": 2.38,
+      "Pivot.M.Woodie.Middle": 3.99,
+      "Pivot.M.Woodie.R1": 4.75,
+      "Pivot.M.Woodie.R2": 6.36,
+      "Pivot.M.Woodie.R3": 7.12,
+      "Pivot.M.Demark.S1": 3.4,
+      "Pivot.M.Demark.Middle": 4.5,
+      "Pivot.M.Demark.R1": 5.77,
+      "open": 2.9,
+      "P.SAR": 4.6,
+      "BB.lower": 2.47,
+      "BB.upper": 5.09,
+      "AO[2]": -0.44,
+      "volume": 15384342,
+      "change": 3.29,
+      "low": 2.88,
+      "high": 3.16
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 3.78,
+      "sma_200": 3.28,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 3.24,
+      "21": 3.56,
+      "34": 3.67,
+      "55": 3.75,
+      "89": 3.75
+    },
+    "volume": {
+      "current": "15,338,300",
+      "avg_20d": "45,028,890",
+      "rel_vol": 0.34,
+      "rel_vol_pct": 17
+    },
+    "pivots": {
+      "R2": 6.58,
+      "R1": 4.78,
+      "PP": 3.8,
+      "S1": 2.0,
+      "S2": 1.03
+    },
+    "fibonacci": {
+      "100": 7.43,
+      "61.8": 5.12,
+      "50": 4.4,
+      "38.2": 3.68,
+      "0": 1.37
+    },
+    "oscillators": {
+      "rsi_14": 42.51,
+      "adx_14": 13.95,
+      "macd_hist": -0.12
+    }
+  },
+  "volatility": {
+    "hv_30d": 169.67,
+    "iv_current": 120.31
+  },
+  "insider_transactions": [
+    {
+      "date": "2025-12-04",
+      "insider": "CASELLA MATTHEW G.",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "ZHENG PHIL",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "HUANG ZHENWU",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "HUANG ZHENQIANG",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-10-29",
+      "insider": "SHIGLEY JOHN L.",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Microsoft\u2019s AI Growth Story Tests Investor Patience On Heavy Spending",
+      "link": "https://finance.yahoo.com/news/microsoft-ai-growth-story-tests-070753789.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Microsoft (NasdaqGS:MSFT) reported second quarter results with record cloud and AI revenues and the launch of its Maia 200 AI chip. The company highli..."
+    },
+    {
+      "title": "Mixed options sentiment in Richtech Robotics Inc with shares up 0.42%",
+      "link": "https://finance.yahoo.com/news/mixed-options-sentiment-richtech-robotics-160517873.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Mixed options sentiment in Richtech Robotics Inc (RR), with shares up 2c, or 0.42%, near $3.60. Options volume roughly in line with average with 27k c..."
+    },
+    {
+      "title": "Microsoft AI Chip Push Tests Market Confidence In OpenAI Reliance",
+      "link": "https://finance.yahoo.com/news/microsoft-ai-chip-push-tests-043535881.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Microsoft has rolled out its second generation Maia 200 AI chip, expanding its in house AI infrastructure offerings. The company is deepening AI colla..."
+    },
+    {
+      "title": "Microsoft\u2019s Expanding AI Ecosystem Tests Copilot Scale And Investor Expectations",
+      "link": "https://finance.yahoo.com/news/microsoft-expanding-ai-ecosystem-tests-002349536.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Microsoft (NasdaqGS:MSFT) is expanding its AI ecosystem, with record uptake of Microsoft 365 Copilot, now at 15 million paid seats, and new partner in..."
+    },
+    {
+      "title": "Richtech: Fiscal Q1 Earnings Snapshot",
+      "link": "https://finance.yahoo.com/news/richtech-fiscal-q1-earnings-snapshot-111358393.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "LAS VEGAS (AP) \u2014 Richtech Robotics (RR) on Wednesday reported a loss of $8.4 million in its fiscal first quarter. On a per-share basis, the Las Vegas-..."
+    },
+    {
+      "title": "Gasoline-Starved California Is Turning to Fuel From the Bahamas",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/gasoline-starved-california-is-turning-to-fuel-from-the-bahamas",
+      "source": "BLOOMBERG",
+      "summary": "US supplies of gasoline are being shipped out of the country to travel thousands of miles via the Bahamas before finally ending up in California, a st..."
+    },
+    {
+      "title": "Why WALL-E is 'The Good Scenario' from AI Disruption",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-15/why-wall-e-is-the-good-scenario-from-ai-disruption-video",
+      "source": "BLOOMBERG",
+      "summary": "AI is already reshaping the value of human expertise, but its effects on workers aren\u2019t predetermined. MIT professor David Autor says the key question..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/microsoft-ai-growth-story-tests-070753789.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Microsoft\u2019s AI Growth Story Tests Investor Patience On Heavy Spending</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Microsoft (NasdaqGS:MSFT) reported second quarter results with record cloud and AI revenues and the launch of its Maia 200 AI chip. The company highli..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/mixed-options-sentiment-richtech-robotics-160517873.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Mixed options sentiment in Richtech Robotics Inc with shares up 0.42%</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Mixed options sentiment in Richtech Robotics Inc (RR), with shares up 2c, or 0.42%, near $3.60. Options volume roughly in line with average with 27k c..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/microsoft-ai-chip-push-tests-043535881.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Microsoft AI Chip Push Tests Market Confidence In OpenAI Reliance</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Microsoft has rolled out its second generation Maia 200 AI chip, expanding its in house AI infrastructure offerings. The company is deepening AI colla..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/microsoft-expanding-ai-ecosystem-tests-002349536.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Microsoft\u2019s Expanding AI Ecosystem Tests Copilot Scale And Investor Expectations</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Microsoft (NasdaqGS:MSFT) is expanding its AI ecosystem, with record uptake of Microsoft 365 Copilot, now at 15 million paid seats, and new partner in..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/richtech-fiscal-q1-earnings-snapshot-111358393.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Richtech: Fiscal Q1 Earnings Snapshot</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> LAS VEGAS (AP) \u2014 Richtech Robotics (RR) on Wednesday reported a loss of $8.4 million in its fiscal first quarter. On a per-share basis, the Las Vegas-..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/gasoline-starved-california-is-turning-to-fuel-from-the-bahamas' target='_blank' class='hover:text-neon-blue transition-colors'>Gasoline-Starved California Is Turning to Fuel From the Bahamas</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> US supplies of gasoline are being shipped out of the country to travel thousands of miles via the Bahamas before finally ending up in California, a st..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-15/why-wall-e-is-the-good-scenario-from-ai-disruption-video' target='_blank' class='hover:text-neon-blue transition-colors'>Why WALL-E is 'The Good Scenario' from AI Disruption</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> AI is already reshaping the value of human expertise, but its effects on workers aren\u2019t predetermined. MIT professor David Autor says the key question..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Richtech Robotics Inc. // Industrials [Specialty Industrial Machinery]. Mkt Cap: $666.32M. Rev Growth: -8.8%. PM: 0.0%.",
+    "forward_looking": "Beta: -3.668. Range(52W): 1.37 - 7.43. Analyst Tgt: 4.5."
+  },
+  "geospatial": {
+    "site": "Las Vegas, United States",
+    "coords": "https://www.richtechrobotics.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 55,
+    "fundamental": 60,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 51.0,
+    "target_price": 4.5,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 55/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 51.0%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 55/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 51.0%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

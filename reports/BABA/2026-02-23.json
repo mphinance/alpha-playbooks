@@ -1,0 +1,362 @@
+{
+  "ticker": "BABA",
+  "companyName": "Alibaba Group Holding Limited",
+  "currentPrice": 152.74,
+  "priceChange": -1.71,
+  "priceChangePct": -1.1,
+  "timestamp": "02/23/26 13:41 ",
+  "postMarketStr": "Post-Market: $152.74 (0.00)",
+  "impliedVolatility": 51.22,
+  "historicVolatility": 44.06,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 51.22,
+  "iv1mAvg": 51.22,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bearish",
+  "trendShort": "Bear",
+  "trendMed": "Soft",
+  "trendLong": "Strong",
+  "movAvg20d": 162.8,
+  "movAvg50d": 159.08,
+  "movAvg100d": 162.94,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 28.48,
+  "trendSeekerSignal": "SELL",
+  "low52w": 94.14,
+  "low52wDate": "1Y Low",
+  "high52w": 192.67,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 10.83,
+      "expectedRange": "141.91 - 163.58",
+      "iv": 51.2
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 15.32,
+      "expectedRange": "137.42 - 168.07",
+      "iv": 51.2
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 22.43,
+      "expectedRange": "130.32 - 175.17",
+      "iv": 51.2
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 31.72,
+      "expectedRange": "121.03 - 184.46",
+      "iv": 51.2
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      163.0,
+      166.51,
+      164.32,
+      158.73,
+      155.73,
+      155.43,
+      155.77,
+      154.27,
+      154.45,
+      152.74
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "https://logo.clearbit.com/www.alibabagroup.com",
+  "generated_at": "2026-02-23 19:41:12 UTC",
+  "market_snapshot": {
+    "price": 152.74,
+    "market_cap": "$364.65B",
+    "beta": 0.39,
+    "range_52w": "95.73 - 192.67",
+    "analyst_target": 198.29
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 3,
+      "SELL": 13,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 0,
+      "SELL": 2,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "SELL",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 3,
+      "SELL": 11,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": -0.09,
+      "Recommend.All": -0.31,
+      "Recommend.MA": -0.53,
+      "RSI": 38.88,
+      "RSI[1]": 40.63,
+      "Stoch.K": 13.82,
+      "Stoch.D": 11.78,
+      "Stoch.K[1]": 16.89,
+      "Stoch.D[1]": 16.65,
+      "CCI20": -98.43,
+      "CCI20[1]": -111.07,
+      "ADX": 17.26,
+      "ADX+DI": 19.22,
+      "ADX-DI": 30.26,
+      "ADX+DI[1]": 19.03,
+      "ADX-DI[1]": 31.88,
+      "AO": -8.11,
+      "AO[1]": -7.91,
+      "Mom": -9.63,
+      "Mom[1]": -3.31,
+      "MACD.macd": -2.35,
+      "MACD.signal": -0.82,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 0.71,
+      "Rec.WR": 0,
+      "W.R": -86.26,
+      "Rec.BBPower": 0,
+      "BBPower": -7.66,
+      "Rec.UO": 0,
+      "UO": 42.11,
+      "close": 152.88,
+      "EMA5": 154.84,
+      "SMA5": 154.56,
+      "EMA10": 157.22,
+      "SMA10": 158.11,
+      "EMA20": 159.82,
+      "SMA20": 162.8,
+      "EMA30": 160.5,
+      "SMA30": 164.27,
+      "EMA50": 160.42,
+      "SMA50": 159.08,
+      "EMA100": 157.2,
+      "SMA100": 162.94,
+      "EMA200": 146.68,
+      "SMA200": 144.64,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 165.76,
+      "Rec.VWMA": -1,
+      "VWMA": 163.29,
+      "Rec.HullMA9": 1,
+      "HullMA9": 152.54,
+      "Pivot.M.Classic.S3": 93.65,
+      "Pivot.M.Classic.S2": 129.48,
+      "Pivot.M.Classic.S1": 149.52,
+      "Pivot.M.Classic.Middle": 165.31,
+      "Pivot.M.Classic.R1": 185.35,
+      "Pivot.M.Classic.R2": 201.14,
+      "Pivot.M.Classic.R3": 236.97,
+      "Pivot.M.Fibonacci.S3": 129.48,
+      "Pivot.M.Fibonacci.S2": 143.17,
+      "Pivot.M.Fibonacci.S1": 151.62,
+      "Pivot.M.Fibonacci.Middle": 165.31,
+      "Pivot.M.Fibonacci.R1": 179.0,
+      "Pivot.M.Fibonacci.R2": 187.45,
+      "Pivot.M.Fibonacci.R3": 201.14,
+      "Pivot.M.Camarilla.S3": 159.71,
+      "Pivot.M.Camarilla.S2": 162.99,
+      "Pivot.M.Camarilla.S1": 166.28,
+      "Pivot.M.Camarilla.Middle": 165.31,
+      "Pivot.M.Camarilla.R1": 172.84,
+      "Pivot.M.Camarilla.R2": 176.13,
+      "Pivot.M.Camarilla.R3": 179.41,
+      "Pivot.M.Woodie.S3": 114.23,
+      "Pivot.M.Woodie.S2": 129.75,
+      "Pivot.M.Woodie.S1": 150.06,
+      "Pivot.M.Woodie.Middle": 165.58,
+      "Pivot.M.Woodie.R1": 185.89,
+      "Pivot.M.Woodie.R2": 201.41,
+      "Pivot.M.Woodie.R3": 221.72,
+      "Pivot.M.Demark.S1": 157.41,
+      "Pivot.M.Demark.Middle": 169.26,
+      "Pivot.M.Demark.R1": 193.24,
+      "open": 155.5,
+      "P.SAR": 162.46,
+      "BB.lower": 148.58,
+      "BB.upper": 177.03,
+      "AO[2]": -6.27,
+      "volume": 3919192,
+      "change": -1.02,
+      "low": 152.66,
+      "high": 156.33
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 159.08,
+      "sma_200": 144.38,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 156.29,
+      "21": 159.93,
+      "34": 160.56,
+      "55": 160.26,
+      "89": 158.12
+    },
+    "volume": {
+      "current": "3,991,829",
+      "avg_20d": "9,326,341",
+      "rel_vol": 0.43,
+      "rel_vol_pct": 21
+    },
+    "pivots": {
+      "R2": 191.63,
+      "R1": 172.19,
+      "PP": 161.31,
+      "S1": 141.87,
+      "S2": 130.99
+    },
+    "fibonacci": {
+      "100": 192.67,
+      "61.8": 155.03,
+      "50": 143.4,
+      "38.2": 131.78,
+      "0": 94.14
+    },
+    "oscillators": {
+      "rsi_14": 27.12,
+      "adx_14": 9.22,
+      "macd_hist": -1.55
+    }
+  },
+  "volatility": {
+    "hv_30d": 44.06,
+    "iv_current": 51.22
+  },
+  "insider_transactions": [],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Alibaba Group Holding Limited // Consumer Cyclical [Internet Retail]. Mkt Cap: $364.65B. Rev Growth: 4.8%. PM: 12.2%.",
+    "forward_looking": "Beta: 0.39. Range(52W): 95.73 - 192.67. Analyst Tgt: 198.29056."
+  },
+  "geospatial": {
+    "site": "Causeway Bay, Hong Kong",
+    "coords": "https://www.alibabagroup.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 65,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -25.9,
+    "target_price": 113.17,
+    "graham_num": 104.83,
+    "lynch_value": 36.38,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-25.9%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-25.9%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

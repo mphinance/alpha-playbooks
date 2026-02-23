@@ -1,0 +1,356 @@
+{
+  "ticker": "NFLX",
+  "logo_url": "https://logo.clearbit.com/www.netflix.com",
+  "generated_at": "2026-02-16 02:39:54 UTC",
+  "market_snapshot": {
+    "price": 76.87,
+    "market_cap": "$326.07B",
+    "beta": 1.71,
+    "range_52w": "75.23 - 134.115",
+    "analyst_target": 111.43
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 4,
+      "SELL": 15,
+      "NEUTRAL": 7
+    },
+    "oscillators": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 4,
+      "SELL": 1,
+      "NEUTRAL": 6,
+      "COMPUTE": {
+        "RSI": "BUY",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "BUY",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "BUY",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 0,
+      "SELL": 14,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "SELL",
+        "SMA200": "SELL",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.18,
+      "Recommend.All": -0.38,
+      "Recommend.MA": -0.93,
+      "RSI": 27.59,
+      "RSI[1]": 23.27,
+      "Stoch.K": 8.36,
+      "Stoch.D": 16.35,
+      "Stoch.K[1]": 20.86,
+      "Stoch.D[1]": 31.47,
+      "CCI20": -176.84,
+      "CCI20[1]": -198.36,
+      "ADX": 30.83,
+      "ADX+DI": 17.09,
+      "ADX-DI": 38.22,
+      "ADX+DI[1]": 17.93,
+      "ADX-DI[1]": 40.08,
+      "AO": -6.69,
+      "AO[1]": -6.14,
+      "Mom": -6.62,
+      "Mom[1]": -7.3,
+      "MACD.macd": -3.45,
+      "MACD.signal": -3.28,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 38.18,
+      "Rec.WR": 1,
+      "W.R": -85.41,
+      "Rec.BBPower": 0,
+      "BBPower": -9.12,
+      "Rec.UO": 0,
+      "UO": 34.42,
+      "close": 76.87,
+      "EMA5": 78.52,
+      "SMA5": 79.21,
+      "EMA10": 80.12,
+      "SMA10": 80.2,
+      "EMA20": 82.66,
+      "SMA20": 82.74,
+      "EMA30": 85.06,
+      "SMA30": 85.17,
+      "EMA50": 89.6,
+      "SMA50": 89.32,
+      "EMA100": 97.59,
+      "SMA100": 101.79,
+      "EMA200": 101.75,
+      "SMA200": 111.62,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 83.41,
+      "Rec.VWMA": -1,
+      "VWMA": 83.06,
+      "Rec.HullMA9": -1,
+      "HullMA9": 77.35,
+      "Pivot.M.Classic.S3": 62.12,
+      "Pivot.M.Classic.S2": 74.32,
+      "Pivot.M.Classic.S1": 78.9,
+      "Pivot.M.Classic.Middle": 86.52,
+      "Pivot.M.Classic.R1": 91.1,
+      "Pivot.M.Classic.R2": 98.72,
+      "Pivot.M.Classic.R3": 110.92,
+      "Pivot.M.Fibonacci.S3": 74.32,
+      "Pivot.M.Fibonacci.S2": 78.98,
+      "Pivot.M.Fibonacci.S1": 81.86,
+      "Pivot.M.Fibonacci.Middle": 86.52,
+      "Pivot.M.Fibonacci.R1": 91.18,
+      "Pivot.M.Fibonacci.R2": 94.06,
+      "Pivot.M.Fibonacci.R3": 98.72,
+      "Pivot.M.Camarilla.S3": 80.13,
+      "Pivot.M.Camarilla.S2": 81.25,
+      "Pivot.M.Camarilla.S1": 82.37,
+      "Pivot.M.Camarilla.Middle": 86.52,
+      "Pivot.M.Camarilla.R1": 84.61,
+      "Pivot.M.Camarilla.R2": 85.73,
+      "Pivot.M.Camarilla.R3": 86.84,
+      "Pivot.M.Woodie.S3": 65.23,
+      "Pivot.M.Woodie.S2": 73.58,
+      "Pivot.M.Woodie.S1": 77.43,
+      "Pivot.M.Woodie.Middle": 85.78,
+      "Pivot.M.Woodie.R1": 89.63,
+      "Pivot.M.Woodie.R2": 97.98,
+      "Pivot.M.Woodie.R3": 101.83,
+      "Pivot.M.Demark.S1": 76.61,
+      "Pivot.M.Demark.Middle": 85.37,
+      "Pivot.M.Demark.R1": 88.81,
+      "open": 76.14,
+      "P.SAR": 84.22,
+      "BB.lower": 76.42,
+      "BB.upper": 89.06,
+      "AO[2]": -5.65,
+      "volume": 42292078,
+      "change": 1.33,
+      "low": 75.53,
+      "high": 77.18
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 89.32,
+      "sma_200": 111.62,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 79.54,
+      "21": 82.9,
+      "34": 86.01,
+      "55": 90.63,
+      "89": 96.28
+    },
+    "volume": {
+      "current": "42,228,700",
+      "avg_20d": "55,375,070",
+      "rel_vol": 0.76,
+      "rel_vol_pct": 38
+    },
+    "pivots": {
+      "R2": 95.34,
+      "R1": 86.1,
+      "PP": 80.67,
+      "S1": 71.43,
+      "S2": 66.0
+    },
+    "fibonacci": {
+      "100": 134.12,
+      "61.8": 111.62,
+      "50": 104.67,
+      "38.2": 97.72,
+      "0": 75.23
+    },
+    "oscillators": {
+      "rsi_14": 24.79,
+      "adx_14": 30.83,
+      "macd_hist": -0.18
+    }
+  },
+  "volatility": {
+    "hv_30d": 26.56,
+    "iv_current": 43.47
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-10",
+      "insider": "PETERS GREGORY K.",
+      "type": "",
+      "value": "$2.27M"
+    },
+    {
+      "date": "2026-02-10",
+      "insider": "WILLEMS CLETUS R",
+      "type": "",
+      "value": "$259,253"
+    },
+    {
+      "date": "2026-02-09",
+      "insider": "HYMAN DAVID A",
+      "type": "",
+      "value": "$464,231"
+    },
+    {
+      "date": "2026-02-06",
+      "insider": "NEUMANN SPENCER ADAM",
+      "type": "",
+      "value": "$751,598"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "HASTINGS REED",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "An Activist Investor Emerges to Try Thwarting Netflix's Proposed Acquisition of Warner Bros.' Assets. What Will Happen Next?",
+      "link": "https://www.fool.com/investing/2026/02/15/activist-investor-thwart-netflix-wbd-asset-ancora/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Activist investors typically acquire a significant minority stake in a company to influence its strategy or actions...."
+    },
+    {
+      "title": "Netflix Warner Bros Bid Tests Growth Ambitions Amid Opposition And Scrutiny",
+      "link": "https://finance.yahoo.com/news/netflix-warner-bros-bid-tests-151156573.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Netflix, ticker NasdaqGS:NFLX, is pursuing an $82.7b acquisition of Warner Bros. Discovery that is drawing strong opposition from activist investor An..."
+    },
+    {
+      "title": "Streaming Wars: 1 Netflix Rival Dominating the Industry",
+      "link": "https://www.fool.com/investing/2026/02/15/streaming-wars-1-netflix-rival-dominating-industry/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "There's a leading tech firm that has a booming video entertainment segment...."
+    },
+    {
+      "title": "How Blockbuster Films and Bingeworthy Streaming Hits Slipped Into Our Showers",
+      "link": "https://finance.yahoo.com/m/9ad537be-2093-3416-b1b7-86f3a431a6e4/how-blockbuster-films-and.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The streaming giant\u2019s top show is \u201cBridgerton\u201d\u2014a steamy bodice-ripper that follows the romantic escapades of striking debutantes and their ravishing s..."
+    },
+    {
+      "title": "Warner Bros weighs reopening sale talks with Paramount, Bloomberg News reports",
+      "link": "https://finance.yahoo.com/news/warner-bros-weighs-reopening-sale-195058251.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Warner Bros Discovery is considering reopening sale talks with rival Hollywood studio Paramount Skydance after receiving its \u200chostile suitor's most re..."
+    },
+    {
+      "title": "Laopu Gold, CMOC Shares Jump on Addition to Hang Seng Index",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/laopu-gold-cmoc-shares-jump-on-addition-to-hang-seng-index",
+      "source": "BLOOMBERG",
+      "summary": "Shares of Chinese jeweler Laopu Gold Co. and miner CMOC Group Ltd. rallied in Hong Kong, after Hang Seng Indexes Co. added the stocks to the city\u2019s eq..."
+    },
+    {
+      "title": "Xi Touts \u2018Super-Large\u2019 China Market as Key to Boost Local Demand",
+      "link": "https://www.bloomberg.com/news/videos/2026-02-16/president-xi-touts-super-large-china-market-video",
+      "source": "BLOOMBERG",
+      "summary": "Chinese President Xi Jinping\u00a0has called for anchoring economic growth around domestic demand as its \u201cmain driver.\u201d The country should \u201cfully leverage ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/15/activist-investor-thwart-netflix-wbd-asset-ancora/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>An Activist Investor Emerges to Try Thwarting Netflix's Proposed Acquisition of Warner Bros.' Assets. What Will Happen Next?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Activist investors typically acquire a significant minority stake in a company to influence its strategy or actions...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/netflix-warner-bros-bid-tests-151156573.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Netflix Warner Bros Bid Tests Growth Ambitions Amid Opposition And Scrutiny</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Netflix, ticker NasdaqGS:NFLX, is pursuing an $82.7b acquisition of Warner Bros. Discovery that is drawing strong opposition from activist investor An..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/15/streaming-wars-1-netflix-rival-dominating-industry/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Streaming Wars: 1 Netflix Rival Dominating the Industry</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> There's a leading tech firm that has a booming video entertainment segment...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/9ad537be-2093-3416-b1b7-86f3a431a6e4/how-blockbuster-films-and.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>How Blockbuster Films and Bingeworthy Streaming Hits Slipped Into Our Showers</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The streaming giant\u2019s top show is \u201cBridgerton\u201d\u2014a steamy bodice-ripper that follows the romantic escapades of striking debutantes and their ravishing s..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/warner-bros-weighs-reopening-sale-195058251.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Warner Bros weighs reopening sale talks with Paramount, Bloomberg News reports</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Warner Bros Discovery is considering reopening sale talks with rival Hollywood studio Paramount Skydance after receiving its \u200chostile suitor's most re..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/laopu-gold-cmoc-shares-jump-on-addition-to-hang-seng-index' target='_blank' class='hover:text-neon-blue transition-colors'>Laopu Gold, CMOC Shares Jump on Addition to Hang Seng Index</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Shares of Chinese jeweler Laopu Gold Co. and miner CMOC Group Ltd. rallied in Hong Kong, after Hang Seng Indexes Co. added the stocks to the city\u2019s eq..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/videos/2026-02-16/president-xi-touts-super-large-china-market-video' target='_blank' class='hover:text-neon-blue transition-colors'>Xi Touts \u2018Super-Large\u2019 China Market as Key to Boost Local Demand</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Chinese President Xi Jinping\u00a0has called for anchoring economic growth around domestic demand as its \u201cmain driver.\u201d The country should \u201cfully leverage ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Netflix, Inc. // Communication Services [Entertainment]. Mkt Cap: $326.07B. Rev Growth: 17.6%. PM: 24.3%.",
+    "forward_looking": "Beta: 1.712. Range(52W): 75.23 - 134.115. Analyst Tgt: 111.42846."
+  },
+  "geospatial": {
+    "site": "Los Gatos, United States",
+    "coords": "https://www.netflix.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 5,
+    "fundamental": 80,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -24.2,
+    "target_price": 58.3,
+    "graham_num": 18.94,
+    "lynch_value": 44.53,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 5/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-24.2%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 5/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-24.2%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}

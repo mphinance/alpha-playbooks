@@ -1,0 +1,218 @@
+{
+  "ticker": "RR",
+  "logo_url": "https://logo.clearbit.com/richtechrobotics.com",
+  "generated_at": "2026-02-21 08:19:58 UTC",
+  "market_snapshot": {
+    "price": 2.61,
+    "market_cap": "$583.59M",
+    "beta": -3.67,
+    "range_52w": "1.37 - 7.43",
+    "analyst_target": 4.0
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 3.65,
+      "sma_200": 3.29,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 2.91,
+      "21": 3.3,
+      "34": 3.47,
+      "55": 3.61,
+      "89": 3.66
+    },
+    "volume": {
+      "current": "13,974,900",
+      "avg_20d": "37,943,860",
+      "rel_vol": 0.37,
+      "rel_vol_pct": 18
+    },
+    "pivots": {
+      "R2": 6.6,
+      "R1": 4.6,
+      "PP": 3.61,
+      "S1": 1.61,
+      "S2": 0.62
+    },
+    "fibonacci": {
+      "100": 7.43,
+      "61.8": 5.12,
+      "50": 4.4,
+      "38.2": 3.68,
+      "0": 1.37
+    },
+    "oscillators": {
+      "rsi_14": 29.27,
+      "adx_14": 14.01,
+      "macd_hist": -0.1
+    }
+  },
+  "volatility": {
+    "hv_30d": 167.0,
+    "iv_current": 117.97
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-17",
+      "insider": "CASELLA MATTHEW G.",
+      "type": "",
+      "value": "$175,600"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "CASELLA MATTHEW G.",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "ZHENG PHIL",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "HUANG ZHENWU",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-12-04",
+      "insider": "HUANG ZHENQIANG",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Mixed options sentiment in Richtech Robotics Inc with shares up 0.42%",
+      "link": "https://finance.yahoo.com/news/mixed-options-sentiment-richtech-robotics-160517873.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Mixed options sentiment in Richtech Robotics Inc (RR), with shares up 2c, or 0.42%, near $3.60. Options volume roughly in line with average with 27k c..."
+    },
+    {
+      "title": "Microsoft AI Chip Push Tests Market Confidence In OpenAI Reliance",
+      "link": "https://finance.yahoo.com/news/microsoft-ai-chip-push-tests-043535881.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Microsoft has rolled out its second generation Maia 200 AI chip, expanding its in house AI infrastructure offerings. The company is deepening AI colla..."
+    },
+    {
+      "title": "Microsoft\u2019s Expanding AI Ecosystem Tests Copilot Scale And Investor Expectations",
+      "link": "https://finance.yahoo.com/news/microsoft-expanding-ai-ecosystem-tests-002349536.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Microsoft (NasdaqGS:MSFT) is expanding its AI ecosystem, with record uptake of Microsoft 365 Copilot, now at 15 million paid seats, and new partner in..."
+    },
+    {
+      "title": "Richtech: Fiscal Q1 Earnings Snapshot",
+      "link": "https://finance.yahoo.com/news/richtech-fiscal-q1-earnings-snapshot-111358393.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "LAS VEGAS (AP) \u2014 Richtech Robotics (RR) on Wednesday reported a loss of $8.4 million in its fiscal first quarter. On a per-share basis, the Las Vegas-..."
+    },
+    {
+      "title": "Richtech Robotics Issues Shareholder Letter",
+      "link": "https://finance.yahoo.com/news/richtech-robotics-issues-shareholder-letter-133000800.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Highlights the Company\u2019s strategic business recalibration into three pillars: commercial, industrial and data services LAS VEGAS, Feb. 17, 2026 (GLOBE..."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/mixed-options-sentiment-richtech-robotics-160517873.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Mixed options sentiment in Richtech Robotics Inc with shares up 0.42%</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Mixed options sentiment in Richtech Robotics Inc (RR), with shares up 2c, or 0.42%, near $3.60. Options volume roughly in line with average with 27k c..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/microsoft-ai-chip-push-tests-043535881.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Microsoft AI Chip Push Tests Market Confidence In OpenAI Reliance</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Microsoft has rolled out its second generation Maia 200 AI chip, expanding its in house AI infrastructure offerings. The company is deepening AI colla..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/microsoft-expanding-ai-ecosystem-tests-002349536.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Microsoft\u2019s Expanding AI Ecosystem Tests Copilot Scale And Investor Expectations</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Microsoft (NasdaqGS:MSFT) is expanding its AI ecosystem, with record uptake of Microsoft 365 Copilot, now at 15 million paid seats, and new partner in..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/richtech-fiscal-q1-earnings-snapshot-111358393.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Richtech: Fiscal Q1 Earnings Snapshot</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> LAS VEGAS (AP) \u2014 Richtech Robotics (RR) on Wednesday reported a loss of $8.4 million in its fiscal first quarter. On a per-share basis, the Las Vegas-..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/richtech-robotics-issues-shareholder-letter-133000800.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Richtech Robotics Issues Shareholder Letter</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Highlights the Company\u2019s strategic business recalibration into three pillars: commercial, industrial and data services LAS VEGAS, Feb. 17, 2026 (GLOBE..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Richtech Robotics Inc. // Industrials [Specialty Industrial Machinery]. Mkt Cap: $583.59M. Rev Growth: -8.8%. PM: 0.0%.",
+    "forward_looking": "Beta: -3.668. Range(52W): 1.37 - 7.43. Analyst Tgt: 4.0."
+  },
+  "geospatial": {
+    "site": "Las Vegas, United States",
+    "coords": "https://richtechrobotics.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 45,
+    "fundamental": 60,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 53.3,
+    "target_price": 4.0,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 45/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 53.3%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 45/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 53.3%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

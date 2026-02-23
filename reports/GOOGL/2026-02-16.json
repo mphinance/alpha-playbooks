@@ -1,0 +1,356 @@
+{
+  "ticker": "GOOGL",
+  "logo_url": "https://logo.clearbit.com/abc.xyz",
+  "generated_at": "2026-02-16 15:02:38 UTC",
+  "market_snapshot": {
+    "price": 305.72,
+    "market_cap": "$3698.30B",
+    "beta": 1.09,
+    "range_52w": "140.53 - 349.0",
+    "analyst_target": 373.24
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 5,
+      "SELL": 11,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 0,
+      "SELL": 2,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "SELL",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 5,
+      "SELL": 9,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "BUY",
+        "SMA100": "BUY",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": -0.27,
+      "Recommend.All": -0.27,
+      "Recommend.MA": -0.27,
+      "RSI": 32.27,
+      "RSI[1]": 34.37,
+      "Stoch.K": 7.0,
+      "Stoch.D": 16.34,
+      "Stoch.K[1]": 15.01,
+      "Stoch.D[1]": 26.12,
+      "CCI20": -181.6,
+      "CCI20[1]": -176.75,
+      "ADX": 28.74,
+      "ADX+DI": 11.36,
+      "ADX-DI": 31.03,
+      "ADX+DI[1]": 11.81,
+      "ADX-DI[1]": 29.63,
+      "AO": -10.7,
+      "AO[1]": -7.12,
+      "Mom": -32.28,
+      "Mom[1]": -29.25,
+      "MACD.macd": -2.51,
+      "MACD.signal": 1.64,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": -0.0,
+      "Rec.WR": 0,
+      "W.R": -95.56,
+      "Rec.BBPower": 0,
+      "BBPower": -30.75,
+      "Rec.UO": 0,
+      "UO": 52.47,
+      "close": 305.72,
+      "EMA5": 313.05,
+      "SMA5": 313.72,
+      "EMA10": 319.48,
+      "SMA10": 323.91,
+      "EMA20": 323.51,
+      "SMA20": 327.9,
+      "EMA30": 322.95,
+      "SMA30": 327.22,
+      "EMA50": 317.05,
+      "SMA50": 321.22,
+      "EMA100": 295.43,
+      "SMA100": 295.82,
+      "EMA200": 260.76,
+      "SMA200": 242.85,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 326.36,
+      "Rec.VWMA": -1,
+      "VWMA": 327.24,
+      "Rec.HullMA9": 1,
+      "HullMA9": 304.64,
+      "Pivot.M.Classic.S3": 266.29,
+      "Pivot.M.Classic.S2": 298.25,
+      "Pivot.M.Classic.S1": 318.12,
+      "Pivot.M.Classic.Middle": 330.21,
+      "Pivot.M.Classic.R1": 350.08,
+      "Pivot.M.Classic.R2": 362.17,
+      "Pivot.M.Classic.R3": 394.13,
+      "Pivot.M.Fibonacci.S3": 298.25,
+      "Pivot.M.Fibonacci.S2": 310.46,
+      "Pivot.M.Fibonacci.S1": 318.0,
+      "Pivot.M.Fibonacci.Middle": 330.21,
+      "Pivot.M.Fibonacci.R1": 342.42,
+      "Pivot.M.Fibonacci.R2": 349.96,
+      "Pivot.M.Fibonacci.R3": 362.17,
+      "Pivot.M.Camarilla.S3": 329.21,
+      "Pivot.M.Camarilla.S2": 332.14,
+      "Pivot.M.Camarilla.S1": 335.07,
+      "Pivot.M.Camarilla.Middle": 330.21,
+      "Pivot.M.Camarilla.R1": 340.93,
+      "Pivot.M.Camarilla.R2": 343.86,
+      "Pivot.M.Camarilla.R3": 346.79,
+      "Pivot.M.Woodie.S3": 288.28,
+      "Pivot.M.Woodie.S2": 299.3,
+      "Pivot.M.Woodie.S1": 320.24,
+      "Pivot.M.Woodie.Middle": 331.26,
+      "Pivot.M.Woodie.R1": 352.2,
+      "Pivot.M.Woodie.R2": 363.23,
+      "Pivot.M.Woodie.R3": 384.16,
+      "Pivot.M.Demark.S1": 324.17,
+      "Pivot.M.Demark.Middle": 333.23,
+      "Pivot.M.Demark.R1": 356.13,
+      "open": 307.73,
+      "P.SAR": 344.14,
+      "BB.lower": 307.5,
+      "BB.upper": 348.31,
+      "AO[2]": -5.56,
+      "volume": 38499380,
+      "change": -1.06,
+      "low": 303.71,
+      "high": 308.63
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 321.21,
+      "sma_200": 242.65,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 317.44,
+      "21": 323.58,
+      "34": 322.12,
+      "55": 315.05,
+      "89": 300.15
+    },
+    "volume": {
+      "current": "38,465,000",
+      "avg_20d": "40,235,270",
+      "rel_vol": 0.96,
+      "rel_vol_pct": 47
+    },
+    "pivots": {
+      "R2": 364.77,
+      "R1": 335.24,
+      "PP": 319.48,
+      "S1": 289.95,
+      "S2": 274.19
+    },
+    "fibonacci": {
+      "100": 349.0,
+      "61.8": 269.22,
+      "50": 244.57,
+      "38.2": 219.93,
+      "0": 140.14
+    },
+    "oscillators": {
+      "rsi_14": 23.43,
+      "adx_14": 25.32,
+      "macd_hist": -4.16
+    }
+  },
+  "volatility": {
+    "hv_30d": 21.44,
+    "iv_current": 31.67
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-13",
+      "insider": "HENNESSY JOHN L",
+      "type": "",
+      "value": "$202,514"
+    },
+    {
+      "date": "2025-12-09",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-09-25",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-08-15",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$5.33M"
+    },
+    {
+      "date": "2025-07-18",
+      "insider": "SHRIRAM KAVITARK RAM",
+      "type": "",
+      "value": "$6.24M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Best Stock to Buy Now: Alphabet vs. Amazon",
+      "link": "https://www.fool.com/investing/2026/02/16/best-stock-to-buy-now-alphabet-vs-amazon/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Amazon and Alphabet saw huge growth in cloud computing during Q4...."
+    },
+    {
+      "title": "Big Tech Will Spend $700 Billion on Artificial Intelligence in 2026. Here's My Top Stock to Buy to Take Advantage.",
+      "link": "https://www.fool.com/investing/2026/02/16/big-tech-will-spend-700-billion-on-ai-top-stock/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Expectations are already high for this AI stock, but big tech could provide an even bigger tailwind...."
+    },
+    {
+      "title": "Piper Sandler and KeyBanc Raise Alphabet (GOOGL) Price Targets After Q4 Results",
+      "link": "https://finance.yahoo.com/news/piper-sandler-keybanc-raise-alphabet-124158423.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Alphabet Inc. (NASDAQ:GOOGL) is one of the 15 AI Stocks That Are Skyrocketing. On February 6, Piper Sandler raised its price target on Alphabet Inc. (..."
+    },
+    {
+      "title": "Disney Fights Against TikTok Parent\u2019s AI Video Model. Big Money Is at Stake.",
+      "link": "https://finance.yahoo.com/m/d6ab316c-a85c-3890-ae9a-d02a8f20fa45/disney-fights-against-tiktok.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Seedance 2.0 has flooded the internet with AI-generated videos of beloved actors and characters. Disney is taking aim at its owner ByteDance...."
+    },
+    {
+      "title": "Will AI Kill Travel Metasearch?",
+      "link": "https://finance.yahoo.com/news/ai-kill-travel-metasearch-135857677.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Agentic AI will likely access APIs to compare pricing. But those queries would have severe limitations and will ultimately require more rigorous solut..."
+    },
+    {
+      "title": "Hapag-Lloyd to Buy Competitor Shipper Zim in $4.2 Billion Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/hapag-lloyd-to-buy-competitor-shipper-zim-in-4-2-billion-deal",
+      "source": "BLOOMBERG",
+      "summary": "Hapag-Lloyd AG has signed a deal to buy Israeli competitor Zim Integrated Shipping Services Ltd , the German shipper said...."
+    },
+    {
+      "title": "Stocks, Bonds Fluctuate in Holiday-Thinned Trade: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks and bonds posted small moves amid muted holiday trading after Friday\u2019s benign US inflation data reinforced expectations that the Federal Reserv..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/16/best-stock-to-buy-now-alphabet-vs-amazon/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Best Stock to Buy Now: Alphabet vs. Amazon</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Amazon and Alphabet saw huge growth in cloud computing during Q4...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/16/big-tech-will-spend-700-billion-on-ai-top-stock/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Big Tech Will Spend $700 Billion on Artificial Intelligence in 2026. Here's My Top Stock to Buy to Take Advantage.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Expectations are already high for this AI stock, but big tech could provide an even bigger tailwind...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/piper-sandler-keybanc-raise-alphabet-124158423.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Piper Sandler and KeyBanc Raise Alphabet (GOOGL) Price Targets After Q4 Results</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Alphabet Inc. (NASDAQ:GOOGL) is one of the 15 AI Stocks That Are Skyrocketing. On February 6, Piper Sandler raised its price target on Alphabet Inc. (..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/d6ab316c-a85c-3890-ae9a-d02a8f20fa45/disney-fights-against-tiktok.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Disney Fights Against TikTok Parent\u2019s AI Video Model. Big Money Is at Stake.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Seedance 2.0 has flooded the internet with AI-generated videos of beloved actors and characters. Disney is taking aim at its owner ByteDance...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/ai-kill-travel-metasearch-135857677.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Will AI Kill Travel Metasearch?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Agentic AI will likely access APIs to compare pricing. But those queries would have severe limitations and will ultimately require more rigorous solut..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/hapag-lloyd-to-buy-competitor-shipper-zim-in-4-2-billion-deal' target='_blank' class='hover:text-neon-blue transition-colors'>Hapag-Lloyd to Buy Competitor Shipper Zim in $4.2 Billion Deal</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Hapag-Lloyd AG has signed a deal to buy Israeli competitor Zim Integrated Shipping Services Ltd , the German shipper said...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/asian-stocks-set-to-climb-after-us-cpi-lifts-mood-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks, Bonds Fluctuate in Holiday-Thinned Trade: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks and bonds posted small moves amid muted holiday trading after Friday\u2019s benign US inflation data reinforced expectations that the Federal Reserv..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Alphabet Inc. // Communication Services [Internet Content & Information]. Mkt Cap: $3698.30B. Rev Growth: 18.0%. PM: 32.8%.",
+    "forward_looking": "Beta: 1.086. Range(52W): 140.53 - 349.0. Analyst Tgt: 373.235."
+  },
+  "geospatial": {
+    "site": "Mountain View, United States",
+    "coords": "https://abc.xyz",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 65,
+    "fundamental": 80,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -28.1,
+    "target_price": 219.82,
+    "graham_num": 91.45,
+    "lynch_value": 194.76,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-28.1%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-28.1%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

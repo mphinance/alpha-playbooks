@@ -1,0 +1,356 @@
+{
+  "ticker": "UAMY",
+  "logo_url": "https://logo.clearbit.com/www.usantimony.com",
+  "generated_at": "2026-02-15 08:47:11 UTC",
+  "market_snapshot": {
+    "price": 7.62,
+    "market_cap": "$1.07B",
+    "beta": 0.02,
+    "range_52w": "1.21 - 19.71",
+    "analyst_target": 10.92
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 6,
+      "SELL": 11,
+      "NEUTRAL": 9
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 2,
+      "SELL": 1,
+      "NEUTRAL": 8,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "BUY",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 4,
+      "SELL": 10,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "BUY",
+        "EMA100": "BUY",
+        "SMA100": "SELL",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.09,
+      "Recommend.All": -0.15,
+      "Recommend.MA": -0.4,
+      "RSI": 47.35,
+      "RSI[1]": 45.97,
+      "Stoch.K": 12.91,
+      "Stoch.D": 15.6,
+      "Stoch.K[1]": 25.84,
+      "Stoch.D[1]": 35.15,
+      "CCI20": -98.81,
+      "CCI20[1]": -104.54,
+      "ADX": 18.92,
+      "ADX+DI": 20.13,
+      "ADX-DI": 18.26,
+      "ADX+DI[1]": 21.22,
+      "ADX-DI[1]": 18.53,
+      "AO": 0.05,
+      "AO[1]": 0.21,
+      "Mom": 0.29,
+      "Mom[1]": -0.9,
+      "MACD.macd": 0.04,
+      "MACD.signal": 0.27,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 9.33,
+      "Rec.WR": 1,
+      "W.R": -83.55,
+      "Rec.BBPower": 0,
+      "BBPower": -1.23,
+      "Rec.UO": 0,
+      "UO": 42.23,
+      "close": 7.62,
+      "EMA5": 7.82,
+      "SMA5": 7.9,
+      "EMA10": 8.06,
+      "SMA10": 8.11,
+      "EMA20": 8.15,
+      "SMA20": 8.68,
+      "EMA30": 8.02,
+      "SMA30": 8.32,
+      "EMA50": 7.76,
+      "SMA50": 7.23,
+      "EMA100": 7.19,
+      "SMA100": 7.91,
+      "EMA200": 5.99,
+      "SMA200": 5.69,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 9.54,
+      "Rec.VWMA": -1,
+      "VWMA": 8.88,
+      "Rec.HullMA9": -1,
+      "HullMA9": 7.64,
+      "Pivot.M.Classic.S3": null,
+      "Pivot.M.Classic.S2": 1.37,
+      "Pivot.M.Classic.S1": 4.35,
+      "Pivot.M.Classic.Middle": 8.16,
+      "Pivot.M.Classic.R1": 11.14,
+      "Pivot.M.Classic.R2": 14.95,
+      "Pivot.M.Classic.R3": 21.74,
+      "Pivot.M.Fibonacci.S3": 1.37,
+      "Pivot.M.Fibonacci.S2": 3.96,
+      "Pivot.M.Fibonacci.S1": 5.57,
+      "Pivot.M.Fibonacci.Middle": 8.16,
+      "Pivot.M.Fibonacci.R1": 10.75,
+      "Pivot.M.Fibonacci.R2": 12.36,
+      "Pivot.M.Fibonacci.R3": 14.95,
+      "Pivot.M.Camarilla.S3": 5.46,
+      "Pivot.M.Camarilla.S2": 6.09,
+      "Pivot.M.Camarilla.S1": 6.71,
+      "Pivot.M.Camarilla.Middle": 8.16,
+      "Pivot.M.Camarilla.R1": 7.95,
+      "Pivot.M.Camarilla.R2": 8.57,
+      "Pivot.M.Camarilla.R3": 9.2,
+      "Pivot.M.Woodie.S3": null,
+      "Pivot.M.Woodie.S2": 1.44,
+      "Pivot.M.Woodie.S1": 4.48,
+      "Pivot.M.Woodie.Middle": 8.23,
+      "Pivot.M.Woodie.R1": 11.27,
+      "Pivot.M.Woodie.R2": 15.02,
+      "Pivot.M.Woodie.R3": 18.06,
+      "Pivot.M.Demark.S1": 6.26,
+      "Pivot.M.Demark.Middle": 9.11,
+      "Pivot.M.Demark.R1": 13.05,
+      "open": 7.37,
+      "P.SAR": 9.65,
+      "BB.lower": 6.68,
+      "BB.upper": 10.68,
+      "AO[2]": 0.25,
+      "volume": 8542314,
+      "change": 3.11,
+      "low": 7.11,
+      "high": 7.94
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 7.23,
+      "sma_200": 5.69,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 7.98,
+      "21": 8.14,
+      "34": 7.96,
+      "55": 7.7,
+      "89": 7.32
+    },
+    "volume": {
+      "current": "8,522,000",
+      "avg_20d": "17,765,195",
+      "rel_vol": 0.48,
+      "rel_vol_pct": 23
+    },
+    "pivots": {
+      "R2": 13.76,
+      "R1": 10.69,
+      "PP": 8.9,
+      "S1": 5.83,
+      "S2": 4.04
+    },
+    "fibonacci": {
+      "100": 19.71,
+      "61.8": 12.64,
+      "50": 10.46,
+      "38.2": 8.28,
+      "0": 1.21
+    },
+    "oscillators": {
+      "rsi_14": 40.67,
+      "adx_14": 19.47,
+      "macd_hist": -0.23
+    }
+  },
+  "volatility": {
+    "hv_30d": 163.74,
+    "iv_current": 128.91
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-15",
+      "insider": "MCMANUS MICHAEL A JR",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-01-15",
+      "insider": "CARRABBA JOSEPH A",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-01-15",
+      "insider": "AGUIRRE BLAISE A. M.D.",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2025-09-26",
+      "insider": "EVANS GARY C",
+      "type": "",
+      "value": "$613,200"
+    },
+    {
+      "date": "2025-05-27",
+      "insider": "MCMANUS MICHAEL A JR",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "United States Antimony Corporation Announces Significant New Joint Venture With Americas Gold and Silver Corporation",
+      "link": "https://finance.yahoo.com/news/united-states-antimony-corporation-announces-123000131.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "State-of-the-Art Hydromet Plant To Be Built in Idaho \"The Critical Minerals and ZEO Company\" ~ Antimony, Cobalt, Tungsten, and Zeolite ~ DALLAS, TX / ..."
+    },
+    {
+      "title": "United States Antimony Corporation CEO to be Featured on FOX News",
+      "link": "https://finance.yahoo.com/news/united-states-antimony-corporation-ceo-124500496.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "\"The Critical Minerals and ZEO Company\" ~ Antimony, Cobalt, Tungsten, and Zeolite ~ DALLAS, TX / ACCESS Newswire / February 10, 2026 / United States A..."
+    },
+    {
+      "title": "United States Antimony Corporation CEO to be Featured on Bloomberg Television's Businessweek Daily Today",
+      "link": "https://finance.yahoo.com/news/united-states-antimony-corporation-ceo-170000324.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "\"The Critical Minerals and ZEO Company\" ~ Antimony, Cobalt, Tungsten, and Zeolite ~ DALLAS, TX / ACCESS Newswire / February 10, 2026 / United States A..."
+    },
+    {
+      "title": "Is United States Antimony (UAMY) Price Justified After 301% One Year Surge?",
+      "link": "https://finance.yahoo.com/news/united-states-antimony-uamy-price-031709416.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Wondering whether United States Antimony is priced for its future potential or already reflects high expectations? This article walks you through the ..."
+    },
+    {
+      "title": "United States Antimony (UAMY) Valuation After New Hydrometallurgical Joint Venture In Critical Minerals",
+      "link": "https://finance.yahoo.com/news/united-states-antimony-uamy-valuation-081216107.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "United States Antimony (UAMY) has moved into the spotlight after forming a joint venture with Americas Gold and Silver to build a commercial hydrometa..."
+    },
+    {
+      "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+      "source": "BLOOMBERG",
+      "summary": "Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+    },
+    {
+      "title": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+      "source": "BLOOMBERG",
+      "summary": "India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/united-states-antimony-corporation-announces-123000131.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>United States Antimony Corporation Announces Significant New Joint Venture With Americas Gold and Silver Corporation</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> State-of-the-Art Hydromet Plant To Be Built in Idaho \"The Critical Minerals and ZEO Company\" ~ Antimony, Cobalt, Tungsten, and Zeolite ~ DALLAS, TX / ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/united-states-antimony-corporation-ceo-124500496.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>United States Antimony Corporation CEO to be Featured on FOX News</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> \"The Critical Minerals and ZEO Company\" ~ Antimony, Cobalt, Tungsten, and Zeolite ~ DALLAS, TX / ACCESS Newswire / February 10, 2026 / United States A..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/united-states-antimony-corporation-ceo-170000324.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>United States Antimony Corporation CEO to be Featured on Bloomberg Television's Businessweek Daily Today</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> \"The Critical Minerals and ZEO Company\" ~ Antimony, Cobalt, Tungsten, and Zeolite ~ DALLAS, TX / ACCESS Newswire / February 10, 2026 / United States A..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/united-states-antimony-uamy-price-031709416.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Is United States Antimony (UAMY) Price Justified After 301% One Year Surge?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Wondering whether United States Antimony is priced for its future potential or already reflects high expectations? This article walks you through the ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/united-states-antimony-uamy-valuation-081216107.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>United States Antimony (UAMY) Valuation After New Hydrometallurgical Joint Venture In Critical Minerals</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> United States Antimony (UAMY) has moved into the spotlight after forming a joint venture with Americas Gold and Silver to build a commercial hydrometa..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus' target='_blank' class='hover:text-neon-blue transition-colors'>Goldman Upgrades Forecast for 2026 China Current-Account Surplus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes' target='_blank' class='hover:text-neon-blue transition-colors'>India Curbs Loans Extended to Brokers in Blow to Trading Volumes</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "United States Antimony Corporation // Basic Materials [Other Industrial Metals & Mining]. Mkt Cap: $1.07B. Rev Growth: 238.3%. PM: -15.5%.",
+    "forward_looking": "Beta: 0.018. Range(52W): 1.21 - 19.71. Analyst Tgt: 10.91667."
+  },
+  "geospatial": {
+    "site": "Dallas, United States",
+    "coords": "https://www.usantimony.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 95,
+    "fundamental": 70,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 43.3,
+    "target_price": 10.92,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 43.3%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 43.3%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

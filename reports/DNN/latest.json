@@ -1,0 +1,255 @@
+{
+  "ticker": "DNN",
+  "companyName": "Denison Mines Corp.",
+  "currentPrice": 4.22,
+  "priceChange": 0.16,
+  "priceChangePct": 3.82,
+  "timestamp": "02/23/26 13:39 ",
+  "postMarketStr": "Post-Market: $4.22 (0.00)",
+  "impliedVolatility": 0.0,
+  "historicVolatility": 74.03,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 0.0,
+  "iv1mAvg": 0.0,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bullish",
+  "trendShort": "Strong",
+  "trendMed": "Strong",
+  "trendLong": "Strong",
+  "movAvg20d": 3.92,
+  "movAvg50d": 3.41,
+  "movAvg100d": 3.07,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 54.36,
+  "trendSeekerSignal": "BUY",
+  "low52w": 1.08,
+  "low52wDate": "1Y Low",
+  "high52w": 4.43,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 0.0,
+      "expectedRange": "4.22 - 4.22",
+      "iv": 0
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 0.0,
+      "expectedRange": "4.22 - 4.22",
+      "iv": 0
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 0.0,
+      "expectedRange": "4.22 - 4.22",
+      "iv": 0
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 0.0,
+      "expectedRange": "4.22 - 4.22",
+      "iv": 0
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      3.95,
+      3.88,
+      3.96,
+      3.83,
+      3.78,
+      3.81,
+      3.92,
+      4.09,
+      4.06,
+      4.22
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "https://logo.clearbit.com/denisonmines.com",
+  "generated_at": "2026-02-23 19:39:16 UTC",
+  "market_snapshot": {
+    "price": 4.22,
+    "market_cap": "$3.79B",
+    "beta": 1.64,
+    "range_52w": "1.08 - 4.43",
+    "analyst_target": 4.99
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 3.41,
+      "sma_200": 2.53,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 4.0,
+      "21": 3.85,
+      "34": 3.7,
+      "55": 3.48,
+      "89": 3.22
+    },
+    "volume": {
+      "current": "35,449,289",
+      "avg_20d": "50,335,294",
+      "rel_vol": 0.7,
+      "rel_vol_pct": 35
+    },
+    "pivots": {
+      "R2": 5.02,
+      "R1": 4.62,
+      "PP": 4.03,
+      "S1": 3.62,
+      "S2": 3.03
+    },
+    "fibonacci": {
+      "100": 4.43,
+      "61.8": 3.15,
+      "50": 2.75,
+      "38.2": 2.36,
+      "0": 1.08
+    },
+    "oscillators": {
+      "rsi_14": 59.56,
+      "adx_14": 17.79,
+      "macd_hist": -0.0
+    }
+  },
+  "volatility": {
+    "hv_30d": 74.03,
+    "iv_current": 0.0
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-30",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$230,040"
+    },
+    {
+      "date": "2026-01-30",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$262,800"
+    },
+    {
+      "date": "2026-01-29",
+      "insider": "Smith, Mary Joanne",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-01-29",
+      "insider": "Smith, Mary Joanne",
+      "type": "",
+      "value": "$43,470"
+    },
+    {
+      "date": "2026-01-28",
+      "insider": "Cates (David Daniel CPA)",
+      "type": "",
+      "value": "$1.55M"
+    }
+  ],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Denison Mines Corp. // Energy [Uranium]. Mkt Cap: $3.79B. Rev Growth: 50.4%. PM: 0.0%.",
+    "forward_looking": "Beta: 1.642. Range(52W): 1.08 - 4.43. Analyst Tgt: 4.992516."
+  },
+  "geospatial": {
+    "site": "Toronto, Canada",
+    "coords": "https://denisonmines.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 95,
+    "fundamental": 70,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": 18.4,
+    "target_price": 4.99,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

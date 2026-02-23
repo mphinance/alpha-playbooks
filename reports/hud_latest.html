@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mission Control // 2026-02-12</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --card: #141414;
+            --border: #222;
+            --green: #00ff66;
+            --amber: #ffaa00;
+            --red: #ff3333;
+            --text: #e0e0e0;
+            --mono: 'JetBrains Mono', 'Fira Code', monospace;
+        }
+        
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--mono);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--green);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 { font-size: 1.2rem; margin: 0; color: var(--green); }
+        .header .date { font-size: 0.8rem; opacity: 0.6; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            gap: 15px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-header {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            color: var(--amber);
+            margin-bottom: 10px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Bento Sizes */
+        .defcon { grid-column: span 4; grid-row: span 2; border-left: 4px solid var(--red); }
+        .signals { grid-column: span 8; grid-row: span 4; }
+        .sectors { grid-column: span 4; grid-row: span 2; }
+        .watchlist { grid-column: span 12; }
+
+        /* Defcon Styles */
+        .defcon-val { font-size: 4rem; font-weight: bold; color: var(--red); text-align: center; margin: 10px 0; }
+        .defcon-status { text-align: center; font-size: 0.8rem; color: var(--amber); }
+
+        /* Sector Chips */
+        .sector-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .sector-chip {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 4px 8px;
+            font-size: 0.65rem;
+            border-radius: 3px;
+        }
+
+        /* Table Styles */
+        table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+        th { text-align: left; opacity: 0.5; padding-bottom: 10px; font-weight: normal; }
+        td { padding: 8px 0; border-bottom: 1px solid #222; }
+        .text-green { color: var(--green); }
+        .sparkline { color: var(--amber); opacity: 0.5; }
+
+        /* Scanline Overlay */
+        body::before {
+            content: " ";
+            display: block;
+            position: fixed;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 100, 0.06));
+            z-index: 2;
+            background-size: 100% 4px, 3px 100%;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MOMENTUM PHINANCE // MISSION CONTROL</h1>
+        <div class="date">2026-02-12 // STATUS: ACTIVE</div>
+    </div>
+
+    <div class="grid">
+        <!-- DEFCON -->
+        <div class="card defcon">
+            <div class="card-header"><span>Market Volatility</span><span>VIX: 14.2</span></div>
+            <div class="defcon-val">3</div>
+            <div class="defcon-status">GUARDED // ELEVATED GAMMA</div>
+        </div>
+
+        <!-- SECTORS -->
+        <div class="card sectors">
+            <div class="card-header">Sector Rotation</div>
+            <div class="sector-list">
+                
+            </div>
+        </div>
+
+        <!-- SIGNALS -->
+        <div class="card signals">
+            <div class="card-header">Alpha Signal Feed</div>
+            <table>
+                <thead>
+                    <tr><th>Symbol</th><th>Price</th><th>Pattern</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>TCPC</td><td class='text-green'>$5.10</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>GSBD</td><td class='text-green'>$9.45</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>OCSL</td><td class='text-green'>$12.63</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>BXSL</td><td class='text-green'>$26.03</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>ALKT</td><td class='text-green'>$21.19</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>ROCK</td><td class='text-green'>$51.26</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>WLY</td><td class='text-green'>$31.23</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>QLYS</td><td class='text-green'>$134.85</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>VOYA</td><td class='text-green'>$71.25</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>BEPC</td><td class='text-green'>$39.32</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>MLAC</td><td class='text-green'>$10.44</td><td><span class='sparkline'>──📈──</span></td></tr><tr><td>HI</td><td class='text-green'>$31.86</td><td><span class='sparkline'>──📈──</span></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- WATCHLIST -->
+        <div class="card watchlist">
+            <div class="card-header">Core Watchlist Telemetry</div>
+            <div style="display: flex; justify-content: space-around; padding: 10px 0;">
+                <div><span style="opacity: 0.5;">$AVGO:</span> <span class="text-green">1,244.12</span> <span class="sparkline">📈</span></div>
+                <div><span style="opacity: 0.5;">$GLXY:</span> <span class="text-green">12.45</span> <span class="sparkline">📈</span></div>
+                <div><span style="opacity: 0.5;">$UAMY:</span> <span class="text-green">7.56</span> <span class="sparkline">📉</span></div>
+                <div><span style="opacity: 0.5;">$BTC:</span> <span class="text-green">94,102</span> <span class="sparkline">📈</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

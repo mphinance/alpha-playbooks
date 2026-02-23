@@ -1,0 +1,255 @@
+{
+  "ticker": "CLS",
+  "companyName": "Celestica Inc.",
+  "currentPrice": 296.16,
+  "priceChange": 3.47,
+  "priceChangePct": 1.19,
+  "timestamp": "02/23/26 13:36 ",
+  "postMarketStr": "Post-Market: $296.16 (0.00)",
+  "impliedVolatility": 80.13,
+  "historicVolatility": 79.75,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 80.13,
+  "iv1mAvg": 80.13,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bearish",
+  "trendShort": "Weak",
+  "trendMed": "Soft",
+  "trendLong": "Strong",
+  "movAvg20d": 297.75,
+  "movAvg50d": 302.11,
+  "movAvg100d": 300.82,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 48.63,
+  "trendSeekerSignal": "SELL",
+  "low52w": 58.05,
+  "low52wDate": "1Y Low",
+  "high52w": 363.4,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 32.86,
+      "expectedRange": "263.3 - 329.02",
+      "iv": 80.1
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 46.48,
+      "expectedRange": "249.68 - 342.64",
+      "iv": 80.1
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 68.04,
+      "expectedRange": "228.12 - 364.2",
+      "iv": 80.1
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 96.22,
+      "expectedRange": "199.94 - 392.38",
+      "iv": 80.1
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      319.21,
+      297.93,
+      295.68,
+      274.79,
+      280.66,
+      286.66,
+      291.4,
+      291.33,
+      292.69,
+      296.16
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "https://logo.clearbit.com/www.celestica.com",
+  "generated_at": "2026-02-23 19:36:39 UTC",
+  "market_snapshot": {
+    "price": 296.16,
+    "market_cap": "$34.16B",
+    "beta": 1.5,
+    "range_52w": "58.05 - 363.4",
+    "analyst_target": 383.89
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 302.11,
+      "sma_200": 236.32,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 292.34,
+      "21": 296.03,
+      "34": 298.71,
+      "55": 298.8,
+      "89": 290.2
+    },
+    "volume": {
+      "current": "1,102,912",
+      "avg_20d": "3,362,985",
+      "rel_vol": 0.33,
+      "rel_vol_pct": 16
+    },
+    "pivots": {
+      "R2": 390.65,
+      "R1": 343.41,
+      "PP": 304.95,
+      "S1": 257.71,
+      "S2": 219.25
+    },
+    "fibonacci": {
+      "100": 363.4,
+      "61.8": 246.76,
+      "50": 210.72,
+      "38.2": 174.69,
+      "0": 58.05
+    },
+    "oscillators": {
+      "rsi_14": 53.86,
+      "adx_14": 10.66,
+      "macd_hist": 0.12
+    }
+  },
+  "volatility": {
+    "hv_30d": 79.75,
+    "iv_current": 80.13
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-06",
+      "insider": "COOPER TODD CHRISTOPHER",
+      "type": "",
+      "value": "$0"
+    },
+    {
+      "date": "2026-02-06",
+      "insider": "PHILLIPS JASON",
+      "type": "",
+      "value": "$36.89M"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "TZEVELEKIS THEODOROS",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "MIONIS ROBERT ANDREW",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-04",
+      "insider": "COOPER TODD CHRISTOPHER",
+      "type": "",
+      "value": "$301,938"
+    }
+  ],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Celestica Inc. // Technology [Electronic Components]. Mkt Cap: $34.16B. Rev Growth: 43.6%. PM: 6.7%.",
+    "forward_looking": "Beta: 1.505. Range(52W): 58.05 - 363.4. Analyst Tgt: 383.89124."
+  },
+  "geospatial": {
+    "site": "Toronto, Canada",
+    "coords": "https://www.celestica.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 75,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": -15.3,
+    "target_price": 250.76,
+    "graham_num": 55.78,
+    "lynch_value": 312.61,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

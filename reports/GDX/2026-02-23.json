@@ -1,0 +1,224 @@
+{
+  "ticker": "GDX",
+  "companyName": "VanEck Gold Miners ETF",
+  "currentPrice": 109.72,
+  "priceChange": 3.46,
+  "priceChangePct": 3.26,
+  "timestamp": "02/23/26 13:29 ",
+  "postMarketStr": "Post-Market: $109.72 (0.00)",
+  "impliedVolatility": 52.89,
+  "historicVolatility": 66.71,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 52.89,
+  "iv1mAvg": 52.89,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bullish",
+  "trendShort": "Strong",
+  "trendMed": "Strong",
+  "trendLong": "Strong",
+  "movAvg20d": 102.46,
+  "movAvg50d": 95.79,
+  "movAvg100d": 85.9,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 51.83,
+  "trendSeekerSignal": "BUY",
+  "low52w": 38.3,
+  "low52wDate": "1Y Low",
+  "high52w": 113.5,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 8.04,
+      "expectedRange": "101.69 - 117.76",
+      "iv": 52.9
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 11.37,
+      "expectedRange": "98.36 - 121.09",
+      "iv": 52.9
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 16.64,
+      "expectedRange": "93.09 - 126.36",
+      "iv": 52.9
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 23.53,
+      "expectedRange": "86.19 - 133.26",
+      "iv": 52.9
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      102.89,
+      103.01,
+      105.97,
+      98.28,
+      103.94,
+      100.25,
+      102.56,
+      104.24,
+      106.26,
+      109.72
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "",
+  "generated_at": "2026-02-23 19:29:52 UTC",
+  "market_snapshot": {
+    "price": 109.72,
+    "market_cap": "N/A",
+    "beta": "N/A",
+    "range_52w": "38.58 - 113.5",
+    "analyst_target": "N/A"
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 95.79,
+      "sma_200": 71.03,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 104.51,
+      "21": 101.8,
+      "34": 99.2,
+      "55": 95.01,
+      "89": 89.04
+    },
+    "volume": {
+      "current": "13,985,023",
+      "avg_20d": "34,332,421",
+      "rel_vol": 0.41,
+      "rel_vol_pct": 20
+    },
+    "pivots": {
+      "R2": 126.57,
+      "R1": 118.15,
+      "PP": 105.07,
+      "S1": 96.65,
+      "S2": 83.57
+    },
+    "fibonacci": {
+      "100": 113.5,
+      "61.8": 84.77,
+      "50": 75.9,
+      "38.2": 67.03,
+      "0": 38.3
+    },
+    "oscillators": {
+      "rsi_14": 65.29,
+      "adx_14": 7.79,
+      "macd_hist": 0.3
+    }
+  },
+  "volatility": {
+    "hv_30d": 66.71,
+    "iv_current": 52.89
+  },
+  "insider_transactions": [],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "VanEck Gold Miners ETF // N/A [N/A]. Mkt Cap: N/A. Rev Growth: 0.0%. PM: 0.0%.",
+    "forward_looking": "Beta: N/A. Range(52W): 38.58 - 113.5. Analyst Tgt: N/A."
+  },
+  "geospatial": {
+    "site": "Unknown, Unknown",
+    "coords": "N/A",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 100,
+    "fundamental": 50,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "UNKNOWN",
+    "gap_pct": 0,
+    "target_price": 0,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "UNKNOWN"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 100/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 100/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

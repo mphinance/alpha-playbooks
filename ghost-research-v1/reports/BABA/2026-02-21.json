@@ -1,0 +1,187 @@
+{
+  "ticker": "BABA",
+  "logo_url": "https://logo.clearbit.com/www.alibabagroup.com",
+  "generated_at": "2026-02-21 08:21:46 UTC",
+  "market_snapshot": {
+    "price": 154.45,
+    "market_cap": "$368.72B",
+    "beta": 0.39,
+    "range_52w": "95.73 - 192.67",
+    "analyst_target": 198.33
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 159.14,
+      "sma_200": 144.24,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 157.31,
+      "21": 160.65,
+      "34": 161.04,
+      "55": 160.54,
+      "89": 158.25
+    },
+    "volume": {
+      "current": "8,745,400",
+      "avg_20d": "9,779,955",
+      "rel_vol": 0.89,
+      "rel_vol_pct": 44
+    },
+    "pivots": {
+      "R2": 192.66,
+      "R1": 173.56,
+      "PP": 161.99,
+      "S1": 142.89,
+      "S2": 131.32
+    },
+    "fibonacci": {
+      "100": 192.67,
+      "61.8": 155.03,
+      "50": 143.4,
+      "38.2": 131.78,
+      "0": 94.14
+    },
+    "oscillators": {
+      "rsi_14": 27.55,
+      "adx_14": 9.17,
+      "macd_hist": -1.59
+    }
+  },
+  "volatility": {
+    "hv_30d": 46.39,
+    "iv_current": 52.24
+  },
+  "insider_transactions": [],
+  "intel_feed": [
+    {
+      "title": "The Pentagon Could Blacklist Alibaba. Does That Make BABA Stock a Buy Now?",
+      "link": "https://www.barchart.com/story/news/308134/the-pentagon-could-blacklist-alibaba-does-that-make-baba-stock-a-buy-now?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "With its addition to a Pentagon list, should investors stay clear of Alibaba\u2019s stock now?..."
+    },
+    {
+      "title": "Zhipu Surges 43% as China AI Stocks Outpace Alibaba, Tencent",
+      "link": "https://finance.yahoo.com/news/zhipu-surges-43-china-ai-150152406.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "MiniMax jumps 15% and both AI startups rise over fourfold since January listings, while Alibaba and Tencent decline despite strong holiday metrics...."
+    },
+    {
+      "title": "Alibaba Group Holding Limited (BABA) Faces Analyst Downgrade, Counters with Queen3.5 AI Launch",
+      "link": "https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-165459325.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Alibaba Group Holding Limited (NYSE:BABA) is one of the best emerging markets stocks to buy right now. On February 18, Erste Group downgraded Alibaba ..."
+    },
+    {
+      "title": "NVIDIA to Post Q4 Earnings: Buy, Hold, or Take Profits?",
+      "link": "https://finance.yahoo.com/news/nvidia-post-q4-earnings-buy-200000382.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "NVDA gears up for Q4 results with $65B revenues in sight, but history hints at post-earnings dips despite AI demand and data center growth...."
+    },
+    {
+      "title": "HHLR Advisors Fully Exits Baidu as AI Push Tests Its Advertising-Funded Model",
+      "link": "https://www.fool.com/coverage/filings/2026/02/20/hhlr-advisors-fully-exits-baidu-as-ai-push-tests-its-advertising-funded-model/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Baidu is transitioning from a search-driven advertising company into an AI infrastructure and enterprise cloud provider in China. HHLR\u2019s exit comes as..."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.barchart.com/story/news/308134/the-pentagon-could-blacklist-alibaba-does-that-make-baba-stock-a-buy-now?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>The Pentagon Could Blacklist Alibaba. Does That Make BABA Stock a Buy Now?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> With its addition to a Pentagon list, should investors stay clear of Alibaba\u2019s stock now?..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/zhipu-surges-43-china-ai-150152406.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Zhipu Surges 43% as China AI Stocks Outpace Alibaba, Tencent</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> MiniMax jumps 15% and both AI startups rise over fourfold since January listings, while Alibaba and Tencent decline despite strong holiday metrics...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/alibaba-group-holding-limited-baba-165459325.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Alibaba Group Holding Limited (BABA) Faces Analyst Downgrade, Counters with Queen3.5 AI Launch</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Alibaba Group Holding Limited (NYSE:BABA) is one of the best emerging markets stocks to buy right now. On February 18, Erste Group downgraded Alibaba ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/nvidia-post-q4-earnings-buy-200000382.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>NVIDIA to Post Q4 Earnings: Buy, Hold, or Take Profits?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> NVDA gears up for Q4 results with $65B revenues in sight, but history hints at post-earnings dips despite AI demand and data center growth...."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/coverage/filings/2026/02/20/hhlr-advisors-fully-exits-baidu-as-ai-push-tests-its-advertising-funded-model/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>HHLR Advisors Fully Exits Baidu as AI Push Tests Its Advertising-Funded Model</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Baidu is transitioning from a search-driven advertising company into an AI infrastructure and enterprise cloud provider in China. HHLR\u2019s exit comes as..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Alibaba Group Holding Limited // Consumer Cyclical [Internet Retail]. Mkt Cap: $368.72B. Rev Growth: 4.8%. PM: 12.2%.",
+    "forward_looking": "Beta: 0.39. Range(52W): 95.73 - 192.67. Analyst Tgt: 198.3279."
+  },
+  "geospatial": {
+    "site": "Causeway Bay, Hong Kong",
+    "coords": "https://www.alibabagroup.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 65,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -26.7,
+    "target_price": 113.18,
+    "graham_num": 104.83,
+    "lynch_value": 36.38,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-26.7%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>NEUTRAL</span> technical posture (Score: 65/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-26.7%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

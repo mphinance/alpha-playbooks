@@ -1,0 +1,356 @@
+{
+  "ticker": "ISRG",
+  "logo_url": "https://logo.clearbit.com/www.intuitive.com",
+  "generated_at": "2026-02-17 08:41:58 UTC",
+  "market_snapshot": {
+    "price": 485.84,
+    "market_cap": "$172.54B",
+    "beta": 1.66,
+    "range_52w": "425.0 - 609.08",
+    "analyst_target": 611.82
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 1,
+      "SELL": 15,
+      "NEUTRAL": 10
+    },
+    "oscillators": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 1,
+      "SELL": 1,
+      "NEUTRAL": 9,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "NEUTRAL",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "NEUTRAL",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "STRONG_SELL",
+      "BUY": 0,
+      "SELL": 14,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "SELL",
+        "SMA100": "SELL",
+        "EMA200": "SELL",
+        "SMA200": "SELL",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "SELL"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": -0.09,
+      "Recommend.All": -0.51,
+      "Recommend.MA": -0.93,
+      "RSI": 34.38,
+      "RSI[1]": 28.94,
+      "Stoch.K": 29.55,
+      "Stoch.D": 33.89,
+      "Stoch.K[1]": 60.41,
+      "Stoch.D[1]": 57.99,
+      "CCI20": -69.9,
+      "CCI20[1]": -86.62,
+      "ADX": 35.72,
+      "ADX+DI": 13.85,
+      "ADX-DI": 35.09,
+      "ADX+DI[1]": 15.18,
+      "ADX-DI[1]": 38.47,
+      "AO": -41.97,
+      "AO[1]": -44.96,
+      "Mom": -18.38,
+      "Mom[1]": -28.95,
+      "MACD.macd": -17.67,
+      "MACD.signal": -17.62,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 83.94,
+      "Rec.WR": 0,
+      "W.R": -70.93,
+      "Rec.BBPower": 0,
+      "BBPower": -16.89,
+      "Rec.UO": 0,
+      "UO": 39.41,
+      "close": 485.84,
+      "EMA5": 487.32,
+      "SMA5": 489.71,
+      "EMA10": 492.05,
+      "SMA10": 486.71,
+      "EMA20": 505.53,
+      "SMA20": 504.54,
+      "EMA30": 515.96,
+      "SMA30": 526.61,
+      "EMA50": 525.4,
+      "SMA50": 542.29,
+      "EMA100": 525.5,
+      "SMA100": 525.28,
+      "EMA200": 518.15,
+      "SMA200": 515.97,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 527.82,
+      "Rec.VWMA": -1,
+      "VWMA": 503.06,
+      "Rec.HullMA9": -1,
+      "HullMA9": 489.45,
+      "Pivot.M.Classic.S3": 331.5,
+      "Pivot.M.Classic.S2": 434,
+      "Pivot.M.Classic.S1": 469.11,
+      "Pivot.M.Classic.Middle": 536.5,
+      "Pivot.M.Classic.R1": 571.61,
+      "Pivot.M.Classic.R2": 638.99,
+      "Pivot.M.Classic.R3": 741.49,
+      "Pivot.M.Fibonacci.S3": 434,
+      "Pivot.M.Fibonacci.S2": 473.15,
+      "Pivot.M.Fibonacci.S1": 497.34,
+      "Pivot.M.Fibonacci.Middle": 536.5,
+      "Pivot.M.Fibonacci.R1": 575.65,
+      "Pivot.M.Fibonacci.R2": 599.84,
+      "Pivot.M.Fibonacci.R3": 638.99,
+      "Pivot.M.Camarilla.S3": 476.03,
+      "Pivot.M.Camarilla.S2": 485.43,
+      "Pivot.M.Camarilla.S1": 494.82,
+      "Pivot.M.Camarilla.Middle": 536.5,
+      "Pivot.M.Camarilla.R1": 513.62,
+      "Pivot.M.Camarilla.R2": 523.01,
+      "Pivot.M.Camarilla.R3": 532.41,
+      "Pivot.M.Woodie.S3": 348.26,
+      "Pivot.M.Woodie.S2": 424.82,
+      "Pivot.M.Woodie.S1": 450.75,
+      "Pivot.M.Woodie.Middle": 527.32,
+      "Pivot.M.Woodie.R1": 553.25,
+      "Pivot.M.Woodie.R2": 629.81,
+      "Pivot.M.Woodie.R3": 655.74,
+      "Pivot.M.Demark.S1": 451.55,
+      "Pivot.M.Demark.Middle": 527.72,
+      "Pivot.M.Demark.R1": 554.05,
+      "open": 480.5,
+      "P.SAR": 467.73,
+      "BB.lower": 465.15,
+      "BB.upper": 543.92,
+      "AO[2]": -48.49,
+      "volume": 1984623,
+      "change": 1.51,
+      "low": 479.61,
+      "high": 495.57
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 542.29,
+      "sma_200": 515.97,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 489.77,
+      "21": 506.77,
+      "34": 518.91,
+      "55": 526.23,
+      "89": 526.23
+    },
+    "volume": {
+      "current": "1,984,300",
+      "avg_20d": "2,418,475",
+      "rel_vol": 0.82,
+      "rel_vol_pct": 41
+    },
+    "pivots": {
+      "R2": 589.81,
+      "R1": 537.82,
+      "PP": 501.76,
+      "S1": 449.77,
+      "S2": 413.71
+    },
+    "fibonacci": {
+      "100": 609.08,
+      "61.8": 538.76,
+      "50": 517.04,
+      "38.2": 495.32,
+      "0": 425.0
+    },
+    "oscillators": {
+      "rsi_14": 27.86,
+      "adx_14": 41.71,
+      "macd_hist": -0.04
+    }
+  },
+  "volatility": {
+    "hv_30d": 27.3,
+    "iv_current": 1.49
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-11",
+      "insider": "CURET MYRIAM J",
+      "type": "",
+      "value": "$260,316"
+    },
+    {
+      "date": "2026-02-11",
+      "insider": "WIDMAN FREDRIK",
+      "type": "",
+      "value": "$65,830"
+    },
+    {
+      "date": "2026-02-10",
+      "insider": "BROSIUS MARK PRESTON",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-02-10",
+      "insider": "CURET MYRIAM J",
+      "type": "",
+      "value": "$24,086"
+    },
+    {
+      "date": "2026-02-10",
+      "insider": "CHARLTON HENRY L",
+      "type": "",
+      "value": "$nan"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "1 of Wall Street\u2019s Favorite Stock for Long-Term Investors and 2 We Question",
+      "link": "https://finance.yahoo.com/news/1-wall-street-favorite-stock-043943342.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain ..."
+    },
+    {
+      "title": "My 1 Top AI Healthcare Stock to Buy and Hold Forever",
+      "link": "https://www.fool.com/investing/2026/02/16/my-1-top-ai-healthcare-stock-to-buy-and-hold-isrg/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "The stock has averaged annual gains of nearly 25% over the past decade...."
+    },
+    {
+      "title": "TMDX Wins Full FDA IDE Approval for Next-Gen OCS ENHANCE Heart Trial",
+      "link": "https://finance.yahoo.com/news/tmdx-wins-full-fda-ide-155200995.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "TransMedics secures full FDA IDE approval for its OCS ENHANCE Heart trial, clearing a key hurdle and advancing its push to expand heart transplant use..."
+    },
+    {
+      "title": "CareDx Reports Positive Data for AlloHeme in AML and MDS Post HCT",
+      "link": "https://finance.yahoo.com/news/caredx-reports-positive-data-alloheme-163200402.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "CDNA shares climb after AlloHeme data show early AML/MDS relapse detection, backing its Transplant+ expansion into cell therapy markets...."
+    },
+    {
+      "title": "Intuitive Surgical AI Push And Global Expansion Tested By Rich Valuation",
+      "link": "https://finance.yahoo.com/news/intuitive-surgical-ai-push-global-211059938.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Intuitive Surgical is integrating artificial intelligence into its robotic surgery systems across its platforms. The company reports strong global pro..."
+    },
+    {
+      "title": "Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years",
+      "source": "BLOOMBERG",
+      "summary": "Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+    },
+    {
+      "title": "Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap",
+      "source": "BLOOMBERG",
+      "summary": "Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/1-wall-street-favorite-stock-043943342.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>1 of Wall Street\u2019s Favorite Stock for Long-Term Investors and 2 We Question</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Wall Street has set ambitious price targets for the stocks in this article. While this suggests attractive upside potential, it\u2019s important to remain ..."
+      },
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/16/my-1-top-ai-healthcare-stock-to-buy-and-hold-isrg/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>My 1 Top AI Healthcare Stock to Buy and Hold Forever</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> The stock has averaged annual gains of nearly 25% over the past decade...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/tmdx-wins-full-fda-ide-155200995.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>TMDX Wins Full FDA IDE Approval for Next-Gen OCS ENHANCE Heart Trial</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> TransMedics secures full FDA IDE approval for its OCS ENHANCE Heart trial, clearing a key hurdle and advancing its push to expand heart transplant use..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/caredx-reports-positive-data-alloheme-163200402.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>CareDx Reports Positive Data for AlloHeme in AML and MDS Post HCT</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> CDNA shares climb after AlloHeme data show early AML/MDS relapse detection, backing its Transplant+ expansion into cell therapy markets...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/intuitive-surgical-ai-push-global-211059938.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Intuitive Surgical AI Push And Global Expansion Tested By Rich Valuation</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Intuitive Surgical is integrating artificial intelligence into its robotic surgery systems across its platforms. The company reports strong global pro..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-17/svantesson-doesn-t-see-sweden-in-euro-in-next-couple-of-years' target='_blank' class='hover:text-neon-blue transition-colors'>Svantesson Doesn\u2019t See Sweden in Euro in Next Couple of Years</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Sweden won\u2019t be joining the euro in the near future even as a debate on the merits of such a move is gathering pace, according to Finance Minister Eli..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-16/asian-stocks-set-for-muted-start-in-holiday-trade-markets-wrap' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Fluctuate Ahead of US Return; Pound Drops: Markets Wrap</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Stocks traded mixed, with contracts on the Nasdaq 100 suggesting a slide in technology shares may have further to run as Wall Street investors return ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Intuitive Surgical, Inc. // Healthcare [Medical Instruments & Supplies]. Mkt Cap: $172.54B. Rev Growth: 18.8%. PM: 28.4%.",
+    "forward_looking": "Beta: 1.662. Range(52W): 425.0 - 609.08. Analyst Tgt: 611.8213."
+  },
+  "geospatial": {
+    "site": "Sunnyvale, United States",
+    "coords": "https://www.intuitive.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 45,
+    "fundamental": 80,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -41.4,
+    "target_price": 284.68,
+    "graham_num": 94.28,
+    "lynch_value": 147.96,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 45/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-41.4%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>NEUTRAL</span> technical posture (Score: 45/100) within a wider Bullish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-41.4%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>WAIT for Validation."
+}

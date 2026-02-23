@@ -1,0 +1,218 @@
+{
+  "ticker": "NFLX",
+  "logo_url": "https://logo.clearbit.com/www.netflix.com",
+  "generated_at": "2026-02-21 08:20:29 UTC",
+  "market_snapshot": {
+    "price": 78.67,
+    "market_cap": "$333.71B",
+    "beta": 1.71,
+    "range_52w": "75.23 - 134.115",
+    "analyst_target": 111.43
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bearish",
+      "sma_50": 87.45,
+      "sma_200": 110.9,
+      "crossover": "Death Cross"
+    },
+    "ema": {
+      "8": 78.43,
+      "21": 81.26,
+      "34": 84.27,
+      "55": 88.88,
+      "89": 94.68
+    },
+    "volume": {
+      "current": "32,368,200",
+      "avg_20d": "44,050,130",
+      "rel_vol": 0.73,
+      "rel_vol_pct": 36
+    },
+    "pivots": {
+      "R2": 91.99,
+      "R1": 85.33,
+      "PP": 80.28,
+      "S1": 73.62,
+      "S2": 68.57
+    },
+    "fibonacci": {
+      "100": 134.12,
+      "61.8": 111.62,
+      "50": 104.67,
+      "38.2": 97.72,
+      "0": 75.23
+    },
+    "oscillators": {
+      "rsi_14": 36.92,
+      "adx_14": 29.83,
+      "macd_hist": 0.14
+    }
+  },
+  "volatility": {
+    "hv_30d": 27.24,
+    "iv_current": 42.03
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-10",
+      "insider": "WILLEMS CLETUS R",
+      "type": "",
+      "value": "$259,253"
+    },
+    {
+      "date": "2026-02-10",
+      "insider": "PETERS GREGORY K.",
+      "type": "",
+      "value": "$2.27M"
+    },
+    {
+      "date": "2026-02-09",
+      "insider": "HYMAN DAVID A",
+      "type": "",
+      "value": "$464,231"
+    },
+    {
+      "date": "2026-02-06",
+      "insider": "NEUMANN SPENCER ADAM",
+      "type": "",
+      "value": "$751,598"
+    },
+    {
+      "date": "2026-02-05",
+      "insider": "HASTINGS REED",
+      "type": "",
+      "value": "$0"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Meta Platforms vs. Netflix: Which Is the Better Growth Stock to Buy?",
+      "link": "https://www.fool.com/investing/2026/02/20/meta-platforms-vs-netflix-which-is-the-better-grow/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Netflix has fallen harder, but Meta's latest outlook sets a much higher near-term growth bar...."
+    },
+    {
+      "title": "Can Paramount Skydance bid beyond $30 per share for WBD?",
+      "link": "https://finance.yahoo.com/news/paramount-skydance-bid-beyond-30-164711707.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Investing.com -- A key question in the Warner Bros. Discovery takeover battle is whether Paramount Skydance will be willing to bid above $30 per share..."
+    },
+    {
+      "title": "These Experts Think Netflix Will Be Fine Even If It Doesn't Get to Buy Warner Bros.",
+      "link": "https://www.investopedia.com/these-experts-think-netflix-will-be-fine-even-if-it-doesn-t-get-to-buy-warner-bros-nflx-wbd-psky-11910479?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Wedbush analysts believe Netflix will be fine even if its planned acquisition of Warner Bros. Discovery doesn't go through...."
+    },
+    {
+      "title": "Want to Win the Warner Bros. Discovery Takeover Battle? \u2018Walk Away Now.\u2019",
+      "link": "https://finance.yahoo.com/m/342b641e-e6a4-3830-9e53-a26af9875f86/want-to-win-the-warner-bros..html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Both Netflix and Paramount Skydance are prepared to overpay for Warner Bros. Discovery and take on significant debt...."
+    },
+    {
+      "title": "Netflix (NFLX) Rises Higher Than Market: Key Facts",
+      "link": "https://finance.yahoo.com/news/netflix-nflx-rises-higher-market-224502596.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Netflix (NFLX) closed at $78.67 in the latest trading session, marking a +2.17% move from the prior day...."
+    },
+    {
+      "title": "Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit",
+      "source": "BLOOMBERG",
+      "summary": "Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+    },
+    {
+      "title": "South Korea Says US Trade Deal Still Intact After Tariff Ruling",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling",
+      "source": "BLOOMBERG",
+      "summary": "South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://www.fool.com/investing/2026/02/20/meta-platforms-vs-netflix-which-is-the-better-grow/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Meta Platforms vs. Netflix: Which Is the Better Growth Stock to Buy?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Netflix has fallen harder, but Meta's latest outlook sets a much higher near-term growth bar...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/paramount-skydance-bid-beyond-30-164711707.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Can Paramount Skydance bid beyond $30 per share for WBD?</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Investing.com -- A key question in the Warner Bros. Discovery takeover battle is whether Paramount Skydance will be willing to bid above $30 per share..."
+      },
+      {
+        "claim": "<a href='https://www.investopedia.com/these-experts-think-netflix-will-be-fine-even-if-it-doesn-t-get-to-buy-warner-bros-nflx-wbd-psky-11910479?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>These Experts Think Netflix Will Be Fine Even If It Doesn't Get to Buy Warner Bros.</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Wedbush analysts believe Netflix will be fine even if its planned acquisition of Warner Bros. Discovery doesn't go through...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/m/342b641e-e6a4-3830-9e53-a26af9875f86/want-to-win-the-warner-bros..html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Want to Win the Warner Bros. Discovery Takeover Battle? \u2018Walk Away Now.\u2019</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Both Netflix and Paramount Skydance are prepared to overpay for Warner Bros. Discovery and take on significant debt...."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/netflix-nflx-rises-higher-market-224502596.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Netflix (NFLX) Rises Higher Than Market: Key Facts</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Netflix (NFLX) closed at $78.67 in the latest trading session, marking a +2.17% move from the prior day...."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/inside-the-ecb-irritation-grows-over-lagarde-s-handling-of-exit' target='_blank' class='hover:text-neon-blue transition-colors'>Inside the ECB, Irritation Grows Over Lagarde\u2019s Handling of Exit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Confused, irritated, uncertain. Inside the European Central Bank, staff are in shock by reports that President Christine Lagarde will quit before her ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-21/south-korea-says-us-trade-deal-still-intact-after-tariff-ruling' target='_blank' class='hover:text-neon-blue transition-colors'>South Korea Says US Trade Deal Still Intact After Tariff Ruling</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> South Korea said a US Supreme Court ruling striking down tariffs imposed under President Donald Trump\u2019s emergency powers would not derail its broader ..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Netflix, Inc. // Communication Services [Entertainment]. Mkt Cap: $333.71B. Rev Growth: 17.6%. PM: 24.3%.",
+    "forward_looking": "Beta: 1.712. Range(52W): 75.23 - 134.115. Analyst Tgt: 111.42846."
+  },
+  "geospatial": {
+    "site": "Los Gatos, United States",
+    "coords": "https://www.netflix.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 20,
+    "fundamental": 80,
+    "grade": "C"
+  },
+  "valuation": {
+    "status": "OVERVALUED",
+    "gap_pct": -25.9,
+    "target_price": 58.3,
+    "graham_num": 18.94,
+    "lynch_value": 44.53,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-25.9%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-red'>WEAK</span> technical posture (Score: 20/100) within a wider Bearish trend. However, valuation models indicate the asset is <span class='text-neon-red'>OVERVALUED</span> by ~-25.9%; price may be extended beyond fundamentals. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>DISTRIBUTE into Strength."
+}

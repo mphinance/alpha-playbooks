@@ -1,0 +1,356 @@
+{
+  "ticker": "RKLB",
+  "logo_url": "https://logo.clearbit.com/rocketlabcorp.com",
+  "generated_at": "2026-02-15 08:48:20 UTC",
+  "market_snapshot": {
+    "price": 67.44,
+    "market_cap": "$36.02B",
+    "beta": 2.18,
+    "range_52w": "14.71 - 99.58",
+    "analyst_target": 83.96
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "NEUTRAL",
+      "BUY": 8,
+      "SELL": 10,
+      "NEUTRAL": 8
+    },
+    "oscillators": {
+      "RECOMMENDATION": "BUY",
+      "BUY": 3,
+      "SELL": 1,
+      "NEUTRAL": 7,
+      "COMPUTE": {
+        "RSI": "NEUTRAL",
+        "STOCH.K": "NEUTRAL",
+        "CCI": "BUY",
+        "ADX": "NEUTRAL",
+        "AO": "NEUTRAL",
+        "Mom": "BUY",
+        "MACD": "SELL",
+        "Stoch.RSI": "NEUTRAL",
+        "W%R": "BUY",
+        "BBP": "NEUTRAL",
+        "UO": "NEUTRAL"
+      }
+    },
+    "moving_averages": {
+      "RECOMMENDATION": "SELL",
+      "BUY": 5,
+      "SELL": 9,
+      "NEUTRAL": 1,
+      "COMPUTE": {
+        "EMA10": "SELL",
+        "SMA10": "SELL",
+        "EMA20": "SELL",
+        "SMA20": "SELL",
+        "EMA30": "SELL",
+        "SMA30": "SELL",
+        "EMA50": "SELL",
+        "SMA50": "SELL",
+        "EMA100": "BUY",
+        "SMA100": "BUY",
+        "EMA200": "BUY",
+        "SMA200": "BUY",
+        "Ichimoku": "NEUTRAL",
+        "VWMA": "SELL",
+        "HullMA": "BUY"
+      }
+    },
+    "indicators": {
+      "Recommend.Other": 0.18,
+      "Recommend.All": -0.04,
+      "Recommend.MA": -0.27,
+      "RSI": 42.04,
+      "RSI[1]": 40.52,
+      "Stoch.K": 12.38,
+      "Stoch.D": 17.63,
+      "Stoch.K[1]": 22.64,
+      "Stoch.D[1]": 29.9,
+      "CCI20": -105.21,
+      "CCI20[1]": -130.51,
+      "ADX": 27.75,
+      "ADX+DI": 15.96,
+      "ADX-DI": 27.38,
+      "ADX+DI[1]": 15.41,
+      "ADX-DI[1]": 28.64,
+      "AO": -9.74,
+      "AO[1]": -9.57,
+      "Mom": -12.63,
+      "Mom[1]": -19.67,
+      "MACD.macd": -2.47,
+      "MACD.signal": -0.23,
+      "Rec.Stoch.RSI": 0,
+      "Stoch.RSI.K": 12.97,
+      "Rec.WR": 1,
+      "W.R": -86.23,
+      "Rec.BBPower": 0,
+      "BBPower": -12.3,
+      "Rec.UO": 0,
+      "UO": 47.8,
+      "close": 67.44,
+      "EMA5": 69.28,
+      "SMA5": 70.19,
+      "EMA10": 72.28,
+      "SMA10": 71.81,
+      "EMA20": 75.49,
+      "SMA20": 79.5,
+      "EMA30": 75.53,
+      "SMA30": 81.31,
+      "EMA50": 72.79,
+      "SMA50": 73.56,
+      "EMA100": 65.21,
+      "SMA100": 63.97,
+      "EMA200": 53.78,
+      "SMA200": 50.67,
+      "Rec.Ichimoku": 0,
+      "Ichimoku.BLine": 81.72,
+      "Rec.VWMA": -1,
+      "VWMA": 80.91,
+      "Rec.HullMA9": 1,
+      "HullMA9": 67.31,
+      "Pivot.M.Classic.S3": 16.71,
+      "Pivot.M.Classic.S2": 49.44,
+      "Pivot.M.Classic.S1": 64.75,
+      "Pivot.M.Classic.Middle": 82.17,
+      "Pivot.M.Classic.R1": 97.48,
+      "Pivot.M.Classic.R2": 114.9,
+      "Pivot.M.Classic.R3": 147.63,
+      "Pivot.M.Fibonacci.S3": 49.44,
+      "Pivot.M.Fibonacci.S2": 61.94,
+      "Pivot.M.Fibonacci.S1": 69.66,
+      "Pivot.M.Fibonacci.Middle": 82.17,
+      "Pivot.M.Fibonacci.R1": 94.67,
+      "Pivot.M.Fibonacci.R2": 102.39,
+      "Pivot.M.Fibonacci.R3": 114.9,
+      "Pivot.M.Camarilla.S3": 71.07,
+      "Pivot.M.Camarilla.S2": 74.07,
+      "Pivot.M.Camarilla.S1": 77.07,
+      "Pivot.M.Camarilla.Middle": 82.17,
+      "Pivot.M.Camarilla.R1": 83.07,
+      "Pivot.M.Camarilla.R2": 86.07,
+      "Pivot.M.Camarilla.R3": 89.07,
+      "Pivot.M.Woodie.S3": 30.06,
+      "Pivot.M.Woodie.S2": 48.46,
+      "Pivot.M.Woodie.S1": 62.8,
+      "Pivot.M.Woodie.Middle": 81.19,
+      "Pivot.M.Woodie.R1": 95.53,
+      "Pivot.M.Woodie.R2": 113.92,
+      "Pivot.M.Woodie.R3": 128.25,
+      "Pivot.M.Demark.S1": 73.46,
+      "Pivot.M.Demark.Middle": 86.52,
+      "Pivot.M.Demark.R1": 106.19,
+      "open": 66.69,
+      "P.SAR": 73.94,
+      "BB.lower": 61.75,
+      "BB.upper": 97.25,
+      "AO[2]": -9.28,
+      "volume": 14737736,
+      "change": 2.17,
+      "low": 65.5,
+      "high": 69.6
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 73.56,
+      "sma_200": 50.67,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 71.14,
+      "21": 75.6,
+      "34": 75.13,
+      "55": 71.98,
+      "89": 66.76
+    },
+    "volume": {
+      "current": "14,714,500",
+      "avg_20d": "21,551,695",
+      "rel_vol": 0.68,
+      "rel_vol_pct": 34
+    },
+    "pivots": {
+      "R2": 112.67,
+      "R1": 90.06,
+      "PP": 76.96,
+      "S1": 54.35,
+      "S2": 41.25
+    },
+    "fibonacci": {
+      "100": 99.58,
+      "61.8": 67.16,
+      "50": 57.15,
+      "38.2": 47.13,
+      "0": 14.71
+    },
+    "oscillators": {
+      "rsi_14": 40.02,
+      "adx_14": 18.15,
+      "macd_hist": -2.24
+    }
+  },
+  "volatility": {
+    "hv_30d": 96.47,
+    "iv_current": 106.41
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-01-20",
+      "insider": "OLSON JON A",
+      "type": "",
+      "value": "$1.39M"
+    },
+    {
+      "date": "2026-01-14",
+      "insider": "SAINTIL MERLINE A",
+      "type": "",
+      "value": "$9.44M"
+    },
+    {
+      "date": "2026-01-05",
+      "insider": "SPICE ADAM C",
+      "type": "",
+      "value": "$103.11M"
+    },
+    {
+      "date": "2026-01-05",
+      "insider": "SPICE ADAM C",
+      "type": "",
+      "value": "$797,150"
+    },
+    {
+      "date": "2026-01-02",
+      "insider": "KLEIN FRANK",
+      "type": "",
+      "value": "$7.29M"
+    }
+  ],
+  "intel_feed": [
+    {
+      "title": "Rocket Lab Prepares To Launch Latest Hypersonic Test Mission for Defense Innovation Unit",
+      "link": "https://finance.yahoo.com/news/rocket-lab-prepares-launch-latest-213000640.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "\"That's Not A Knife\" mission payload The \"That's Not A Knife\" mission payload: DART AE, a scramjet-powered aircraft developed by Australian aerospace ..."
+    },
+    {
+      "title": "1 Unpopular Stock That Deserves a Second Chance and 2 That Underwhelm",
+      "link": "https://finance.yahoo.com/news/1-unpopular-stock-deserves-second-044140425.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Wall Street\u2019s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaini..."
+    },
+    {
+      "title": "Here's How R&D Spending Powers ATRO's Long-Term Profitability",
+      "link": "https://finance.yahoo.com/news/heres-r-d-spending-powers-165400794.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Astronics' heavy R&amp;D spending is fueling backlog growth, margin stability and long-term profitability as defense and aerospace demand accelerates...."
+    },
+    {
+      "title": "Rocket Lab\u2019s Hypersonic Heat: This Military Pivot Could Launch Its Stock Higher",
+      "link": "https://247wallst.com/investing/2026/02/14/rocket-labs-hypersonic-heat-this-military-pivot-could-launch-its-stock-higher/?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Rocket Lab (NASDAQ:RKLB) is gearing up for an upcoming launch that underscores its growing role in U.S. defense and hypersonic technology testing. The..."
+    },
+    {
+      "title": "Rocket Lab\u2019s Hypersonic Test Push Meets Volatile Yet Undervalued Share Price",
+      "link": "https://finance.yahoo.com/news/rocket-lab-hypersonic-test-push-200619049.html?.tsrc=rss",
+      "source": "YF-RSS",
+      "summary": "Rocket Lab is preparing its fourth military hypersonic test mission in under six months for the U.S. Defense Innovation Unit and Hypersonix. The missi..."
+    },
+    {
+      "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+      "source": "BLOOMBERG",
+      "summary": "Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+    },
+    {
+      "title": "India Curbs Loans Extended to Brokers in Blow to Trading Volumes",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes",
+      "source": "BLOOMBERG",
+      "summary": "India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+    },
+    {
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "source": "WSJ",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+    }
+  ],
+  "supply_chain": {
+    "claims": [
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/rocket-lab-prepares-launch-latest-213000640.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Rocket Lab Prepares To Launch Latest Hypersonic Test Mission for Defense Innovation Unit</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> \"That's Not A Knife\" mission payload The \"That's Not A Knife\" mission payload: DART AE, a scramjet-powered aircraft developed by Australian aerospace ..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/1-unpopular-stock-deserves-second-044140425.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>1 Unpopular Stock That Deserves a Second Chance and 2 That Underwhelm</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Wall Street\u2019s bearish price targets for the stocks in this article signal serious concerns. Such forecasts are uncommon in an industry where maintaini..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/heres-r-d-spending-powers-165400794.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Here's How R&D Spending Powers ATRO's Long-Term Profitability</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Astronics' heavy R&amp;D spending is fueling backlog growth, margin stability and long-term profitability as defense and aerospace demand accelerates...."
+      },
+      {
+        "claim": "<a href='https://247wallst.com/investing/2026/02/14/rocket-labs-hypersonic-heat-this-military-pivot-could-launch-its-stock-higher/?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Rocket Lab\u2019s Hypersonic Heat: This Military Pivot Could Launch Its Stock Higher</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Rocket Lab (NASDAQ:RKLB) is gearing up for an upcoming launch that underscores its growing role in U.S. defense and hypersonic technology testing. The..."
+      },
+      {
+        "claim": "<a href='https://finance.yahoo.com/news/rocket-lab-hypersonic-test-push-200619049.html?.tsrc=rss' target='_blank' class='hover:text-neon-blue transition-colors'>Rocket Lab\u2019s Hypersonic Test Push Meets Volatile Yet Undervalued Share Price</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[YF-RSS]</span> Rocket Lab is preparing its fourth military hypersonic test mission in under six months for the U.S. Defense Innovation Unit and Hypersonix. The missi..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus' target='_blank' class='hover:text-neon-blue transition-colors'>Goldman Upgrades Forecast for 2026 China Current-Account Surplus</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> Goldman Sachs Group Inc. revised its forecast for China\u2019s current-account surplus this year after incorporating data for the fourth quarter, when the ..."
+      },
+      {
+        "claim": "<a href='https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes' target='_blank' class='hover:text-neon-blue transition-colors'>India Curbs Loans Extended to Brokers in Blow to Trading Volumes</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[BLOOMBERG]</span> India\u2019s central bank tightened rules for loans taken by firms that undertake proprietary trading in shares and commodities and offer leverage to clien..."
+      },
+      {
+        "claim": "<a href='https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main' target='_blank' class='hover:text-neon-blue transition-colors'>Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>",
+        "status": "NEWS",
+        "desc": "<span class='text-neon-blue'>[WSJ]</span> U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia..."
+      }
+    ],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Rocket Lab Corporation // Industrials [Aerospace & Defense]. Mkt Cap: $36.02B. Rev Growth: 48.0%. PM: -35.6%.",
+    "forward_looking": "Beta: 2.182. Range(52W): 14.71 - 99.58. Analyst Tgt: 83.9625."
+  },
+  "geospatial": {
+    "site": "Long Beach, United States",
+    "coords": "https://rocketlabcorp.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 75,
+    "fundamental": 70,
+    "grade": "B"
+  },
+  "valuation": {
+    "status": "UNDERVALUED",
+    "gap_pct": 24.5,
+    "target_price": 83.96,
+    "graham_num": 0,
+    "lynch_value": 0,
+    "method": "ANALYST CONSENSUS"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 24.5%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 75/100) within a wider Bullish trend. Models suggest the asset is <span class='text-neon-green'>UNDERVALUED</span> by 24.5%, implying a significant margin of safety. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}

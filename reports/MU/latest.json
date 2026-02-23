@@ -1,0 +1,255 @@
+{
+  "ticker": "MU",
+  "companyName": "Micron Technology, Inc.",
+  "currentPrice": 420.67,
+  "priceChange": -7.5,
+  "priceChangePct": -1.75,
+  "timestamp": "02/23/26 13:34 ",
+  "postMarketStr": "Post-Market: $420.67 (0.00)",
+  "impliedVolatility": 70.44,
+  "historicVolatility": 67.38,
+  "ivRank": 25.0,
+  "ivPercentile": 30.0,
+  "iv5dAvg": 70.44,
+  "iv1mAvg": 70.44,
+  "iv3mLow": 0,
+  "iv3mLowDate": "N/A",
+  "iv3mHigh": 0,
+  "iv3mHighDate": "N/A",
+  "iv52wLow": 0,
+  "iv52wLowDate": "N/A",
+  "iv52wHigh": 0,
+  "iv52wHighDate": "N/A",
+  "trendOverall": "Bullish",
+  "trendShort": "Strong",
+  "trendMed": "Strong",
+  "trendLong": "Strong",
+  "movAvg20d": 408.96,
+  "movAvg50d": 347.97,
+  "movAvg100d": 282.76,
+  "movAvgChange20d": 0.0,
+  "movAvgChange50d": 0.0,
+  "movAvgChange100d": 0.0,
+  "atr20d": 5.0,
+  "rsi20d": 53.57,
+  "trendSeekerSignal": "BUY",
+  "low52w": 61.42,
+  "low52wDate": "1Y Low",
+  "high52w": 455.5,
+  "high52wDate": "1Y High",
+  "expectedMoves": [
+    {
+      "expiration": "03/02/26",
+      "expectedMove": 41.04,
+      "expectedRange": "379.63 - 461.71",
+      "iv": 70.4
+    },
+    {
+      "expiration": "03/09/26",
+      "expectedMove": 58.03,
+      "expectedRange": "362.64 - 478.7",
+      "iv": 70.4
+    },
+    {
+      "expiration": "03/25/26",
+      "expectedMove": 84.95,
+      "expectedRange": "335.72 - 505.62",
+      "iv": 70.4
+    },
+    {
+      "expiration": "04/24/26",
+      "expectedMove": 120.14,
+      "expectedRange": "300.53 - 540.81",
+      "iv": 70.4
+    }
+  ],
+  "volumeStats": {
+    "callVolume": 0,
+    "putVolume": 0,
+    "totalVolume": 0,
+    "pcRatioVol": 0.8,
+    "callOpenInt": 0,
+    "putOpenInt": 0,
+    "totalOpenInt": 0,
+    "pcRatioOi": 0.9,
+    "volChg5d": 0,
+    "volChg1m": 0,
+    "oiChg5d": 0,
+    "oiChg1m": 0
+  },
+  "pcCharts": {
+    "dates": [
+      "02/09",
+      "02/10",
+      "02/11",
+      "02/12",
+      "02/13",
+      "02/17",
+      "02/18",
+      "02/19",
+      "02/20",
+      "02/23"
+    ],
+    "stockPrices": [
+      383.5,
+      373.25,
+      410.34,
+      413.97,
+      411.66,
+      399.78,
+      420.95,
+      417.35,
+      428.17,
+      420.67
+    ],
+    "volRatios": [
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
+    ],
+    "oiRatios": [
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "logo_url": "https://logo.clearbit.com/www.micron.com",
+  "generated_at": "2026-02-23 19:34:58 UTC",
+  "market_snapshot": {
+    "price": 420.67,
+    "market_cap": "$473.47B",
+    "beta": 1.5,
+    "range_52w": "61.54 - 455.5",
+    "analyst_target": 390.9
+  },
+  "tradingview": {
+    "summary": {
+      "RECOMMENDATION": "UNAVAILABLE"
+    }
+  },
+  "technical_analysis": {
+    "trend": {
+      "outlook": "Bullish",
+      "sma_50": 347.97,
+      "sma_200": 201.03,
+      "crossover": "Golden Cross"
+    },
+    "ema": {
+      "8": 414.61,
+      "21": 399.34,
+      "34": 379.64,
+      "55": 349.08,
+      "89": 309.28
+    },
+    "volume": {
+      "current": "18,772,461",
+      "avg_20d": "37,100,108",
+      "rel_vol": 0.51,
+      "rel_vol_pct": 25
+    },
+    "pivots": {
+      "R2": 504.96,
+      "R1": 462.81,
+      "PP": 413.36,
+      "S1": 371.21,
+      "S2": 321.76
+    },
+    "fibonacci": {
+      "100": 455.5,
+      "61.8": 304.96,
+      "50": 258.46,
+      "38.2": 211.96,
+      "0": 61.42
+    },
+    "oscillators": {
+      "rsi_14": 45.57,
+      "adx_14": 27.26,
+      "macd_hist": -1.94
+    }
+  },
+  "volatility": {
+    "hv_30d": 67.38,
+    "iv_current": 70.44
+  },
+  "insider_transactions": [
+    {
+      "date": "2026-02-02",
+      "insider": "SADANA SUMIT",
+      "type": "",
+      "value": "$10.75M"
+    },
+    {
+      "date": "2026-01-27",
+      "insider": "RAY MICHAEL CHARLES",
+      "type": "",
+      "value": "$5.03M"
+    },
+    {
+      "date": "2026-01-22",
+      "insider": "BHATIA MANISH H",
+      "type": "",
+      "value": "$10.41M"
+    },
+    {
+      "date": "2026-01-16",
+      "insider": "ALLEN SCOTT R",
+      "type": "",
+      "value": "$nan"
+    },
+    {
+      "date": "2026-01-14",
+      "insider": "LIU TEYIN MARK",
+      "type": "",
+      "value": "$7.82M"
+    }
+  ],
+  "intel_feed": [],
+  "supply_chain": {
+    "claims": [],
+    "shipments": []
+  },
+  "sec_insights": {
+    "operations": "Micron Technology, Inc. // Technology [Semiconductors]. Mkt Cap: $473.47B. Rev Growth: 56.7%. PM: 28.1%.",
+    "forward_looking": "Beta: 1.505. Range(52W): 61.54 - 455.5. Analyst Tgt: 390.89743."
+  },
+  "geospatial": {
+    "site": "Boise, United States",
+    "coords": "https://www.micron.com",
+    "score": 0.0,
+    "observations": [
+      {
+        "period": "Current",
+        "desc": "Headquarters location."
+      }
+    ]
+  },
+  "scores": {
+    "technical": 95,
+    "fundamental": 70,
+    "grade": "A"
+  },
+  "valuation": {
+    "status": "FAIR VALUE",
+    "gap_pct": -12.9,
+    "target_price": 366.4,
+    "graham_num": 111.24,
+    "lynch_value": 597.05,
+    "method": "BLENDED (Graham+Lynch+Analyst)"
+  },
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+}
