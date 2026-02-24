@@ -54,10 +54,16 @@
                         <span class="ml-1" x-text="'(' + formatPct(data.priceChangePct) + ')'">(+0.00%)</span>
                     </div>
                 </div>
-                <div class="text-sm text-gray-500 mt-2 font-mono">
-                    <span x-text="data.timestamp">00/00/00 00:00</span>
-                    <span class="mx-2">|</span>
-                    <span x-text="data.postMarketStr">Post-Market: --</span>
+                <div class="text-sm text-gray-500 mt-2 font-mono flex justify-end items-center space-x-4">
+                    <span>
+                        <span x-text="data.timestamp">00/00/00 00:00</span>
+                        <span class="mx-2">|</span>
+                        <span x-text="data.postMarketStr">Post-Market: --</span>
+                    </span>
+                    <a :href="'exports/' + data.ticker + '_report.png'" download class="text-xs border border-gray-600 px-2 py-1 rounded hover:bg-gray-800 transition-colors flex items-center group text-gray-400 hover:text-white" title="Download Screenshot">
+                        <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        PNG
+                    </a>
                 </div>
             </div>
         </header>

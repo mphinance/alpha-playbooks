@@ -1,17 +1,17 @@
 {
   "ticker": "NVDA",
   "companyName": "NVIDIA Corporation",
-  "currentPrice": 191.08,
-  "priceChange": 1.26,
-  "priceChangePct": 0.66,
-  "timestamp": "02/23/26 14:55 ",
-  "postMarketStr": "Post-Market: $191.08 (0.00)",
-  "impliedVolatility": 11.26,
-  "historicVolatility": 36.3,
+  "currentPrice": 191.55,
+  "priceChange": 1.73,
+  "priceChangePct": 0.91,
+  "timestamp": "02/23/26 20:16 ",
+  "postMarketStr": "Post-Market: $191.55 (0.00)",
+  "impliedVolatility": 76.54,
+  "historicVolatility": 36.34,
   "ivRank": 25.0,
   "ivPercentile": 30.0,
-  "iv5dAvg": 11.26,
-  "iv1mAvg": 11.26,
+  "iv5dAvg": 76.54,
+  "iv1mAvg": 76.54,
   "iv3mLow": 0,
   "iv3mLowDate": "N/A",
   "iv3mHigh": 0,
@@ -24,14 +24,14 @@
   "trendShort": "Strong",
   "trendMed": "Strong",
   "trendLong": "Strong",
-  "movAvg20d": 186.39,
-  "movAvg50d": 184.92,
+  "movAvg20d": 186.41,
+  "movAvg50d": 184.93,
   "movAvg100d": 186.11,
   "movAvgChange20d": 0.0,
   "movAvgChange50d": 0.0,
   "movAvgChange100d": 0.0,
   "atr20d": 5.0,
-  "rsi20d": 52.63,
+  "rsi20d": 52.98,
   "trendSeekerSignal": "BUY",
   "low52w": 86.6,
   "low52wDate": "1Y Low",
@@ -40,38 +40,38 @@
   "expectedMoves": [
     {
       "expiration": "03/02/26",
-      "expectedMove": 2.98,
-      "expectedRange": "188.1 - 194.06",
-      "iv": 11.3
+      "expectedMove": 20.3,
+      "expectedRange": "171.25 - 211.85",
+      "iv": 76.5
     },
     {
       "expiration": "03/09/26",
-      "expectedMove": 4.21,
-      "expectedRange": "186.87 - 195.29",
-      "iv": 11.3
+      "expectedMove": 28.71,
+      "expectedRange": "162.84 - 220.26",
+      "iv": 76.5
     },
     {
       "expiration": "03/25/26",
-      "expectedMove": 6.17,
-      "expectedRange": "184.91 - 197.25",
-      "iv": 11.3
+      "expectedMove": 42.03,
+      "expectedRange": "149.52 - 233.58",
+      "iv": 76.5
     },
     {
       "expiration": "04/24/26",
-      "expectedMove": 8.72,
-      "expectedRange": "182.36 - 199.8",
-      "iv": 11.3
+      "expectedMove": 59.44,
+      "expectedRange": "132.11 - 250.99",
+      "iv": 76.5
     }
   ],
   "volumeStats": {
-    "callVolume": 1106367,
-    "putVolume": 616925,
-    "totalVolume": 1723292,
-    "pcRatioVol": 0.56,
-    "callOpenInt": 851216,
-    "putOpenInt": 696989,
-    "totalOpenInt": 1548205,
-    "pcRatioOi": 0.82,
+    "callVolume": 498402,
+    "putVolume": 272140,
+    "totalVolume": 770542,
+    "pcRatioVol": 0.55,
+    "callOpenInt": 787661,
+    "putOpenInt": 629435,
+    "totalOpenInt": 1417096,
+    "pcRatioOi": 0.8,
     "volChg5d": 0,
     "volChg1m": 0,
     "oiChg5d": 0,
@@ -100,38 +100,38 @@
       187.98,
       187.9,
       189.82,
-      191.08
+      191.55
     ],
     "volRatios": [
-      0.56,
-      0.56,
-      0.56,
-      0.56,
-      0.56,
-      0.56,
-      0.56,
-      0.56,
-      0.56,
-      0.56
+      0.55,
+      0.55,
+      0.55,
+      0.55,
+      0.55,
+      0.55,
+      0.55,
+      0.55,
+      0.55,
+      0.55
     ],
     "oiRatios": [
-      0.82,
-      0.82,
-      0.82,
-      0.82,
-      0.82,
-      0.82,
-      0.82,
-      0.82,
-      0.82,
-      0.82
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8,
+      0.8
     ]
   },
   "logo_url": "https://logo.clearbit.com/www.nvidia.com",
-  "generated_at": "2026-02-23 20:55:25 UTC",
+  "generated_at": "2026-02-24 02:16:55 UTC",
   "market_snapshot": {
-    "price": 191.08,
-    "market_cap": "$4652.71B",
+    "price": 191.55,
+    "market_cap": "$4663.67B",
     "beta": 2.31,
     "range_52w": "86.62 - 212.19",
     "analyst_target": 253.99
@@ -189,13 +189,13 @@
       "Recommend.Other": 0.09,
       "Recommend.All": 0.51,
       "Recommend.MA": 0.93,
-      "RSI": 56.17,
+      "RSI": 56.76,
       "RSI[1]": 54.88,
-      "Stoch.K": 80.68,
-      "Stoch.D": 74.76,
+      "Stoch.K": 81.49,
+      "Stoch.D": 75.03,
       "Stoch.K[1]": 68.05,
       "Stoch.D[1]": 64.45,
-      "CCI20": 84.67,
+      "CCI20": 87.55,
       "CCI20[1]": 41.25,
       "ADX": 10.08,
       "ADX+DI": 26.98,
@@ -204,39 +204,39 @@
       "ADX-DI[1]": 24.91,
       "AO": 1.39,
       "AO[1]": -0.02,
-      "Mom": 5.58,
+      "Mom": 6.14,
       "Mom[1]": 17.94,
-      "MACD.macd": 0.99,
-      "MACD.signal": 0.41,
+      "MACD.macd": 1.04,
+      "MACD.signal": 0.42,
       "Rec.Stoch.RSI": 0,
       "Stoch.RSI.K": 92.66,
       "Rec.WR": 0,
-      "W.R": -12.91,
+      "W.R": -10.47,
       "Rec.BBPower": 0,
-      "BBPower": 9.15,
+      "BBPower": 8.99,
       "Rec.UO": 0,
-      "UO": 47.8,
-      "close": 190.99,
-      "EMA5": 188.87,
-      "SMA5": 188.33,
-      "EMA10": 187.6,
-      "SMA10": 188.0,
-      "EMA20": 186.61,
-      "SMA20": 186.38,
-      "EMA30": 186.17,
-      "SMA30": 185.78,
-      "EMA50": 185.6,
-      "SMA50": 184.92,
-      "EMA100": 182.63,
-      "SMA100": 186.11,
-      "EMA200": 171.92,
-      "SMA200": 173.57,
+      "UO": 48.86,
+      "close": 191.55,
+      "EMA5": 189.05,
+      "SMA5": 188.44,
+      "EMA10": 187.71,
+      "SMA10": 188.06,
+      "EMA20": 186.67,
+      "SMA20": 186.41,
+      "EMA30": 186.2,
+      "SMA30": 185.8,
+      "EMA50": 185.62,
+      "SMA50": 184.93,
+      "EMA100": 182.64,
+      "SMA100": 186.12,
+      "EMA200": 171.93,
+      "SMA200": 173.58,
       "Rec.Ichimoku": 0,
       "Ichimoku.BLine": 182.76,
       "Rec.VWMA": 1,
-      "VWMA": 185.92,
+      "VWMA": 186.0,
       "Rec.HullMA9": 1,
-      "HullMA9": 189.87,
+      "HullMA9": 190.04,
       "Pivot.M.Classic.S3": 153.98,
       "Pivot.M.Classic.S2": 170.86,
       "Pivot.M.Classic.S1": 181.0,
@@ -270,11 +270,11 @@
       "Pivot.M.Demark.R1": 201.25,
       "open": 191.4,
       "P.SAR": 174.79,
-      "BB.lower": 175.68,
-      "BB.upper": 197.08,
+      "BB.lower": 175.66,
+      "BB.upper": 197.16,
       "AO[2]": 0.35,
-      "volume": 140221365,
-      "change": 0.62,
+      "volume": 171580324,
+      "change": 0.91,
       "low": 189.57,
       "high": 193.95
     }
@@ -282,29 +282,29 @@
   "technical_analysis": {
     "trend": {
       "outlook": "Bullish",
-      "sma_50": 184.92,
+      "sma_50": 184.93,
       "sma_200": 173.56,
       "crossover": "Golden Cross"
     },
     "ema": {
-      "8": 188.02,
-      "21": 186.56,
-      "34": 186.05,
-      "55": 185.44,
-      "89": 183.53
+      "8": 188.12,
+      "21": 186.61,
+      "34": 186.07,
+      "55": 185.45,
+      "89": 183.54
     },
     "volume": {
-      "current": "146,342,370",
-      "avg_20d": "169,501,843",
-      "rel_vol": 0.86,
-      "rel_vol_pct": 43
+      "current": "169,780,971",
+      "avg_20d": "170,673,773",
+      "rel_vol": 0.99,
+      "rel_vol_pct": 49
     },
     "pivots": {
-      "R2": 208.99,
-      "R1": 200.04,
-      "PP": 185.53,
-      "S1": 176.58,
-      "S2": 162.07
+      "R2": 209.15,
+      "R1": 200.35,
+      "PP": 185.69,
+      "S1": 176.89,
+      "S2": 162.23
     },
     "fibonacci": {
       "100": 212.18,
@@ -314,14 +314,14 @@
       "0": 86.6
     },
     "oscillators": {
-      "rsi_14": 55.41,
+      "rsi_14": 55.82,
       "adx_14": 11.4,
-      "macd_hist": 0.59
+      "macd_hist": 0.62
     }
   },
   "volatility": {
-    "hv_30d": 36.3,
-    "iv_current": 11.26
+    "hv_30d": 36.34,
+    "iv_current": 76.54
   },
   "insider_transactions": [
     {
@@ -361,7 +361,7 @@
     "shipments": []
   },
   "sec_insights": {
-    "operations": "NVIDIA Corporation // Technology [Semiconductors]. Mkt Cap: $4652.71B. Rev Growth: 62.5%. PM: 53.0%.",
+    "operations": "NVIDIA Corporation // Technology [Semiconductors]. Mkt Cap: $4663.67B. Rev Growth: 62.5%. PM: 53.0%.",
     "forward_looking": "Beta: 2.314. Range(52W): 86.62 - 212.19. Analyst Tgt: 253.99298."
   },
   "geospatial": {
@@ -382,12 +382,12 @@
   },
   "valuation": {
     "status": "FAIR VALUE",
-    "gap_pct": -8.0,
+    "gap_pct": -8.2,
     "target_price": 175.86,
     "graham_num": 21.09,
     "lynch_value": 252.5,
     "method": "BLENDED (Graham+Lynch+Analyst)"
   },
-  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
-  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Volatility compression detected; potential for range expansion. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
+  "ai_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips.",
+  "ghost_analysis": "<span class='text-neon-blue font-bold'>AI.SYNTHESIS // </span> <br>Asset demonstrates a <span class='text-neon-green'>STRONG</span> technical posture (Score: 95/100) within a wider Bullish trend. Asset appears fairly valued relative to growth and book value. <br><br><span class='text-gray-400 font-bold'>RISK.PROFILE // </span>Implied volatility exceeds historical norms, expecting turbulence. <br><br><span class='text-neon-amber font-bold'>VERDICT // </span>ACCUMULATE on Dips."
 }

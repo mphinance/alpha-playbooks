@@ -32,7 +32,8 @@ def capture_report(ticker, output_format="png"):
         print(f"Loading {file_uri}...")
         
         # Wait for the page to fully load and animations to finish
-        page.goto(file_uri, wait_until="networkidle")
+        page.goto(file_uri, wait_until="load")
+        page.wait_for_timeout(2000) # Give charts a moment to render
         
         if output_format == "png":
             # Taking a full page screenshot ensures we get everything, even if it scrolls

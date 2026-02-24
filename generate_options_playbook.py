@@ -13,7 +13,10 @@ def main():
     print(f"\n--- 2. Generating Options Report for {args.ticker} ---")
     subprocess.run([sys.executable, "generate_options_report.py", "--ticker", args.ticker], check=True)
     
-    print(f"\n--- 3. Deploying Reports for {args.ticker} ---")
+    print(f"\n--- 3. Capturing Dashboard Screenshot for {args.ticker} ---")
+    subprocess.run([sys.executable, "capture_report.py", "--ticker", args.ticker, "--format", "png"], check=True)
+    
+    print(f"\n--- 4. Deploying Reports for {args.ticker} ---")
     subprocess.run([sys.executable, "deploy_reports.py", "--ticker", args.ticker], check=True)
 
 if __name__ == "__main__":
