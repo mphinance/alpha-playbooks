@@ -12,3 +12,5 @@ handoff_memo.md
 .DS_Store
 __pycache__/
 *.pyc
+config.json
+backups/
