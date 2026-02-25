@@ -66,8 +66,8 @@ def update_index(target_dest=None):
                     archive[ticker] = ticker_reports
         
         is_root = target_dest and 'reports' not in target_dest
-        reports_root = "" if not is_root else ""
-        portal_path = "../docs/index.html" if not is_root else "docs/index.html"
+        reports_root = "" if not is_root else "/alpha/reports/"
+        portal_path = "../docs/index.html" if not is_root else "/alpha/docs/index.html"
 
         html = template.render(
             archive=archive,
