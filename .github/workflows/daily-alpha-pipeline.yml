@@ -1,0 +1,50 @@
+name: Daily Alpha Pipeline
+
+on:
+  schedule:
+    # Run at 21:00 UTC (after market close) every weekday (Monday-Friday)
+    - cron: '0 21 * * 1-5'
+  workflow_dispatch:
+    # Allow manual triggering from the GitHub Actions UI
+
+jobs:
+  run-alpha-pipeline:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          
+      - name: Run Alpha Pipeline
+        run: |
+          python run_alpha_pipeline.py
+          
+      - name: Commit and Push Changes
+        run: |
+          # Configure Git
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Stage new/modified HTML files in the root or specific directories, or any generated outputs
+          git add *.html reports/ daily_signals/ || echo "No specific directories matched"
+          
+          # Check if there are any changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated Alpha Report Generation: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push origin main
+          fi
