@@ -1,0 +1,118 @@
+[2026-02-26 00:13:21] [INFO] ================================================================================
+[2026-02-26 00:13:21] [INFO] ALPHA SIGNAL SCANNER PIPELINE - EXECUTION START
+[2026-02-26 00:13:21] [INFO] ================================================================================
+[2026-02-26 00:13:21] [INFO] Date: 2026-02-25
+[2026-02-26 00:13:21] [INFO] Timezone: America/Chicago
+[2026-02-26 00:13:21] [INFO] 
+================================================================================
+[2026-02-26 00:13:21] [INFO] STAGE 1: SCANNER EXECUTION
+[2026-02-26 00:13:21] [INFO] ================================================================================
+[2026-02-26 00:13:21] [INFO] Executing all 8 scanners...
+[2026-02-26 00:13:21] [INFO] 
+Running Kinetic Squeeze...
+[2026-02-26 00:13:26] [INFO]   ✓ Kinetic Squeeze: 2 raw signals
+[2026-02-26 00:13:26] [INFO] 
+Running EMA Cross Momentum...
+[2026-02-26 00:13:26] [INFO]   ✗ EMA Cross Momentum: No signals
+[2026-02-26 00:13:26] [INFO] 
+Running Bearish EMA Cross...
+[2026-02-26 00:13:26] [INFO]   ✗ Bearish EMA Cross: No signals
+[2026-02-26 00:13:26] [INFO] 
+Running Momentum with Pullback...
+[2026-02-26 00:13:26] [INFO]   ✗ Momentum with Pullback: No signals
+[2026-02-26 00:13:26] [INFO] 
+Running Gravity Squeeze...
+[2026-02-26 00:13:26] [INFO]   ✗ Gravity Squeeze: No signals
+[2026-02-26 00:13:26] [INFO] 
+Running Gamma Wall...
+[2026-02-26 00:13:26] [INFO]   ✗ Gamma Wall: No signals
+[2026-02-26 00:13:26] [INFO] 
+Running MEME Screen...
+[2026-02-26 00:13:26] [INFO]   ✗ MEME Screen: No signals
+[2026-02-26 00:13:26] [INFO] 
+Running Manual Watchlist...
+[2026-02-26 00:13:26] [INFO]   ✗ Manual Watchlist: No signals
+[2026-02-26 00:13:26] [INFO] 
+Total raw signals: 2
+[2026-02-26 00:13:26] [INFO] 
+Applying smart filters...
+[2026-02-26 00:13:26] [INFO]   Price filter (>= $5.0): 2 -> 2
+[2026-02-26 00:13:26] [INFO]   Volume filter (>= 500,000): -> 2
+[2026-02-26 00:13:26] [INFO]   Market cap filter (>= $100,000,000): -> 2
+[2026-02-26 00:13:26] [INFO] Signals after filtering: 2
+[2026-02-26 00:13:26] [INFO] 
+Saving to Screens_v2.xlsx...
+[2026-02-26 00:13:26] [INFO]   ✓ Saved 2 signals to /home/ubuntu/alpha_signal_scanner/Screens_v2.xlsx
+[2026-02-26 00:13:26] [INFO] 
+================================================================================
+[2026-02-26 00:13:26] [INFO] STAGE 2: PERSISTENCE TRACKING
+[2026-02-26 00:13:26] [INFO] ================================================================================
+[2026-02-26 00:13:26] [INFO] Loading 21-day rolling window...
+[2026-02-26 00:13:26] [INFO] Loaded 28 signals from last 21 days
+[2026-02-26 00:13:26] [INFO] 
+Persistence Summary:
+[2026-02-26 00:13:26] [INFO]   Lifers (20+ days): 0
+[2026-02-26 00:13:26] [INFO]   High Conviction (10-19 days): 0
+[2026-02-26 00:13:26] [INFO]   New Signals (1-3 days): 2
+[2026-02-26 00:13:26] [INFO]   Triple Validation (3+ screens): 0
+[2026-02-26 00:13:26] [INFO] 
+================================================================================
+[2026-02-26 00:13:26] [INFO] STAGE 3: VIX REGIME DETECTION
+[2026-02-26 00:13:26] [INFO] ================================================================================
+[2026-02-26 00:13:26] [INFO] Fetching VIX data...
+[2026-02-26 00:13:26] [WARNING]   ✗ Could not fetch VIX data
+[2026-02-26 00:13:26] [INFO] 
+Fetching sector rotation data...
+[2026-02-26 00:13:26] [INFO]   Sector leaders (5d): 
+[2026-02-26 00:13:26] [INFO] 
+================================================================================
+[2026-02-26 00:13:26] [INFO] STAGE 4: PDF SUMMARY GENERATION
+[2026-02-26 00:13:26] [INFO] ================================================================================
+[2026-02-26 00:13:26] [INFO] Generating PDF summary...
+[2026-02-26 00:13:26] [INFO]   ✓ PDF saved to /home/ubuntu/alpha_signal_scanner/daily_summaries/Daily_Scan_Summary_2026-02-25.pdf
+[2026-02-26 00:13:26] [INFO] 
+================================================================================
+[2026-02-26 00:13:26] [INFO] STAGE 5: HTML DOSSIER GENERATION
+[2026-02-26 00:13:26] [INFO] ================================================================================
+[2026-02-26 00:13:26] [INFO] Generating HTML dossiers for top tickers...
+[2026-02-26 00:13:26] [INFO] Selected 2 tickers for dossiers
+[2026-02-26 00:13:26] [INFO]   Generating dossier for GME...
+[2026-02-26 00:13:26] [INFO]     ✓ Saved to /home/ubuntu/alpha_signal_scanner/archive/GME/Alpha_Dossier_GME_2026-02-25.html
+[2026-02-26 00:13:26] [INFO]   Generating dossier for BBBY...
+[2026-02-26 00:13:26] [INFO]     ✓ Saved to /home/ubuntu/alpha_signal_scanner/archive/BBBY/Alpha_Dossier_BBBY_2026-02-25.html
+[2026-02-26 00:13:26] [INFO] 
+================================================================================
+[2026-02-26 00:13:26] [INFO] STAGE 6: SUBSTACK OUTLINE GENERATION
+[2026-02-26 00:13:26] [INFO] ================================================================================
+[2026-02-26 00:13:26] [INFO] Generating Substack outline...
+[2026-02-26 00:13:26] [INFO]   ✓ Substack outline saved to /home/ubuntu/alpha_signal_scanner/substack/Substack_Outline_2026-02-25.md
+[2026-02-26 00:13:26] [INFO] 
+================================================================================
+[2026-02-26 00:13:26] [INFO] STAGE 7: GITHUB PUSH
+[2026-02-26 00:13:26] [INFO] ================================================================================
+[2026-02-26 00:13:26] [INFO] GitHub push stage...
+[2026-02-26 00:13:26] [INFO]   Note: GitHub push requires Git_Tool integration
+[2026-02-26 00:13:26] [INFO]   Artifacts ready for manual push:
+[2026-02-26 00:13:26] [INFO]     - PDF: /home/ubuntu/alpha_signal_scanner/daily_summaries/Daily_Scan_Summary_2026-02-25.pdf
+[2026-02-26 00:13:26] [INFO]     - Dossiers: 2 files
+[2026-02-26 00:13:26] [INFO]     - Substack: /home/ubuntu/alpha_signal_scanner/substack/Substack_Outline_2026-02-25.md
+[2026-02-26 00:13:26] [INFO] 
+================================================================================
+[2026-02-26 00:13:26] [INFO] PIPELINE EXECUTION COMPLETE
+[2026-02-26 00:13:26] [INFO] ================================================================================
+[2026-02-26 00:13:26] [INFO] 
+Total Signals: 2
+[2026-02-26 00:13:26] [INFO] Filtered Signals: 2
+[2026-02-26 00:13:26] [INFO] Lifers Count: 0
+[2026-02-26 00:13:26] [INFO] High Conviction Count: 0
+[2026-02-26 00:13:26] [INFO] Triple Validation Count: 0
+[2026-02-26 00:13:26] [INFO] VIX Value: 0.00
+[2026-02-26 00:13:26] [INFO] Market Regime: None
+[2026-02-26 00:13:26] [INFO] 
+✓ No errors encountered
+[2026-02-26 00:13:26] [INFO] 
+Total Execution Time: 4.81 seconds
+
+================================================================================
+FINAL SUMMARY
+================================================================================
