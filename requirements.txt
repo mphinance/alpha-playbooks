@@ -1,1 +1,2 @@
-yfinance\npandas
+yfinance
+pandas
